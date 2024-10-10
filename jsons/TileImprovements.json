@@ -288,7 +288,8 @@
         "name": "City center",
         "terrainsCanBeBuiltOn": ["Land"],
         "uniques": [
-			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Gold]",
+			// TODO: Provides +2 Health when on Fresh Water
 			"Unpillagable",
 			"Irremovable",
 			"Unbuildable",

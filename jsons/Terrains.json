@@ -223,8 +223,8 @@
 		"occursOn": ["Plains","Grassland"],
 		"rough": true,
 		"uniques": [
-			// Negates +1 Coin (Civ4) from rivers except with Forest Preserve
-			// +0.25 Unhealthiness (Civ4) in nearby cities
+			// TODO: Negates +1 Coin from rivers except with Forest Preserve
+			// TODO: +0.25 Unhealthiness in nearby cities
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",

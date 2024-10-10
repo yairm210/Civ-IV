@@ -54,7 +54,10 @@
 					"Remove [Despotism] <hidden from users>",
 					"Remove [Hereditary Rule] <hidden from users>",
 					"Remove [Police State] <hidden from users>",
-					"Remove [Universal Suffrage] <hidden from users>"
+					"Remove [Universal Suffrage] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
 				],
                 "row": 1,
                 "column": 5
@@ -71,7 +74,10 @@
 					"Remove [Despotism] <hidden from users>",
 					"Remove [Hereditary Rule] <hidden from users>",
 					"Remove [Universal Suffrage] <hidden from users>",
-					"Remove [Representation] <hidden from users>"
+					"Remove [Representation] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 2
@@ -89,7 +95,10 @@
 					"Remove [Hereditary Rule] <hidden from users>",
 					"Remove [Representation] <hidden from users>",
 					"Remove [Police State] <hidden from users>",
-					"Remove [Representation] <hidden from users>"
+					"Remove [Representation] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 4
@@ -119,7 +128,10 @@
 					"Remove [Vassalage] <hidden from users>",
 					"Remove [Bureaucracy] <hidden from users>",
 					"Remove [Nationhood] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>"
+					"Remove [Free Speech] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
 				],
                 "row": 1,
                 "column": 1
@@ -137,7 +149,10 @@
 					"Remove [Barbarism] <hidden from users>",
 					"Remove [Bureaucracy] <hidden from users>",
 					"Remove [Nationhood] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>"
+					"Remove [Free Speech] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 1,
                 "column": 3
@@ -155,7 +170,10 @@
 					"Remove [Barbarism] <hidden from users>",
 					"Remove [Vassalage] <hidden from users>",
 					"Remove [Nationhood] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>"
+					"Remove [Free Speech] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
 				],
                 "row": 1,
                 "column": 5
@@ -171,7 +189,10 @@
 					"Remove [Barbarism] <hidden from users>",
 					"Remove [Vassalage] <hidden from users>",
 					"Remove [Bureaucracy] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>"
+					"Remove [Free Speech] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 2
@@ -189,7 +210,10 @@
 					"Remove [Barbarism] <hidden from users>",
 					"Remove [Vassalage] <hidden from users>",
 					"Remove [Bureaucracy] <hidden from users>",
-					"Remove [Nationhood] <hidden from users>"
+					"Remove [Nationhood] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 4
@@ -236,7 +260,10 @@
 					"Remove [Tribalism] <hidden from users>",
 					"Remove [Serfdom] <hidden from users>",
 					"Remove [Caste System] <hidden from users>",
-					"Remove [Emancipation] <hidden from users>"
+					"Remove [Emancipation] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 1,
                 "column": 3
@@ -252,7 +279,10 @@
 					"Remove [Tribalism] <hidden from users>",
 					"Remove [Slavery] <hidden from users>",
 					"Remove [Caste System] <hidden from users>",
-					"Remove [Emancipation] <hidden from users>"
+					"Remove [Emancipation] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
 				],
                 "row": 1,
                 "column": 5
@@ -269,7 +299,10 @@
 					"Remove [Tribalism] <hidden from users>",
 					"Remove [Slavery] <hidden from users>",
 					"Remove [Serfdom] <hidden from users>",
-					"Remove [Emancipation] <hidden from users>"
+					"Remove [Emancipation] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row":2,
                 "column": 2
@@ -294,7 +327,10 @@
 					"Remove [Tribalism] <hidden from users>",
 					"Remove [Slavery] <hidden from users>",
 					"Remove [Serfdom] <hidden from users>",
-					"Remove [Caste System] <hidden from users>"
+					"Remove [Caste System] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 4
@@ -343,7 +379,10 @@
 					"Remove [Decentralization] <hidden from users>",
 					"Remove [Free Market] <hidden from users>",
 					"Remove [State Property] <hidden from users>",
-					"Remove [Environmentalism] <hidden from users>"
+					"Remove [Environmentalism] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 1,
                 "column": 3
@@ -361,7 +400,10 @@
 					"Remove [Decentralization] <hidden from users>",
 					"Remove [Mercantilism] <hidden from users>",
 					"Remove [State Property] <hidden from users>",
-					"Remove [Environmentalism] <hidden from users>"
+					"Remove [Environmentalism] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
 				],
                 "row": 1,
                 "column": 5
@@ -382,7 +424,10 @@
 					"Remove [Decentralization] <hidden from users>",
 					"Remove [Mercantilism] <hidden from users>",
 					"Remove [Free Market] <hidden from users>",
-					"Remove [Environmentalism] <hidden from users>"
+					"Remove [Environmentalism] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 2
@@ -405,7 +450,10 @@
 					"Remove [Decentralization] <hidden from users>",
 					"Remove [Mercantilism] <hidden from users>",
 					"Remove [Free Market] <hidden from users>",
-					"Remove [State Property] <hidden from users>"
+					"Remove [State Property] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 4
@@ -453,7 +501,10 @@
 					"Remove [Paganism] <hidden from users>",
 					"Remove [Theocracy] <hidden from users>",
 					"Remove [Pacifism] <hidden from users>",
-					"Remove [Free Religion] <hidden from users>"
+					"Remove [Free Religion] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 1,
                 "column": 3
@@ -471,7 +522,10 @@
 					"Remove [Paganism] <hidden from users>",
 					"Remove [Organized Religion] <hidden from users>",
 					"Remove [Pacifism] <hidden from users>",
-					"Remove [Free Religion] <hidden from users>"
+					"Remove [Free Religion] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
 				],
                 "row": 1,
                 "column": 5
@@ -488,7 +542,10 @@
 					"Remove [Paganism] <hidden from users>",
 					"Remove [Organized Religion] <hidden from users>",
 					"Remove [Theocracy] <hidden from users>",
-					"Remove [Free Religion] <hidden from users>"
+					"Remove [Free Religion] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 2
@@ -507,7 +564,10 @@
 					"Remove [Organized Religion] <hidden from users>",
 					"Remove [Theocracy] <hidden from users>",					// TODO: +1 Happiness per every religion in city
 
-					"Remove [Pacifism] <hidden from users>"
+					"Remove [Pacifism] <hidden from users>",
+
+					"Comment [Revolution]",
+					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
                 ],
                 "row": 2,
                 "column": 4
