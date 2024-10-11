@@ -514,7 +514,7 @@
 			"Only available <after founding a Pantheon> <in cities following our religion>",
 			"Obsolete with [Scientific Method]",
 			"Hidden when religion is disabled",
-			"Destroyed when the city is captured <hidden from user>"
+			"Destroyed when the city is captured"
 		]
 	},
 
@@ -531,8 +531,8 @@
 			"Cannot be purchased",
 			"[+1 Gold] [in your cities] <in cities following our religion>",
 			"Hidden when religion is disabled",
-			"Destroyed when the city is captured <hidden from user>",
-			"Unsellable <hidden from user>"
+			"Destroyed when the city is captured",
+			"Unsellable"
 		]
 	},
 
@@ -546,8 +546,8 @@
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Mysticism",
 		"uniques": [
-			"Obsolete with [Astronomy]",
-			"Gain a free [Monument] [in all cities]"
+			"Gain a free [Monument] [in all cities]",
+			"Obsolete with [Astronomy]"
 		],
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
@@ -585,9 +585,9 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": [
-			// +2 trade routes TradeRoute4 in all coastal cities
-			"Obsolete with [Corporation]",
-			"Only available <in [Coastal] cities>"
+			// TODO: +2 trade routes in all coastal cities
+			"Only available <in [Coastal] cities>",
+			"Obsolete with [Corporation]"
 		],
 		"requiredTech": "Masonry",
 		"requiredBuilding": "Lighthouse"
@@ -618,8 +618,8 @@
 		"uniques": [
 			"Only available <in [Coastal] cities>",
 			"[+1 Gold] from [Water] tiles [in all cities]",
-            "Obsolete with [Astronomy]",
-			"[-50]% production cost <with [Copper]>"
+			"[-50]% production cost <with [Copper]>",
+            "Obsolete with [Astronomy]"
 		],
 		"requiredBuilding": "Forge",
 		"requiredTech": "Metal Casting",
@@ -635,8 +635,8 @@
 		"requiredBuilding": "Library",
 		"requiredTech": "Literature",
 		"uniques": [
-			"Obsolete with [Scientific Method]",
-			"[-50]% production cost <with [Marble]>"
+			"[-50]% production cost <with [Marble]>",
+			"Obsolete with [Scientific Method]"
 		],
         "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
