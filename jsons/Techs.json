@@ -133,6 +133,7 @@
 				"cost": 120,
 				"prerequisites": ["Polytheism"],
 				"uniques": [
+					"Comment [Organized Religion Civic]",
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "\"I am the Lord thy God. Thou shalt have no other gods before me.\" - The Bible, Exodus"
@@ -198,6 +199,9 @@
 				"name": "Monarchy",
 				"cost": 300,
 				"row": 2,
+				"uniques": [
+					"Comment [Hereditary Rule Civic]"
+				],
 				"quote": "\"A multitude of rulers is not a good thing, let there be one ruler, one king.\" - Herodotus",
 				"prerequisites": ["Priesthood"]
 			},
@@ -446,7 +450,11 @@
 				"cost": 1400,
 				"row": 8,
 				"prerequisites": ["Education", "Philosophy"],
-				"uniques": ["Free Technology"],
+				"uniques": [
+					"Free Technology",
+					"Comment [Free Speech Civic]",
+					"Comment [Free Religion Civic]"
+				],
 				"quote": "\"Any society that would give up a little liberty to gain a little security will deserve neither and lose both.\" - Benjamin Franklin"
 			},
 			{

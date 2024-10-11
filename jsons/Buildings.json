@@ -509,11 +509,12 @@
 		"percentStatBonus": {"science": 10},
 		"requiredTech": "Meditation",
 		"uniques": [
+			"Comment [Allows building Missionaries]",
 			"[+20]% Natural religion spread [in this city]",
 			"Only available <after founding a Pantheon> <in cities following our religion>",
 			"Obsolete with [Scientific Method]",
 			"Hidden when religion is disabled",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from user>"
 		]
 	},
 
@@ -523,14 +524,15 @@
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"uniques": [
+			"Comment [Constructed by a Great Prophet]",
 			"[+40]% Natural religion spread [in this city]",
 			"Unbuildable",
 			"Only available <after founding a Pantheon>",
 			"Cannot be purchased",
 			"[+1 Gold] [in your cities] <in cities following our religion>",
 			"Hidden when religion is disabled",
-			"Destroyed when the city is captured",
-			"Unsellable"
+			"Destroyed when the city is captured <hidden from user>",
+			"Unsellable <hidden from user>"
 		]
 	},
 
@@ -1133,6 +1135,7 @@
 		"percentStatBonus": {"science": 50},
 		"culture": 3,
 		"uniques": [
+			"Comment [Constructed by a Great Scientist]",
 			"Unbuildable",
 			"Cannot be hurried",
 			"Cannot be purchased",

@@ -370,6 +370,7 @@
 		"requiredTech": "Gunpowder",
 		"requiredResource": "Horses",
 		"uniques": [
+			"Comment [Beyond the Sword]",
 			"Can upgrade to [Cavalry]",
 			"Only available <after discovering [Military Tradition]>",
 			"Only available <after discovering [Horseback Riding]>",
@@ -906,10 +907,10 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
+			"Founds a new city <by consuming this unit>",
 			"Cannot attack",
 			"Requires at least [2] population",
-			"Excess Food converted to Production when under construction",
-			"Founds a new city <by consuming this unit>"
+			"Excess Food converted to Production when under construction"
 		],
 		"hurryCostModifier": 20
 	},
@@ -920,8 +921,8 @@
 		"movement": 2,
 		"cost": 60,
 		"uniques": [
-			"Cannot attack",
 			"Can build [Land] improvements on tiles",
+			"Cannot attack",
 			// Scrub fallout from tiles
 			"Automation is a primary action"
 		],
@@ -954,10 +955,10 @@
 			"Sentry"
 		],
 		"uniques": [
-			"Only available <if [Scotland Yard] is constructed> <in this city>",
-			"Only available <after discovering [Alphabet]>",
 			"Invisible to others",
 			"Can see invisible [Spy] units",
+			"Only available <if [Scotland Yard] is constructed> <in this city>",
+			"Only available <after discovering [Alphabet]>",
 			"May enter foreign tiles without open borders",
 			"Never appears as a Barbarian unit",
 			"Cannot attack"
@@ -979,6 +980,7 @@
             //"Can Spread Religion <by consuming this unit>",
             "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders",
+			"Can remove other religions from cities",
 			"Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
@@ -996,14 +998,14 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can instantly construct a [Great Artist Specialist] improvement <by consuming this unit>",
+			"Gain [4000] [Culture] <by consuming this unit>", // Instantly ends resistance in a city
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
 			"Cannot attack",
 			"Great Person - [Culture]",
-			"Gain [4000] [Culture] <by consuming this unit>", // Instantly ends resistance in a city
-			"Never appears as a Barbarian unit",
-			"Can instantly construct a [Great Artist Specialist] improvement <by consuming this unit>"
+			"Never appears as a Barbarian unit"
 		]
     },
     {
@@ -1011,14 +1013,14 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can instantly construct a [Great Engineer Specialist] improvement <by consuming this unit>",
+			"Can speed up the construction of a wonder",
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
 			"Cannot attack",
 			"Great Person - [Production]",
-			"Can speed up the construction of a wonder",
-			"Never appears as a Barbarian unit",
-			"Can instantly construct a [Great Engineer Specialist] improvement <by consuming this unit>"
+			"Never appears as a Barbarian unit"
 		]
     },
     {
@@ -1026,14 +1028,14 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can instantly construct a [Great Merchant Specialist] improvement <by consuming this unit>",
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
 			"Great Person - [Gold]",
 			"Cannot attack",
-            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Never appears as a Barbarian unit",
-			"Can instantly construct a [Great Merchant Specialist] improvement <by consuming this unit>"
+			"Never appears as a Barbarian unit"
 			// TODO: Have Great Merchants build Corporations as part of when Civ IV Beyond the Sword mod enabled
 		]
     },
@@ -1042,6 +1044,8 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can instantly construct a [Religious Shrine] improvement <by consuming this unit> <if [Religious Shrine] is not constructed>",
+			"Can instantly construct a [Great Prophet Specialist] improvement <by consuming this unit>",
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
@@ -1050,9 +1054,7 @@
 			// TODO: In Civ 4 can you purchase Great Prophets?
 			//"Can be purchased for [200] [Faith] [in your cities] <after founding a Pantheon> <in cities following our religion>",
 			"Hidden when religion is disabled",
-			"Never appears as a Barbarian unit",
-			"Can instantly construct a [Religious Shrine] improvement <by consuming this unit> <if [Religious Shrine] is not constructed>",
-			"Can instantly construct a [Great Prophet Specialist] improvement <by consuming this unit>"
+			"Never appears as a Barbarian unit"
 		]
     },
     {
@@ -1060,9 +1062,9 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
-			"Can hurry technology research",
             "Can instantly construct a [Academy] improvement <by consuming this unit>", // TODO: Make Great Scientist build the Academy building directly
 			"Can instantly construct a [Great Scientist Specialist] improvement <by consuming this unit>",
+			"Can hurry technology research",
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
@@ -1077,14 +1079,14 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can instantly construct a [Great General Specialist] improvement <by consuming this unit> <if [Civ IV Warlords] is enabled>",
 			"Unbuildable",
 			"Uncapturable",
 			"Only available <if [Civ IV Warlords] is enabled>",
 			"Cannot be purchased",
 			"Cannot attack",
 			"Great Person - [War]",
-			"Never appears as a Barbarian unit",
-			"Can instantly construct a [Great General Specialist] improvement <by consuming this unit> <if [Civ IV Warlords] is enabled>"
+			"Never appears as a Barbarian unit"
 			// TODO: Implement Great General Promotion action
 			// Can be attached to a unit, which...
 			// - enables unique promotions for that unit
@@ -1098,6 +1100,7 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can instantly construct a [Great Spy Specialist] improvement <by consuming this unit> <if [Civ IV Beyond the Sword] is enabled>",
 			"Unbuildable",
 			"Uncapturable",
 			"Only available <if [Civ IV Beyond the Sword] is enabled>",
@@ -1107,8 +1110,7 @@
 			"Invisible to others",
 			"Can see invisible [Spy] units",
 			"Cannot attack",
-			"Never appears as a Barbarian unit",
-			"Can instantly construct a [Great Spy Specialist] improvement <by consuming this unit> <if [Civ IV Beyond the Sword] is enabled>"
+			"Never appears as a Barbarian unit"
 			// Can infiltrate another civilization's city (+3000 espionage points)
 		]
     },

@@ -4,13 +4,6 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Academy
-  rotate: false
-  xy: 4, 1668
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Airport
   rotate: false
   xy: 212, 1668
@@ -95,6 +88,20 @@ BuildingIcons/Mt. Rushmore
   orig: 200, 200
   offset: 0, 0
   index: -1
+ImprovementIcons/Academy
+  rotate: false
+  xy: 4, 1668
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Academy
+  rotate: false
+  xy: 4, 1668
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Cottage
   rotate: false
   xy: 836, 1460
@@ -105,6 +112,48 @@ ImprovementIcons/Cottage
 ImprovementIcons/Forest Preserve
   rotate: false
   xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Artist Specialist
+  rotate: false
+  xy: 420, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Engineer Specialist
+  rotate: false
+  xy: 420, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Merchant Specialist
+  rotate: false
+  xy: 420, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Prophet Specialist
+  rotate: false
+  xy: 420, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Scientist Specialist
+  rotate: false
+  xy: 420, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Spy Specialist
+  rotate: false
+  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -280,48 +329,6 @@ ResourceIcons/Corn
 ResourceIcons/Cow
   rotate: false
   xy: 1044, 1668
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Artist Specialist
-  rotate: false
-  xy: 420, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Engineer Specialist
-  rotate: false
-  xy: 420, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Merchant Specialist
-  rotate: false
-  xy: 420, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Prophet Specialist
-  rotate: false
-  xy: 420, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Scientist Specialist
-  rotate: false
-  xy: 420, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Spy Specialist
-  rotate: false
-  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -633,13 +640,6 @@ BuildingIcons/Red Cross
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Religious Shrine
-  rotate: false
-  xy: 4, 736
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Rock 'n' Roll
   rotate: false
   xy: 628, 1360
@@ -722,6 +722,20 @@ ImprovementIcons/Lumbermill
   xy: 1668, 1668
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Religious Shrine
+  rotate: false
+  xy: 4, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Religious Shrine
+  rotate: false
+  xy: 4, 736
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Town
