@@ -70,12 +70,21 @@
 		"name": "Walls",
 		"cost": 50,
 		"requiredTech": "Masonry",
+		// TODO: Figure out the base cityStrength modConstant
 		"cityStrength": 1,
 		"uniques": [
-			// "+50% defense (except vs. Gunpowder Units)",
-			// "-50% damage from bombard (except from Gunpowder units)",
+			// +50% defense Defense (except vs. Gunpowder Units)
+			"[+50]% Strength for cities <in this city> <vs [Sword] units>",
+			"[+50]% Strength for cities <in this city> <vs [Archery] units>",
+			"[+50]% Strength for cities <in this city> <vs [Mounted] units>",
+			"[+50]% Strength for cities <in this city> <vs [Armored] units>",
+			"[+50]% Strength for cities <in this city> <vs [Air] units>",
+			"[+50]% Strength for cities <in this city> <vs [Water] units>",
+			"[+50]% Strength for cities <in this city> <vs [Siege] units>",
+
+			// TODO: -50% damage from bombard (except from Gunpowder units)
 			"[-50]% production cost <with [Stone]>",
-			"Obsolete with [Rifling]"
+			// "Obsolete with [Rifling]" (Except defensive bonus)
 		]
 	},
 
@@ -227,10 +236,19 @@
 		"requiredTech": "Engineering",
 		"requiredBuilding": "Walls",
 		"uniques": [
-			// "+1 trade route",
+			"[+5]% [Gold] from Trade Routes", // "+1 trade route",
+			"[+5]% [Culture] from Trade Routes", // "+1 trade route",
 			// "+50% defense"
+			// +25% Espionage (BTS)
 			"[-50]% production cost <with [Stone]>",
-			"Obsolete with [Economics]"
+			//"Obsolete with [Economics]", (Except defensive bonus)
+			"[+50]% Strength for cities <in this city> <vs [Sword] units>",
+			"[+50]% Strength for cities <in this city> <vs [Archery] units>",
+			"[+50]% Strength for cities <in this city> <vs [Mounted] units>",
+			"[+50]% Strength for cities <in this city> <vs [Armored] units>",
+			"[+50]% Strength for cities <in this city> <vs [Air] units>",
+			"[+50]% Strength for cities <in this city> <vs [Water] units>",
+			"[+50]% Strength for cities <in this city> <vs [Siege] units>",
 		]
 	},
 	{
@@ -1102,6 +1120,7 @@
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
+			"Hidden when espionage is disabled",
 			"[+100]% spy effectiveness [in all cities] <if [Civ IV Beyond the Sword] is enabled>"
 		],
 		"requiredTech": "Communism"

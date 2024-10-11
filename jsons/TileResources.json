@@ -310,6 +310,8 @@
         "name": "Health",
         "resourceType": "Bonus",
         "uniques": [
+			"Cannot be traded",
+			"Doesn't generate naturally",
 			"City-level resource",
 			"Excluded from map editor"
 		]
@@ -318,68 +320,9 @@
         "name": "Power",
         "resourceType": "Bonus",
         "uniques": [
+			"Doesn't generate naturally",
 			"City-level resource",
 			"Excluded from map editor"
 		]
-    },
-    {
-        "name": "Great Artist Specialist",
-        "resourceType": "Bonus",
-        "uniques": [
-			"City-level resource",
-			"Excluded from map editor"
-		],
-		"gold": 3,
-		"culture": 12
-    },
-    {
-        "name": "Great Engineer Specialist",
-        "resourceType": "Bonus",
-        "uniques": [
-			"City-level resource",
-			"Excluded from map editor"
-		],
-		"production": 3,
-		"science": 3
-    },
-    {
-        "name": "Great Merchant Specialist",
-        "resourceType": "Bonus",
-        "uniques": [
-			"City-level resource",
-			"Excluded from map editor"
-		],
-		"food": 1,
-		"gold": 6
-    },
-    {
-        "name": "Great Prophet Specialist",
-        "resourceType": "Bonus",
-        "uniques": [
-			"City-level resource",
-			"Excluded from map editor"
-		],
-		"production": 2,
-		"gold": 5
-    },
-    {
-        "name": "Great Scientist Specialist",
-        "resourceType": "Bonus",
-        "uniques": [
-			"City-level resource",
-			"Excluded from map editor"
-		],
-		"production": 1,
-		"science": 6
-    },
-    {
-        "name": "Great Spy Specialist",
-        "resourceType": "Bonus",
-        "uniques": [
-			"City-level resource",
-			"Excluded from map editor"
-		],
-		"espionage": 12, // TODO: Espionage is not a Unciv stat.
-		"science": 3
     }
 ]

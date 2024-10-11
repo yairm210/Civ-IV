@@ -1004,7 +1004,7 @@
 			"Gain [4000] [Culture] <by consuming this unit>", // Instantly ends resistance in a city
 			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Artist Specialist] improvement <by consuming this unit>"
-		],
+		]
     },
     {
         "name": "Great Engineer",
@@ -1031,10 +1031,10 @@
 			"Cannot be purchased",
 			"Great Person - [Gold]",
 			"Cannot attack",
-			"May enter foreign tiles without open borders",
             "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Never appears as a Barbarian unit",
 			"Can instantly construct a [Great Merchant Specialist] improvement <by consuming this unit>"
+			// TODO: Have Great Merchants build Corporations as part of when Civ IV Beyond the Sword mod enabled
 		]
     },
     {
@@ -1060,15 +1060,15 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>", // TODO: Make Great Scientist build the Academy building directly
+			"Can instantly construct a [Great Scientist Specialist] improvement <by consuming this unit>",
 			"Unbuildable",
 			"Uncapturable",
 			"Cannot be purchased",
 			"Great Person - [Science]",
 			"Cannot attack",
-			"Can hurry technology research",
-            "Can instantly construct a [Academy Building] improvement <by consuming this unit>",
-			"Never appears as a Barbarian unit",
-			"Can instantly construct a [Great Scientist Specialist] improvement <by consuming this unit>"
+			"Never appears as a Barbarian unit"
         ]
     },
 
@@ -1120,10 +1120,14 @@
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
 			"[-50]% production cost <with [Aluminum]>",
 			"Spaceship part", "Cannot be purchased",
 			"Never appears as a Barbarian unit",
-			"Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"
+			"Only available <if [Apollo Program] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [5] per Civilization"
 		],
 		"requiredTech": "Composites"
 	},
@@ -1132,6 +1136,7 @@
 		"unitType": "Civilian",
 		"cost": 1000,
 		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
 			"[-50]% production cost <with [Copper]>",
 			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
@@ -1143,6 +1148,7 @@
 		"unitType": "Civilian",
 		"cost": 2000,
 		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
 			"Only available <after discovering [Robotics]>",
 			"[-50]% production cost <with [Aluminum]>",
 			"Never appears as a Barbarian unit",
@@ -1155,6 +1161,7 @@
 		"unitType": "Civilian",
 		"cost": 1600,
 		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
 			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [2] per Civilization"
 		],
@@ -1165,6 +1172,7 @@
 		"unitType": "Civilian",
 		"cost": 1000,
 		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
 			"[-50]% production cost <with [Copper]>",
 			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
@@ -1176,6 +1184,7 @@
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
 			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"
 		],
@@ -1186,6 +1195,7 @@
 		"unitType": "Civilian",
 		"cost": 1200,
 		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
 			"[-50]% production cost <with [Aluminum]>",
 			"Never appears as a Barbarian unit",
 			"Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [5] per Civilization"

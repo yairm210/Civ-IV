@@ -310,16 +310,18 @@
 
 	// Great Person improvements
 	{
-		"name": "Academy Building",
+		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"uniques": [
+			"[-1 Culture]",
 			"Great Improvement",
             "Will not be replaced by automated units",
 			"Excluded from map editor",
 			"Does not need removal of [All]",
 			"Will not be displayed in Civilopedia",
-			"Gain a free [Academy] [in this city]"
+			"Gain a free [Academy] [in this city]",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -334,8 +336,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia",
-			"Tile provides yield without assigned population"
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -350,8 +351,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia",
-			"Tile provides yield without assigned population"
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -366,8 +366,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia",
-			"Tile provides yield without assigned population"
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -382,8 +381,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia",
-			"Tile provides yield without assigned population"
+			"Will not be displayed in Civilopedia"
 		]
 	},
 
@@ -399,8 +397,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Excluded from map editor",
-			"Will not be displayed in Civilopedia",
-			"Tile provides yield without assigned population"
+			"Will not be displayed in Civilopedia"
 		]
 	},
 
