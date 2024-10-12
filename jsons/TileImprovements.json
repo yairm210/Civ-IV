@@ -99,7 +99,8 @@
 		"turnsToBuild": 8,
 		"techRequired": "Scientific Method",
 		"uniques": [
-			"[+1 Gold] for each adjacent [River]"
+			"[+1 Gold] <with [1] to [9] neighboring [River] tiles>"
+			// TODO: Gives the forest or jungle a higher chance of spreading
 		],
 		"shortcutKey": "L"
 	},
@@ -125,7 +126,7 @@
 		"uniques": [
 			"[+1 Production] <in [Railroad] tiles>",
 			"Pillaging this improvement yields approximately [+5 Gold]",
-			"[+1 Gold] for each adjacent [River]" // +1 Coin if next to a river
+			"[+1 Gold] <with [1] to [9] neighboring [River] tiles>" // +1 Coin if next to a river
 		],
 		"shortcutKey": "L"
 	},

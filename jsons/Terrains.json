@@ -1,5 +1,3 @@
-// TODO: Add Peak
-
 [
 	// Base terrains
 	{
@@ -21,16 +19,16 @@
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
-            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
 	},
 	{
-		"name": "Grassland",
+		"name": "Grassland", // Flatland in Civ 4
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
 		"RGB": [0, 163, 0],
         "uniques": [
-			// TODO: +1 Coin adjacent to river
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
@@ -59,7 +57,7 @@
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
 		"uniques": [
-			// TODO: +1 Coin adjacent to river
+			"[+1 Gold] <with [1] to [9] neighboring [River] tiles>",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
             "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
@@ -89,6 +87,8 @@
 		"defenceBonus": -0.1,
 		"RGB": [124, 62, 57],
 		"uniques": [
+			"[+1 Gold] <with [1] to [9] neighboring [River] tiles>",
+			// TODO: "[+25]% construction time for [All] improvements",
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
             "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
@@ -101,12 +101,15 @@
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
+
 	{
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [230, 172, 0],
 		"uniques": [
+			"[+1 Gold] <with [1] to [9] neighboring [River] tiles>",
+			// TODO: "[+25]% construction time for [All] improvements",
 			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
             "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
             "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
@@ -118,6 +121,7 @@
             // "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
+
 	{
 		"name": "Lakes",
 		"type": "Water",
@@ -132,27 +136,33 @@
 		],
 		"canHaveOverlay": false
 	},
+
 	{
 		"name": "Hill",
-		"type": "Land",
+		"type": "TerrainFeature",
 		"food": -1,
 		"production": 1,
+		"occursOn": ["Grassland", "Plains", "Tundra", "Desert", "Snow"],
 		"uniques": [
 			"Rough terrain",
+			"Has an elevation of [1] for visibility calculations",
 			"[1] Sight",
+			"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
+			"Occurs in groups around high elevations",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+1] to Fertility for Map Generation",
+			"[+1] to Fertility for Map Generation"
 		],
 		"movementCost": 2,
 		"defenceBonus": 0.25,
-		"RGB": [74,81,40],
+		"RGB": [105,125,72],
 		"rough": true
 	},
+
 	{
 		"name": "Mountain", // "Peak" in Civ 4
-		"type": "Land",
+		"type": "Land", // TODO: Mountains/Peaks should be TerrainFeatures?
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [102, 102, 102],
@@ -165,13 +175,15 @@
             "Considered [Undesirable] when determining start locations"
 		]
 	},
+
 	{
-		"name": "Snow",
+		"name": "Snow", // Ice in Civ 5
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"RGB": [230, 238, 255], //Darker229, 229, 255
 		"uniques": [
+			// TODO: Construction time takes 50% longer to build
             "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
             "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
             "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
@@ -181,7 +193,8 @@
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Never receives any resources <in [Hill] tiles>"]
+            "Never receives any resources <in [Hill] tiles>"
+		]
 	},
 
 	// Terrain features
@@ -189,14 +202,14 @@
 		"name": "Forest",
 		"type": "TerrainFeature",
 		"production": 1,
-		"food": 1,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.5,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"rough": true,
 		"uniques": [
+			// TODO: +0.5 Health in nearby city
 			"Rough terrain",
 			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
@@ -210,8 +223,9 @@
 			"Considered [Food] when determining start locations <in [Forest] Regions>",
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
+
 	{
 		"name": "Jungle",
 		"type": "TerrainFeature",
@@ -219,7 +233,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.5,
 		"occursOn": ["Plains","Grassland"],
 		"rough": true,
 		"uniques": [
@@ -237,6 +251,7 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
+
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
@@ -246,7 +261,7 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": [
-			"Doesn't generate naturally",
+			"Doesn't generate naturally"
 			// "Provides [-0.5] [Health]" // TODO: +0.50 Unhealthiness in nearby cities
 		],
 		// For map editor only - the generator won't place it without code or enabling uniques
@@ -254,6 +269,7 @@
 		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Oasis"],
 		"defenceBonus": -0.15
 	},
+
 	{
 		"name": "Oasis",
 		"type": "TerrainFeature",
@@ -271,6 +287,7 @@
 			"Considered [Desirable] when determining start locations"
 		]
 	},
+
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
@@ -279,21 +296,24 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": [
-			// TODO: must be next to river, which will necessarily provide +1 Gold
+			"[+1 Gold] <with [1] to [9] neighboring [River] tiles>",
+			"Must be adjacent to [1] [River] tiles",
 			// TODO: +0.40 Unhealthiness in nearby cities
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
 		]
 	},
+
 	{
 		"name": "Ice",
 		"type": "TerrainFeature",
 		"impassable": true,
 		"overrideStats": true,
 		"occursOn": ["Ocean", "Coast"],
+		"RGB": [142, 188, 198],
+		"defenceBonus": -0.2,
 		"uniques": [
-			// TODO: "[+50]% construction time for [All] improvements"
 			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
 			"[-1] to Fertility for Map Generation",
 			"Rough terrain",
