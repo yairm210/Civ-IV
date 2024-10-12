@@ -334,7 +334,7 @@
 		"requiredResource": "Ivory",
 		"uniques": [
 			"Only available <after discovering [Horseback Riding]>",
-			// "Can upgrade to [Cuirassier]", (BTS)
+			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Mounted] units>"
 		],
@@ -370,7 +370,7 @@
 		"requiredTech": "Gunpowder",
 		"requiredResource": "Horses",
 		"uniques": [
-			"Comment [Beyond the Sword]",
+			"Only available <if [Civ IV Beyond the Sword] is enabled>",
 			"Can upgrade to [Cavalry]",
 			"Only available <after discovering [Military Tradition]>",
 			"Only available <after discovering [Horseback Riding]>",
@@ -379,7 +379,6 @@
 			"Withdraws before melee combat <with [15]% chance>",
 			"No defensive terrain bonus",
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
-			"Only available <if [Civ IV Beyond the Sword] is enabled>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "horse"
@@ -796,7 +795,6 @@
 			"Cannot attack <in [Water] tiles>", // Cannot attack amphibiously
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 
@@ -1237,8 +1235,8 @@
 		"movement": 2,
 		"cost": 90,
 		"uniques": [
-			// Immune to first strikes
 			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
+			// Immune to first strikes
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Withdraws before melee combat <with [15]% chance>",
@@ -1269,7 +1267,7 @@
 	},
 
 	{
-		"name": "Cho-Ko-Nu", // TODO: Add Cho-Ko-Nu Icon
+		"name": "Cho-Ko-Nu",
 		"replaces": "Crossbowman",
 		"uniqueTo": "China",
 		"unitType": "Archery",
@@ -1311,7 +1309,7 @@
 	},
 
 	{
-		"name": "Redcoat", // TODO: Add Redcoat Icon
+		"name": "Redcoat",
 		"replaces": "Rifleman",
 		"uniqueTo": "England",
 		"unitType": "Gunpowder",
@@ -1479,7 +1477,7 @@
 	},
 
 	{
-		"name": "Immortal", // TODO: Add Immortal Icon
+		"name": "Immortal",
 		"unitType": "Mounted",
 		"replaces": "Chariot",
 		"uniqueTo": "Persia",
@@ -1500,7 +1498,7 @@
 	},
 
 	{
-		"name": "Praetorian", // TODO: Add Praetorian Icon
+		"name": "Praetorian",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Rome",
@@ -1555,6 +1553,7 @@
 			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"Only available <after discovering [Horseback Riding]>",
 			"Only available <after discovering [Military Tradition]>",
+			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Consumes [1] [Iron]",
 			// Immune to first strike

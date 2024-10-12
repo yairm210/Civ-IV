@@ -92,6 +92,10 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [brick hammer](https://thenounproject.com/icon/brick-hammer-3147245/) by Vector Points for Fast Worker
 - [spartan helmet](https://thenounproject.com/icon/spartan-helmet-4588854/) for Phalanx
 - [Staff](https://thenounproject.com/icon/staff-3653184/) by Benjamin Jackson for Quechua
+- [Crossbow](https://thenounproject.com/icon/crossbow-965392/) by Smashicons for Cho-Ko-Nu
+- [Rifle](https://thenounproject.com/icon/rifle-6343044/) by Sentya Irma for Readcoat
+- [Spear](https://thenounproject.com/icon/spear-3719099/) by Eucalyp for Immortal
+- [Centurion Helmet](https://thenounproject.com/icon/centurion-helmet-210704/) by my name is mud for Praetorian
 
 #### Technologies
 
@@ -129,10 +133,9 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 - [Cow](https://thenounproject.com/icon/cow-7234416/) by Kim Sun Young
 - [Pig](https://thenounproject.com/icon/pig-1021476/) by Bakunetsu Kaito
-- [Health](https://thenounproject.com/icon/health-1035603/) by Sean Maldjean
 - [Corn](https://thenounproject.com/icon/corn-1608785/) by Marco Livoski
 - [Rice](https://thenounproject.com/icon/rice-102154/) by Mourad Mokrane
-- [Health](https://thenounproject.com/icon/health-72938/) by Percy Batalier
+- [Health](https://thenounproject.com/icon/health-5930601/) by Adi Waluyo Noto Carito
 - [Movie](https://thenounproject.com/icon/movie-7103438/) by Debi Alpa Nugraha for Hit Movie
 - [Record](https://thenounproject.com/icon/record-119043/) by Ryan Spiering for Hit Single
 - [laughing mask](https://thenounproject.com/icon/laughing-mask-7233313/) by krisna arga muria for Hit Musical

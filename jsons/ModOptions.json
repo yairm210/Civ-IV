@@ -1,6 +1,7 @@
 {
 	"isBaseRuleset":true,
 	"uniques":[
-		"Can convert gold to science with sliders"
+		"Can convert gold to science with sliders",
+		"Cannot be used as permanent audiovisual mod"
 	]
 }

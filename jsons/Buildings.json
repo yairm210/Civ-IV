@@ -1109,6 +1109,7 @@
 			"[-50]% production cost <with [Aluminum]>",
 			"Hidden when [Space Race] Victory is disabled",
 			"Triggers a global alert upon completion",
+			"Triggers a global alert upon build start",
 			"Enables construction of Spaceship parts",
 			"Cannot be hurried",
 			"Cannot be purchased"

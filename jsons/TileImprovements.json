@@ -284,31 +284,6 @@
 		"techRequired": "Metal Casting"
 	},
 
-	// Special Markers
-    {
-        "name": "City center",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": [
-			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Gold]",
-			// TODO: Provides +2 Health when on Fresh Water
-			"Unpillagable",
-			"Irremovable",
-			"Unbuildable",
-			"Excluded from map editor"
-		],
-		// "shortcutKey": "B", // The default in Unciv is C, so we will leave it as is.
-        "civilopediaText": [
-            {"text":"Marks the center of a city"},
-            {"text":"Appearance changes with the technological era of the owning civilization"}
-        ]
-    },
-    {
-        "name": "Barbarian encampment",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Unbuildable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
-    },
-
 	// Great Person improvements
 	{
 		"name": "Academy",
@@ -482,4 +457,38 @@
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "."
 	}
+
+	// Unbuildable improvements
+
+	{
+		"name": "Ancient ruins", // Tribal Village in Civ4
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+
+    {
+        "name": "City center",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Gold]",
+			// TODO: Provides +2 Health when on Fresh Water
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Excluded from map editor"
+		],
+		// "shortcutKey": "B", // The default in Unciv is C, so we will leave it as is.
+        "civilopediaText": [
+            {"text":"Marks the center of a city"},
+            {"text":"Appearance changes with the technological era of the owning civilization"}
+        ]
+    },
+
+    {
+        "name": "Barbarian encampment",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+    }
+
 ]
