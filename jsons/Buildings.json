@@ -471,7 +471,7 @@
 		"percentStatBonus": {"science": 25},
         "uniques": [
             "Provides [-1] [Health] <in this city>",
-			"[+50]% Production when constructing [spaceship part] buildings [in this city]"
+			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
         ],
 		"requiredTech": "Computers", // Superconductors (BTS)
 		"requiredBuilding": "Observatory"
@@ -1143,5 +1143,137 @@
 			"Unsellable"
 		],
 		"requiredTech": "Physics"
+	},
+
+	// Spaceship
+	// https://civilization.fandom.com/wiki/Spaceship_(Civ4)
+	{
+		"name": "SS Casing", // TODO: Add SS Casing Icon
+		"isNationalWonder": true,
+		"cost": 1200,
+		"uniques": [
+			// TODO: Make 5 required
+			"Hidden when [Space Race] Victory is disabled",
+			"[-50]% production cost <with [Aluminum]>",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Composites"
+	},
+
+	{
+		"name": "SS Cockpit",
+		"isNationalWonder": true,
+		"cost": 1000,
+		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
+			"[-50]% production cost <with [Copper]>",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Fiber Optics"
+	},
+
+	{
+		"name": "SS Docking Bay", // TODO: Add SS Docking Bay Icon
+		"isNationalWonder": true,
+		"cost": 2000,
+		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
+			"[-50]% production cost <with [Aluminum]>",
+			"Only available <after discovering [Robotics]>",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Satellites"
+	},
+
+	{
+		"name": "SS Engine",
+		"isNationalWonder": true,
+		"cost": 1600,
+		"uniques": [
+			// TODO: Make 1-2 required for victory
+			"Hidden when [Space Race] Victory is disabled",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Fusion"
+	},
+
+	{
+		"name": "SS Life Support", // TODO: Add SS Life Support Icon
+		"isNationalWonder": true,
+		"cost": 1000,
+		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
+			"[-50]% production cost <with [Copper]>",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Ecology"
+	},
+
+	{
+		"name": "SS Stasis Chamber",
+		"isNationalWonder": true,
+		"cost": 1200,
+		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Genetics"
+	},
+
+	{
+		"name": "SS Thrusters", // TODO: Add SS Thrusters Icon
+		"isNationalWonder": true,
+		"cost": 1200,
+		"uniques": [
+			// TODO: Require 1-5 required for space race
+			"Hidden when [Space Race] Victory is disabled",
+			"[-50]% production cost <with [Aluminum]>",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Apollo Program] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Satellites" // TODO: SS Thrusters requires Superconductors on BTS
 	}
+
+	{
+		"name": "Spaceship", // TODO: Add Spaceship icon
+		"isNationalWonder": true,
+		"cost": 200,
+		"uniques": [
+			"Hidden when [Space Race] Victory is disabled",
+			"Spaceship part",
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"Only available <if [Apollo Program] is constructed>",
+			"Only available <if [SS Casing] is constructed>",
+			"Only available <if [SS Cockpit] is constructed>",
+			"Only available <if [SS Docking Bay] is constructed>",
+			"Only available <if [SS Engine] is constructed>",
+			"Only available <if [SS Life Support] is constructed>",
+			"Only available <if [SS Stasis Chamber] is constructed>",
+			"Only available <if [SS Thrusters] is constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Fusion"
+	}
+
 ]
