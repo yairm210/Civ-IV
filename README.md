@@ -28,13 +28,21 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Minaret](https://thenounproject.com/icon/minaret-6723549/) by Trimanggolo Mulyo for Spiral Minaret
 - [Dam](https://thenounproject.com/icon/dam-5133225/) by Dio Sugiharto for Three Gorges Dam
 - [Earth](https://thenounproject.com/icon/earth-7074085/) by kukuh amaliawan for The Space Elevator
-- [Globe Theatre](https://thenounproject.com/icon/globe-theatre-5286089/) by Lia Thompson
+- [Theatre](https://thenounproject.com/icon/theatre-4242408/) by Juicy Fish for Globe Theatre
 - [Stock Exchange](https://thenounproject.com/icon/stock-exchange-4573376/) by Dominik Mann for Wall Street
 - [Statue](https://thenounproject.com/icon/statue-3243817/) by Vectors Point for West Point
 - [Mount Rushmore](https://thenounproject.com/icon/mount-rushmore-3263592/) by Symbolon for Mt. Rushmore
 - [Police Helmet](https://thenounproject.com/icon/police-helmet-4781/) for Scotland Yard
 - [Academy](https://thenounproject.com/icon/academy-3890710/) By Kevin
 - [Gate](https://thenounproject.com/icon/gate-6325375/) by ainul muttagin for Religious Shrine
+- [Metal](https://thenounproject.com/icon/metal-5301954/) by Brad for SS Casing
+- [cockpit](https://thenounproject.com/icon/cockpit-6858321/) by Azzam for SS Cockpit
+- [launch pad](https://thenounproject.com/icon/launch-pad-6591385/) by Supanut Piyakanont for SS Docking Bay
+- [Engine](https://thenounproject.com/icon/engine-7074295/) by Imron Sadewo for SS Engine
+- [life support](https://thenounproject.com/icon/life-support-6985741/) by Le Khac Bao Thoai for SS Life Support
+- [cryogenic chamber](https://thenounproject.com/icon/cryogenic-chamber-3312571/) by Vectors Point for SS Stasis Chamber
+- [jet machine](https://thenounproject.com/icon/jet-machine-4051586/) by novilamisastra for SS Thrusters
+- [Rocket](https://thenounproject.com/icon/rocket-6074638/) by Ben Didier for Spaceship
 
 #### Improvements
 

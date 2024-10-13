@@ -1109,7 +1109,6 @@
 			"[-50]% production cost <with [Aluminum]>",
 			"Hidden when [Space Race] Victory is disabled",
 			"Triggers a global alert upon completion",
-			"Triggers a global alert upon build start",
 			"Enables construction of Spaceship parts",
 			"Cannot be hurried",
 			"Cannot be purchased"
@@ -1148,7 +1147,7 @@
 	// Spaceship
 	// https://civilization.fandom.com/wiki/Spaceship_(Civ4)
 	{
-		"name": "SS Casing", // TODO: Add SS Casing Icon
+		"name": "SS Casing",
 		"isNationalWonder": true,
 		"cost": 1200,
 		"uniques": [
@@ -1179,7 +1178,7 @@
 	},
 
 	{
-		"name": "SS Docking Bay", // TODO: Add SS Docking Bay Icon
+		"name": "SS Docking Bay",
 		"isNationalWonder": true,
 		"cost": 2000,
 		"uniques": [
@@ -1210,7 +1209,7 @@
 	},
 
 	{
-		"name": "SS Life Support", // TODO: Add SS Life Support Icon
+		"name": "SS Life Support",
 		"isNationalWonder": true,
 		"cost": 1000,
 		"uniques": [
@@ -1239,7 +1238,7 @@
 	},
 
 	{
-		"name": "SS Thrusters", // TODO: Add SS Thrusters Icon
+		"name": "SS Thrusters",
 		"isNationalWonder": true,
 		"cost": 1200,
 		"uniques": [
@@ -1255,15 +1254,15 @@
 	}
 
 	{
-		"name": "Spaceship", // TODO: Add Spaceship icon
+		"name": "Spaceship",
 		"isNationalWonder": true,
-		"cost": 200,
+		"cost": 500,
 		"uniques": [
 			"Hidden when [Space Race] Victory is disabled",
 			"Spaceship part",
 			"Cannot be purchased",
 			"Cannot be hurried",
-			"Only available <if [Apollo Program] is constructed>",
+			"Triggers a global alert upon build start",
 			"Only available <if [SS Casing] is constructed>",
 			"Only available <if [SS Cockpit] is constructed>",
 			"Only available <if [SS Docking Bay] is constructed>",

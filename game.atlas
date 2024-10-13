@@ -621,7 +621,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Laboratory
   rotate: false
-  xy: 836, 628
+  xy: 1252, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -647,81 +647,130 @@ BuildingIcons/Rock 'n' Roll
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Scotland Yard
+BuildingIcons/SS Casing
+  rotate: false
+  xy: 836, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/SS Cockpit
   rotate: false
   xy: 1044, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Security Bureau
+BuildingIcons/SS Docking Bay
   rotate: false
   xy: 1252, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Spiral Minaret
+BuildingIcons/SS Engine
+  rotate: false
+  xy: 4, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/SS Life Support
+  rotate: false
+  xy: 212, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/SS Statis Chamber
   rotate: false
   xy: 420, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Supermarket
+BuildingIcons/SS Thrusters
+  rotate: false
+  xy: 628, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Scotland Yard
   rotate: false
   xy: 1044, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/The Space Elevator
+BuildingIcons/Security Bureau
   rotate: false
   xy: 1252, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Three Gorges Dam
+BuildingIcons/Spaceship
   rotate: false
-  xy: 4, 112
+  xy: 212, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/University of Sankore
+BuildingIcons/Spiral Minaret
+  rotate: false
+  xy: 420, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Supermarket
   rotate: false
   xy: 1044, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/The Space Elevator
+  rotate: false
+  xy: 1252, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Three Gorges Dam
+  rotate: false
+  xy: 1668, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/University of Sankore
+  rotate: false
+  xy: 1044, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Versailles
   rotate: false
-  xy: 1460, 1568
+  xy: 1460, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Wall Street
   rotate: false
-  xy: 212, 112
+  xy: 420, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/West Point
   rotate: false
-  xy: 628, 528
+  xy: 836, 528
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Lumbermill
-  rotate: false
-  xy: 1044, 836
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Oil well
@@ -747,49 +796,49 @@ BuildingIcons/Religious Shrine
   index: -1
 ImprovementIcons/Town
   rotate: false
-  xy: 212, 320
+  xy: 212, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Village
   rotate: false
-  xy: 1668, 1776
+  xy: 1668, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Watermill
   rotate: false
-  xy: 420, 320
+  xy: 628, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Whaling Boats
   rotate: false
-  xy: 836, 736
+  xy: 1044, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Windmill
   rotate: false
-  xy: 1044, 944
+  xy: 1252, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Winery
   rotate: false
-  xy: 1252, 1152
+  xy: 1460, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Workshop
   rotate: false
-  xy: 1460, 1352
+  xy: 1876, 1768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -838,49 +887,49 @@ PolicyIcons/Representation
   index: -1
 PolicyIcons/Serfdom
   rotate: false
-  xy: 4, 320
+  xy: 1460, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Slavery
   rotate: false
-  xy: 212, 528
+  xy: 4, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/State Property
   rotate: false
-  xy: 628, 944
+  xy: 628, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Theocracy
   rotate: false
-  xy: 1460, 1776
+  xy: 1460, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Tribalism
   rotate: false
-  xy: 628, 736
+  xy: 628, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Suffrage
   rotate: false
-  xy: 836, 944
+  xy: 836, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Vassalage
   rotate: false
-  xy: 1252, 1360
+  xy: 1252, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -908,7 +957,7 @@ ResourceIcons/Rice
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 1876, 1876
+  xy: 628, 212
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -936,14 +985,14 @@ TechIcons/Priesthood
   index: -1
 TechIcons/Scientific Method
   rotate: false
-  xy: 836, 1360
+  xy: 836, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Superconductors
   rotate: false
-  xy: 836, 1152
+  xy: 836, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -957,28 +1006,28 @@ UnitIcons/Axeman
   index: -1
 UnitIcons/Chariot
   rotate: false
-  xy: 1460, 1460
+  xy: 1876, 1876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Explorer
   rotate: false
-  xy: 1668, 1668
+  xy: 1668, 1460
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Galley
   rotate: false
-  xy: 420, 212
+  xy: 836, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Horse Archer
   rotate: false
-  xy: 628, 420
+  xy: 1044, 628
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1027,14 +1076,14 @@ UnitIcons/SAM Infantry
   index: -1
 UnitIcons/Spy
   rotate: false
-  xy: 1252, 1044
+  xy: 1460, 1044
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Transport
   rotate: false
-  xy: 420, 528
+  xy: 420, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
