@@ -39,7 +39,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 #### Improvements
 
 - [Harpoon](https://thenounproject.com/icon/harpoon-2152678/) by Deemak Daksina for Whaling Boats
-- [Oil Well](https://thenounproject.com/icon/oil-well-2052285/) by Vectors Market
+- [Oil well](https://thenounproject.com/icon/oil-well-2052285/) by Vectors Market
 - [Forest](https://thenounproject.com/icon/forest-1335311/) by Aom Am for Forest Preserve
 
 #### Nations

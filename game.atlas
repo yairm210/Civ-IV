@@ -724,7 +724,7 @@ ImprovementIcons/Lumbermill
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Oil Well
+ImprovementIcons/Oil well
   rotate: false
   xy: 212, 1776
   size: 200, 200

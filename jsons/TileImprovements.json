@@ -118,7 +118,7 @@
 	},
 
 	{
-		"name": "Lumbermill",
+		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 8,
@@ -224,7 +224,7 @@
 		]
 	},
 	{
-		"name": "Oil Well", // "Well" in Civ 4
+		"name": "Oil well", // "Well" in Civ 4
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 10,
 		"techRequired": "Combustion",

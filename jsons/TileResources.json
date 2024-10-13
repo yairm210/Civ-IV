@@ -99,7 +99,7 @@
 		"revealedBy": "Scientific Method",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill", "Coast", "Ocean"],
 		"production": 1,
-		"improvement": "Oil Well",
+		"improvement": "Oil well",
 		"improvementStats": {"production": 2, "gold": 1}
 	},
 	{
