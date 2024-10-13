@@ -201,7 +201,7 @@
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the German people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [128,128,128],
+		"outerColor": [201, 197, 189],
 		"innerColor": [0,0,0],
 		"uniques": [
 			"Starts with [Hunting]",
