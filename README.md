@@ -1,7 +1,23 @@
-# Unciv-IV-mod
+# Unciv Civ IV Mod
 
-A Civ IV mod for Unciv
+A [Civilization IV](https://civilization.fandom.com/wiki/Civilization_IV) mod for [Unciv](https://github.com/yairm210/Unciv).
 
+## Installation
+
+1. Run Unciv
+2. Select Mods
+3. Sort and Filter for "Civ IV"
+4. Select "Civ IV"
+5. Press Download
+6. Start a new game
+7. For the Base Ruleset, select "Civ IV"
+
+## Expansions
+
+There is support for both the following expansions:
+
+- [Unciv Civ IV Warlords](https://github.com/RobLoach/Civ-IV-Warlords/)
+- [Unciv Civ IV Beyond the Sword](https://github.com/RobLoach/Civ-IV-Beyond-the-Sword)
 
 ## Credits
 
