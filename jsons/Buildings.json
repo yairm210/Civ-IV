@@ -903,7 +903,7 @@
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"[+50]% Production when constructing [Spaceship part] buildings [in all cities]"
 			// latitude of <= 30º in the city constructing it
 		],
@@ -1107,7 +1107,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"Triggers a global alert upon completion",
 			"Enables construction of Spaceship parts",
 			"Cannot be hurried",
@@ -1152,7 +1152,7 @@
 		"cost": 1200,
 		"uniques": [
 			// TODO: Make 5 required
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"[-50]% production cost <with [Aluminum]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1167,7 +1167,7 @@
 		"isNationalWonder": true,
 		"cost": 1000,
 		"uniques": [
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"[-50]% production cost <with [Copper]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1182,7 +1182,7 @@
 		"isNationalWonder": true,
 		"cost": 2000,
 		"uniques": [
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"[-50]% production cost <with [Aluminum]>",
 			"Only available <after discovering [Robotics]>",
 			"Spaceship part",
@@ -1199,7 +1199,7 @@
 		"cost": 1600,
 		"uniques": [
 			// TODO: Make 1-2 required for victory
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"Spaceship part",
 			"Cannot be purchased",
 			"Only available <if [Apollo Program] is constructed>",
@@ -1213,7 +1213,7 @@
 		"isNationalWonder": true,
 		"cost": 1000,
 		"uniques": [
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"[-50]% production cost <with [Copper]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1228,7 +1228,7 @@
 		"isNationalWonder": true,
 		"cost": 1200,
 		"uniques": [
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"Spaceship part",
 			"Cannot be purchased",
 			"Only available <if [Apollo Program] is constructed>",
@@ -1243,7 +1243,7 @@
 		"cost": 1200,
 		"uniques": [
 			// TODO: Require 1-5 required for space race
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"[-50]% production cost <with [Aluminum]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1258,7 +1258,7 @@
 		"isNationalWonder": true,
 		"cost": 500,
 		"uniques": [
-			"Hidden when [Space Race] Victory is disabled",
+			"Hidden when [Scientific] Victory is disabled",
 			"Spaceship part",
 			"Cannot be purchased",
 			"Cannot be hurried",

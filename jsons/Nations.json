@@ -525,7 +525,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Greek Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Greetings! I am Alexander, ruler of the warlike Greece! Let us join together and crush the world's armies beneath our sandals! It'll be way cool!",
+		"introduction": "Greetings! I am Alexander, ruler of the warlike Greece!\nLet us join together and crush the world's armies beneath\nour sandals! It'll be way cool!",
 
 		// AI_DIPLO_DECLARE_WAR_10: We've has had enough of your treachery and deceit! Now you must pay!
 		"declaringWar": "We've has had enough of your treachery and deceit! Now you must pay!",
@@ -534,7 +534,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "As you will.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Welcome, my friend! Come, let us mount our chariots and destroy our foes, leaving fifty thousand rotting corpses upon the battlefield for the crows to fatten upon!",
+		"neutralHello": "Welcome, my friend! Come, let us mount our chariots\nand destroy our foes, leaving fifty thousand rotting corpses\nupon the battlefield for the crows to fatten upon!",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
 		"hateHello": "Still alive, are you? How disappointing.",
@@ -573,7 +573,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Incan Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "The Inca welcomes your glorious people and their leader. You play ceremonial ball with us, we'll play ceremonial ball with you.",
+		"introduction": "The Inca welcomes your glorious people and their\nleader. You play ceremonial ball with us, we'll\nplay ceremonial ball with you.",
 
 		// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
 		"declaringWar": "The time for talking is over! We shall shall settle this on the field of battle!",
@@ -582,10 +582,10 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "Remember, what goes around comes around...",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "I, Huayna Capac, do welcome you. Let us speak of the slow, painful deaths of our enemies! Care for a smoked hamster?",
+		"neutralHello": "I, Huayna Capac, do welcome you. Let us speak\nof the slow, painful deaths of our enemies!\nCare for a smoked hamster?",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "It is a source of unending astonishment to me that the gods permit you to live. Why are you here?",
+		"hateHello": "It is a source of unending astonishment to me\nthat the gods permit you to live.\nWhy are you here?",
 
 		// AI_DIPLO_FUR_OFFER_DEAL_1: I'm making you an offer you can't refuse.
 		"tradeRequest": "I'm making you an offer you can't refuse."
@@ -624,7 +624,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Indian Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Welcome to my humble home. India desires peace with all of her neighbors - even the really annoying ones like yours.",
+		"introduction": "Welcome to my humble home. India desires\npeace with all of her neighbors - even\nthe really annoying ones like yours.",
 
 		// AI_DIPLO_DECLARE_WAR_2: We have suffered your insolence for long enough!
 		"declaringWar": "We have suffered your insolence for long enough!",
@@ -636,7 +636,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"neutralHello": "Greetings. I trust you have come in peace?",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "All people, no matter how unpleasant, are welcome in India.",
+		"hateHello": "All people, no matter how unpleasant,\nare welcome in India.",
 
 		// AI_DIPLO_FUR_OFFER_DEAL_2: Show some intelligence for a change. Accept this deal.
 		"tradeRequest": "Show some intelligence for a change. Accept this deal."
@@ -679,22 +679,22 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Japanese Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Welcome! May your empire flourish and grow for as long as it remains useful to us! I mean that sincerely.",
+		"introduction": "Welcome! May your empire flourish and\ngrow for as long as it remains useful to us!\nI mean that sincerely.",
 
 		// USER_DIPLO_WAR_1: Your head would look good on the end of a pole.
-		"declaringWar": "Your head would look good on the end of a pole.",
+		"declaringWar": "Your head would look good on the end\nof a pole.",
 
 		// AI_DIPLO_HELP_REFUSED_STRONGER_6: That's too bad. For the both of us, I fear.
 		"attacked": "That's too bad. For the both of us, I fear.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "It is good to see you again! Let us sit down and plot the ruination of our enemies.",
+		"neutralHello": "It is good to see you again! Let us sit\ndown and plot the ruination of our\nenemies.",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "Greetings! We are honored by your visit. You can be sure that we will be coming to your country very soon now.",
+		"hateHello": "Greetings! We are honored by your visit.\nYou can be sure that we will be coming\nto your country very soon now.",
 
 		// AI_DIPLO_FUR_OFFER_DEAL_3: We are offering you this trade. I suggest you take it.
-		"tradeRequest": "We are offering you this trade. I suggest you take it."
+		"tradeRequest": "We are offering you this trade. I\nsuggest you take it."
 	},
 
 	{
@@ -727,7 +727,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Maili Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Welcome. I, Mansa Musa, humble ruler of Mali, offer my hand to you in friendship.",
+		"introduction": "Welcome. I, Mansa Musa, humble ruler of Mali,\noffer my hand to you in friendship.",
 
 		// AI_DIPLO_DECLARE_WAR_2: We have suffered your insolence for long enough!
 		"declaringWar": "We have suffered your insolence for long enough!",
@@ -736,10 +736,10 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "So it be.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "We meet again. It is truly a blessed day for Mali!",
+		"neutralHello": "We meet again. It is truly a\nblessed day for Mali!",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "I do not approve of you or your country. What have you to say that will change my opinion of you?",
+		"hateHello": "I do not approve of you or your country. What\nhave you to say that will change my opinion of you?",
 
 		// AI_DIPLO_FUR_OFFER_DEAL_4: Here's our offer. Take it or leave it.
 		"tradeRequest": "Here's our offer. Take it or leave it."
@@ -778,7 +778,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Mongolian Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Welcome, oh leader. My horde can beat your horde any day of the week. Shall we be friends or enemies?",
+		"introduction": "Welcome, leader. My horde can beat\nyour horde any day of the week.\nShall we be friends or enemies?",
 
 		// AI_DIPLO_DECLARE_WAR_3: Prepare to meet your doom!
 		"declaringWar": "Prepare to meet your doom!",
@@ -787,7 +787,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "We shall remember this.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Welcome to my yurt! Let us sit upon these horse-hair cushions and discuss many things! Care for some boiled yak?",
+		"neutralHello": "Welcome to my yurt! Let us sit\nupon these horse-hair cushions and\ndiscuss many things!\nCare for some boiled yak?",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
 		"hateHello": "And they call US barbarians?",
@@ -830,7 +830,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Persian Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Greetings, oh wise ruler! Persia is strong - shall we count you among our friends, or among our enemies?",
+		"introduction": "Greetings, oh wise ruler!\nPersia is strong - shall we count you\namong our friends, or among our enemies?",
 
 		// AI_DIPLO_DECLARE_WAR_4: Now you shall pay for your many insults.
 		"declaringWar": "Now you shall pay for your many insults.",
@@ -839,10 +839,10 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "How shortsighted of you.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "I salute you. May your inevitable destruction at the hands of Mighty Persia be long delayed!",
+		"neutralHello": "I salute you. May your inevitable destruction\nat the hands of Mighty Persia\nbe long delayed!",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "I wonder: how many hanging chads did it take to get YOU into office?",
+		"hateHello": "I wonder: how many hanging chads did\nit take to get YOU into office?",
 
 		// USER_DIPLO_COMPLETE_DEAL_1: What would make this deal work?
 		"tradeRequest": "What would make this deal work?"
@@ -890,7 +890,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "That's not very nice of you.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Greetings, my friend. What may I, Caesar, Emperor of Mighty Roman Empire, do for your insignificant civilization today?",
+		"neutralHello": "Greetings, my friend.\nWhat may I, Caesar, Emperor of Mighty Roman Empire, do for\nyour insignificant civilization today?",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
 		"hateHello": "Why are you here? Is it the Ides of March already?",
@@ -932,7 +932,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Russian Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Welcome. I am Peter, ruler of all of Russia. You will find me a fair man to deal with - cruel, but fair.",
+		"introduction": "Welcome. I am Peter, ruler of all of Russia.\nYou will find me a fair man to deal with - cruel, but fair.",
 
 		// AI_DIPLO_DECLARE_WAR_8: Fool! Now we shall destroy you!
 		"declaringWar": "Fool! Now we shall destroy you!",
@@ -941,10 +941,10 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "You foolish person.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Mighty Russia greets you in friendship. And in a drunken stupor too.",
+		"neutralHello": "Mighty Russia greets you in friendship.\nAnd in a drunken stupor too.",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "Be brief. I'm trying to give up hacking annoying people to death in a blind rage for Lent.",
+		"hateHello": "Be brief. I'm trying to give up hacking\nannoying people to death in a blind\nrage for Lent.",
 
 		// AI_DIPLO_FR_OFFER_DEAL_6: Let's make a deal!
 		"tradeRequest": "Let's make a deal!"
@@ -983,7 +983,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Spanish Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Her most righteous majesty, Isabella, beloved of God and protector of the faith, does condescend to greet you. Do tell me: are you a righteous people, or are you fiendish heathens who need to be wiped off of the face of this fair land?",
+		"introduction": "Her most righteous majesty, Isabella, beloved of God and\nprotector of the faith, does condescend to greet you.\nDo tell me: are you a righteous people, or are\nyou fiendish heathens who need to be wiped\noff of the face of this fair land?",
 
 		// AI_DIPLO_DECLARE_WAR_6: Soon my numberless minions shall destroy you all!
 		"declaringWar": "Soon my numberless minions shall destroy you all!",
@@ -992,10 +992,10 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"attacked": "I expected better of you.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Her most righteous majesty, Isabella, beloved of God and protector of the faith, does condescend to greet you once more.",
+		"neutralHello": "Her most righteous majesty, Isabella, beloved\nof God and protector of the faith,\ndoes condescend to greet you once more.",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "I'm glad you're here, [CT_NAME]. My Grand Inquisitor would like to have a word with you.",
+		"hateHello": "I'm glad you're here.\nMy Grand Inquisitor would like to have a word with you.",
 
 		// AI_DIPLO_FR_OFFER_DEAL_3: How does this sound to you?
 		"tradeRequest": "How does this sound to you?"
