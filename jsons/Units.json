@@ -1,6 +1,5 @@
 // https://civilization.fandom.com/wiki/List_of_units_in_Civ4
 
-// TODO: Check the "attackSound" for each unit
 // TODO: Implement first strike cases
 // TODO: Implement Flank Cases
 
@@ -480,7 +479,7 @@
 			"Can carry [1] [Scout] units",
 			"May enter foreign tiles without open borders"
 		],
-		"attackSound": "nonmetalhit"
+		"attackSound": "shipguns"
 	},
 
 	{
@@ -509,7 +508,7 @@
 			"Only available <after discovering [Astronomy]>",
 			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-8%/turn), ignores Walls and Castles
 		],
-		"attackSound": "cannon"
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Ironclad",
@@ -544,7 +543,7 @@
 			"Can upgrade to [Destroyer]",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "metalhit"
+		"attackSound": "shipguns"
 	},
 
 	{
@@ -617,7 +616,7 @@
 			"Withdraws before melee combat <with [50]% chance>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "metalhit"
+		"attackSound": "torpedo"
 	},
 
 	// Air
@@ -640,7 +639,7 @@
 			"Destroys tile improvements when attacking",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "jetgun"
 	},
 
 	{
@@ -728,7 +727,7 @@
 			"Only available <if [The Manhattan Project] is constructed by anybody>",
 			"Blast radius [12]"
 		],
-		"attackSound": "bombing"
+		"attackSound": "nuke"
 	},
 
 	// Siege
@@ -1133,7 +1132,8 @@
 			"Only available <after discovering [Rifling]>"
 		],
 		"promotions": ["Amphibious", "March"],
-		"requiredTech": "Industrialism"
+		"requiredTech": "Industrialism",
+		"attackSound": "machinegun"
 	},
 
 	{
@@ -1155,7 +1155,8 @@
 			"Only available <after discovering [Archery]>"
 		],
 		"promotions": ["Amphibious", "March"],
-		"requiredTech": "Guilds"
+		"requiredTech": "Guilds",
+		"attackSound": "metalhit"
 	},
 
 	{
@@ -1173,7 +1174,8 @@
 			"Only available <after discovering [Archery]>"
 		],
 		"promotions": ["Woodsman I"],
-		"requiredTech": "Iron Working"
+		"requiredTech": "Iron Working",
+		"attackSound": "nonmetalhit"
 	},
 
 	{
@@ -1194,7 +1196,8 @@
 			"Only available <after discovering [Archery]>"
 		],
 		"requiredResource": "Iron",
-		"requiredTech": "Machinery"
+		"requiredTech": "Machinery",
+		"attackSound": "arrow"
 	},
 
 	{
@@ -1215,7 +1218,8 @@
 			"[+100]% Strength <vs [Axeman] units>"
 		],
 		"requiredResource": "Horses",
-		"requiredTech": "The Wheel"
+		"requiredTech": "The Wheel",
+		"attackSound": "horse"
 	},
 
 	{
@@ -1233,7 +1237,8 @@
 			"[+25]% Strength <vs [Mounted] units>",
 			"[+25]% Strength <vs [Gunpowder] units>"
 		],
-		"requiredTech": "Rifling"
+		"requiredTech": "Rifling",
+		"attackSound": "shot"
 	},
 
 	{
@@ -1248,7 +1253,8 @@
 			"Can upgrade to [Rifleman]",
 			"Never appears as a Barbarian unit",
 		],
-		"requiredTech": "Gunpowder"
+		"requiredTech": "Gunpowder",
+		"attackSound": "shot"
 	},
 
 	{
@@ -1267,7 +1273,8 @@
 			"Only available <after discovering [Rifling]>"
 		],
 		"promotions": ["Blitz"],
-		"requiredTech": "Industrialism"
+		"requiredTech": "Industrialism",
+		"attackSound": "tankshot"
 	},
 
 	{
@@ -1288,7 +1295,8 @@
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
 			"[+100]% Strength <vs [Mounted] units>"
 		],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Bronze Working",
+		"attackSound": "metalhit"
 	},
 
 	{
@@ -1305,7 +1313,8 @@
 			"Can upgrade to [Spearman]",
 			"[+25]% Strength <when fighting in [City center] tiles> <when defending>",
 			"[+100]% Strength <vs [Archery] units>"
-		]
+		],
+		"attackSound": "nonmetalhit"
 	},
 
 	{
@@ -1318,6 +1327,8 @@
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"Never appears as a Barbarian unit",
+			"Automation is a primary action",
+			"Cannot attack"
 		]
 	},
 
@@ -1360,7 +1371,7 @@
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
 			"Can upgrade to [Crossbowman]"
 		],
-		"attackSound": "nonmetalhit"
+		"attackSound": "arrow"
 	},
 
 	{
@@ -1383,7 +1394,7 @@
 			// Flank attack vs. Catapult and Trebuchet (BTS)
 			"Only available <after discovering [Archery]>"
 		],
-		"attackSound": "nonmetalhit"
+		"attackSound": "horse"
 	},
 
 	{
@@ -1445,7 +1456,7 @@
 			"[+50]% Strength <vs [Mounted] units>",
 			"[+100]% to Flank Attack bonuses <vs [Cannon] units>" // Can flank attack against cannons
 		],
-		"attackSound": "metalhit"
+		"attackSound": "horse"
 	},
 
 	{
@@ -1471,7 +1482,7 @@
 			"[+50]% to Flank Attack bonuses <vs [Siege] units>", // Can flank attack Cannons, Trebuchets, and Catapults
 			"[+50]% Strength <vs [Sword] units>"
 		],
-		"attackSound": "metalhit"
+		"attackSound": "horse"
 	},
 
 	// TODO: Add Animals (First Barbarians)

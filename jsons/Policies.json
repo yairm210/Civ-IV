@@ -558,12 +558,11 @@
 
 					"[+10]% [Science] [in your cities]",
 					"Only available <after discovering [Liberalism]> <before founding a Pantheon>", // No state religion
-					"[+1 Happiness] [in your cities] <in cities with a major religion>", // +1 Happiness per every religion in city
+					"[+1 Happiness] [in your cities] <in cities with a major religion>", // TODO: +1 Happiness per every religion in city
 
 					"Remove [Paganism] <hidden from users>",
 					"Remove [Organized Religion] <hidden from users>",
-					"Remove [Theocracy] <hidden from users>",					// TODO: +1 Happiness per every religion in city
-
+					"Remove [Theocracy] <hidden from users>",
 					"Remove [Pacifism] <hidden from users>",
 
 					"Comment [Revolution]",

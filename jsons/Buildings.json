@@ -892,7 +892,12 @@
 		"cost": 1000,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": [
+			"Only available <when number of [Remaining [All] Civilizations] is more than [3]>",
+			"Triggers voting for the Diplomatic Victory",
+			"Triggers a global alert upon completion",
+			"Hidden when [Diplomatic] Victory is disabled"
+		],
 		"requiredTech": "Mass Media"
 	},
 
@@ -932,11 +937,12 @@
 		"culture": 4,
 		"cost": 200,
 		"requiredBuilding": "Courthouse",
+		"greatPersonPoints": {"Great Spy": 1},
 		"uniques": [
 			"[-20]% maintenance cost for buildings [in all cities]", // in nearby cities
-			// BTS: +1 Great Spy
 			// Requires at least 8 cities
-			"Only available <if [Courthouse] is constructed in at least [6] of [All] cities>"
+			"Only available <if [Courthouse] is constructed in at least [6] of [in your cities] cities>",
+			"Only available <when number of [[in your cities] Cities] is more than [7]>"
 		],
 		"requiredTech": "Code of Laws"
 	},
