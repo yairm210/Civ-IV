@@ -1077,6 +1077,7 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+			"Can instantly construct a [Military Academy] improvement <by consuming this unit>", // TODO: Make Great General build the Military Academy building directly
 			"Can instantly construct a [Great General Specialist] improvement <by consuming this unit> <if [Civ IV Warlords] is enabled>",
 			"Unbuildable",
 			"Uncapturable",

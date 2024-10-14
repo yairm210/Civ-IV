@@ -579,6 +579,41 @@
 	},
 
 	{
+		"name": "Temple of Artemis",
+		"isWonder": true,
+		"culture": 8,
+		"cost": 350,
+		"production": 1, // Free Priest
+		"gold": 1, // Free Priest
+		"greatPersonPoints": {
+			"Great Merchant": 2,
+			"Great Prophet": 3 // Free Priest
+		},
+		"uniques": [
+			"Only available <if [Civ IV Warlords] is enabled>",
+			"[-50]% production cost <with [Marble]>",
+			"Obsolete with [Scientific Method]",
+			"[+1 Gold] from each Trade Route" // TODO: +100% Trade route yield in this city
+		],
+		"requiredTech": "Polytheism"
+	},
+
+	{
+		"name": "Great Wall",
+		"isWonder": true,
+		"culture": 2,
+		"cost": 150,
+		"greatPersonPoints": {"Great Spy": 2},
+		"uniques": [
+			"Only available <if [Civ IV Warlords] is enabled>",
+			"[-50]% production cost <with [Stone]>",
+			"[Great General] is earned [+100]% faster",
+			"Notified of new Barbarian encampments" // Prevents barbarians from entering your borders
+		],
+		"requiredTech": "Masonry"
+	},
+
+	{
 		"name": "The Great Lighthouse",
 		"culture": 6,
         "cost": 200,
@@ -762,6 +797,25 @@
 		],
 		"requiredTech": "Divine Right"
 		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+
+	{
+		"name": "University of Sankore",
+		"isWonder": true,
+		"culture": 8,
+		"cost": 550,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"Only available <if [Civ IV Warlords] is enabled>",
+			"[-50]% production cost <with [Stone]>",
+			"Obsolete with [Computers]",
+
+			// +2 science from all state religion buildings
+			"[+2 Science] from all [Temple] buildings",
+			"[+2 Science] from all [Monastery] buildings",
+			"[+2 Science] from all [Cathedral] buildings"
+		],
+		"requiredTech": "Paper"
 	},
 
 	{
@@ -1148,6 +1202,20 @@
 			"Unsellable"
 		],
 		"requiredTech": "Physics"
+	},
+
+	{
+		"name": "Military Academy",
+		"culture": 3,
+		"cost": 150,
+		// TODO: Have Great Generals sacrifice themselves to build a Military Academy
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"[+50]% Production when constructing [Military] units [in this city]",
+			"Only available <if [Civ IV Warlords] is enabled>"
+		]
 	},
 
 	// Spaceship

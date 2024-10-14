@@ -300,6 +300,24 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+
+	{
+		"name": "Military Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"uniques": [
+			"[-1 Production]",
+			"Great Improvement",
+            "Will not be replaced by automated units",
+			"Excluded from map editor",
+			"Does not need removal of [All]",
+			"Will not be displayed in Civilopedia",
+			"Gain a free [Military Academy] [in this city]",
+			"Will not be displayed in Civilopedia",
+			"Only available <if [Civ IV Warlords] is enabled>"
+		]
+	},
+
 	{
 		"name": "Great Artist Specialist",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -315,6 +333,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+
 	{
 		"name": "Great Engineer Specialist",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -330,6 +349,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+
 	{
 		"name": "Great Merchant Specialist",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -345,6 +365,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+
 	{
 		"name": "Great Prophet Specialist",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -406,7 +427,8 @@
 			"Irremovable",
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
-			"Gain a free [Religious Shrine] [in capital]"
+			"Gain a free [Religious Shrine] [in capital]",
+			"Only available <if [Religious Shrine] is not constructed>"
 		]
 	},
 

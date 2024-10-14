@@ -130,6 +130,13 @@ ImprovementIcons/Great Engineer Specialist
   orig: 200, 200
   offset: 0, 0
   index: -1
+ImprovementIcons/Great General Specialist
+  rotate: false
+  xy: 836, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Great Merchant Specialist
   rotate: false
   xy: 836, 628
