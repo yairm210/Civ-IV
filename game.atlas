@@ -689,7 +689,7 @@ BuildingIcons/SS Life Support
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/SS Statis Chamber
+BuildingIcons/SS Stasis Chamber
   rotate: false
   xy: 420, 736
   size: 200, 200
