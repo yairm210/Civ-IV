@@ -747,7 +747,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 
 	{
 		"name": "Mongolia",
-		"leaderName": "Genkhis Khan",
+		"leaderName": "Genghis Khan",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Mongolian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
