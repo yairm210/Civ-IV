@@ -7,10 +7,10 @@ A [Civilization IV](https://civilization.fandom.com/wiki/Civilization_IV) mod fo
 1. Run Unciv
 2. Select Mods
 3. Sort and Filter for "Civ IV"
-4. Select "Civ IV"
+4. Select Civ IV
 5. Press Download
 6. Start a new game
-7. For the Base Ruleset, select "Civ IV"
+7. For the Base Ruleset, select Civ IV
 
 ## Expansions
 

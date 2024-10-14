@@ -312,6 +312,7 @@
 				"row": 2,
 				"prerequisites": ["Mathematics", "Drama"],
 				"uniques": [
+					// TODO: Only reward a Great Artist if starting on previous eras.
 					"Free [Great Artist] appears <if no other Civilization has researched this>"
 				],
 				"quote": "\"If music be the food of love, play on.\" - William Shakespeare"
@@ -451,6 +452,7 @@
 				"row": 8,
 				"prerequisites": ["Education", "Philosophy"],
 				"uniques": [
+					// TODO: Only reward a Free Technology if starting on previous eras.
 					"Free Technology",
 					"Comment [Free Speech Civic]",
 					"Comment [Free Religion Civic]"
@@ -463,6 +465,7 @@
 				"row": 11,
 				"prerequisites": ["Education"],
 				"uniques": [
+					// TODO: Only reward a Great Merchant if starting on previous eras.
 					"Free [Great Merchant] appears <if no other Civilization has researched this>"
 				],
 				"quote": "\"Compound interest is the most powerful force in the universe.\" - Albert Einstein"
@@ -561,6 +564,7 @@
 				"row": 1,
 				"prerequisites": ["Scientific Method"],
 				"uniques": [
+					// TODO: Only reward a Great Spy if starting on previous eras.
 					"Free [Great Spy] appears <if no other Civilization has researched this> <if [Civ IV Beyond the Sword] is enabled>"
 				],
 				"quote": "\"When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist.\" - Dom Helder Camara"
@@ -571,6 +575,7 @@
 				"row": 4,
 				"prerequisites": ["Scientific Method"],
 				"uniques": [
+					// TODO: Only reward a Great Scientist if starting on previous eras.
 					"Free [Great Scientist] appears <if no other Civilization has researched this>"
 				],
 				"quote": "\"To every action there is always opposed an equal reaction.\" - Isaac Newton"
@@ -615,6 +620,7 @@
 				"row": 1,
 				"prerequisites": ["Assembly Line"],
 				"uniques": [
+					// TODO: Only reward a Great General if starting on previous eras.
 					"Free [Great General] appears <if no other Civilization has researched this> <if [Civ IV Warlords] is enabled>"
 				],
 				"quote": "\"The great masses of the people will more easily fall victim to a big lie than to a small one.\" - Adolf Hitler"
@@ -790,6 +796,7 @@
 				"row": 7,
 				"prerequisites": ["Fission" ,"Fiber Optics"],
 				"uniques": [
+					// TODO: Only reward a Great Engineer if starting on previous eras.
 					"Free [Great Engineer] appears <if no other Civilization has researched this>"
 				],
 				"quote": "\"Any sufficiently advanced technology is indistinguishable from magic.\" - Arthur C. Clarke"
