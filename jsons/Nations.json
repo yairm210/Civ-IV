@@ -2,7 +2,8 @@
 
 /*
 Diplomacy Template.
-Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
+Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
+Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlords_Diplomacy.xml
 
 // Diplomacy
 "defeated": "The ______ Civilization has been destroyed!!!",
@@ -881,7 +882,7 @@ Source: Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
 		"defeated": "The Roman Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Welcome to Rome. Care for some salad? I made it myself.",
+		"introduction": "It is excellent to meet you! Would you care\nto surrender to mighty Rome Empire now or\nwould you prefer to put off the inevitable for a while?",
 
 		// AI_DIPLO_DECLARE_WAR_7: Time to die.
 		"declaringWar": "Time to die.",
