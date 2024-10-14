@@ -1,251 +1,1016 @@
+// https://civilization.fandom.com/wiki/Civilizations_(Civ4)
+
+/*
+Diplomacy Template.
+Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
+Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlords_Diplomacy.xml
+
+// Diplomacy
+"defeated": "The ______ Civilization has been destroyed!!!",
+
+// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+"introduction": "",
+
+// AI_DIPLO_DECLARE_WAR_1: This world isn't big enough for the two of us!
+// AI_DIPLO_DECLARE_WAR_2: We have suffered your insolence for long enough!
+// AI_DIPLO_DECLARE_WAR_3: Prepare to meet your doom!
+// AI_DIPLO_DECLARE_WAR_4: Now you shall pay for your many insults.
+// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
+// AI_DIPLO_DECLARE_WAR_6: Soon my numberless minions shall destroy you all!
+// AI_DIPLO_DECLARE_WAR_7: Time to die.
+// AI_DIPLO_DECLARE_WAR_8: Fool! Now we shall destroy you!
+// AI_DIPLO_DECLARE_WAR_9: I suppose you realize, this means war.
+// AI_DIPLO_DECLARE_WAR_10: We've has had enough of your treachery and deceit! Now you must pay!
+// USER_DIPLO_WAR_1: Your head would look good on the end of a pole.
+"declaringWar": "",
+
+// AI_DIPLO_HELP_REFUSED_EQUAL_1: We shall remember this.
+// AI_DIPLO_HELP_REFUSED_EQUAL_2: How shortsighted of you.
+// AI_DIPLO_HELP_REFUSED_EQUAL_3: That's not very nice of you.
+// AI_DIPLO_HELP_REFUSED_EQUAL_4: We'll remember this
+// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
+// AI_DIPLO_HELP_REFUSED_EQUAL_6: I expected better of you.
+// AI_DIPLO_HELP_REFUSED_STRONGER_1: I hope you don't come to regret this.
+// AI_DIPLO_HELP_REFUSED_STRONGER_2: Very well. On your own head be it.
+// AI_DIPLO_HELP_REFUSED_STRONGER_3: As you will.
+// AI_DIPLO_HELP_REFUSED_STRONGER_4: Remember, what goes around comes around...
+// AI_DIPLO_HELP_REFUSED_STRONGER_5: Fine. See if we help you out when you need it.
+// AI_DIPLO_HELP_REFUSED_STRONGER_6: That's too bad. For the both of us, I fear.
+// USER_DIPLO_WAR_RESPONSE_1: So it be.
+"attacked": "",
+
+// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+// AI_DIPLO_GREETINGS_ATT_FR_1: Hello. What is it that you wish to discuss?
+// AI_DIPLO_GREETINGS_ATT_FR_3: Greetings. How may we be of assistance?
+// AI_DIPLO_GREETINGS_ATT_FR_4: Welcome, friend. How may we be of assistance?
+// AI_DIPLO_GREETINGS_ATT_FR_5: Hello again!
+// AI_DIPLO_GREETINGS_ATT_FR_6: Good day to you.
+// AI_DIPLO_GREETINGS_ATT_FR_7: So what's going on?
+// AI_DIPLO_GREETINGS_ATT_FR_8: Hello. What can I do for you?
+// AI_DIPLO_GREETINGS_ATT_FR_9: What's on your mind?
+// AI_DIPLO_GREETINGS_ATT_FR_10: To what do I owe the pleasure of your company
+"neutralHello": "",
+
+// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+// AI_DIPLO_GREETINGS_ATT_FUR_3: Well? Get on with it!
+// AI_DIPLO_GREETINGS_ATT_FUR_4: What do YOU want?
+// AI_DIPLO_GREETINGS_ATT_FUR_5: Let's hear it.
+// AI_DIPLO_GREETINGS_ATT_FUR_6: What is it this time?
+// AI_DIPLO_GREETINGS_ATT_FUR_7: My time is valuable. What do you want?
+// AI_DIPLO_GREETINGS_ATT_FUR_8: Do not make me angry. You wouldn't like me when I'm angry.
+// AI_DIPLO_GREETINGS_ATT_FUR_10: Speak your piece - I haven't got all day.
+// AI_DIPLO_GREETINGS_ATT_FUR_11: Are you still around? I thought somebody wiped out your puny civilization years ago.
+// AI_DIPLO_GREETINGS_ATT_FUR_12: Oh, it's you. Now my day is complete.
+"hateHello": "",
+
+// USER_DIPLO_PROPOSAL_1: We would like to make a trade proposal.
+// USER_DIPLO_COMPLETE_DEAL_1: What would make this deal work?
+// USER_DIPLO_FISH_FOR_DEAL_1: What will you give me for this?
+// AI_DIPLO_FR_OFFER_DEAL_1: Greetings! What do you think of this deal?
+// AI_DIPLO_FR_OFFER_DEAL_2: Our peace-loving people seek a fair trade with you. How about it?
+// AI_DIPLO_FR_OFFER_DEAL_3: How does this sound to you?
+// AI_DIPLO_FR_OFFER_DEAL_4: What do you think of this deal?
+// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
+// AI_DIPLO_FR_OFFER_DEAL_6: Let's make a deal!
+// AI_DIPLO_FUR_OFFER_DEAL_1: I'm making you an offer you can't refuse.
+// AI_DIPLO_FUR_OFFER_DEAL_2: Show some intelligence for a change. Accept this deal.
+// AI_DIPLO_FUR_OFFER_DEAL_3: We are offering you this trade. I suggest you take it.
+// AI_DIPLO_FUR_OFFER_DEAL_4: Here's our offer. Take it or leave it.
+// AI_DIPLO_FUR_OFFER_DEAL_6: Here's the deal
+"tradeRequest": ""
+*/
+
 [
 	{
 		"name": "America",
 		"leaderName": "George Washington",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the American people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,0,255],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Fishing]"],
-		"cities": ["Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
-		"Houston", "Portlnd", "St Louis", "Miami", "Buffalo", "Detroit", "New Orleans", "Baltimore", "Denver", "Cincinnati", "Dallas",
-		"Memphis", "Cleveland", "Kansas City", "San Diego", "Richmond", "Las Vegas", "Phoenix", "Albuquerque", "Minneapolis", "Pittsburgh",
-		"Oakland", "Tampa Bay", "Orlando", "Tacoma", "Santa Fe", "Olympia", "Hunt Valley", "Springfield", "Palo Alto", "Centralia", "Spokane",
-		"Jacksonville", "Savannah", "Charleston", "San Antonio", "Omaha", "Birmingham", "Honolulu", "Anchorage", "Sacramento", "Salt Lake City",
-		"Reno", "Boise", "Milwaukee", "Santa Cruz", "Monterey", "Santa Monica", "Little Rock", "Columbus", "Le Bam"]
+		"uniques": [
+			"Starts with [Agriculture]", "Starts with [Fishing]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Charismatic]",
+			"[+1 Happiness]",
+			"[+25]% XP gained from combat",
+			"[+1 Happiness] from every [Monument]",
+			"[+1 Happiness] from every [Broadcast Tower]"
+		],
+		"cities": [
+			"Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
+			"Houston", "Portlnd", "St Louis", "Miami", "Buffalo", "Detroit", "New Orleans", "Baltimore", "Denver", "Cincinnati", "Dallas",
+			"Memphis", "Cleveland", "Kansas City", "San Diego", "Richmond", "Las Vegas", "Phoenix", "Albuquerque", "Minneapolis", "Pittsburgh",
+			"Oakland", "Tampa Bay", "Orlando", "Tacoma", "Santa Fe", "Olympia", "Hunt Valley", "Springfield", "Palo Alto", "Centralia", "Spokane",
+			"Jacksonville", "Savannah", "Charleston", "San Antonio", "Omaha", "Birmingham", "Honolulu", "Anchorage", "Sacramento", "Salt Lake City",
+			"Reno", "Boise", "Milwaukee", "Santa Cruz", "Monterey", "Santa Monica", "Little Rock", "Columbus", "Le Bam"
+		],
+
+		// Diplomacy
+		"defeated": "The American Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome! I cannot tell a lie: I'm darned glad to meet you!",
+
+		// AI_DIPLO_DECLARE_WAR_8: Fool! Now we shall destroy you!
+		"declaringWar": "Fool! Now we shall destroy you!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_1: We shall remember this.
+		"attacked": "We shall remember this.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Greetings. How was your journey from your empire? I slept there once, you know.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "What could you possibly have to say that would be of interest to America?",
+
+		// USER_DIPLO_PROPOSAL_1: We would like to make a trade proposal.
+		"tradeRequest": "We would like to make a trade proposal."
 	},
+
 	{
 		"name": "Arabia",
 		"leaderName": "Saladin",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Arabian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [139,214,59],
 		"innerColor": [33,48,176],
-		"uniques": ["Starts with [Mysticism]", "Starts with [The Wheel]"],
-		"cities": ["Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
-		"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
-		"Hama", "Tabuk", "Sanaa", "Shihr"]
+		"uniques": [
+			"Starts with [Mysticism]",
+			"Starts with [The Wheel]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
+		"cities": [
+			"Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
+			"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
+			"Hama", "Tabuk", "Sanaa", "Shihr"
+		],
+
+		// Diplomacy
+		"defeated": "The Arabian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings! It is an honor to meet you! May the heavens bestow upon you an empire only slightly less glorious than mine.",
+
+		// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
+		"declaringWar": "The time for talking is over! We shall shall settle this on the field of battle!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_2: How shortsighted of you.
+		"attacked": "How shortsighted of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Blessings be upon you, oh mighty leader! Your glorious personage bestows great honor upon my humble kingdom!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "What a surprise! I did not realize it was locust season once again.",
+
+		// USER_DIPLO_COMPLETE_DEAL_1: What would make this deal work?
+		"tradeRequest": "What would make this deal work?"
 	},
+
 	{
 		"name": "Aztec",
 		"leaderName": "Montezuma II",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Aztec people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,102,0],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Hunting]", "Starts with [Mysticism]"],
-		"cities": ["Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
-			   "Atzcapotzalco", "Tzintzuntzan", "Malinalco", "Tula", "Tamuin", "Teayo", "Cempoala", "Chalco", "Tlalmanalco",
-			   "Ixtapaluca", "Huexotla", "Tepexpan", "Tepetlaoxtoc", "Chiconautla", "Zitlaltepec", "Coyotepec", "Tequixquiac",
-			   "Jilotzingo", "Tlapanaloya", "Tultitan", "Ecatepec", "Coatepec", "Chalchiuites", "Chiauhita", "Chapultepec",
-			   "Itzapalapa", "Ayotzinco", "Iztapam"]
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [Mysticism]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]"
+		],
+		"cities": [
+			"Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
+			"Atzcapotzalco", "Tzintzuntzan", "Malinalco", "Tula", "Tamuin", "Teayo", "Cempoala", "Chalco", "Tlalmanalco",
+			"Ixtapaluca", "Huexotla", "Tepexpan", "Tepetlaoxtoc", "Chiconautla", "Zitlaltepec", "Coyotepec", "Tequixquiac",
+			"Jilotzingo", "Tlapanaloya", "Tultitan", "Ecatepec", "Coatepec", "Chalchiuites", "Chiauhita", "Chapultepec",
+			"Itzapalapa", "Ayotzinco", "Iztapam"
+		],
+
+		// Diplomacy
+		"defeated": "The Aztec Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "I am pleased to meet you! Let us each slaughter fifty thousand slaves to celebrate this auspicious occasion.",
+
+		// AI_DIPLO_DECLARE_WAR_3: Prepare to meet your doom!
+		"declaringWar": "Prepare to meet your doom!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_3: That's not very nice of you.
+		"attacked": "That's not very nice of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome, friend! I will slaughter many slaves in celebration of your visit!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Tell me: what have your people done to anger the gods so that they give them you as leader?",
+
+		// USER_DIPLO_FISH_FOR_DEAL_1: What will you give me for this?
+		"tradeRequest": "What will you give me for this?"
 	},
+
 	{
 		"name": "China",
 		"leaderName": "Mao Zedong",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Chinese people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Mining]"],
-		"cities": ["Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
-			   "Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
-			   "Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
-			   "Liaoning", "Hubei", "Gansu", "Huangshi", "Yichang", "Yingtan", "Xinyu", "Xinzheng", "Handan", "Dunhuang",
-			   "Goayu", "Nantong", "Weifang", "Xikang"]
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Protective]",
+			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
+			"[+100]% Production when constructing [Walls] buildings [in your cities]",
+			"[+100]% Production when constructing [Castle] buildings [in your cities]"
+		],
+		"cities": [
+			"Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
+			"Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
+			"Taiyuan", "Tainan", "Dalian", "Lijiang", "Wuxi", "Suzhou", "Maoming", "Shaoguan", "Yangjiang", "Heyuan",
+			"Liaoning", "Hubei", "Gansu", "Huangshi", "Yichang", "Yingtan", "Xinyu", "Xinzheng", "Handan", "Dunhuang",
+			"Goayu", "Nantong", "Weifang", "Xikang"
+		],
+
+		// Diplomacy
+		"defeated": "The Chinese Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings. It is a pleasure to meet you. Here: have a copy of my little red book. You might learn something",
+
+		// AI_DIPLO_DECLARE_WAR_1: This world isn't big enough for the two of us!
+		"declaringWar": "This world isn't big enough for the two of us!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_4: We'll remember this.
+		"attacked": "We'll remember this.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "On behalf of the great and glorious Communist Party of China and of all of her horrible little peasants - I mean, \"glorious workers\" - greetings!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "It is people like you, who give ruthless dictators a bad name. Why are you here?",
+
+		// AI_DIPLO_FR_OFFER_DEAL_1: Greetings! What do you think of this deal?
+		"tradeRequest": "Greetings! What do you think of this deal?"
 	},
+
 	{
 		"name": "Egypt",
-		"leaderName": "Ramesses II",
-		
+		"leaderName": "Hatshepsut",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Egyptian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,255,0],
 		"innerColor": [0,0,204],
-		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
-		"cities": ["Thebes", "Memphis", "Heliopolis", "Elephantine", "Alexandria", "Piramesses", "Giza", "Byblos", "Akhetaten",
-		"Hieraconpolis", "Abydos", "Asyut", "Avaris", "Lisht", "Buto", "Edfu", "Pithom", "Busiris", "Kahun", "Athribis", "Mendes",
-		"Elashmunein", "Tanis", "Bubastis", "Tihs", "ryx", "Sebennytus", "Akhmin", "Karnak", "Luxor", "Elkab", "Armant", "Balat",
-		"Ellahun", "Ghurab", "Hawara", "Dashur", "Raqote", "Damanhur", "Merimde", "Abusir", "Herakleopolis", "Akoris", "Benihasan",
-		"Tasa", "Badari", "Ermopoli", "Amrah", "Negade", "Koptos", "Hermontis", "Ombos", "Aniba", "Soleb", "Semna", "Amara"]
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [The Wheel]",
+
+			"Comment [Creative]",
+			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
+			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+		],
+		"cities": [
+			"Thebes", "Memphis", "Heliopolis", "Elephantine", "Alexandria", "Piramesses", "Giza", "Byblos", "Akhetaten",
+			"Hieraconpolis", "Abydos", "Asyut", "Avaris", "Lisht", "Buto", "Edfu", "Pithom", "Busiris", "Kahun", "Athribis", "Mendes",
+			"Elashmunein", "Tanis", "Bubastis", "Tihs", "ryx", "Sebennytus", "Akhmin", "Karnak", "Luxor", "Elkab", "Armant", "Balat",
+			"Ellahun", "Ghurab", "Hawara", "Dashur", "Raqote", "Damanhur", "Merimde", "Abusir", "Herakleopolis", "Akoris", "Benihasan",
+			"Tasa", "Badari", "Ermopoli", "Amrah", "Negade", "Koptos", "Hermontis", "Ombos", "Aniba", "Soleb", "Semna", "Amara"
+		],
+
+		// Diplomacy
+		"defeated": "The Egyptian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Surely the gods have smiled upon you - for they have led you to me!",
+
+		// USER_DIPLO_WAR_1: Your head would look good on the end of a pole.
+		"declaringWar": "Your head would look good on the end of a pole.",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
+		"attacked": "You foolish person.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Hello again. How honored you must be to see me once more.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Bow before me - a goddess deserves no less!",
+
+		// AI_DIPLO_FR_OFFER_DEAL_2: Our peace-loving people seek a fair trade with you. How about it?
+		"tradeRequest": "Our peace-loving people seek a fair trade with you. How about it?"
 	},
+
 	{
 		"name": "England",
 		"leaderName": "Elizabeth",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the English people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
-		"cities": ["London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
-		"Liverpool", "Dover", "Brighton", "Norwich", "Leeds", "Reading", "Birmingham", "Richmond", "Exeter", "Cambridge",
-		"Gloucester", "Manchester", "Bristol", "Leicester", "Carlisle", "Ipswich", "Porsmouth", "Berwick", "Bath", "Mumbles",
-		"Southampton", "Sheffield", "Salisbury", "Colchester", "Plymouth", "Lancaster", "Winchester", "Blackpool", "Hull"]
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Mining]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
+		"cities": [
+			"London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
+			"Liverpool", "Dover", "Brighton", "Norwich", "Leeds", "Reading", "Birmingham", "Richmond", "Exeter", "Cambridge",
+			"Gloucester", "Manchester", "Bristol", "Leicester", "Carlisle", "Ipswich", "Porsmouth", "Berwick", "Bath", "Mumbles",
+			"Southampton", "Sheffield", "Salisbury", "Colchester", "Plymouth", "Lancaster", "Winchester", "Blackpool", "Hull"
+		],
+
+		// Diplomacy
+		"defeated": "The English Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome to my palace. I'm Elizabeth, the wise and really quite beautiful leader of mighty England. Let there be peace between us or we'll kill you.",
+
+		// AI_DIPLO_DECLARE_WAR_9: I suppose you realize, this means war.
+		"declaringWar": "I suppose you realize, this means war.",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_6: I expected better of you.
+		"attacked": "I expected better of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Good afternoon. And how is that quaint little empire of yours doing?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Well? Out with it, you tiresome little person!",
+
+		// AI_DIPLO_FR_OFFER_DEAL_3: How does this sound to you?
+		"tradeRequest": "How does this sound to you?"
 	},
+
 	{
 		"name": "France",
 		"leaderName": "Napoleon",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the French people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,0,204],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
-		"cities": ["Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
-		"Grenoble", "Dijon", "Amiens", "Cherbourg", "Poitiers", "Toulouse", "Bayonne", "Strasbourg", "Brest", "Bordeaux", "Rennes",
-		"Nice", "St. Etienne", "Nantes", "Reims", "Le Mans", "Montpellier", "Limoges", "Nancy", "Lille", "Caen", "Toulon", "Le Havre",
-		"Lourdes", "Cannes", "Aix-en-Province", "La Rochelle", "Bourges", "Calais"]
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [The Wheel]",
+
+			"Comment [Organized]",
+			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
+			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
+			"[+100]% Production when constructing [Factory] buildings [in your cities]",
+			"[+100]% Production when constructing [Courthouse] buildings [in your cities]",
+
+			"Comment [Charismatic]",
+			"[+1 Happiness]",
+			"[+25]% XP gained from combat",
+			"[+1 Happiness] from every [Monument]",
+			"[+1 Happiness] from every [Broadcast Tower]"
+		],
+		"cities": [
+			"Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
+			"Grenoble", "Dijon", "Amiens", "Cherbourg", "Poitiers", "Toulouse", "Bayonne", "Strasbourg", "Brest", "Bordeaux", "Rennes",
+			"Nice", "St. Etienne", "Nantes", "Reims", "Le Mans", "Montpellier", "Limoges", "Nancy", "Lille", "Caen", "Toulon", "Le Havre",
+			"Lourdes", "Cannes", "Aix-en-Province", "La Rochelle", "Bourges", "Calais"
+		],
+
+		// Diplomacy
+		"defeated": "The French Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings. I'm Napolean, Emperor, Marshal, and First Citizen of France. You can call me \"Little Corporal,\" but then I'll have to kill you.",
+
+		// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
+		"declaringWar": "The time for talking is over! We shall shall settle this on the field of battle!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_1: I hope you don't come to regret this.
+		"attacked": "I hope you don't come to regret this.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "I am quite busy today, but perhaps I can grant you a short audience.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "I have little time for your prattle. That is the long and short of it.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_4: What do you think of this deal?
+		"tradeRequest": "What do you think of this deal?"
 	},
+
 	{
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
-		
-		"outerColor": [128,128,128],
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the German people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
+		"outerColor": [201, 197, 189],
 		"innerColor": [0,0,0],
-		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"],
-		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
-		"Hannover", "Duisburg", "Leipzig", "Nuremberg", "Dresden", "Bonn", "Bochum", "Magdeburg", "Bielefeld", "Mannheim", "Karlsruhe",
-		"Gelsenkirchen", "Wiesbaden", "Munster", "Rostock", "Augsburg", "Chemnitz", "Aachen", "Braunschweig", "Halle", "Monchengladbach",
-		"Kiel", "Lubeck", "Freiburg", "Heidelberg", "Kassel", "Mainz", "Saarbrucken", "Potsdam", "Leverkusen", "Oldenburg", "Neuss", "Trier"]
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Industrious]",
+			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
+			"[+100]% Production when constructing [Forge] buildings [in your cities]"
+		],
+		"cities": [
+			"Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
+			"Hannover", "Duisburg", "Leipzig", "Nuremberg", "Dresden", "Bonn", "Bochum", "Magdeburg", "Bielefeld", "Mannheim", "Karlsruhe",
+			"Gelsenkirchen", "Wiesbaden", "Munster", "Rostock", "Augsburg", "Chemnitz", "Aachen", "Braunschweig", "Halle", "Monchengladbach",
+			"Kiel", "Lubeck", "Freiburg", "Heidelberg", "Kassel", "Mainz", "Saarbrucken", "Potsdam", "Leverkusen", "Oldenburg", "Neuss", "Trier"
+		],
+
+		// Diplomacy
+		"defeated": "The German Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "The German people greet you. I, Otto von Bismarck, desire peace with all my neighbors - even with your puny culture.",
+
+		// AI_DIPLO_DECLARE_WAR_7: Time to die.
+		"declaringWar": "Time to die.",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_2: Very well. On your own head be it.
+		"attacked": "Very well. On your own head be it.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Germany salutes you. Come - sit down and admire my huge mustaches!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Get to the point. I have IMPORTANT matters of state to deal with.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
+		"tradeRequest": "My friend, can I tempt you with this offer?"
 	},
+
 	{
 		"name": "Greece",
 		"leaderName": "Alexander",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Greek people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,128,255],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Fishing]", "Starts with [Hunting]"],
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Hunting]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
 		"cities": ["Athens", "Sparta", "Corinth", "Thebes", "Argos", "Knossos", "Mycenae", "Pharsalos", "Ephesus", "Halicarnassus",
-		"Rhodes", "Eretria", "Pergamon", "Milteos", "Megara", "Phocaea", "Sicyon", "Tiryns", "Samos", "Mytilene", "Chios", "Paros",
-		"Tegea", "Elis", "Syracuse", "Herakleia", "Gortyn", "Chalkis", "Pylos", "Pella", "Naxos", "Smyrna", "Larissa", "Apollonia",
-		"Messene", "Orchomenos", "Ambracia", "Kos", "Knidos", "Amphipolis", "Patras", "Lamia", "Nafplion", "Apolyotn"]
+			"Rhodes", "Eretria", "Pergamon", "Milteos", "Megara", "Phocaea", "Sicyon", "Tiryns", "Samos", "Mytilene", "Chios", "Paros",
+			"Tegea", "Elis", "Syracuse", "Herakleia", "Gortyn", "Chalkis", "Pylos", "Pella", "Naxos", "Smyrna", "Larissa", "Apollonia",
+			"Messene", "Orchomenos", "Ambracia", "Kos", "Knidos", "Amphipolis", "Patras", "Lamia", "Nafplion", "Apolyotn"
+		],
+
+		// Diplomacy
+		"defeated": "The Greek Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings! I am Alexander, ruler of the warlike Greece!\nLet us join together and crush the world's armies beneath\nour sandals! It'll be way cool!",
+
+		// AI_DIPLO_DECLARE_WAR_10: We've has had enough of your treachery and deceit! Now you must pay!
+		"declaringWar": "We've has had enough of your treachery and deceit! Now you must pay!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_3: As you will.
+		"attacked": "As you will.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome, my friend! Come, let us mount our chariots\nand destroy our foes, leaving fifty thousand rotting corpses\nupon the battlefield for the crows to fatten upon!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Still alive, are you? How disappointing.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_6: Let's make a deal!
+		"tradeRequest": "Let's make a deal!"
 	},
+
 	{
 		"name": "Inca",
 		"leaderName": "Huayna Capac",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Incan people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,255,0],
 		"innerColor": [255,0,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Mysticism]"],
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [Mysticism]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]",
+
+			"Comment [Industrious]",
+			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
+			"[+100]% Production when constructing [Forge] buildings [in your cities]"
+		],
 		"cities": ["Cuzco", "Tiwanaku", "Machu Pichu", "Ollantaytambo", "Corihuayrachina", "Huamanga", "Vilcas", "Vilcabamba", "Vitcos",
 		"Andahuaylas", "Ica", "Arequipa", "Nasca", "Atico", "Juli", "Chuito", "Chuqulapo", "Huanucopampa", "Tamboccocha", "Huaras",
 		"Riobamba", "Caxamalca", "Sausa", "Tambocolorado", "Huaca", "Tumbes", "Chan Chan", "Sipan", "Pachacamap", "Llactapata", "Pisac",
-		"Kuelap", "Pajaten", "Limatambo", "Chucuito"]
+		"Kuelap", "Pajaten", "Limatambo", "Chucuito"
+		],
+
+		// Diplomacy
+		"defeated": "The Incan Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "The Inca welcomes your glorious people and their\nleader. You play ceremonial ball with us, we'll\nplay ceremonial ball with you.",
+
+		// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
+		"declaringWar": "The time for talking is over! We shall shall settle this on the field of battle!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_4: Remember, what goes around comes around...
+		"attacked": "Remember, what goes around comes around...",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "I, Huayna Capac, do welcome you. Let us speak\nof the slow, painful deaths of our enemies!\nCare for a smoked hamster?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "It is a source of unending astonishment to me\nthat the gods permit you to live.\nWhy are you here?",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_1: I'm making you an offer you can't refuse.
+		"tradeRequest": "I'm making you an offer you can't refuse."
 	},
+
 	{
 		"name": "India",
 		"leaderName": "Gandhi",
 
-		"outerColor": [212,116,245],
+		"startIntroPart1": "The sun rises. Since time immemorial, the Indian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
+		"outerColor": [201,110,232],
 		"innerColor": [255,255,255],
-		"uniques": ["Starts with [Mysticism]", "Starts with [Mining]"],
-		"cities": ["Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
-		"Bengal", "Chittagong", "Punjab", "Dacca", "Indus", "Pune", "Lucknow", "Varanasi", "Bhopal", "Rajshahi", "Rangoon",
-		"Mandalay", "Peshawar", "Darjeeling", "Cochin", "Cuttack", "Goa", "Calicut", "Rawalpindi", "Quetta", "Howrah", 
-		"Triverapatnam", "Dakpathar", "Thanjavur", "Jaunpur", "Kodaikanal", "Vrindavan", "Guwahati", "Bhalukpong", "Sonepur",
-		"Vaishali", "Rewalsar", "Kurukshetra", "Subarnapur", "Wadhvan", "Narkanda", "Dhanaulti", "Chitradurga", "Srikakulam",
-		"Vijayaweda", "Banswara"]
-		
+		"uniques": [
+			"Starts with [Mysticism]",
+			"Starts with [Mining]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
+		"cities": [
+			"Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
+			"Bengal", "Chittagong", "Punjab", "Dacca", "Indus", "Pune", "Lucknow", "Varanasi", "Bhopal", "Rajshahi", "Rangoon",
+			"Mandalay", "Peshawar", "Darjeeling", "Cochin", "Cuttack", "Goa", "Calicut", "Rawalpindi", "Quetta", "Howrah",
+			"Triverapatnam", "Dakpathar", "Thanjavur", "Jaunpur", "Kodaikanal", "Vrindavan", "Guwahati", "Bhalukpong", "Sonepur",
+			"Vaishali", "Rewalsar", "Kurukshetra", "Subarnapur", "Wadhvan", "Narkanda", "Dhanaulti", "Chitradurga", "Srikakulam",
+			"Vijayaweda", "Banswara"
+		],
+
+		// Diplomacy
+		"defeated": "The Indian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome to my humble home. India desires\npeace with all of her neighbors - even\nthe really annoying ones like yours.",
+
+		// AI_DIPLO_DECLARE_WAR_2: We have suffered your insolence for long enough!
+		"declaringWar": "We have suffered your insolence for long enough!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_5: Fine. See if we help you out when you need it.
+		"attacked": "Fine. See if we help you out when you need it.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Greetings. I trust you have come in peace?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "All people, no matter how unpleasant,\nare welcome in India.",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_2: Show some intelligence for a change. Accept this deal.
+		"tradeRequest": "Show some intelligence for a change. Accept this deal."
 	},
+
 	{
 		"name": "Japan",
 		"leaderName": "Tokugawa Ieyasu",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Japanese people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
-		"uniques": ["Starts with [Fishing]", "Starts with [The Wheel]"],
-		"cities": ["Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
-		"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
-		"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
-		"Kochi", "Naha"]
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [The Wheel]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
+
+			"Comment [Protective]",
+			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
+			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
+			"[+100]% Production when constructing [Walls] buildings [in your cities]",
+			"[+100]% Production when constructing [Castle] buildings [in your cities]"
+		],
+		"cities": [
+			"Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
+			"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
+			"Omi", "Echigo", "Kozuke", "Sado", "Kobe", "Nagano", "Hiroshima", "Takayama", "Akita", "Fukuoka", "Aomori", "Kamakuro",
+			"Kochi", "Naha"
+		],
+
+		// Diplomacy
+		"defeated": "The Japanese Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome! May your empire flourish and\ngrow for as long as it remains useful to us!\nI mean that sincerely.",
+
+		// USER_DIPLO_WAR_1: Your head would look good on the end of a pole.
+		"declaringWar": "Your head would look good on the end\nof a pole.",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_6: That's too bad. For the both of us, I fear.
+		"attacked": "That's too bad. For the both of us, I fear.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "It is good to see you again! Let us sit\ndown and plot the ruination of our\nenemies.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Greetings! We are honored by your visit.\nYou can be sure that we will be coming\nto your country very soon now.",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_3: We are offering you this trade. I suggest you take it.
+		"tradeRequest": "We are offering you this trade. I\nsuggest you take it."
 	},
+
 	{
 		"name": "Mali",
 		"leaderName": "Mansa Musa",
 
+		"startIntroPart1": "The sun rises. Since time immemorial, the Mali people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [196,164,28],
 		"innerColor": [27,20,9],
-		"uniques": ["Starts with [Mining]", "Starts with [The Wheel]"],
-		"cities": ["Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
-		"Wadan", "Agades", "Teodeni", "Taghaza", "Katsina", "Kano", "Zaria", "Bilma", "Ngazargamu", "Kangaba", "Dia", "Tiraqqa",
-		"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"]
+		"uniques": [
+			"Starts with [Mining]",
+			"Starts with [The Wheel]",
+
+			"Comment [Financial]",
+			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
+			"[+100]% Production when constructing [Bank] buildings [in your cities]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+		],
+		"cities": [
+			"Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
+			"Wadan", "Agades", "Teodeni", "Taghaza", "Katsina", "Kano", "Zaria", "Bilma", "Ngazargamu", "Kangaba", "Dia", "Tiraqqa",
+			"Awkar", "Kukiya", "Takrur", "Arawan", "Sya", "Taoudenni", "Bambouk", "Kirina"
+		],
+
+		// Diplomacy
+		"defeated": "The Maili Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome. I, Mansa Musa, humble ruler of Mali,\noffer my hand to you in friendship.",
+
+		// AI_DIPLO_DECLARE_WAR_2: We have suffered your insolence for long enough!
+		"declaringWar": "We have suffered your insolence for long enough!",
+
+		// USER_DIPLO_WAR_RESPONSE_1: So it be.
+		"attacked": "So it be.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "We meet again. It is truly a\nblessed day for Mali!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "I do not approve of you or your country. What\nhave you to say that will change my opinion of you?",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_4: Here's our offer. Take it or leave it.
+		"tradeRequest": "Here's our offer. Take it or leave it."
 	},
+
 	{
 		"name": "Mongolia",
-		"leaderName": "Genkhis Khan",
+		"leaderName": "Genghis Khan",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Mongolian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		"outerColor": [121,82,3],
 		"innerColor": [228,188,8],
-		"uniques": ["Starts with [Hunting]", "Starts with [The Wheel]"],
-		"cities": ["Karakorum", "Beshbalik", "Turfan", "Ning-hsia", "Old Sarai", "New Sarai", "Samarqand", "Tabriz", "Tiflis",
-		"Otrar", "Sanchu", "Kazan", "Almarikh", "Ulaanbaatar", "Hovd", "Darhan", "Dalandzadgad", "Mandalgovi", "Choybalsan",
-		"Erdenet", "Tsetserleg", "Baruun-Urt", "Ereen", "Batshireet", "Choyr", "Ulaangom", "Tosontsengel", "Atlay", "Uliastay",
-		"Bayanhongor", "Har-Ayrag", "Nalayh", "Tes"]
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [The Wheel]",
+
+			"Comment [Aggressive]",
+			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
+			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
+			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
+			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]"
+		],
+		"cities": [
+			"Karakorum", "Beshbalik", "Turfan", "Ning-hsia", "Old Sarai", "New Sarai", "Samarqand", "Tabriz", "Tiflis",
+			"Otrar", "Sanchu", "Kazan", "Almarikh", "Ulaanbaatar", "Hovd", "Darhan", "Dalandzadgad", "Mandalgovi", "Choybalsan",
+			"Erdenet", "Tsetserleg", "Baruun-Urt", "Ereen", "Batshireet", "Choyr", "Ulaangom", "Tosontsengel", "Atlay", "Uliastay",
+			"Bayanhongor", "Har-Ayrag", "Nalayh", "Tes"
+		],
+
+		// Diplomacy
+		"defeated": "The Mongolian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome, leader. My horde can beat\nyour horde any day of the week.\nShall we be friends or enemies?",
+
+		// AI_DIPLO_DECLARE_WAR_3: Prepare to meet your doom!
+		"declaringWar": "Prepare to meet your doom!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_1: We shall remember this.
+		"attacked": "We shall remember this.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome to my yurt! Let us sit\nupon these horse-hair cushions and\ndiscuss many things!\nCare for some boiled yak?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "And they call US barbarians?",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_6: Here's the deal
+		"tradeRequest": "Here's the deal."
 	},
+
 	{
 		"name": "Persia",
 		"leaderName": "Cyrus II",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Persian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [0,204,204],
 		"innerColor": [0,0,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
-		"cities": ["Persepolis", "Pasargadae", "Susa", "Ecbatana", "Arbela", "Tarsus", "Gordium", "Bactra", "Sardis", "Ergili",
-		"Dariushkabir", "Ghulaman", "Zohak", "Istakhr", "Jinjan", "Borazjan", "Herat", "Dakyanus", "Bampur", "Turengtepe", "Rey",
-		"Shiraz", "Tushpa", "Hasanlu", "Gabae", "Merv", "Behistun", "Kandahar", "Altintepe", "Bunyan", "Charsadda", "Dura Europos",
-		"Aleppo", "Qatna", "Kabul", "Capisa", "Marakanda", "Peshawar", "Taxila", "Van", "Arshada", "Ekatompylos", "Kapisa", "Karmana",
-		"Phrada" ]
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [Hunting]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]",
+
+			"Comment [Charismatic]",
+			"[+1 Happiness]",
+			"[+25]% XP gained from combat",
+			"[+1 Happiness] from every [Monument]",
+			"[+1 Happiness] from every [Broadcast Tower]"
+		],
+		"cities": [
+			"Persepolis", "Pasargadae", "Susa", "Ecbatana", "Arbela", "Tarsus", "Gordium", "Bactra", "Sardis", "Ergili",
+			"Dariushkabir", "Ghulaman", "Zohak", "Istakhr", "Jinjan", "Borazjan", "Herat", "Dakyanus", "Bampur", "Turengtepe", "Rey",
+			"Shiraz", "Tushpa", "Hasanlu", "Gabae", "Merv", "Behistun", "Kandahar", "Altintepe", "Bunyan", "Charsadda", "Dura Europos",
+			"Aleppo", "Qatna", "Kabul", "Capisa", "Marakanda", "Peshawar", "Taxila", "Van", "Arshada", "Ekatompylos", "Kapisa", "Karmana",
+			"Phrada"
+		],
+
+		// Diplomacy
+		"defeated": "The Persian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings, oh wise ruler!\nPersia is strong - shall we count you\namong our friends, or among our enemies?",
+
+		// AI_DIPLO_DECLARE_WAR_4: Now you shall pay for your many insults.
+		"declaringWar": "Now you shall pay for your many insults.",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_2: How shortsighted of you.
+		"attacked": "How shortsighted of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "I salute you. May your inevitable destruction\nat the hands of Mighty Persia\nbe long delayed!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "I wonder: how many hanging chads did\nit take to get YOU into office?",
+
+		// USER_DIPLO_COMPLETE_DEAL_1: What would make this deal work?
+		"tradeRequest": "What would make this deal work?"
 	},
+
 	{
 		"name": "Rome",
 		"leaderName": "Augustus Caesar",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Roman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [102,0,51],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
-		"cities": ["Rome", "Antium", "Cumae", "Neapolis", "Pisae", "Ravenna", "Arretium", "Mediolanum", "Arpinum", "Circei",
-		"Setia", "Satricum", "Ardea", "Ostia", "Velitrae", "Viroconium", "Tarentum", "Brundisium", "Caesaraugusta", "Caesarea",
-		"Palmyra", "Signia", "Aquileia", "Clusium", "Sutrium", "Cremona", "Placentia", "Hispalis", "Nicomedia", "Artaxata",
-		"Aurelianorum", "Nicopolis", "Londinium", "Eburacum", "Gordion", "Agrippina", "Lugdunum", "Verona", "Corfinium", "Treveri",
-		"Sirmium", "Augustadorum", "Bagacum", "Lauriacum", "Teurnia", "Curia", "Fregellae", "Albafucens", "Sora", "Interrama",
-		"Suessa", "Saticula", "Luceria", "Ariminium", "Senegllica", "Castrumnovum", "Hadris"]
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Mining]",
+
+			"Comment [Industrious]",
+			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
+			"[+100]% Production when constructing [Forge] buildings [in your cities]",
+
+			"Comment [Imperialistic]",
+			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
+			"[+100]% Production when constructing [Settler] units [in your cities]"
+		],
+		"cities": [
+			"Rome", "Antium", "Cumae", "Neapolis", "Pisae", "Ravenna", "Arretium", "Mediolanum", "Arpinum", "Circei",
+			"Setia", "Satricum", "Ardea", "Ostia", "Velitrae", "Viroconium", "Tarentum", "Brundisium", "Caesaraugusta", "Caesarea",
+			"Palmyra", "Signia", "Aquileia", "Clusium", "Sutrium", "Cremona", "Placentia", "Hispalis", "Nicomedia", "Artaxata",
+			"Aurelianorum", "Nicopolis", "Londinium", "Eburacum", "Gordion", "Agrippina", "Lugdunum", "Verona", "Corfinium", "Treveri",
+			"Sirmium", "Augustadorum", "Bagacum", "Lauriacum", "Teurnia", "Curia", "Fregellae", "Albafucens", "Sora", "Interrama",
+			"Suessa", "Saticula", "Luceria", "Ariminium", "Senegllica", "Castrumnovum", "Hadris"
+		],
+
+		// Diplomacy
+		"defeated": "The Roman Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "It is excellent to meet you! Would you care\nto surrender to mighty Rome Empire now or\nwould you prefer to put off the inevitable for a while?",
+
+		// AI_DIPLO_DECLARE_WAR_7: Time to die.
+		"declaringWar": "Time to die.",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_3: That's not very nice of you.
+		"attacked": "That's not very nice of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Greetings, my friend.\nWhat may I, Caesar, Emperor of Mighty Roman Empire, do for\nyour insignificant civilization today?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Why are you here? Is it the Ides of March already?",
+
+		// AI_DIPLO_FR_OFFER_DEAL_1: Greetings! What do you think of this deal?
+		"tradeRequest": "Greetings! What do you think of this deal?"
 	},
+
 	{
 		"name": "Russia",
 		"leaderName": "Peter",
-		
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Russian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,0],
-		"uniques": ["Starts with [Hunting]", "Starts with [Mining]"],
-		"cities": ["Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
-		"Smolensk", "Orenburg", "Krasnoyarsk", "Khabarovsk", "Bryansk", "Tver", "Novosibirsk", "Magadan", "Murmansk", "Irkutsk",
-		"Chita", "Samara", "Arkhangel'sk", "Chelyabinsk", "Tobol'sk", "Vologda", "Omsk", "Astrakhan", "Kursk", "Saratov", "Tula",
-		"Vladimir", "Perm", "Voronezh", "Pskov", "Starayarussa", "Kostoma", "Nizhiynovgorod", "Sudzal", "Magnitogorsk"]
+		"uniques": [
+			"Starts with [Hunting]",
+			"Starts with [Mining]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Philosophical]",
+			"[+100]% Great Person generation [in your cities]",
+			"[+100]% Production when constructing [University] buildings [in your cities]"
+		],
+		"cities": [
+			"Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
+			"Smolensk", "Orenburg", "Krasnoyarsk", "Khabarovsk", "Bryansk", "Tver", "Novosibirsk", "Magadan", "Murmansk", "Irkutsk",
+			"Chita", "Samara", "Arkhangel'sk", "Chelyabinsk", "Tobol'sk", "Vologda", "Omsk", "Astrakhan", "Kursk", "Saratov", "Tula",
+			"Vladimir", "Perm", "Voronezh", "Pskov", "Starayarussa", "Kostoma", "Nizhiynovgorod", "Sudzal", "Magnitogorsk"
+		],
+
+		// Diplomacy
+		"defeated": "The Russian Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome. I am Peter, ruler of all of Russia.\nYou will find me a fair man to deal with - cruel, but fair.",
+
+		// AI_DIPLO_DECLARE_WAR_8: Fool! Now we shall destroy you!
+		"declaringWar": "Fool! Now we shall destroy you!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
+		"attacked": "You foolish person.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Mighty Russia greets you in friendship.\nAnd in a drunken stupor too.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Be brief. I'm trying to give up hacking\nannoying people to death in a blind\nrage for Lent.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_6: Let's make a deal!
+		"tradeRequest": "Let's make a deal!"
 	},
+
 	{
-		"name": "Spain", 
+		"name": "Spain",
 		"leaderName": "Isabella",
+
+		"startIntroPart1": "The sun rises. Since time immemorial, the Spanish people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		"outerColor": [236,174,143],
 		"innerColor": [123,22,19],
-		"uniques": ["Starts with [Fishing]", "Starts with [Mysticism]"],
-		"cities": ["Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
-		"Pamplona", "Vitoria", "Santander", "Asturias", "Jaen", "Logrono", "Valladolid", "Palma", "Teruel", "Almeria", "Leon",
-		"Zamora", "Mida", "Lugo", "Alicante", "Cadiz", "Elche", "Alcorcon", "Burgos", "Vigo", "Badajoz", "La Coruna", "Oviedo",
-		"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"]
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Mysticism]",
+
+			"Comment [Expansive]",
+			"Provides [+2] [Health] <in [City center] tiles>",
+			"[+25]% Production when constructing [Worker] units [in your cities]",
+			"[+100]% Production when constructing [Granary] buildings [in your cities]",
+			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
+
+			"Comment [Spiritual]",
+			// There is no anarchy when changing a civic
+			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+		],
+		"cities": [
+			"Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
+			"Pamplona", "Vitoria", "Santander", "Asturias", "Jaen", "Logrono", "Valladolid", "Palma", "Teruel", "Almeria", "Leon",
+			"Zamora", "Mida", "Lugo", "Alicante", "Cadiz", "Elche", "Alcorcon", "Burgos", "Vigo", "Badajoz", "La Coruna", "Oviedo",
+			"Bilbao", "San Sebastian", "Granada", "Mérida", "Huelva", "Ibiza", "Las Palmas", "Tenerife"
+		],
+
+		// Diplomacy
+		"defeated": "The Spanish Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Her most righteous majesty, Isabella, beloved of God and\nprotector of the faith, does condescend to greet you.\nDo tell me: are you a righteous people, or are\nyou fiendish heathens who need to be wiped\noff of the face of this fair land?",
+
+		// AI_DIPLO_DECLARE_WAR_6: Soon my numberless minions shall destroy you all!
+		"declaringWar": "Soon my numberless minions shall destroy you all!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_6: I expected better of you.
+		"attacked": "I expected better of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Her most righteous majesty, Isabella, beloved\nof God and protector of the faith,\ndoes condescend to greet you once more.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "I'm glad you're here.\nMy Grand Inquisitor would like to have a word with you.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_3: How does this sound to you?
+		"tradeRequest": "How does this sound to you?"
 	},
+
+	//Barbarian
 	{
-		"name": "Sumeria",
-		"leaderName": "Gilgamesh",
-		
-		"outerColor": [76,0,153],
-		"innerColor": [255,128,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [The Wheel]"],
-		"cities": ["Uruk", "Eridu", "Kish", "Lagash", "Ur", "Nibru", "Bad-Tibira", "Zimbir", "Shuruppak", "Umma", "Larsa", "Isin",
-		"Girsu", "Adab", "Zabalam", "Akshak", "Larak", "Kisiga", "Nina", "Dilbat", "Kutu", "Marad", "Enegi", "Abu Salabikh",
-		"Ki-an", "Pazurish-Dagan", "Dabrum", "Kissura", "Kutallu", "Nagsu", "Kesh", "Aratta", "Der", "Hamazi", "Apisada",
-		"Jemdet Nasr", "Ubaid"]
-	},
-	{
-		"name": "Zulu",
-		"leaderName": "Shaka",
-		
-		"outerColor": [255,255,0],
-		"innerColor": [0,0,0],
-		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
-		"cities": ["Ulundi", "Umgungundlovu", "Nobamba", "Bulawayo", "Kwadukuza", "Nongoma", "Ondini", "Nodwengu", "Ndondakusuka",
-		"Babanango", "Khangela", "Kwahlomendlini", "Hlobane", "Ethekwini", "Mlambongwenya", "Eziqwaqweni", "Emangweni", "Isiphezi",
-		"Masotsheni", "Mtunzini", "Nyakamubi", "Dumazulu", "Hlatikulu", "Mthonjaneni", "Empangeni", "Pongola", "Tungela", "Kwamashu",
-		"Ingwavuma", "Hluhluwe", "Mtubatuba", "Mhlahlandlela", "Mthatha", "Maseru", "Lobamba", "Qunu"]
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": [
+			"Can only heal by pillaging",
+			"Excluded from map editor",
+			"[Water] units gain the [Unable to pillage tiles] promotion"
+		]
 	}
 ]

@@ -1,0 +1,59 @@
+// Civ 4 Religions are represented as Pantheons in Unciv
+[
+	{
+		"name": "Buddhism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+100]% Production when constructing [Cathedral] buildings [in your cities] <with [Copper]>",
+			"Only available <after discovering [Meditation]>"
+		]
+	},
+	{
+		"name": "Christianity",
+		"type": "Pantheon",
+		"uniques": [
+			"[+100]% Production when constructing [Cathedral] buildings [in your cities] <with [Stone]>",
+			"Only available <after discovering [Theology]>"
+		]
+	},
+	{
+		"name": "Confucianism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+100]% Production when constructing [Cathedral] buildings [in your cities] <with [Copper]>",
+			"Only available <after discovering [Code of Laws]>"
+		]
+	},
+	{
+		"name": "Hinduism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+100]% Production when constructing [Cathedral] buildings [in your cities] <with [Marble]>",
+			"Only available <after discovering [Polytheism]>"
+		]
+	},
+	{
+		"name": "Islam",
+		"type": "Pantheon",
+		"uniques": [
+			"[+100]% Production when constructing [Cathedral] buildings [in your cities] <with [Marble]>",
+			"Only available <after discovering [Divine Right]>"
+		]
+	},
+	{
+		"name": "Judaism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+100]% Production when constructing [Cathedral] buildings [in your cities] <with [Stone]>",
+			"Only available <after discovering [Monotheism]>"
+		]
+	},
+	{
+		"name": "Taoism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+100]% Production when constructing [Cathedral] buildings [in your cities] <with [Copper]>",
+			"Only available <after discovering [Philosophy]>"
+		]
+	}
+]

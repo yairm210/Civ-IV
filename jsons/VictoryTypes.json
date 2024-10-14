@@ -1,16 +1,50 @@
 [
     {
-        "name": "Domination",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
+        "name": "Domination", // Named "Conquest" in Civ IV. We keep this as Domination to align with the Unciv defaults.
+        "victoryScreenHeader": "Eliminate all other\ncivilizations.",
         "milestones": ["Destroy all players"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "victoryString": "You have won a Domination Victory!!!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
+
+    {
+        "name": "Scientific", // Named "Space Race" in Civ IV. We keep this as Scientific to align with the Unciv defaults.
+        "victoryScreenHeader": "Build and Launch your\nspacecraft and get to\nAlpha Centauri first.",
+        "milestones": [
+			"Build [Apollo Program]",
+			"Build [SS Casing]",
+			"Build [SS Cockpit]",
+			"Build [SS Docking Bay]",
+			"Build [SS Engine]",
+			"Build [SS Life Support]",
+			"Build [SS Stasis Chamber]",
+			"Build [SS Thrusters]",
+			"Build [Spaceship]"
+		],
+        "victoryString": "You have won a Scientific Victory!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+
+	{
+        "name": "Diplomatic",
+        "victoryScreenHeader": "Win a United Nations\nelection as world leader.",
+        "milestones": [
+			"Anyone should build [United Nations]",
+			"Win diplomatic vote"
+		],
+        "victoryString": "You have won a Diplomatic Victory!!!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+
     {
         "name": "Time",
+        "victoryScreenHeader": "Have the highest score\nwhen the time ends.",
         "hiddenInVictoryScreen": true,
         "milestones": ["Have highest score after max turns"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "victoryString": "You have won a Time Victory!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
+
+	// TODO: Add Cultural Victory: Be in possession of 3 cities with legendary culture.
+	// TODO: Add Domination Victory: Lead in world population by 30%
 ]
