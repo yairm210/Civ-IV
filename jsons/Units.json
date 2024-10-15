@@ -906,8 +906,6 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"Cannot attack",
-			"Requires at least [2] population",
-            "[-1] population [in this city]",
 			"Excess Food converted to Production when under construction"
 		],
 		"hurryCostModifier": 20
