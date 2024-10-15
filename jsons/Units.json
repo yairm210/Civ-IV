@@ -922,7 +922,8 @@
 			"Can build [Land] improvements on tiles",
 			"Cannot attack",
 			// Scrub fallout from tiles
-			"Automation is a primary action"
+			"Automation is a primary action",
+			"Excess Food converted to Production when under construction"
 		],
 		"hurryCostModifier": 20
 	},
@@ -1329,7 +1330,8 @@
 			"Can build [Land] improvements on tiles",
 			"Never appears as a Barbarian unit",
 			"Automation is a primary action",
-			"Cannot attack"
+			"Cannot attack",
+			"Excess Food converted to Production when under construction"
 		]
 	},
 
