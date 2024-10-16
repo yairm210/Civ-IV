@@ -181,6 +181,16 @@
 		"era": "Classical era",
 		"techs": [
 			{
+				"name": "Aesthetics",
+				"cost": 300,
+				"row": 3,
+				"prerequisites": ["Writing"],
+				"uniques": [
+					"Only available <if [Civ IV Beyond the Sword] is enabled>"
+				],
+				"quote": "\"Art for Art's sake is an empty phrase. Art for the sake of truth, art for the sake of the good and the beautiful, that is the faith I am searching for.\" - George Sand"
+			},
+			{
 				"name": "Mathematics",
 				"cost": 250,
 				"row": 5,
@@ -190,7 +200,7 @@
 			{
 				"name": "Alphabet",
 				"cost": 300,
-				"row": 1,
+				"row": 7,
 				"prerequisites": ["Writing"],
 				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "\"Words have the power to both destroy and heal. When words are both true and kind, they can change our world.\" - Buddha"
@@ -198,7 +208,7 @@
 			{
 				"name": "Monarchy",
 				"cost": 300,
-				"row": 2,
+				"row": 9,
 				"uniques": [
 					"Comment [Hereditary Rule Civic]"
 				],
@@ -223,7 +233,10 @@
 				"name": "Literature",
 				"cost": 200,
 				"row": 2,
-				"prerequisites": ["Alphabet"],
+				"prerequisites": ["Polytheism"],
+				"uniques": [
+					"Unavailable <before discovering [Aesthetics]> <if [Civ IV Beyond the Sword] is enabled>"
+				],
 				"quote": "\"Some books are to be tasted, others to be swallowed and some few to be chewed and digested.\" - Sir Francis Bacon"
 			},
 			{
@@ -266,6 +279,9 @@
 				"cost": 300,
 				"row": 4,
 				"prerequisites": ["Alphabet"],
+				"uniques": [
+					"Unavailable <before discovering [Aesthetics]> <if [Civ IV Beyond the Sword] is enabled>"
+				],
 				"quote": "\"All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.\" - William Shakespeare"
 			},
 			{
@@ -539,11 +555,21 @@
 				"quote": "\"I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.\" - Galileo Galilei"
 			},
 			{
+				"name": "Military Science",
+				"cost": 2000,
+				"row": 8,
+				"prerequisites": ["Chemistry"],
+				"uniques": [
+					"Only available <if [Civ IV Beyond the Sword] is enabled>"
+				],
+				"quote": "\"I must study politics and war that my sons may have liberty to study mathematics and philosophy.\" - John Adams"
+			},
+			{
 				"name": "Steel",
 				"cost": 2800,
 				"row": 9,
 				"prerequisites": ["Chemistry", "Iron Working"],
-				"quote": "\"Before that steam drill shall beat me down, I’ll die with my hammer in my hand.\" - John Henry, The Steel-Driving Man"
+				"quote": "\"Before that steam drill shall beat me down, I'll die with my hammer in my hand.\" - John Henry, The Steel-Driving Man"
 			}
 		]
 	},
@@ -700,7 +726,7 @@
 				"name": "Satellites",
 				"cost": 6000,
 				"row": 3,
-				"prerequisites": ["Radio", "Rocketry", "Flight"],
+				"prerequisites": ["Radio", "Rocketry"],
 				"uniques": [
 					"Reveals the entire map"
 				],
@@ -734,35 +760,91 @@
 		"era": "Modern era",
 		"techs": [
 			{
+				"name": "Advanced Flight",
+				"cost": 5000,
+				"row": 1,
+				"prerequisites": ["Satellites", "Flight"],
+				"uniques": [
+					"Only available <if [Civ IV Beyond the Sword] is enabled>"
+				],
+				"quote": "\"Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.\" - John Gillespie Magee"
+			},
+
+			{
+				"name": "Laser",
+				"cost": 7000,
+				"row": 3,
+				"prerequisites": ["Plastics", "Satellites"],
+				"uniques": [
+					"Only available <if [Civ IV Beyond the Sword] is enabled>"
+				],
+				"quote": "\"Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God.\" - John Gillespie Magee"
+			},
+
+			{
 				"name": "Composites",
 				"cost": 7500,
-				"row": 3,
+				"row": 5,
 				"prerequisites": ["Satellites", "Plastics"],
 				"quote": "\"The whole is greater than the sum of its parts.\" - Aristotle"
 			},
 			{
-				"name": "Fiber Optics",
-				"cost": 7500,
-				"row": 4,
-				"prerequisites": ["Computers"],
-				"quote": "\"There is a single light of science and to brighten it anywhere is to brighten it everywhere.\" - Isaac Asimov"
-			},
-			{
 				"name": "Ecology",
 				"cost": 5500,
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Biology", "Plastics", "Fission"], // Plastics OR Fission
 				"quote": "\"We do not inherit the earth from our ancestors, we borrow it from our children' - Native American proverb"
 			},
+
+			{
+				"name": "Superconductors",
+				"cost": 6500,
+				"row": 13,
+				"prerequisites": ["Refrigeration", "Computers"], // TODO: Refrigeration OR Computers
+				"uniques": [
+					"Only available <if [Civ IV Beyond the Sword] is enabled>"
+				],
+				"quote": "\"What is happiness? The feeling that power is growing, that resistance is overcome.\" - Friedrich Nietzsche"
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Future era",
+		"techs": [
+
 			{
 				"name": "Genetics",
 				"cost": 7000,
-				"row": 6,
+				"row": 11,
 				"prerequisites": ["Medicine"],
 				"uniques": [
+					"Unavailable <before discovering [Superconductors]> <if [Civ IV Beyond the Sword] is enabled>",
 					"Provides [3] [Health]" // +3 Health to all cities
 				],
 				"quote": "\"Soon it will be a sin for parents to have a child that carries the heavy burden of genetic disease.\" - Bob Edwards"
+			},
+
+			{
+				"name": "Stealth",
+				"cost": 8000,
+				"row": 3,
+				"prerequisites": ["Composites", "Advanced Flight"],
+				"uniques": [
+					"Only available <if [Civ IV Beyond the Sword] is enabled>"
+				],
+				"quote": "\"Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.\" - Jean Racine"
+			},
+
+			{
+				"name": "Fiber Optics",
+				"cost": 7500,
+				"row": 7,
+				"prerequisites": ["Computers"],
+				"uniques": [
+					"Unavailable <before discovering [Laser]> <if [Civ IV Beyond the Sword] is enabled>" // TODO: Requires Computers OR Lasers
+				],
+				"quote": "\"There is a single light of science and to brighten it anywhere is to brighten it everywhere.\" - Isaac Asimov"
 			},
 			{
 				"name": "Robotics",
@@ -774,20 +856,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
-		"era": "Future era",
-		"techs": [
-			{
-				"name": "Stealth",
-				"cost": 8000,
-				"row": 3,
-				"prerequisites": ["Composites"],
-				"quote": "\"Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.\" - Jean Racine"
-			},
-		]
-	},
-	{
-		"columnNumber": 19,
+		"columnNumber": 20,
 		"era": "Future era",
 		"techs": [
 			{
@@ -805,9 +874,11 @@
 				"name": "Future Tech",
 				"cost": 8000,
 				"row": 11,
-				"prerequisites": ["Stealth", "Genetics"],
+				"prerequisites": ["Genetics"],
 				"uniques": [
+					"Unavailable <before discovering [Stealth]> <if [Civ IV Beyond the Sword] is enabled>",
 					"Can be continually researched",
+					"Cannot be hurried",
 					"[+1 Food] [in your cities]",
 					"[+1 Happiness] [in your cities]"
 				],
