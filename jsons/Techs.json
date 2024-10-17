@@ -77,7 +77,10 @@
 				"name": "Animal Husbandry",
 				"cost": 100,
 				"row": 5,
-				"prerequisites": ["Agriculture", "Hunting"], // TODO: Animal Husbandry requires either Hunting OR Agriculture
+				"uniques": [
+					"Comment [Requires Agriculture or Hunting]",
+					"Unavailable <before discovering [Agriculture]> <before discovering [Hunting]> <hidden from users>"
+				],
 				"quote": "\"Blessed shall be the fruit of thy cattle, the increase of thy kine, and the flocks of thy sheep.\" - The Bible, Deuteronomy 28:4"
 			},
 			{
@@ -111,7 +114,10 @@
 				"name": "Masonry",
 				"row": 13,
 				"cost": 80,
-				"prerequisites": ["Mining"], // TODO: Maonry requires Mining OR Mysticism
+				"uniques": [
+					"Comment [Requires Mining or Mysticism]",
+					"Unavailable <before discovering [Mining]> <before discovering [Mysticism]> <hidden from users>"
+				],
 				"quote": "\"It is from their foes, not their friends, that cities learn the lesson of building high walls.\" - Aristophanes"
 			}
 		]
@@ -131,7 +137,10 @@
 				"name": "Priesthood",
 				"row": 2,
 				"cost": 60,
-				"prerequisites": ["Polytheism", "Meditation"], // TODO: Priesthood requires Meditation OR Polytheism
+				"uniques": [
+					"Comment [Requires Polytheism or Meditation]",
+					"Unavailable <before discovering [Polytheism]> <before discovering [Meditation]> <hidden from users>"
+				],
 				"quote": "\"The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.\" - The Bible, Numbers"
 			},
 			{
@@ -165,8 +174,11 @@
 				"name": "Writing",
 				"cost": 120,
 				"row": 4,
-				"prerequisites": ["Pottery"], // TODO: Writing requires (Animal Husbandry OR Priesthood OR Pottery)
-				"uniques": ["Enables Open Borders agreements"],
+				"uniques": [
+					"Comment [Requires Animal Husbandry or Priesthood or Pottery]",
+					"Unavailable <before discovering [Animal Husbandry]> <before discovering [Priesthood]> <before discovering [Pottery]> <hidden from users>",
+					"Enables Open Borders agreements"
+				],
 				"quote": "\"True glory consists in doing what deserves to be written, in writing what deserves to be read.\" - Pliny the Elder"
 			},
 			{
@@ -215,8 +227,9 @@
 				"name": "Monarchy",
 				"cost": 300,
 				"row": 2,
-				"prerequisites": ["Priesthood"], // TODO: Monarchy requires Priesthood OR Monotheism
 				"uniques": [
+					"Comment [Requires Priesthood or Monotheism]",
+					"Unavailable <before discovering [Monotheism]> <before discovering [Priesthood]> <hidden from users>",
 					"Comment [Enables Hereditary Rule]"
 				],
 				"quote": "\"A multitude of rulers is not a good thing, let there be one ruler, one king.\" - Herodotus"
@@ -310,8 +323,10 @@
 				"name": "Code of Laws",
 				"cost": 350,
 				"row": 5,
-				"prerequisites": ["Writing"], // Code of Laws requires (Writing AND (Priesthood OR Currency))
+				"prerequisites": ["Writing"],
 				"uniques": [
+					"Comment [Requires Priesthood or Currency]",
+					"Unavailable <before discovering [Currency]> <before discovering [Priesthood]> <hidden from users>",
 					"Comment [Enables Caste System]",
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
@@ -348,8 +363,10 @@
 				"name": "Music",
 				"cost": 600,
 				"row": 2,
-				"prerequisites": ["Mathematics", "Drama"], // Music requires Mathematics AND (Literature OR Drama)
+				"prerequisites": ["Mathematics"],
 				"uniques": [
+					"Comment [Requires Literature or Drama]",
+					"Unavailable <before discovering [Literature]> <before discovering [Drama]> <hidden from users>",
 					// TODO: Only reward a Great Artist if starting on previous eras.
 					"Free [Great Artist] appears <if no other Civilization has researched this>"
 				],
@@ -359,8 +376,10 @@
 				"name": "Philosophy",
 				"cost": 800,
 				"row": 4,
-				"prerequisites": ["Meditation", "Code of Laws"], // TODO: Requires Meditation AND (Code of Laws OR Drama)
+				"prerequisites": ["Meditation"],
 				"uniques": [
+					"Comment [Requires Code of Laws or Drama]",
+					"Unavailable <before discovering [Code of Laws]> <before discovering [Drama]> <hidden from users>",
 					"Comment [Enables Pacifism]",
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
@@ -370,8 +389,9 @@
 				"name": "Civil Service",
 				"cost": 800,
 				"row": 5,
-				"prerequisites": ["Code of Laws", "Feudalism"], // TODO: Requires Code of Laws OR Feudalism
 				"uniques": [
+					"Comment [Requires Code of Laws or Feudalism]",
+					"Unavailable <before discovering [Code of Laws]> <before discovering [Feudalism]> <hidden from users>",
 					"Comment [Enables Bureaucracy]",
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
@@ -415,9 +435,10 @@
 				"name": "Paper",
 				"cost": 600,
 				"row": 7,
-				"prerequisites": ["Theology"], // TODO: Paper requires Theology OR Civil Service
 				"uniques": [
 					// TODO: Enables Map Trading
+					"Comment [Requires Theology or Civil Service]",
+					"Unavailable <before discovering [Theology]> <before discovering [Civil Service]> <hidden from users>"
 				],
 				"quote": "\"I cannot live without books.\" - Thomas Jefferson"
 			},
@@ -441,8 +462,10 @@
 				"name": "Nationalism",
 				"cost": 1800,
 				"row": 2,
-				"prerequisites": ["Civil Service", "Philosophy"], // TODO: Nationalism requires Civil Service AND (Divine Right OR Philosophy)
+				"prerequisites": ["Civil Service"],
 				"uniques": [
+					"Comment [Requires Divine Right or Philosophy]",
+					"Unavailable <before discovering [Divine Right]> <before discovering [Philosophy]> <hidden from users>",
 					"Comment [Enables Nationhood]"
 				],
 				"quote": "\"A man does not have himself killed for a half pence a day or for a petty distinction. You must speak to the soul in order to electrify him..\" - Napoleon Bonaparte"
@@ -531,7 +554,10 @@
 				"name": "Gunpowder",
 				"cost": 1200,
 				"row": 13,
-				"prerequisites": ["Education"], // TODO: Gunpowder requires Guilds OR Education
+				"uniques": [
+					"Comment [Requires Guilds or Education]",
+					"Unavailable <before discovering [Guilds]> <before discovering [Education]> <hidden from users>"
+				],
 				"quote": "\"You can get more of what you want with a kind word and a gun than you can with just a kind word.\" - Al Capone"
 			}
 		]
@@ -597,7 +623,27 @@
 				"row": 6,
 				"prerequisites": ["Chemistry", "Replaceable Parts"],
 				"uniques": [
-					"[+50]% construction time for [Land] improvements"
+					"[+50]% construction time for [Camp] improvements",
+					"[+50]% construction time for [Cottage] improvements",
+					"[+50]% construction time for [Hamlet] improvements",
+					"[+50]% construction time for [Village] improvements",
+					"[+50]% construction time for [Town] improvements",
+					"[+50]% construction time for [Farm] improvements",
+					"[+50]% construction time for [Forest Preserve] improvements",
+					"[+50]% construction time for [Fort] improvements",
+					"[+50]% construction time for [Lumber mill] improvements",
+					"[+50]% construction time for [Mine] improvements",
+					"[+50]% construction time for [Pasture] improvements",
+					"[+50]% construction time for [Plantation] improvements",
+					"[+50]% construction time for [Quarry] improvements",
+					"[+50]% construction time for [Road] improvements",
+					"[+50]% construction time for [Railroad] improvements",
+					"[+50]% construction time for [Watermill] improvements",
+					"[+50]% construction time for [Oil well] improvements",
+					"[+50]% construction time for [Windmill] improvements",
+					"[+50]% construction time for [Winery] improvements",
+					"[+50]% construction time for [Workshop] improvements",
+					"[+50]% construction time for [Windmill] improvements"
 				],
 				"quote": "\"You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time for such nonsense.\" - Napoleon on Robert Fulton's steamship"
 			},
@@ -605,7 +651,11 @@
 				"name": "Scientific Method",
 				"cost": 2400,
 				"row": 5,
-				"prerequisites": ["Printing Press", "Astronomy"], // TODO: Scientific Method requires Printing Press AND (Chemistry OR Astronomy)
+				"prerequisites": ["Printing Press"],
+				"uniques": [
+					"Comment [Requires Chemistry or Astronomy]",
+					"Unavailable <before discovering [Chemistry]> <before discovering [Astronomy]> <hidden from users>"
+				],
 				"quote": "\"I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.\" - Galileo Galilei"
 			},
 			{
@@ -613,7 +663,7 @@
 				"cost": 2800,
 				"row": 9,
 				"prerequisites": ["Chemistry", "Iron Working"],
-				"quote": "\"Before that steam drill shall beat me down, I’ll die with my hammer in my hand.\" - John Henry, The Steel-Driving Man"
+				"quote": "\"Before that steam drill shall beat me down, I'll die with my hammer in my hand.\" - John Henry, The Steel-Driving Man"
 			}
 		]
 	},
@@ -645,7 +695,7 @@
 				"name": "Physics",
 				"cost": 4000,
 				"row": 4,
-				"prerequisites": ["Scientific Method"], // TODO: Requires "Astronomy" AND "Scientific Method"
+				"prerequisites": ["Scientific Method", "Astronomy"],
 				"uniques": [
 					// TODO: Only reward a Great Scientist if starting on previous eras.
 					"Free [Great Scientist] appears <if no other Civilization has researched this>"
@@ -690,8 +740,9 @@
 				"name": "Fascism",
 				"cost": 2400,
 				"row": 1,
-				"prerequisites": ["Assembly Line"], // TODO: Fascism requires "Nationalism" AND "Assembly Line"
+				"prerequisites": ["Assembly Line"],
 				"uniques": [
+					"Only available <after discovering [Nationalism]>",
 					"Comment [Enables Police State]",
 					// TODO: Enables Permanent Alliances
 					// TODO: Only reward a Great General if starting on previous eras.
@@ -710,7 +761,7 @@
 				"name": "Medicine",
 				"cost": 4500,
 				"row": 9,
-				"prerequisites": ["Biology"], // TODO: Medicine requires "Optics" AND "Biology"]
+				"prerequisites": ["Biology", "Optics"],
 				"uniques": [
 					"Comment [Enables Environmentalism]"
 				],
@@ -733,7 +784,11 @@
 				"name": "Rocketry",
 				"cost": 5000,
 				"row": 3,
-				"prerequisites": ["Rifling", "Flight"], // TODO: Rocketry requires Rifling AND (Flight OR Artillery)
+				"prerequisites": ["Rifling"],
+				"uniques": [
+					"Comment [Requires Flight or Artillery]",
+					"Unavailable <before discovering [Flight]> <before discovering [Artillery]> <hidden from users>"
+				],
 				"quote": "\"The Earth is the cradle of the mind, but one cannot eternally live in a cradle.\" - Konstantin E. Tsiolkovsky"
 			},
 			{
@@ -821,14 +876,22 @@
 				"name": "Fiber Optics",
 				"cost": 7500,
 				"row": 4,
-				"prerequisites": ["Computers"], // Fiber Optics requires Computers AND (Plastics OR Satelites)
+				"prerequisites": ["Computers"],
+				"uniques": [
+					"Comment [Requires Plastics or Satellites]",
+					"Unavailable <before discovering [Plastics]> <before discovering [Satellites]> <hidden from users>"
+				],
 				"quote": "\"There is a single light of science and to brighten it anywhere is to brighten it everywhere.\" - Isaac Asimov"
 			},
 			{
 				"name": "Ecology",
 				"cost": 5500,
 				"row": 8,
-				"prerequisites": ["Biology", "Plastics", "Fission"], // Ecology requires Biology AND (Plastics OR Fission)
+				"prerequisites": ["Biology"],
+				"uniques": [
+					"Comment [Requires Plastics or Fission]",
+					"Unavailable <before discovering [Plastics]> <before discovering [Fission]> <hidden from users>"
+				],
 				"quote": "\"We do not inherit the earth from our ancestors, we borrow it from our children' - Native American proverb"
 			},
 			{
