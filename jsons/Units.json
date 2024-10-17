@@ -919,7 +919,6 @@
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"Cannot attack",
-			// Scrub fallout from tiles
 			"Automation is a primary action",
 			"Excess Food converted to Production when under construction"
 		],

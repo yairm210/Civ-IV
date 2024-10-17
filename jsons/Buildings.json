@@ -35,8 +35,9 @@
 		"name": "Lighthouse",
 		"cost": 60,
 		"uniques": [
+			"Connects trade routes over water",
+			"[+1 Food] from [Water] tiles [in this city]",
 			"Only available <in [Coastal] cities>",
-			"[+1 Food] from [Water] tiles [in this city]"
 		],
 		"requiredTech": "Sailing"
 	},
@@ -779,7 +780,8 @@
 			"[+2 Gold] from all [Monastery] buildings",
 			"[+2 Gold] from all [Religious Shrine] buildings",
 			"Hidden when religion is disabled",
-			"[-50]% production cost <with [Stone]>"
+			"[-50]% production cost <with [Stone]>",
+			"Obsolete with [Computers]"
 		],
 		"requiredTech": "Divine Right"
 		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
