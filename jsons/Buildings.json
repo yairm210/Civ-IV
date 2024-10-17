@@ -145,7 +145,7 @@
 		"cost": 60,
 		"uniques": [
 			"New [Mounted] units start with [2] Experience [in this city]",
-			"Obsolete with [Rifling]"
+			"Obsolete with [Advanced Flight]"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -1214,7 +1214,8 @@
 			"Cannot be purchased",
 			"Cannot be hurried",
 			"[+50]% Production when constructing [Military] units [in this city]",
-			"Only available <if [Civ IV Warlords] is enabled>"
+			"Only available <if [Civ IV Warlords] is enabled>",
+			"Unavailable <before discovering [Military Science]> <if [Civ IV Beyond the Sword] is enabled>"
 		]
 	},
 
