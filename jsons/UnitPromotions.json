@@ -66,7 +66,7 @@
 		"prerequisites": ["Combat III"],
 		"uniques": [
 			"[1] additional attacks per turn",
-			"Unavailable <before discovering [Military Science]> <if [Civ IV Beyond the Sword] is enabled>"
+			"Only available <after discovering [Chemistry]>" // TODO: Military Science in BTS
 		],
 		"unitTypes": ["Mounted", "Armored", "Helicopter", "Melee Water"],
 		"outerColor": [12, 74, 146],
@@ -210,7 +210,7 @@
 			// Can use enemy roads and railroads
 			"[1] Movement <in [Road] tiles> <on foreign continents>",
 			"[2] Movement <in [Railroad] tiles> <on foreign continents>",
-			"Unavailable <before discovering [Military Science]> <if [Civ IV Beyond the Sword] is enabled>"
+			"Only available <after discovering [Chemistry]>" // Military Science in BTS
 		],
 		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored"],
 		"outerColor": [12, 74, 146],
