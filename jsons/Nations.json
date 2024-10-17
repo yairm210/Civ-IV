@@ -347,8 +347,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the English people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [255,0,0],
-		"innerColor": [255,255,255],
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
 		"uniques": [
 			"Starts with [Fishing]",
 			"Starts with [Mining]",

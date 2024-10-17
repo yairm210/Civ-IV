@@ -70,6 +70,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 - [Star](https://thenounproject.com/icon/star-1088688/) by Darrin Loeliger for America
 - [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567331/) by Singlar for Mali
+- [Cross](https://thenounproject.com/icon/cross-6898203/) by Cengiz SARI for England
 
 #### Policies
 
