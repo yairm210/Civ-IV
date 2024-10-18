@@ -16,30 +16,30 @@
 			{
 				"name": "The Wheel",
 				"cost": 60,
-				"row": 3,
+				"row": 21,
 				"quote": "\"Put your shoulder to the wheel.\" - Aesop"
 			},
 			{
 				"name": "Agriculture",
-				"row": 5,
+				"row": 3,
 				"cost": 60,
 				"quote": "\"Oh farmers, pray that your summers be wet and your winters clear.\" - Virgil"
 			},
 			{
 				"name": "Hunting",
-				"row": 7,
+				"row": 5,
 				"cost": 40,
 				"quote": "\"If you chase two rabbits, you will lose them both.\" - Native American saying"
 			},
 			{
 				"name": "Mysticism",
-				"row": 11,
+				"row": 8,
 				"cost": 50,
 				"quote": "\"Nature herself has imprinted on the minds of all the idea of God.\" - Cicero"
 			},
 			{
 				"name": "Mining",
-				"row": 9,
+				"row": 17,
 				"cost": 50,
 				"quote": "\"The man who moves a mountain begins by carrying away small stones.\" - Confucius"
 			}
@@ -65,7 +65,7 @@
 			{
 				"name": "Pottery",
 				"cost":80,
-				"row": 3,
+				"row": 21,
 				"prerequisites": ["The Wheel"],
 				"uniques": [
 					"Comment [Requires Agriculture or Fishing]",
@@ -76,7 +76,7 @@
 			{
 				"name": "Animal Husbandry",
 				"cost": 100,
-				"row": 5,
+				"row": 3,
 				"uniques": [
 					"Comment [Requires Agriculture or Hunting]",
 					"Unavailable <before discovering [Agriculture]> <before discovering [Hunting]> <hidden from users>"
@@ -85,7 +85,7 @@
 			},
 			{
 				"name": "Archery",
-				"row": 7,
+				"row": 5,
 				"cost": 60,
 				"prerequisites": ["Hunting"],
 				"quote": "\"Do not throw the arrow which will return against you.\" - Kurdish proverb"
@@ -128,14 +128,14 @@
 		"techs": [
 			{
 				"name": "Horseback Riding",
-				"row": 8,
+				"row": 3,
 				"cost": 250,
 				"prerequisites": ["Animal Husbandry"],
 				"quote": "\"If you speak the truth, have a foot on the stirrup.\" - Turkish proverb"
 			},
 			{
 				"name": "Priesthood",
-				"row": 2,
+				"row": 5,
 				"cost": 60,
 				"uniques": [
 					"Comment [Requires Polytheism or Meditation]",
@@ -145,7 +145,7 @@
 			},
 			{
 				"name": "Monotheism",
-				"row": 7,
+				"row": 15,
 				"cost": 120,
 				"prerequisites": ["Masonry", "Polytheism"],
 				"uniques": [
@@ -157,7 +157,7 @@
 			{
 				"name": "Bronze Working",
 				"cost": 120,
-				"row": 9,
+				"row": 17,
 				"prerequisites": ["Mining"],
 				"uniques": [
 					"Comment [Enables Slavery]"
@@ -173,7 +173,7 @@
 			{
 				"name": "Writing",
 				"cost": 120,
-				"row": 4,
+				"row": 3,
 				"uniques": [
 					"Comment [Requires Animal Husbandry or Priesthood or Pottery]",
 					"Unavailable <before discovering [Animal Husbandry]> <before discovering [Priesthood]> <before discovering [Pottery]> <hidden from users>",
@@ -184,14 +184,14 @@
 			{
 				"name": "Metal Casting",
 				"cost": 450,
-				"row": 6,
+				"row": 28,
 				"prerequisites": ["Pottery", "Bronze Working"],
 				"quote": "\"And them that take the sword, shall perish by the sword.\" - New Testament, Matthew 26:52"
 			},
 			{
 				"name": "Iron Working",
 				"cost": 200,
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Bronze Working"],
 				"quote": "\"You should hammer your iron when it is glowing hot.\" - Publilius Syrus"
 			}
@@ -205,7 +205,7 @@
 			{
 				"name": "Mathematics",
 				"cost": 250,
-				"row": 5,
+				"row": 11,
 				"prerequisites": ["Writing"],
 				"uniques": [
 					// Workers produce +50% production from chopping
@@ -215,7 +215,7 @@
 			{
 				"name": "Alphabet",
 				"cost": 300,
-				"row": 1,
+				"row": 10,
 				"prerequisites": ["Writing"],
 				"uniques": [
 					"Enables conversion of city production to [Science]"
@@ -226,7 +226,7 @@
 			{
 				"name": "Monarchy",
 				"cost": 300,
-				"row": 2,
+				"row": 9,
 				"uniques": [
 					"Comment [Requires Priesthood or Monotheism]",
 					"Unavailable <before discovering [Monotheism]> <before discovering [Priesthood]> <hidden from users>",
@@ -237,7 +237,7 @@
 			{
 				"name": "Compass",
 				"cost": 400,
-				"row": 11,
+				"row": 19,
 				"prerequisites": ["Sailing", "Iron Working"],
                 "uniques": [
 					"Enables embarkation for land units"
@@ -253,21 +253,21 @@
 			{
 				"name": "Literature",
 				"cost": 200,
-				"row": 2,
+				"row": 23,
 				"prerequisites": ["Alphabet", "Polytheism"],
 				"quote": "\"Some books are to be tasted, others to be swallowed and some few to be chewed and digested.\" - Sir Francis Bacon"
 			},
 			{
 				"name": "Calendar",
 				"cost": 350,
-				"row": 3,
+				"row": 1,
 				"prerequisites": ["Sailing", "Mathematics"],
 				"quote": "\"For everything there is a season and a time for every purpose under heaven.\" - Ecclesiastes"
 			},
 			{
 				"name": "Construction",
 				"cost": 350,
-				"row": 13,
+				"row": 27,
 				"prerequisites": ["Masonry", "Mathematics"],
 				"uniques": [
 					// TODO: Construction enables Bridge Building
@@ -277,7 +277,7 @@
 			{
 				"name": "Currency",
 				"cost": 400,
-				"row": 8,
+				"row": 28,
 				"prerequisites": ["Mathematics"],
 				"uniques": [
 					// TODO: +1 Trade Routes per city
@@ -288,7 +288,7 @@
 			{
 				"name": "Machinery",
 				"cost": 700,
-				"row": 9,
+				"row": 25,
 				"prerequisites": ["Metal Casting"],
 				"quote": "\"A god from the machine' - Menander"
 			}
@@ -312,7 +312,7 @@
 			{
 				"name": "Engineering",
 				"cost": 1000,
-				"row": 3,
+				"row": 15,
 				"prerequisites": ["Machinery", "Construction"],
 				"uniques": [
 					// TODO: +1 Road Movement
@@ -335,7 +335,7 @@
 			{
 				"name": "Feudalism",
 				"cost": 700,
-				"row": 6,
+				"row": 8,
 				"prerequisites": ["Writing", "Monarchy"],
 				"uniques": [
 					"Comment [Enables Serfdom]",
@@ -375,7 +375,7 @@
 			{
 				"name": "Philosophy",
 				"cost": 800,
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Meditation"],
 				"uniques": [
 					"Comment [Requires Code of Laws or Drama]",
@@ -388,7 +388,7 @@
 			{
 				"name": "Civil Service",
 				"cost": 800,
-				"row": 5,
+				"row": 4,
 				"uniques": [
 					"Comment [Requires Code of Laws or Feudalism]",
 					"Unavailable <before discovering [Code of Laws]> <before discovering [Feudalism]> <hidden from users>",
@@ -400,7 +400,7 @@
 			{
 				"name": "Theology",
 				"cost": 500,
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Writing", "Monotheism"],
 				"uniques": [
 					"Comment [Enables Theocracy]",
@@ -411,7 +411,7 @@
 			{
 				"name": "Guilds",
 				"cost": 1000,
-				"row": 8,
+				"row": 17,
 				"prerequisites": ["Feudalism", "Machinery"],
 				"quote": "\"People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public' - Adam Smith"
 			}
@@ -424,7 +424,7 @@
 			{
 				"name": "Divine Right",
 				"cost": 1200,
-				"row": 1,
+				"row": 9,
 				"prerequisites": ["Theology", "Monarchy"],
 				"uniques": [
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
@@ -434,7 +434,7 @@
 			{
 				"name": "Paper",
 				"cost": 600,
-				"row": 7,
+				"row": 6,
 				"uniques": [
 					// TODO: Enables Map Trading
 					"Comment [Requires Theology or Civil Service]",
@@ -473,7 +473,7 @@
 			{
 				"name": "Printing Press",
 				"cost": 1600,
-				"row": 3,
+				"row": 19,
 				"prerequisites": ["Machinery", "Paper"],
 				"uniques": [
 					"[+1 Gold] from [Village] tiles [in your cities]",
@@ -541,7 +541,7 @@
 			{
 				"name": "Economics",
 				"cost": 1400,
-				"row": 11,
+				"row": 15,
 				"prerequisites": ["Banking", "Education"],
 				"uniques": [
 					"Comment [Enables Free Market]",
@@ -553,7 +553,7 @@
 			{
 				"name": "Gunpowder",
 				"cost": 1200,
-				"row": 13,
+				"row": 17,
 				"uniques": [
 					"Comment [Requires Guilds or Education]",
 					"Unavailable <before discovering [Guilds]> <before discovering [Education]> <hidden from users>"
@@ -569,7 +569,7 @@
 			{
 				"name": "Democracy",
 				"cost": 2800,
-				"row": 1,
+				"row": 19,
 				"prerequisites": ["Printing Press", "Constitution"],
 				"uniques": [
 					"Comment [Enables Emancipation]",
@@ -587,7 +587,7 @@
 			{
 				"name": "Astronomy",
 				"cost": 2000,
-				"row": 5,
+				"row": 1,
 				"prerequisites": ["Calendar", "Optics"],
 				"uniques": [
 					// TODO: Enables trading on Ocean
@@ -650,7 +650,7 @@
 			{
 				"name": "Scientific Method",
 				"cost": 2400,
-				"row": 5,
+				"row": 21,
 				"prerequisites": ["Printing Press"],
 				"uniques": [
 					"Comment [Requires Chemistry or Astronomy]",
@@ -661,7 +661,7 @@
 			{
 				"name": "Steel",
 				"cost": 2800,
-				"row": 9,
+				"row": 11,
 				"prerequisites": ["Chemistry", "Iron Working"],
 				"quote": "\"Before that steam drill shall beat me down, I'll die with my hammer in my hand.\" - John Henry, The Steel-Driving Man"
 			}
@@ -705,7 +705,7 @@
 			{
 				"name": "Biology",
 				"cost": 3600,
-				"row": 7,
+				"row": 15,
 				"prerequisites": ["Chemistry", "Scientific Method"],
 				"quote": "\"It is not the strongest of the species that survive but the one most responsive to change.\" - Charles Darwin"
 			},
@@ -770,7 +770,7 @@
 			{
 				"name": "Combustion",
 				"cost": 3600,
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["Railroad"],
 				"quote": "\"Everything in life is somewhere else and you get there in a car.\" - E. B. White"
 			}
@@ -808,7 +808,7 @@
 			{
 				"name": "Refrigeration",
 				"cost": 4000,
-				"row": 13,
+				"row": 17,
 				"prerequisites": ["Biology", "Electricity"],
 				"uniques": [
 					"[+1] Movement <for [Water] units>"
@@ -818,7 +818,7 @@
 			{
 				"name": "Radio",
 				"cost": 6000,
-				"row": 11,
+				"row": 19,
 				"prerequisites": ["Electricity"],
 				"quote": "\"Then one fine mornin' she puts on a New York Station. You know her life was saved by Rock 'n' Roll.\" - The Velvet Underground, \"Rock and Roll\""
 			}
@@ -841,21 +841,21 @@
 			{
 				"name": "Plastics",
 				"cost": 7000,
-				"row": 4,
+				"row": 22,
 				"prerequisites": ["Combustion", "Industrialism"],
 				"quote": "\"I just want to say one word to you, just one word: plastics.\" - Calder Willingham, The Graduate"
 			},
 			{
 				"name": "Computers",
 				"cost": 6500,
-				"row": 9,
+				"row": 1,
 				"prerequisites": ["Radio"],
 				"quote": "\"Never trust a computer you can't throw out the window.\" - Steve Wozniak"
 			},
 			{
 				"name": "Mass Media",
 				"cost": 3600,
-				"row": 13,
+				"row": 19,
 				"prerequisites": ["Radio"],
 				"quote": "\"The only thing worse than being talked about is not being talked about.\" - Oscar Wilde"
 			}
@@ -875,7 +875,7 @@
 			{
 				"name": "Fiber Optics",
 				"cost": 7500,
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Computers"],
 				"uniques": [
 					"Comment [Requires Plastics or Satellites]",
@@ -886,7 +886,7 @@
 			{
 				"name": "Ecology",
 				"cost": 5500,
-				"row": 8,
+				"row": 15,
 				"prerequisites": ["Biology"],
 				"uniques": [
 					"Comment [Requires Plastics or Fission]",
@@ -897,7 +897,7 @@
 			{
 				"name": "Genetics",
 				"cost": 7000,
-				"row": 6,
+				"row": 17,
 				"prerequisites": ["Refrigeration", "Computers"],
 				"uniques": [
 					"Provides [3] [Health]" // +3 Health to all cities
@@ -907,7 +907,7 @@
 			{
 				"name": "Robotics",
 				"cost": 8000,
-				"row": 13,
+				"row": 9,
 				"prerequisites": ["Plastics" ,"Computers"],
 				"quote": "\"The real problem is not whether machines think but whether men do.\" - B. F. Skinner"
 			}
@@ -920,7 +920,7 @@
 			{
 				"name": "Stealth",
 				"cost": 8000,
-				"row": 3,
+				"row": 1,
 				"prerequisites": ["Composites"],
 				"quote": "\"Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.\" - Jean Racine"
 			},
