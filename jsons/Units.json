@@ -223,11 +223,13 @@
 		"interceptRange": 2,
 		"strength": 18,
 		"movement": 1,
+		"range": 1,
 		"cost": 150,
 		"requiredTech": "Rocketry",
 		"uniques": [
 			// TODO: SAM Infantry "Can upgrade to [Mobile SAM]", (BTS)
 			"[40]% chance to intercept air attacks",
+			"Must set up to ranged attack",
 			"[+75]% Strength <vs [Helicopter] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -612,7 +614,7 @@
 			"Invisible to others",
 			"Can see invisible [Submarine] units",
 			"May enter foreign tiles without open borders",
-			// Can move through impassible terrain
+			"Can pass through impassable tiles",
 			"Withdraws before melee combat <with [50]% chance>",
 			"Never appears as a Barbarian unit"
 		],
@@ -627,7 +629,7 @@
 		"strength": 12,
 		"movement": 6,
 		"rangedStrength": 12,
-		"range": 8,
+		"range": 6,
 		"interceptRange": 5,
 		"cost": 100,
 		"requiredTech": "Flight",
@@ -648,12 +650,12 @@
 		"strength": 16,
 		"movement": 8,
 		"rangedStrength": 16,
-		"range": 10,
+		"range": 8,
 		"cost": 140,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"uniques": [
-			// "Can upgrade to [Stealth Bomber] <if [Civ IV Beyond the Sword] is enabled>", // TODO: Figure out how to get a Stealth Bomber entry to upgrade to
+			"Can upgrade to [Stealth Bomber]",
 			"Only available <after discovering [Radio]>",
 			"Never appears as a Barbarian unit",
 			// Causes collateral damage
@@ -685,6 +687,30 @@
 			"[+32]% Strength <vs cities> <when attacking>" // bomb city defenses (-16%/turn)
 		],
 		"attackSound": "jetgun"
+	},
+
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"strength": 20,
+		"movement": 12,
+		"rangedStrength": 20,
+		"range": 12,
+		"cost": 200,
+		"requiredTech": "Composites",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"Only available <after discovering [Flight]>",
+			"Only available <after discovering [Robotics]>",
+			// Causes collateral damage
+			"Consumes [1] [Oil]",
+			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
+			"[-50]% Strength <vs [Water] units>",
+			"Destroys tile improvements when attacking",
+			"Never appears as a Barbarian unit",
+			"[40]% Strength <vs cities> <when attacking>" // bombard city defenses (-20% turn)
+		],
+		"attackSound": "bombing"
 	},
 
 	// Missiles
@@ -1086,7 +1112,7 @@
 			"Can see invisible [Spy] units",
 			"Cannot attack",
 			"Never appears as a Barbarian unit"
-			// Can infiltrate another civilization's city (+3000 espionage points)
+			// TODO: Can infiltrate another civilization's city (+3000 espionage points)
 		]
     },
 

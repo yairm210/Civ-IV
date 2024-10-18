@@ -399,6 +399,22 @@
 	},
 
 	{
+		"name": "Great Scientist Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 3,
+		"uniques": [
+			// TODO: Provides 12 Espionage
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+
+	{
 		"name": "Great General Specialist",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
