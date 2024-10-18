@@ -84,6 +84,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "America",
 		"leaderName": "George Washington",
+		"personality": "George Washington",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the American people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -138,6 +139,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Arabia",
 		"leaderName": "Saladin",
+		"personality": "Saladin",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Arabian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -186,6 +188,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Aztec",
 		"leaderName": "Montezuma II",
+		"personality": "Montezuma II",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Aztec people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -238,6 +241,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "China",
 		"leaderName": "Mao Zedong",
+		"personality": "Mao Zedong",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Chinese people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -294,6 +298,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Egypt",
 		"leaderName": "Hatshepsut",
+		"personality": "Hatshepsut",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Egyptian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -344,6 +349,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "England",
 		"leaderName": "Elizabeth",
+		"personality": "Elizabeth",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the English people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -393,6 +399,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "France",
 		"leaderName": "Napoleon",
+		"personality": "Napoleon",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the French people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -446,6 +453,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
+		"personality": "Otto von Bismarck",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the German people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -497,6 +505,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Greece",
 		"leaderName": "Alexander",
+		"personality": "Alexander",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Greek people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -547,6 +556,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Inca",
 		"leaderName": "Huayna Capac",
+		"personality": "Huayna Capac",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Incan people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -595,6 +605,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "India",
 		"leaderName": "Gandhi",
+		"personality": "Gandhi",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Indian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -646,6 +657,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Japan",
 		"leaderName": "Tokugawa Ieyasu",
+		"personality": "Tokugawa Ieyasu",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Japanese people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -701,6 +713,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Mali",
 		"leaderName": "Mansa Musa",
+		"personality": "Mansa Musa",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Mali people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -749,6 +762,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Mongolia",
 		"leaderName": "Genghis Khan",
+		"personality": "Genghis Khan",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Mongolian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -800,6 +814,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Persia",
 		"leaderName": "Cyrus II",
+		"personality": "Cyrus II",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Persian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -852,6 +867,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Rome",
 		"leaderName": "Augustus Caesar",
+		"personality": "Augustus Caesar",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Roman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -903,6 +919,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Russia",
 		"leaderName": "Peter",
+		"personality": "Peter",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Russian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -954,6 +971,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	{
 		"name": "Spain",
 		"leaderName": "Isabella",
+		"personality": "Isabella",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Spanish people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
