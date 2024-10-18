@@ -653,7 +653,7 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Can upgrade to [Stealth Bomber]",
+			// "Can upgrade to [Stealth Bomber] <if [Civ IV Beyond the Sword] is enabled>", // TODO: Figure out how to get a Stealth Bomber entry to upgrade to
 			"Only available <after discovering [Radio]>",
 			"Never appears as a Barbarian unit",
 			// Causes collateral damage
@@ -686,30 +686,8 @@
 		],
 		"attackSound": "jetgun"
 	},
-	{
-		"name": "Stealth Bomber",
-		"unitType": "Bomber",
-		"strength": 20,
-		"movement": 12,
-		"rangedStrength": 20,
-		"range": 20,
-		"cost": 200,
-		"requiredTech": "Stealth",
-		"uniques": [
-			"Only available <after discovering [Robotics]>",
-			// Causes collateral damage
-			"Consumes [1] [Oil]",
-			"Consumes [1] [Aluminum]",
-			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
-			"[-50]% Strength <vs [Water] units>",
-			"Destroys tile improvements when attacking",
-			"Never appears as a Barbarian unit",
-			"[40]% Strength <vs cities> <when attacking>" // bombard city defenses (-20% turn)
-		],
-		"attackSound": "bombing"
-	},
 
-	// Missles
+	// Missiles
 	{
 		"name": "Nuclear Missile", // "ICBM" in Civ 4
 		"unitType": "Missle",
@@ -718,7 +696,7 @@
 		"rangedStrength": 300,
 		"range": 300,
 		"cost": 500,
-		"requiredTech": "Stealth",
+		"requiredTech": "Fission",
 		"requiredResource": "Uranium",
 		"uniques": [
 			"Only available <after discovering [Robotics]>",

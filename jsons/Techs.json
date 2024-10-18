@@ -253,7 +253,7 @@
 			{
 				"name": "Literature",
 				"cost": 200,
-				"row": 23,
+				"row": 21,
 				"prerequisites": ["Alphabet", "Polytheism"],
 				"quote": "\"Some books are to be tasted, others to be swallowed and some few to be chewed and digested.\" - Sir Francis Bacon"
 			},
@@ -267,7 +267,7 @@
 			{
 				"name": "Construction",
 				"cost": 350,
-				"row": 27,
+				"row": 26,
 				"prerequisites": ["Masonry", "Mathematics"],
 				"uniques": [
 					// TODO: Construction enables Bridge Building
@@ -277,7 +277,7 @@
 			{
 				"name": "Currency",
 				"cost": 400,
-				"row": 28,
+				"row": 24,
 				"prerequisites": ["Mathematics"],
 				"uniques": [
 					// TODO: +1 Trade Routes per city
@@ -288,7 +288,7 @@
 			{
 				"name": "Machinery",
 				"cost": 700,
-				"row": 25,
+				"row": 28,
 				"prerequisites": ["Metal Casting"],
 				"quote": "\"A god from the machine' - Menander"
 			}
@@ -508,7 +508,7 @@
 				"name": "Constitution",
 				"cost": 2000,
 				"row": 4,
-				"prerequisites": ["Music", "Nationalism"],
+				"prerequisites": ["Code of Laws", "Nationalism"],
 				"uniques": [
 					"Comment [Enables Representation]"
 				],
@@ -650,7 +650,7 @@
 			{
 				"name": "Scientific Method",
 				"cost": 2400,
-				"row": 21,
+				"row": 17,
 				"prerequisites": ["Printing Press"],
 				"uniques": [
 					"Comment [Requires Chemistry or Astronomy]",
@@ -726,7 +726,10 @@
 				"name": "Flight",
 				"cost": 5000,
 				"row": 4,
-				"prerequisites": ["Physics", "Combustion"],
+				"prerequisites": ["Physics"],
+				"uniques": [
+					"Only available <after discovering [Combustion]>"
+				],
 				"quote": "\"For once you have tasted flight, you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.\" - Leonardo da Vinci"
 			},
 			{
@@ -770,7 +773,7 @@
 			{
 				"name": "Combustion",
 				"cost": 3600,
-				"row": 23,
+				"row": 21,
 				"prerequisites": ["Railroad"],
 				"quote": "\"Everything in life is somewhere else and you get there in a car.\" - E. B. White"
 			}
@@ -841,7 +844,7 @@
 			{
 				"name": "Plastics",
 				"cost": 7000,
-				"row": 22,
+				"row": 21,
 				"prerequisites": ["Combustion", "Industrialism"],
 				"quote": "\"I just want to say one word to you, just one word: plastics.\" - Calder Willingham, The Graduate"
 			},
@@ -895,41 +898,32 @@
 				"quote": "\"We do not inherit the earth from our ancestors, we borrow it from our children' - Native American proverb"
 			},
 			{
+				"name": "Robotics",
+				"cost": 8000,
+				"row": 9,
+				"prerequisites": ["Computers"],
+				"uniques": [
+					"Only available <after discovering [Plastics]>"
+				],
+				"quote": "\"The real problem is not whether machines think but whether men do.\" - B. F. Skinner"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 18,
+		"era": "Future era",
+		"techs": [
+			{
 				"name": "Genetics",
 				"cost": 7000,
-				"row": 17,
+				"row": 1,
 				"prerequisites": ["Refrigeration", "Computers"],
 				"uniques": [
 					"Provides [3] [Health]" // +3 Health to all cities
 				],
 				"quote": "\"Soon it will be a sin for parents to have a child that carries the heavy burden of genetic disease.\" - Bob Edwards"
 			},
-			{
-				"name": "Robotics",
-				"cost": 8000,
-				"row": 9,
-				"prerequisites": ["Plastics" ,"Computers"],
-				"quote": "\"The real problem is not whether machines think but whether men do.\" - B. F. Skinner"
-			}
-		]
-	},
-	{
-		"columnNumber": 18,
-		"era": "Future era",
-		"techs": [
-			{
-				"name": "Stealth",
-				"cost": 8000,
-				"row": 1,
-				"prerequisites": ["Composites"],
-				"quote": "\"Behind a veil, unseen yet present, I was the forceful soul that moved this mighty body.\" - Jean Racine"
-			},
-		]
-	},
-	{
-		"columnNumber": 19,
-		"era": "Future era",
-		"techs": [
 			{
 				"name": "Fusion",
 				"cost": 8000,
@@ -940,11 +934,17 @@
 					"Free [Great Engineer] appears <if no other Civilization has researched this>"
 				],
 				"quote": "\"Any sufficiently advanced technology is indistinguishable from magic.\" - Arthur C. Clarke"
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Future era",
+		"techs": [
 			{
 				"name": "Future Tech",
 				"cost": 10000,
-				"row": 11,
+				"row": 3,
 				"prerequisites": ["Composites", "Genetics"],
 				"uniques": [
 					"Can be continually researched",
