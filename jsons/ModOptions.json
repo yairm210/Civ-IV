@@ -3,5 +3,14 @@
 	"uniques":[
 		"Can convert gold to science with sliders",
 		"Cannot be used as permanent audiovisual mod"
-	]
+	],
+	"constants": {
+		// Scale the city strength values to Civ 4 values by dividing the defaults by 4
+		"cityStrengthBase": 2.0,
+		"cityStrengthPerPop": 0.1,
+		"cityStrengthFromTechsMultiplier": 1.1,
+		"cityStrengthFromTechsExponent": 1.0,
+		"cityStrengthFromTechsFullMultiplier": 1.0,
+		"cityStrengthFromGarrison": 0.05
+	}
 }
