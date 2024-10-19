@@ -141,7 +141,7 @@
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Hill"],
 		"gold": 1,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 6, "production": -1, "happiness":1},
+		"improvementStats": {"gold": 6, "production": -1, "happiness": 1},
 	},
 
 	{

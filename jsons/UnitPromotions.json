@@ -66,7 +66,7 @@
 		"prerequisites": ["Combat III"],
 		"uniques": [
 			"[1] additional attacks per turn",
-			"Only available <after discovering [Chemistry]>" // TODO: Military Science in BTS
+			"Only available <after discovering [Chemistry]>" // Military Science in BTS
 		],
 		"unitTypes": ["Mounted", "Armored", "Helicopter", "Melee Water"],
 		"outerColor": [12, 74, 146],

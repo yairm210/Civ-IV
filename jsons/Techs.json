@@ -46,6 +46,7 @@
 
 		]
 	},
+
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
@@ -122,6 +123,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 2,
 		"era": "Ancient era",
@@ -166,6 +168,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 3,
 		"era": "Ancient era",
@@ -198,6 +201,7 @@
 
 		]
 	},
+
 	{
 		"columnNumber": 4,
 		"era": "Classical era",
@@ -246,6 +250,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
@@ -295,6 +300,7 @@
 
 		]
 	},
+
 	{
 		"columnNumber": 6,
 		"era": "Classical era",
@@ -355,6 +361,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 7,
 		"era": "Medieval era",
@@ -417,6 +424,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 8,
 		"era": "Medieval era",
@@ -454,6 +462,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 9,
 		"era": "Renaissance era",
@@ -490,6 +499,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 10,
 		"era": "Renaissance era",
@@ -562,6 +572,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 11,
 		"era": "Renaissance era",
@@ -613,6 +624,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 12,
 		"era": "Industrial era",
@@ -667,6 +679,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 13,
 		"era": "Industrial era",
@@ -718,6 +731,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 14,
 		"era": "Modern era",
@@ -779,6 +793,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 15,
 		"era": "Modern era",
@@ -827,6 +842,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 16,
 		"era": "Modern era",
@@ -864,6 +880,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 17,
 		"era": "Modern era",
@@ -937,6 +954,7 @@
 			}
 		]
 	},
+
 	{
 		"columnNumber": 19,
 		"era": "Future era",
@@ -955,4 +973,5 @@
 			}
 		]
 	}
+
 ]

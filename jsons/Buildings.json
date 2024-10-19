@@ -882,7 +882,7 @@
 		"name": "Pentagon",
 		"cost": 1250,
 		"isWonder": true,
-		// BTS: "greatPersonPoints": {"Great Spy": 2},
+		"greatPersonPoints": {"Great Spy": 2},
 		"uniques": [
 			"New [Military] units start with [2] Experience [in all cities]"
 		],
@@ -1091,7 +1091,7 @@
 	{
 		"name": "West Point",
 		"cost": 800,
-		// BTS: "greatPersonPoints": {"Great Spy": 1},
+		"greatPersonPoints": {"Great Spy": 1},
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Stone]>",
@@ -1326,8 +1326,8 @@
 			"Only available <if [Apollo Program] is constructed>",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Satellites" // TODO: SS Thrusters requires Superconductors on BTS
-	}
+		"requiredTech": "Satellites" // SS Thrusters requires Superconductors on BTS
+	},
 
 	{
 		"name": "Spaceship",
@@ -1349,6 +1349,17 @@
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Fusion"
+	},
+
+	// Placeholder Buildings for integration points
+	{
+		"name": "Mausoleum of Maussollos", // BTS
+		"uniques": [
+			"Unavailable",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		]
 	}
 
 ]
