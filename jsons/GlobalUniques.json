@@ -4,6 +4,7 @@
 		// Happiness
 		"[+7 Happiness] [in your cities]", // Baseline
         "[-1 Happiness] per [1] population [in all cities]",
+		"[+1 Happiness] [in all cities] <with a garrison>",
 		// TODO: Unhappiness makes civilians not work
 
 		// TODO: Healthy: Each point of pop eats 2 Food Food per turn, or 3 Food Food each for unhealthy pop.
