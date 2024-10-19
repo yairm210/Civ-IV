@@ -492,7 +492,7 @@
 		"cost": 150,
 		"food": 1,
 		"uniques": [
-            "Provides [1] [Health] <in this city> <with [Cow]>",
+            "Provides [1] [Health] <in this city> <with [Cattle]>",
             "Provides [1] [Health] <in this city> <with [Deer]>",
             "Provides [1] [Health] <in this city> <with [Sheep]>",
             "Provides [1] [Health] <in this city> <with [Pig]>"
