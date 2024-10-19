@@ -189,11 +189,14 @@
 
 	{
 		"name": "Stone",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Plains", "Desert"],
 		"production": 1,
 		"improvement": "Quarry",
-		"improvementStats": {"production": 2}
+		"improvementStats": {"production": 2},
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option"
+		]
 	},
 
 	{
