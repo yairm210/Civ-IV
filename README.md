@@ -59,6 +59,12 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [cryogenic chamber](https://thenounproject.com/icon/cryogenic-chamber-3312571/) by Vectors Point for SS Stasis Chamber
 - [jet machine](https://thenounproject.com/icon/jet-machine-4051586/) by novilamisastra for SS Thrusters
 - [Rocket](https://thenounproject.com/icon/rocket-6074638/) by Ben Didier for Spaceship
+- [Bus](https://thenounproject.com/icon/bus-1442006/) by QOLBIN SALIIM for Public Transportation
+- [Shwedagon Padoda](https://thenounproject.com/icon/shwedagon-pagoda-7290941/) by history Nerd
+- [Moai Statues](https://thenounproject.com/icon/moai-4787788/) by Bernd Lakenbrink
+- [Mazer-e-Quaid](https://thenounproject.com/icon/mazar-e-quaid-4787789/) by Bernd Lakenbrink for Mausoleum of Maussollos
+- [Industrial Park](https://thenounproject.com/icon/industrial-park-5428946/) by Puspito
+- [Temple](https://thenounproject.com/icon/temple-7039168/) by Muhammad Fadli Rusady for Seowon
 
 #### Improvements
 
@@ -121,6 +127,11 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Rifle](https://thenounproject.com/icon/rifle-6343044/) by Sentya Irma for Readcoat
 - [Spear](https://thenounproject.com/icon/spear-3719099/) by Eucalyp for Immortal
 - [Centurion Helmet](https://thenounproject.com/icon/centurion-helmet-210704/) by my name is mud for Praetorian
+- [Rocket Launcher](https://thenounproject.com/icon/rocket-launcher-6376275/) by Deni Sudibyo for Anti-Tank
+- [Submarine](https://thenounproject.com/icon/submarine-6885945/) by Kosong Tujuh for Attack Submarine
+- [Tank](https://thenounproject.com/icon/tank-7284102/) by Taewon Kang for Mobile Artillery
+- [Battleship](https://thenounproject.com/icon/battleship-6343043/) by sentya irma for Stealth Destroyer
+- [Missile](https://thenounproject.com/icon/missile-6022456/) by metami septiana for Tactical Nuke
 
 #### Technologies
 
@@ -145,6 +156,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Gene](https://thenounproject.com/icon/gene-4374639/) by Adrien Coquet for Genetics
 - [Fiber Cable](https://thenounproject.com/icon/fiber-cable-904029/) by Robert Bjurshagen for Fiber Optics
 - [Magnet](https://thenounproject.com/icon/magnet-2366943/) by Adrien Coquet for Superconductors
+- [Beaker](https://thenounproject.com/icon/beaker-6899297/) by crf for Composites
 
 ## Promotions
 
