@@ -64,7 +64,12 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Moai Statues](https://thenounproject.com/icon/moai-4787788/) by Bernd Lakenbrink
 - [Mazer-e-Quaid](https://thenounproject.com/icon/mazar-e-quaid-4787789/) by Bernd Lakenbrink for Mausoleum of Maussollos
 - [Industrial Park](https://thenounproject.com/icon/industrial-park-5428946/) by Puspito
+- [Anchor](https://thenounproject.com/icon/anchor-6496390/) by Amir Ali for Cothon
+- [Fortress](https://thenounproject.com/icon/fortress-6151327/) by Brad for Dun
 - [Temple](https://thenounproject.com/icon/temple-7039168/) by Muhammad Fadli Rusady for Seowon
+- [Bath House](https://thenounproject.com/icon/bath-house-724565/) by Alexander Skowalsky for Hammam
+- [Lighthouse](https://thenounproject.com/icon/lighthouse-4982237/) by Kermal Moe for Trading Post
+- [Spears](https://thenounproject.com/icon/spears-7032289/) by Amir Ali for Ikhanda
 
 #### Improvements
 
@@ -87,6 +92,11 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Buffalo](https://thenounproject.com/icon/buffalo-27077/) by Christy Presler for Native America
 - [Ethiopia](https://thenounproject.com/icon/ethiopia-4621751/) by Firza Alamsyah
 - [Dougle Headed Eagle](https://thenounproject.com/icon/double-headed-eagle-7260454/) by Robert Bjurshagen for Holy Roman
+- [Knot](https://thenounproject.com/icon/knot-676657/) by Federico Panzano for Celic
+- [Viking Symbol](https://thenounproject.com/icon/viking-symbol-248008/) by Alexander Skowalsky for Viking
+- [Shield](https://thenounproject.com/icon/shield-163736/) by Ivan Colic for Zulu
+- [Crescent](https://thenounproject.com/icon/crescent-2296077/) by Darrick Doeschot for Ottoman
+
 
 #### Policies
 
@@ -142,6 +152,10 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Tank](https://thenounproject.com/icon/tank-7284102/) by Taewon Kang for Mobile Artillery
 - [Battleship](https://thenounproject.com/icon/battleship-6343043/) by sentya irma for Stealth Destroyer
 - [Missile](https://thenounproject.com/icon/missile-6022456/) by metami septiana for Tactical Nuke
+- [Jumper](https://thenounproject.com/icon/jumper-453590/) by Dwanlaposh for Numidian Cavalry
+- [Axe](https://thenounproject.com/icon/axe-7192952/) by Suwarjo for Gallic Warrior
+- [rocket launcher](https://thenounproject.com/icon/rocket-launcher-6222958/) by awimovic for Hwacha
+- [shield zulu](https://thenounproject.com/icon/shield-zulu-3825770/) by Smashing Stocks for Impi
 
 #### Technologies
 
