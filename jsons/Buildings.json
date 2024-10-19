@@ -103,7 +103,7 @@
 		"cost": 80,
 		"uniques": ["Only available <in [Coastal] cities>",
             "[+25]% [Gold] from Trade Routes <in this city>",
-            "Provides [1] [Health] <in this city> <with [Clam]>",
+            "Provides [1] [Health] <in this city> <with [Pearls]>",
             "Provides [1] [Health] <in this city> <with [Crab]>",
             "Provides [1] [Health] <in this city> <with [Fish]>"],
 		"requiredTech": "Compass"

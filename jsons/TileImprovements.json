@@ -72,7 +72,7 @@
 		"techRequired": "Agriculture",
 		"uniques":[
 			// TODO: Required to be built beside Fresh Water, before discovering Biology
-			"[+1 Food] from [Fresh water] tiles", // +1 with irrigation
+			"[+1 Food] <with [1] to [9] neighboring [Fresh water] tiles>", // +1 with irrigation
 			"[+1 Food] <after discovering [Biology]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		],
@@ -111,8 +111,8 @@
 		"turnsToBuild": 10,
 		"techRequired": "Mathematics",
 		"uniques": [
-			"Gives a defensive bonus of [25]%",
-			"Can be built outside your borders"
+			"Tile provides yield without assigned population",
+			"Gives a defensive bonus of [25]%"
 		],
 		"shortcutKey": "O"
 	},

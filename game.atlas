@@ -347,13 +347,6 @@ PolicyIcons/Hereditary Rule
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Clam
-  rotate: false
-  xy: 1044, 1668
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 ResourceIcons/Corn
   rotate: false
   xy: 836, 1252

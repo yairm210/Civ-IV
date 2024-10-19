@@ -5,12 +5,13 @@
 
 [
 	{
-		"name": "Clam",
+		"name": "Pearls", // Named "Clam" in Civ 4. We keep it as Pearls for better mod integration.
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
+			"Comment [Clam]",
 			"Provides [+1] [Health] <in [Fishing Boats] tiles>"
 		],
 		"improvementStats": {"food": 2 }
@@ -73,7 +74,10 @@
 		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Tundra"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 2, "gold": 1}
+		"improvementStats": {"production": 2, "gold": 1},
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option"
+		]
 	},
 
 	{
@@ -83,7 +87,10 @@
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option"
+		]
 	},
 
 	{
@@ -93,7 +100,10 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option"
+		]
 	},
 
 	{
@@ -103,7 +113,10 @@
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option"
+		]
 	},
 
 	{
@@ -113,7 +126,10 @@
 		"terrainsCanBeFoundOn": ["Grassland", "Desert", "Tundra", "Snow", "Hill", "Ocean"],
 		"production": 1,
 		"improvement": "Oil well",
-		"improvementStats": {"production": 2, "gold": 1}
+		"improvementStats": {"production": 2, "gold": 1},
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option"
+		]
 	},
 
 	{
@@ -195,17 +211,22 @@
 		"terrainsCanBeFoundOn": ["Jungle", "Grassland"],
 		"food": 1,
 		"improvement": "Plantation",
-		"uniques": ["Provides [+1] [Health] <in [Plantation] tiles>"],
+		"uniques": [
+			"Provides [+1] [Health] <in [Plantation] tiles>"
+		],
 		"improvementStats": {"food": 2}
 	},
 
 	{
-		"name": "Cattle", // Named "Cow" in Civ 4
+		"name": "Cattle", // Named "Cow" in Civ 4. We keep it as Cattle for better mod integration.
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		"food": 1,
 		"improvement": "Pasture",
-		"uniques": ["Provides [+1] [Health] <in [Pasture] tiles>"],
+		"uniques": [
+			"Comment [Cow]",
+			"Provides [+1] [Health] <in [Pasture] tiles>"
+		],
 		"improvementStats": {"food": 1, "production": 2}
 	},
 
