@@ -146,7 +146,6 @@
 		"uniques": [
 			"Rough terrain",
 			"Has an elevation of [1] for visibility calculations",
-			"[1] Sight",
 			"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
 			"Occurs in groups around high elevations",
 			"Considered [Desirable] when determining start locations",
