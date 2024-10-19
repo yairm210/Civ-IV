@@ -192,7 +192,6 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 ## Resources
 
-- [Cow](https://thenounproject.com/icon/cow-7234416/) by Kim Sun Young
 - [Pig](https://thenounproject.com/icon/pig-1021476/) by Bakunetsu Kaito
 - [Corn](https://thenounproject.com/icon/corn-1608785/) by Marco Livoski
 - [Rice](https://thenounproject.com/icon/rice-102154/) by Mourad Mokrane

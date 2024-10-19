@@ -361,13 +361,6 @@ ResourceIcons/Corn
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Cow
-  rotate: false
-  xy: 4, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 ResourceIcons/Health
   rotate: false
   xy: 836, 4

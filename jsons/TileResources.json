@@ -200,7 +200,7 @@
 	},
 
 	{
-		"name": "Cow",
+		"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		"food": 1,
