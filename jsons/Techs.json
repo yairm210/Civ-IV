@@ -1,6 +1,4 @@
 // TODO: Fix the ordering of the technologies in the tech trees
-// TODO: Add BTS techs with Civ IV Beyond the Sword mod https://discover.hubpages.com/games-hobbies/civ4quotes
-
 [
 	{
 		"columnNumber": 0,
@@ -16,7 +14,7 @@
 			{
 				"name": "The Wheel",
 				"cost": 60,
-				"row": 21,
+				"row": 16,
 				"quote": "\"Put your shoulder to the wheel.\" - Aesop"
 			},
 			{
@@ -39,7 +37,7 @@
 			},
 			{
 				"name": "Mining",
-				"row": 17,
+				"row": 14,
 				"cost": 50,
 				"quote": "\"The man who moves a mountain begins by carrying away small stones.\" - Confucius"
 			}
@@ -66,7 +64,7 @@
 			{
 				"name": "Pottery",
 				"cost":80,
-				"row": 21,
+				"row": 16,
 				"prerequisites": ["The Wheel"],
 				"uniques": [
 					"Comment [Requires Agriculture or Fishing]",
@@ -103,7 +101,7 @@
 			},
 			{
 				"name": "Polytheism",
-				"row": 11,
+				"row": 12,
 				"cost": 100,
 				"prerequisites": ["Mysticism"],
 				"uniques": [
@@ -113,7 +111,7 @@
 			},
 			{
 				"name": "Masonry",
-				"row": 13,
+				"row": 10,
 				"cost": 80,
 				"uniques": [
 					"Comment [Requires Mining or Mysticism]",
@@ -147,7 +145,7 @@
 			},
 			{
 				"name": "Monotheism",
-				"row": 15,
+				"row": 13,
 				"cost": 120,
 				"prerequisites": ["Masonry", "Polytheism"],
 				"uniques": [
@@ -159,7 +157,7 @@
 			{
 				"name": "Bronze Working",
 				"cost": 120,
-				"row": 17,
+				"row": 14,
 				"prerequisites": ["Mining"],
 				"uniques": [
 					"Comment [Enables Slavery]"
@@ -187,7 +185,7 @@
 			{
 				"name": "Metal Casting",
 				"cost": 450,
-				"row": 28,
+				"row": 18,
 				"prerequisites": ["Pottery", "Bronze Working"],
 				"quote": "\"And them that take the sword, shall perish by the sword.\" - New Testament, Matthew 26:52"
 			},
@@ -241,7 +239,7 @@
 			{
 				"name": "Compass",
 				"cost": 400,
-				"row": 19,
+				"row": 12,
 				"prerequisites": ["Sailing", "Iron Working"],
                 "uniques": [
 					"Enables embarkation for land units"
@@ -258,7 +256,7 @@
 			{
 				"name": "Literature",
 				"cost": 200,
-				"row": 21,
+				"row": 13,
 				"prerequisites": ["Alphabet", "Polytheism"],
 				"quote": "\"Some books are to be tasted, others to be swallowed and some few to be chewed and digested.\" - Sir Francis Bacon"
 			},
@@ -272,7 +270,7 @@
 			{
 				"name": "Construction",
 				"cost": 350,
-				"row": 26,
+				"row": 15,
 				"prerequisites": ["Masonry", "Mathematics"],
 				"uniques": [
 					// TODO: Construction enables Bridge Building
@@ -282,7 +280,7 @@
 			{
 				"name": "Currency",
 				"cost": 400,
-				"row": 24,
+				"row": 14,
 				"prerequisites": ["Mathematics"],
 				"uniques": [
 					// TODO: +1 Trade Routes per city
@@ -293,7 +291,7 @@
 			{
 				"name": "Machinery",
 				"cost": 700,
-				"row": 28,
+				"row": 16,
 				"prerequisites": ["Metal Casting"],
 				"quote": "\"A god from the machine' - Menander"
 			}
@@ -318,7 +316,7 @@
 			{
 				"name": "Engineering",
 				"cost": 1000,
-				"row": 15,
+				"row": 12,
 				"prerequisites": ["Machinery", "Construction"],
 				"uniques": [
 					// TODO: +1 Road Movement
@@ -418,7 +416,7 @@
 			{
 				"name": "Guilds",
 				"cost": 1000,
-				"row": 17,
+				"row": 14,
 				"prerequisites": ["Feudalism", "Machinery"],
 				"quote": "\"People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public' - Adam Smith"
 			}
@@ -482,7 +480,7 @@
 			{
 				"name": "Printing Press",
 				"cost": 1600,
-				"row": 19,
+				"row": 17,
 				"prerequisites": ["Machinery", "Paper"],
 				"uniques": [
 					"[+1 Gold] from [Village] tiles [in your cities]",
@@ -563,7 +561,7 @@
 			{
 				"name": "Gunpowder",
 				"cost": 1200,
-				"row": 17,
+				"row": 2,
 				"uniques": [
 					"Comment [Requires Guilds or Education]",
 					"Unavailable <before discovering [Guilds]> <before discovering [Education]> <hidden from users>"
@@ -580,7 +578,7 @@
 			{
 				"name": "Democracy",
 				"cost": 2800,
-				"row": 19,
+				"row": 16,
 				"prerequisites": ["Printing Press", "Constitution"],
 				"uniques": [
 					"Comment [Enables Emancipation]",
@@ -787,7 +785,7 @@
 			{
 				"name": "Combustion",
 				"cost": 3600,
-				"row": 21,
+				"row": 17,
 				"prerequisites": ["Railroad"],
 				"quote": "\"Everything in life is somewhere else and you get there in a car.\" - E. B. White"
 			}
@@ -826,7 +824,7 @@
 			{
 				"name": "Refrigeration",
 				"cost": 4000,
-				"row": 17,
+				"row": 11,
 				"prerequisites": ["Biology", "Electricity"],
 				"uniques": [
 					"[+1] Movement <for [Water] units>"
@@ -836,7 +834,7 @@
 			{
 				"name": "Radio",
 				"cost": 6000,
-				"row": 19,
+				"row": 16,
 				"prerequisites": ["Electricity"],
 				"quote": "\"Then one fine mornin' she puts on a New York Station. You know her life was saved by Rock 'n' Roll.\" - The Velvet Underground, \"Rock and Roll\""
 			}
@@ -860,7 +858,7 @@
 			{
 				"name": "Plastics",
 				"cost": 7000,
-				"row": 21,
+				"row": 17,
 				"prerequisites": ["Combustion", "Industrialism"],
 				"quote": "\"I just want to say one word to you, just one word: plastics.\" - Calder Willingham, The Graduate"
 			},
@@ -874,7 +872,7 @@
 			{
 				"name": "Mass Media",
 				"cost": 3600,
-				"row": 19,
+				"row": 16,
 				"prerequisites": ["Radio"],
 				"quote": "\"The only thing worse than being talked about is not being talked about.\" - Oscar Wilde"
 			}
