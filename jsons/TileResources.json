@@ -200,7 +200,7 @@
 	},
 
 	{
-		"name": "Cattle",
+		"name": "Cattle", // Named "Cow" in Civ 4
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		"food": 1,
