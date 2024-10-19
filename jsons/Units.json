@@ -1295,8 +1295,9 @@
 			"Never appears as a Barbarian unit",
 			"[+50]% Strength <vs [Sword] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
-			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
-			"[+100]% Strength <vs [Mounted] units>"
+			"[+100]% Strength <vs [War Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
+			"[+25]% Strength <when fighting in [Hill] tiles> <when defending> <if [Civ IV Beyond the Sword] is not enabled>",
+			"[+100]% Strength <vs [Mounted] units> <if [Civ IV Beyond the Sword] is not enabled>"
 		],
 		"requiredTech": "Bronze Working",
 		"attackSound": "metalhit"

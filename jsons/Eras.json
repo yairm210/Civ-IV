@@ -1,9 +1,6 @@
 [
     // Source: the fandom, so take these with a grain of salt
     // I also did some testing in the official version, but by far not all
-
-    // TODO: Fill in the startingObsoleteWonders fields.
-
     {
         "name": "Ancient era",
         "researchAgreementCost": 150,
