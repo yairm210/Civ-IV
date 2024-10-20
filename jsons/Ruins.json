@@ -50,12 +50,15 @@
         "notification": "An ancient tribe mends our wounds.",
         "uniques": ["[This Unit] heals [10] HP", "Only available <after turn number [5]>"]
     },
-    {
-        "name": "tech",
-        "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"],
-		"color": "#7f7fff"
-    },
+
+	// Temporarily removed, as it may be causing a null pointer exception?
+    //{
+    //    "name": "tech",
+    //    "notification": "We have discovered the lost technology of [techName] in the ruins!",
+    //    "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"],
+	//	"color": "#7f7fff"
+    //},
+
     // TODO: Add Ruins Reward barbs_weak
     // TODO: Add Ruins Reward barbs_strong
 ]
