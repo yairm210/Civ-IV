@@ -983,7 +983,7 @@
 			"Can remove other religions from cities",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Cannot attack",
 			"Limited to [3] per Civilization" // Limited to 3 per religion
 		],
@@ -1053,7 +1053,7 @@
 			"Great Person - [Faith]",
 			// TODO: In Civ 4 can you purchase Great Prophets?
 			//"Can be purchased for [200] [Faith] [in your cities] <after founding a Pantheon> <in cities following our religion>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Never appears as a Barbarian unit"
 		]
     },
