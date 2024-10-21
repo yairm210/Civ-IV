@@ -1363,6 +1363,7 @@
 			"[-2 Happiness] [in your cities] <for [2] turns>",
 			"Remove [Revolution] [in this city] <hidden from users>",
 			"Only available <in [in capital] cities>",
+			"Only available <for [Human player] Civilizations> <hidden from users>", // Disable for AI players for now
 			"Cannot be hurried",
 			"Cannot be purchased",
 			"Free Social Policy <hidden from users>",
