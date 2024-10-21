@@ -1,6 +1,5 @@
 // https://civilization.fandom.com/wiki/List_of_civics_in_Civ4
 // TODO: Add Upkeep/Maintenance: https://www.civfanatics.com/civ4/strategy/game-mechanics/civic-upkeep-explained/
-// TODO:
 
 [
     {
@@ -21,12 +20,6 @@
 					"Unavailable <after adopting [Universal Suffrage]> <hidden from users>",
 					"Unavailable <after adopting [Representation]> <hidden from users>"
                 ],
-				"civilopediaText": [
-					{
-						"text": "Trigger Revolution to select a new Civic",
-						"link": "Wonders/Revolution"
-					}
-				],
 				"civilopediaText": [
 					{
 						"text": "Trigger Revolution to select a new Civic",
