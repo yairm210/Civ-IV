@@ -149,6 +149,13 @@
 				"prerequisites": ["Masonry", "Polytheism"],
 				"uniques": [
 					"Comment [Enables Organized Religion]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Paganism] <hidden from users>",
+					"Remove [Organized Religion] <hidden from users>",
+					"Remove [Theocracy] <hidden from users>",
+					"Remove [Pacifism] <hidden from users>",
+					"Remove [Free Religion] <hidden from users>",
+
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
 				],
 				"quote": "\"I am the Lord thy God. Thou shalt have no other gods before me.\" - The Bible, Exodus"
@@ -159,7 +166,13 @@
 				"row": 14,
 				"prerequisites": ["Mining"],
 				"uniques": [
-					"Comment [Enables Slavery]"
+					"Comment [Enables Slavery]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Tribalism] <hidden from users>",
+					"Remove [Slavery] <hidden from users>",
+					"Remove [Serfdom] <hidden from users>",
+					"Remove [Caste System] <hidden from users>",
+					"Remove [Emancipation] <hidden from users>"
 				],
 				"quote": "\"It is entirely seemly for a young man killed in battle to lie mangled by the bronze spear. In his death all things appear fair.\" - Homer"
 			}
@@ -231,7 +244,14 @@
 				"uniques": [
 					"Comment [Requires Priesthood or Monotheism]",
 					"Unavailable <before discovering [Monotheism]> <before discovering [Priesthood]> <hidden from users>",
-					"Comment [Enables Hereditary Rule]"
+
+					"Comment [Enables Hereditary Rule]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Despotism] <hidden from users>",
+					"Remove [Hereditary Rule] <hidden from users>",
+					"Remove [Representation] <hidden from users>",
+					"Remove [Police State] <hidden from users>",
+					"Remove [Universal Suffrage] <hidden from users>"
 				],
 				"quote": "\"A multitude of rulers is not a good thing, let there be one ruler, one king.\" - Herodotus"
 			},
@@ -330,8 +350,15 @@
 				"uniques": [
 					"Comment [Requires Priesthood or Currency]",
 					"Unavailable <before discovering [Currency]> <before discovering [Priesthood]> <hidden from users>",
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>",
+
 					"Comment [Enables Caste System]",
-					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+					"Free Social Policy <hidden from users>",
+					"Remove [Tribalism] <hidden from users>",
+					"Remove [Slavery] <hidden from users>",
+					"Remove [Serfdom] <hidden from users>",
+					"Remove [Caste System] <hidden from users>",
+					"Remove [Emancipation] <hidden from users>"
 				],
 				"quote": "\"To bring about the rule of righteousness in the land so that the strong shall not harm the weak.\" - Hammurabi's Code, Prologue"
 			},
@@ -342,7 +369,20 @@
 				"prerequisites": ["Writing", "Monarchy"],
 				"uniques": [
 					"Comment [Enables Serfdom]",
-					"Comment [Enables Vassalage]"
+					"Free Social Policy <hidden from users>",
+					"Remove [Tribalism] <hidden from users>",
+					"Remove [Slavery] <hidden from users>",
+					"Remove [Serfdom] <hidden from users>",
+					"Remove [Caste System] <hidden from users>",
+					"Remove [Emancipation] <hidden from users>",
+
+					"Comment [Enables Vassalage]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Barbarism] <hidden from users>",
+					"Remove [Vassalage] <hidden from users>",
+					"Remove [Bureaucracy] <hidden from users>",
+					"Remove [Nationhood] <hidden from users>",
+					"Remove [Free Speech] <hidden from users>"
 				],
 				"quote": "\"I will to my lord be true and faithful and love all which he loves and shun all which he shuns.\" - Anglo-Saxon Oath of Fealty"
 			},
@@ -384,8 +424,15 @@
 				"uniques": [
 					"Comment [Requires Code of Laws or Drama]",
 					"Unavailable <before discovering [Code of Laws]> <before discovering [Drama]> <hidden from users>",
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>",
+
 					"Comment [Enables Pacifism]",
-					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+					"Free Social Policy <hidden from users>",
+					"Remove [Paganism] <hidden from users>",
+					"Remove [Organized Religion] <hidden from users>",
+					"Remove [Theocracy] <hidden from users>",
+					"Remove [Pacifism] <hidden from users>",
+					"Remove [Free Religion] <hidden from users>"
 				],
 				"quote": "\"I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.\" - Aristotle"
 			},
@@ -396,8 +443,14 @@
 				"uniques": [
 					"Comment [Requires Code of Laws or Feudalism]",
 					"Unavailable <before discovering [Code of Laws]> <before discovering [Feudalism]> <hidden from users>",
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>",
 					"Comment [Enables Bureaucracy]",
-					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+					"Free Social Policy <hidden from users>",
+					"Remove [Barbarism] <hidden from users>",
+					"Remove [Vassalage] <hidden from users>",
+					"Remove [Bureaucracy] <hidden from users>",
+					"Remove [Nationhood] <hidden from users>",
+					"Remove [Free Speech] <hidden from users>"
 				],
 				"quote": "\"The bureaucracy is expanding to meet the needs of the expanding breaucracy.\" - Oscar Wilde"
 			},
@@ -407,8 +460,14 @@
 				"row": 6,
 				"prerequisites": ["Writing", "Monotheism"],
 				"uniques": [
+					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>",
 					"Comment [Enables Theocracy]",
-					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+					"Free Social Policy <hidden from users>",
+					"Remove [Paganism] <hidden from users>",
+					"Remove [Organized Religion] <hidden from users>",
+					"Remove [Theocracy] <hidden from users>",
+					"Remove [Pacifism] <hidden from users>",
+					"Remove [Free Religion] <hidden from users>"
 				],
 				"quote": "\"Two cities have been formed by two loves: the earthly by the love of self, the heavenly by the love of God.\" - St. Augustine"
 			},
@@ -453,7 +512,13 @@
 				"row": 13,
 				"prerequisites": ["Currency", "Guilds"],
 				"uniques": [
-					"Comment [Enables Mercantilism]"
+					"Comment [Enables Mercantilism]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Decentralization] <hidden from users>",
+					"Remove [Mercantilism] <hidden from users>",
+					"Remove [Free Market] <hidden from users>",
+					"Remove [State Property] <hidden from users>",
+					"Remove [Environmentalism] <hidden from users>"
 				],
 				"quote": "\"Banking establishments are more dangerous than standing armies' - Thomas Jefferson"
 			}
@@ -472,7 +537,13 @@
 				"uniques": [
 					"Comment [Requires Divine Right or Philosophy]",
 					"Unavailable <before discovering [Divine Right]> <before discovering [Philosophy]> <hidden from users>",
-					"Comment [Enables Nationhood]"
+					"Comment [Enables Nationhood]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Barbarism] <hidden from users>",
+					"Remove [Vassalage] <hidden from users>",
+					"Remove [Bureaucracy] <hidden from users>",
+					"Remove [Nationhood] <hidden from users>",
+					"Remove [Free Speech] <hidden from users>"
 				],
 				"quote": "\"A man does not have himself killed for a half pence a day or for a petty distinction. You must speak to the soul in order to electrify him..\" - Napoleon Bonaparte"
 			},
@@ -517,7 +588,13 @@
 				"row": 4,
 				"prerequisites": ["Code of Laws", "Nationalism"],
 				"uniques": [
-					"Comment [Enables Representation]"
+					"Comment [Enables Representation]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Despotism] <hidden from users>",
+					"Remove [Hereditary Rule] <hidden from users>",
+					"Remove [Representation] <hidden from users>",
+					"Remove [Police State] <hidden from users>",
+					"Remove [Universal Suffrage] <hidden from users>"
 				],
 				"quote": "\"No freeman shall be taken, imprisoned, or in any other way destroyed, except by the lawful judgment of his peers.\" - The Magna Carta"
 			},
@@ -540,8 +617,22 @@
 				"uniques": [
 					// TODO: Only reward a Free Technology if starting on previous eras.
 					"Free Technology <if no other Civilization has researched this>",
+
 					"Comment [Enables Free Speech]",
-					"Comment [Enables Free Religion]"
+					"Free Social Policy <hidden from users>",
+					"Remove [Barbarism] <hidden from users>",
+					"Remove [Vassalage] <hidden from users>",
+					"Remove [Bureaucracy] <hidden from users>",
+					"Remove [Nationhood] <hidden from users>",
+					"Remove [Free Speech] <hidden from users>",
+
+					"Comment [Enables Free Religion]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Paganism] <hidden from users>",
+					"Remove [Organized Religion] <hidden from users>",
+					"Remove [Theocracy] <hidden from users>",
+					"Remove [Pacifism] <hidden from users>",
+					"Remove [Free Religion] <hidden from users>"
 				],
 				"quote": "\"Any society that would give up a little liberty to gain a little security will deserve neither and lose both.\" - Benjamin Franklin"
 			},
@@ -552,6 +643,13 @@
 				"prerequisites": ["Banking", "Education"],
 				"uniques": [
 					"Comment [Enables Free Market]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Decentralization] <hidden from users>",
+					"Remove [Mercantilism] <hidden from users>",
+					"Remove [Free Market] <hidden from users>",
+					"Remove [State Property] <hidden from users>",
+					"Remove [Environmentalism] <hidden from users>",
+
 					// TODO: Only reward a Great Merchant if starting on previous eras.
 					"Free [Great Merchant] appears <if no other Civilization has researched this>"
 				],
@@ -581,7 +679,20 @@
 				"prerequisites": ["Printing Press", "Constitution"],
 				"uniques": [
 					"Comment [Enables Emancipation]",
-					"Comment [Enables Universal Suffrage]"
+					"Free Social Policy <hidden from users>",
+					"Remove [Tribalism] <hidden from users>",
+					"Remove [Slavery] <hidden from users>",
+					"Remove [Serfdom] <hidden from users>",
+					"Remove [Caste System] <hidden from users>",
+					"Remove [Emancipation] <hidden from users>",
+
+					"Comment [Enables Universal Suffrage]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Despotism] <hidden from users>",
+					"Remove [Hereditary Rule] <hidden from users>",
+					"Remove [Representation] <hidden from users>",
+					"Remove [Police State] <hidden from users>",
+					"Remove [Universal Suffrage] <hidden from users>"
 				],
 				"quote": "\"It has been said that democracy is the worst form of government except all the others that have been tried.\" - Winston Churchill"
 			},
@@ -695,6 +806,13 @@
 				"prerequisites": ["Scientific Method", "Liberalism"],
 				"uniques": [
 					"Comment [Enables State Property]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Decentralization] <hidden from users>",
+					"Remove [Mercantilism] <hidden from users>",
+					"Remove [Free Market] <hidden from users>",
+					"Remove [State Property] <hidden from users>",
+					"Remove [Environmentalism] <hidden from users>",
+
 					// TODO: Enables Permanent Alliance
 					// TODO: Only reward a Great Spy if starting on previous eras.
 					"Free [Great Spy] appears <if no other Civilization has researched this> <if [Civ IV Beyond the Sword] is enabled>"
@@ -757,7 +875,15 @@
 				"prerequisites": ["Assembly Line"],
 				"uniques": [
 					"Only available <after discovering [Nationalism]>",
+
 					"Comment [Enables Police State]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Despotism] <hidden from users>",
+					"Remove [Hereditary Rule] <hidden from users>",
+					"Remove [Representation] <hidden from users>",
+					"Remove [Police State] <hidden from users>",
+					"Remove [Universal Suffrage] <hidden from users>",
+
 					// TODO: Enables Permanent Alliances
 					// TODO: Only reward a Great General if starting on previous eras.
 					"Free [Great General] appears <if no other Civilization has researched this> <if [Civ IV Warlords] is enabled>"
@@ -777,7 +903,13 @@
 				"row": 9,
 				"prerequisites": ["Biology", "Optics"],
 				"uniques": [
-					"Comment [Enables Environmentalism]"
+					"Comment [Enables Environmentalism]",
+					"Free Social Policy <hidden from users>",
+					"Remove [Decentralization] <hidden from users>",
+					"Remove [Mercantilism] <hidden from users>",
+					"Remove [Free Market] <hidden from users>",
+					"Remove [State Property] <hidden from users>",
+					"Remove [Environmentalism] <hidden from users>"
 				],
 				"quote": "\"As to diseases, make a habit of two things - to help or at least to do no harm.\" - Hippocrates"
 			},

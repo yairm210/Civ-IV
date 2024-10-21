@@ -70,6 +70,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Bath House](https://thenounproject.com/icon/bath-house-724565/) by Alexander Skowalsky for Hammam
 - [Lighthouse](https://thenounproject.com/icon/lighthouse-4982237/) by Kermal Moe for Trading Post
 - [Spears](https://thenounproject.com/icon/spears-7032289/) by Amir Ali for Ikhanda
+- [Revolution](https://thenounproject.com/icon/revolution-3918127/) by Adrien Coquet for Revolution
 
 #### Improvements
 

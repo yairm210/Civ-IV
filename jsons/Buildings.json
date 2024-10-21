@@ -1351,6 +1351,58 @@
 		"requiredTech": "Fusion"
 	},
 
+	// Special Buildings
+
+	{
+		"name": "Revolution",
+		"cost": 1,
+		"isNationalWonder": true,
+		"happiness": -5,
+		"uniques": [
+			"Comment [Allows selecting new Policies/Civics]",
+			"[-2 Happiness] [in your cities] <for [2] turns>",
+			"Remove [Revolution] [in this city] <hidden from users>",
+			"Only available <in [in capital] cities>",
+			"Cannot be hurried",
+			"Cannot be purchased",
+			"Free Social Policy <hidden from users>",
+			"Free Social Policy <hidden from users>",
+			"Free Social Policy <hidden from users>",
+			"Free Social Policy <hidden from users>",
+			"Free Social Policy <hidden from users>",
+			"Remove [Despotism] <hidden from users>",
+			"Remove [Hereditary Rule] <hidden from users>",
+			"Remove [Representation] <hidden from users>",
+			"Remove [Police State] <hidden from users>",
+			"Remove [Universal Suffrage] <hidden from users>",
+			"Remove [Barbarism] <hidden from users>",
+			"Remove [Vassalage] <hidden from users>",
+			"Remove [Bureaucracy] <hidden from users>",
+			"Remove [Nationhood] <hidden from users>",
+			"Remove [Free Speech] <hidden from users>",
+			"Remove [Tribalism] <hidden from users>",
+			"Remove [Slavery] <hidden from users>",
+			"Remove [Serfdom] <hidden from users>",
+			"Remove [Caste System] <hidden from users>",
+			"Remove [Emancipation] <hidden from users>",
+			"Remove [Decentralization] <hidden from users>",
+			"Remove [Mercantilism] <hidden from users>",
+			"Remove [Free Market] <hidden from users>",
+			"Remove [State Property] <hidden from users>",
+			"Remove [Environmentalism] <hidden from users>",
+			"Remove [Paganism] <hidden from users>",
+			"Remove [Organized Religion] <hidden from users>",
+			"Remove [Theocracy] <hidden from users>",
+			"Remove [Pacifism] <hidden from users>",
+			"Remove [Free Religion] <hidden from users>"
+		],
+		"civilopediaText": [
+          	{
+				"text": "In order to select new Civic Policies, you must trigger a Revolution in your nation's capital. Once built, you'll be able to select the new Civics."
+			}
+      	]
+	},
+
 	// Placeholder Buildings for integration points
 	{
 		"name": "Mausoleum of Maussollos", // BTS
