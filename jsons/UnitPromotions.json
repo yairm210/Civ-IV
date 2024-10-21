@@ -1,5 +1,4 @@
 // TODO: Add column/rows to each promotion?
-// TODO: Make "[This Unit] heals [25] HP <hidden from users>" heal only half of the missing HP
 [
 	{
 		"name": "Accuracy",
