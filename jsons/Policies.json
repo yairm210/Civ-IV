@@ -58,7 +58,7 @@
                 "name": "Representation",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+40]% weight to this choice for AI decisions",
 
@@ -84,7 +84,7 @@
                 "name": "Police State",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
 
 					"[+80]% weight to this choice for AI decisions <when at war>",
 
@@ -110,7 +110,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+40]% weight to this choice for AI decisions",
 
@@ -172,8 +172,9 @@
                 "name": "Vassalage",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
 
+					"[+10]% weight to this choice for AI decisions",
 					"[+30]% weight to this choice for AI decisions <when at war>",
 
 					"New [Military] units start with [2] Experience [in your cities]",
@@ -198,10 +199,10 @@
                 "name": "Bureaucracy",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
-					"[+20]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
+					"[+40]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
 
 					"[+50]% [Gold] [in capital]",
 					"[+50]% [Production] [in capital]",
@@ -226,9 +227,11 @@
                 "uniques": [
 					"Comment [No Upkeep]",
 
-					"[+80]% weight to this choice for AI decisions <when at war>",
+					"[+20]% weight to this choice for AI decisions",
+					"[+60]% weight to this choice for AI decisions <when at war>",
 
 					"[+2 Happiness] from every [Barracks]",
+					// TODO: +25% Espionage in all cities
                     "Only available <after discovering [Nationalism]>",
 
 					"Unavailable <after adopting [Barbarism]> <hidden from users>",
@@ -251,10 +254,13 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"[+60]% weight to this choice for AI decisions",
+					"[+90]% weight to this choice for AI decisions",
 
 					"[+100]% [Culture] [in your cities]",
 					"[+2 Gold] from [Cottage] tiles [in your cities]",
+					"[+2 Gold] from [Hamlet] tiles [in your cities]",
+					"[+2 Gold] from [Village] tiles [in your cities]",
+					"[+2 Gold] from [Town] tiles [in your cities]",
                     "Only available <after discovering [Liberalism]>",
 
 					"Unavailable <after adopting [Barbarism]> <hidden from users>",
@@ -311,7 +317,7 @@
                 "name": "Slavery",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -340,6 +346,7 @@
 					"[-1 Gold] per [3] population [in your cities]",
 
 					"[+40]% weight to this choice for AI decisions",
+					"[+20]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
 
 					"[-50]% construction time for [All] improvements",
                     "Only available <after discovering [Feudalism]>",
@@ -362,11 +369,11 @@
                 "name": "Caste System",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
-					"[+30]% weight to this choice for AI decisions",
+					"[+50]% weight to this choice for AI decisions",
 
-					// Unlimited number of artists/merchants/scientists
+					// TODO: Unlimited number of artists/merchants/scientists
 					"[+1 Production] from [Workshop] tiles [in your cities]",
                     "Only available <after discovering [Code of Laws]>",
 
@@ -384,7 +391,7 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"[+20]% weight to this choice for AI decisions",
+					"[+80]% weight to this choice for AI decisions",
 
 					// TODO: Unhappiness in civilizations without emancipation
 					"[+1 Happiness] [in your cities]",
@@ -452,7 +459,7 @@
                 "name": "Mercantilism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -479,11 +486,12 @@
                 "name": "Free Market",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+30]% weight to this choice for AI decisions",
 
 					"[+1 Gold] from each Trade Route", // 1 trade route in every city
+					"[+10]% [Gold] from Trade Routes",
 					// -25% maintenance costs from corporations (BTS)
                     "Only available <after discovering [Economics]>",
 
@@ -534,7 +542,7 @@
                 "name": "Environmentalism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+80]% weight to this choice for AI decisions",
 
@@ -601,7 +609,7 @@
                 "name": "Organized Religion",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -628,9 +636,10 @@
                 "name": "Theocracy",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
-					"[+70]% weight to this choice for AI decisions <when at war>",
+					"[+10]% weight to this choice for AI decisions",
+					"[+50]% weight to this choice for AI decisions <when at war>",
 
 					"New [Military] units start with [2] Experience [in cities following our religion]",
 					// No non-state religion spreads
@@ -656,10 +665,11 @@
                 "uniques": [
 					"Comment [No Upkeep]",
 
-					"[+60]% weight to this choice for AI decisions <when not at war>",
+					"[+20]% weight to this choice for AI decisions",
+					"[+50]% weight to this choice for AI decisions <when not at war>",
 
 					"[+100]% Great Person generation [in cities following our religion]",
-					// TODO: +1 Coins support cost per military unit
+					"[-1] Unit Supply per [3] population [in your cities]", // +1 Coins support cost per military unit
 
                     "Only available <after discovering [Philosophy]>",
 
@@ -683,11 +693,11 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"[+80]% weight to this choice for AI decisions",
+					"[+100]% weight to this choice for AI decisions",
 
 					"[+10]% [Science] [in your cities]",
 					"Only available <after discovering [Liberalism]> <before founding a Pantheon>", // No state religion
-					"[+1 Happiness] [in your cities] <in cities with a major religion>",
+					"[+1 Happiness] [in your cities] <in cities with a major religion>", // TODO: Free Religion needs +1 Happiness with ANY Pantheon, not Religion.
 
 					"Unavailable <after adopting [Paganism]> <hidden from users>",
 					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
