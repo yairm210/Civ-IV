@@ -1,56 +1,96 @@
+// TODO: Make [This Unit] heals [25] HP <upon being promoted>
 [
   {
     "name": "Civilian",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Sword",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Gunpowder",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Archery",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Ranged Gunpowder",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Scout",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Mounted",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Armored",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Siege",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Civilian Water",
-    "movementType": "Water"
+    "movementType": "Water",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Melee Water",
-    "movementType": "Water"
+    "movementType": "Water",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Ranged Water",
-    "movementType": "Water"
+    "movementType": "Water",
+	"uniques": [
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
     "name": "Submarine",
     "movementType": "Water",
-    "uniques": ["Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    "uniques": [
+		"Invisible to non-adjacent units",
+		"Can see invisible [Submarine] units",
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"]
   },
   {
     "name": "Fighter",
@@ -59,7 +99,8 @@
 		//"Aircraft",
 		"[+4] Sight",
 		"Can see over obstacles",
-		"Can perform Air Sweep"
+		"Can perform Air Sweep",
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
 	]
   },
   {
@@ -67,19 +108,24 @@
     "movementType": "Air",
 	"uniques": [
 		//"Aircraft"
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
 	]
   },
   {
     "name": "Helicopter",
     "movementType": "Land",
-    "uniques": ["Can pass through impassable tiles"]
+    "uniques": [
+		"Can pass through impassable tiles",
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+	]
   },
   {
 	"name": "Missle",
 	"movementType": "Air",
 	"uniques": [
 		"Self-destructs when attacking",
-		"Cannot be intercepted"
+		"Cannot be intercepted",
+		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
 	]
   },
   {
