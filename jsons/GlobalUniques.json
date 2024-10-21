@@ -67,11 +67,11 @@
 		"[-25]% [Happiness] [in your cities] <when at war>",
 
 		// Adopt all Civic Branches/Policies
-		"Adopt [Government]",
-		"Adopt [Legal]",
-		"Adopt [Labor]",
-		"Adopt [Economy]",
-		"Adopt [Religion]",
+		"Adopt [Government] <hidden from users>",
+		"Adopt [Legal] <hidden from users>",
+		"Adopt [Labor] <hidden from users>",
+		"Adopt [Economy] <hidden from users>",
+		"Adopt [Religion] <hidden from users>",
 
 		// Religion (Holy City)
 		"[+5 Culture] [in capital] <after founding a Pantheon>"

@@ -6,7 +6,7 @@
         "name": "Government",
         "era": "Ancient era",
 		"uniques": [
-			"Adopt [Despotism]"
+			"Adopt [Despotism] <hidden from users>"
 		],
         "policies": [
             {
@@ -15,12 +15,18 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"Remove [Hereditary Rule] <hidden from users>",
-					"Remove [Police State] <hidden from users>",
-					"Remove [Universal Suffrage] <hidden from users>",
-					"Remove [Representation] <hidden from users>"
+					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
+					"Unavailable <after adopting [Police State]> <hidden from users>",
+					"Unavailable <after adopting [Universal Suffrage]> <hidden from users>",
+					"Unavailable <after adopting [Representation]> <hidden from users>"
                 ],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 1
             },
             {
@@ -28,79 +34,102 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
+
+					"[+20]% weight to this choice for AI decisions",
+
 					"[+1 Happiness] [in your cities] <with a garrison>", // +1 Happiness in city per military unit stationed in the city
                     "Only available <after discovering [Monarchy]>",
 
-					"Remove [Despotism] <hidden from users>",
-					"Remove [Police State] <hidden from users>",
-					"Remove [Universal Suffrage] <hidden from users>",
-					"Remove [Representation] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Despotism]> <hidden from users>",
+					"Unavailable <after adopting [Police State]> <hidden from users>",
+					"Unavailable <after adopting [Universal Suffrage]> <hidden from users>",
+					"Unavailable <after adopting [Representation]> <hidden from users>"
                 ],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 3
             },
             {
                 "name": "Representation",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+40]% weight to this choice for AI decisions",
+
 					"[+3 Science] from every [Scientist]",
 					"[+3 Happiness] <in cities with at least [6] [Population]>", // +3 Happiness (Civ4) in the 4-6 biggest cities
                     "Only available <after discovering [Constitution]>",
 
-					"Remove [Despotism] <hidden from users>",
-					"Remove [Hereditary Rule] <hidden from users>",
-					"Remove [Police State] <hidden from users>",
-					"Remove [Universal Suffrage] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Despotism]> <hidden from users>",
+					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
+					"Unavailable <after adopting [Police State]> <hidden from users>",
+					"Unavailable <after adopting [Universal Suffrage]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 5
             },
             {
                 "name": "Police State",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
+
+					"[+80]% weight to this choice for AI decisions <when at war>",
+
 					"[+25]% Production when constructing [Military] units [in your cities]", // +25% military unit production
 					"[+12]% [Happiness] [in your cities] <when at war>", // -50% war weariness
                     "Only available <after discovering [Fascism]>",
 
-					"Remove [Despotism] <hidden from users>",
-					"Remove [Hereditary Rule] <hidden from users>",
-					"Remove [Universal Suffrage] <hidden from users>",
-					"Remove [Representation] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Despotism]> <hidden from users>",
+					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
+					"Unavailable <after adopting [Universal Suffrage]> <hidden from users>",
+					"Unavailable <after adopting [Representation]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 2
             },
             {
                 "name": "Universal Suffrage",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+40]% weight to this choice for AI decisions",
+
 					"[+1 Production] from [Town] tiles [in your cities]",
 					// Can spend Coins to hurry Hammer
                     "Only available <after discovering [Democracy]>",
 
-					"Remove [Despotism] <hidden from users>",
-					"Remove [Hereditary Rule] <hidden from users>",
-					"Remove [Representation] <hidden from users>",
-					"Remove [Police State] <hidden from users>",
-					"Remove [Representation] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Despotism]> <hidden from users>",
+					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
+					"Unavailable <after adopting [Representation]> <hidden from users>",
+					"Unavailable <after adopting [Police State]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 4
             },
 			{
@@ -116,7 +145,7 @@
         "name": "Legal",
         "era": "Ancient era",
 		"uniques": [
-			"Adopt [Barbarism]"
+			"Adopt [Barbarism] <hidden from users>"
 		],
         "policies": [
             {
@@ -125,57 +154,72 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"Remove [Vassalage] <hidden from users>",
-					"Remove [Bureaucracy] <hidden from users>",
-					"Remove [Nationhood] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Vassalage]> <hidden from users>",
+					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
+					"Unavailable <after adopting [Nationhood]> <hidden from users>",
+					"Unavailable <after adopting [Free Speech]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 1
             },
             {
                 "name": "Vassalage",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
+
+					"[+10]% weight to this choice for AI decisions",
+					"[+30]% weight to this choice for AI decisions <when at war>",
 
 					"New [Military] units start with [2] Experience [in your cities]",
 					// Some additional free units
                     "Only available <after discovering [Feudalism]>",
 
-					"Remove [Barbarism] <hidden from users>",
-					"Remove [Bureaucracy] <hidden from users>",
-					"Remove [Nationhood] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Barbarism]> <hidden from users>",
+					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
+					"Unavailable <after adopting [Nationhood]> <hidden from users>",
+					"Unavailable <after adopting [Free Speech]> <hidden from users>"
                 ],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 3
             },
             {
                 "name": "Bureaucracy",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
+
+					"[+20]% weight to this choice for AI decisions",
+					"[+40]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
 
 					"[+50]% [Gold] [in capital]",
 					"[+50]% [Production] [in capital]",
                     "Only available <after discovering [Civil Service]>",
 
-					"Remove [Barbarism] <hidden from users>",
-					"Remove [Vassalage] <hidden from users>",
-					"Remove [Nationhood] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Barbarism]> <hidden from users>",
+					"Unavailable <after adopting [Vassalage]> <hidden from users>",
+					"Unavailable <after adopting [Nationhood]> <hidden from users>",
+					"Unavailable <after adopting [Free Speech]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 5
             },
             {
@@ -183,18 +227,25 @@
                 "uniques": [
 					"Comment [No Upkeep]",
 
+					"[+20]% weight to this choice for AI decisions",
+					"[+60]% weight to this choice for AI decisions <when at war>",
+
 					"[+2 Happiness] from every [Barracks]",
+					// TODO: +25% Espionage in all cities
                     "Only available <after discovering [Nationalism]>",
 
-					"Remove [Barbarism] <hidden from users>",
-					"Remove [Vassalage] <hidden from users>",
-					"Remove [Bureaucracy] <hidden from users>",
-					"Remove [Free Speech] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Barbarism]> <hidden from users>",
+					"Unavailable <after adopting [Vassalage]> <hidden from users>",
+					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
+					"Unavailable <after adopting [Free Speech]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 2
             },
             {
@@ -203,19 +254,27 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
+					"[+90]% weight to this choice for AI decisions",
+
 					"[+100]% [Culture] [in your cities]",
 					"[+2 Gold] from [Cottage] tiles [in your cities]",
+					"[+2 Gold] from [Hamlet] tiles [in your cities]",
+					"[+2 Gold] from [Village] tiles [in your cities]",
+					"[+2 Gold] from [Town] tiles [in your cities]",
                     "Only available <after discovering [Liberalism]>",
 
-					"Remove [Barbarism] <hidden from users>",
-					"Remove [Vassalage] <hidden from users>",
-					"Remove [Bureaucracy] <hidden from users>",
-					"Remove [Nationhood] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Barbarism]> <hidden from users>",
+					"Unavailable <after adopting [Vassalage]> <hidden from users>",
+					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
+					"Unavailable <after adopting [Nationhood]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 4
             },
 			{
@@ -231,7 +290,7 @@
         "name": "Labor",
         "era": "Ancient era",
 		"uniques": [
-			"Adopt [Tribalism]"
+			"Adopt [Tribalism] <hidden from users>"
 		],
         "policies": [
             {
@@ -240,32 +299,44 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"Remove [Slavery] <hidden from users>",
-					"Remove [Serfdom] <hidden from users>",
-					"Remove [Caste System] <hidden from users>",
-					"Remove [Emancipation] <hidden from users>"
+					"Unavailable <after adopting [Slavery]> <hidden from users>",
+					"Unavailable <after adopting [Serfdom]> <hidden from users>",
+					"Unavailable <after adopting [Caste System]> <hidden from users>",
+					"Unavailable <after adopting [Emancipation]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 1
             },
             {
                 "name": "Slavery",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+20]% weight to this choice for AI decisions",
+
 					"[-10]% maintenance costs",
 					// Can hurry production while sacrificing city population
                     "Only available <after discovering [Bronze Working]>",
 
-					"Remove [Tribalism] <hidden from users>",
-					"Remove [Serfdom] <hidden from users>",
-					"Remove [Caste System] <hidden from users>",
-					"Remove [Emancipation] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Tribalism]> <hidden from users>",
+					"Unavailable <after adopting [Serfdom]> <hidden from users>",
+					"Unavailable <after adopting [Caste System]> <hidden from users>",
+					"Unavailable <after adopting [Emancipation]> <hidden from users>"
                 ],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 3
             },
             {
@@ -273,36 +344,43 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
+
+					"[+40]% weight to this choice for AI decisions",
+					"[+20]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
+
 					"[-50]% construction time for [All] improvements",
                     "Only available <after discovering [Feudalism]>",
 
-					"Remove [Tribalism] <hidden from users>",
-					"Remove [Slavery] <hidden from users>",
-					"Remove [Caste System] <hidden from users>",
-					"Remove [Emancipation] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Tribalism]> <hidden from users>",
+					"Unavailable <after adopting [Slavery]> <hidden from users>",
+					"Unavailable <after adopting [Caste System]> <hidden from users>",
+					"Unavailable <after adopting [Emancipation]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 5
             },
             {
                 "name": "Caste System",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
-					// Unlimited number of artists/merchants/scientists
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+50]% weight to this choice for AI decisions",
+
+					// TODO: Unlimited number of artists/merchants/scientists
 					"[+1 Production] from [Workshop] tiles [in your cities]",
                     "Only available <after discovering [Code of Laws]>",
 
-					"Remove [Tribalism] <hidden from users>",
-					"Remove [Slavery] <hidden from users>",
-					"Remove [Serfdom] <hidden from users>",
-					"Remove [Emancipation] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Tribalism]> <hidden from users>",
+					"Unavailable <after adopting [Slavery]> <hidden from users>",
+					"Unavailable <after adopting [Serfdom]> <hidden from users>",
+					"Unavailable <after adopting [Emancipation]> <hidden from users>"
                 ],
                 "row":2,
                 "column": 2
@@ -312,6 +390,9 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
+
+					"[+80]% weight to this choice for AI decisions",
+
 					// TODO: Unhappiness in civilizations without emancipation
 					"[+1 Happiness] [in your cities]",
 					"[-1 Happiness] [in enemy cities]",
@@ -324,15 +405,18 @@
 
                     "Only available <after discovering [Democracy]>",
 
-					"Remove [Tribalism] <hidden from users>",
-					"Remove [Slavery] <hidden from users>",
-					"Remove [Serfdom] <hidden from users>",
-					"Remove [Caste System] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Tribalism]> <hidden from users>",
+					"Unavailable <after adopting [Slavery]> <hidden from users>",
+					"Unavailable <after adopting [Serfdom]> <hidden from users>",
+					"Unavailable <after adopting [Caste System]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 4
             },
 			{
@@ -348,7 +432,7 @@
         "name": "Economy",
         "era": "Ancient era",
 		"uniques": [
-			"Adopt [Decentralization]"
+			"Adopt [Decentralization] <hidden from users>"
 		],
         "policies": [
             {
@@ -357,55 +441,72 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"Remove [Mercantilism] <hidden from users>",
-					"Remove [Free Market] <hidden from users>",
-					"Remove [State Property] <hidden from users>",
-					"Remove [Environmentalism] <hidden from users>"
+					"Unavailable <after adopting [Mercantilism]> <hidden from users>",
+					"Unavailable <after adopting [Free Market]> <hidden from users>",
+					"Unavailable <after adopting [State Property]> <hidden from users>",
+					"Unavailable <after adopting [Environmentalism]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 1
             },
             {
                 "name": "Mercantilism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+20]% weight to this choice for AI decisions",
 
 					"[+1 Gold] [in your cities]", // TODO: Add Mercantilism +1 free Specialist in every city
 					// No foreign trade routes except to vassals
 					// Foreign corporations have no effect
                     "Only available <after discovering [Banking]>",
 
-					"Remove [Decentralization] <hidden from users>",
-					"Remove [Free Market] <hidden from users>",
-					"Remove [State Property] <hidden from users>",
-					"Remove [Environmentalism] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Decentralization]> <hidden from users>",
+					"Unavailable <after adopting [Free Market]> <hidden from users>",
+					"Unavailable <after adopting [State Property]> <hidden from users>",
+					"Unavailable <after adopting [Environmentalism]> <hidden from users>"
                 ],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 3
             },
             {
                 "name": "Free Market",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+30]% weight to this choice for AI decisions",
 
 					"[+1 Gold] from each Trade Route", // 1 trade route in every city
+					"[+10]% [Gold] from Trade Routes",
 					// -25% maintenance costs from corporations (BTS)
                     "Only available <after discovering [Economics]>",
 
-					"Remove [Decentralization] <hidden from users>",
-					"Remove [Mercantilism] <hidden from users>",
-					"Remove [State Property] <hidden from users>",
-					"Remove [Environmentalism] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Decentralization]> <hidden from users>",
+					"Unavailable <after adopting [Mercantilism]> <hidden from users>",
+					"Unavailable <after adopting [State Property]> <hidden from users>",
+					"Unavailable <after adopting [Environmentalism]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 5
             },
             {
@@ -414,6 +515,8 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
+					"[+60]% weight to this choice for AI decisions",
+
 					"[-5]% maintenance costs", // No maintenance costs from distance to palace
 					"[+1 Food] from [Workshop] tiles [in your cities]",
 					"[+1 Food] from [Watermill] tiles [in your cities]",
@@ -421,22 +524,27 @@
 					// All corporations have no effect (BTS)
                     "Only available <after discovering [Communism]>",
 
-					"Remove [Decentralization] <hidden from users>",
-					"Remove [Mercantilism] <hidden from users>",
-					"Remove [Free Market] <hidden from users>",
-					"Remove [Environmentalism] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Decentralization]> <hidden from users>",
+					"Unavailable <after adopting [Mercantilism]> <hidden from users>",
+					"Unavailable <after adopting [Free Market]> <hidden from users>",
+					"Unavailable <after adopting [Environmentalism]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 2
             },
             {
                 "name": "Environmentalism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+80]% weight to this choice for AI decisions",
 
 					"Provides [6] [Health]",// in your cities
 					// TODO: "[+2 Health] [in your cities] <after discovering [Public Transportation]>", // BTS
@@ -447,15 +555,18 @@
 					// +25% maintenance costs from corporations (BTS)
                     "Only available <after discovering [Medicine]>",
 
-					"Remove [Decentralization] <hidden from users>",
-					"Remove [Mercantilism] <hidden from users>",
-					"Remove [Free Market] <hidden from users>",
-					"Remove [State Property] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Decentralization]> <hidden from users>",
+					"Unavailable <after adopting [Mercantilism]> <hidden from users>",
+					"Unavailable <after adopting [Free Market]> <hidden from users>",
+					"Unavailable <after adopting [State Property]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 4
             },
 			{
@@ -471,7 +582,7 @@
         "name": "Religion",
         "era": "Ancient era",
 		"uniques": [
-			"Adopt [Paganism]"
+			"Adopt [Paganism] <hidden from users>"
 		],
         "policies": [
             {
@@ -480,54 +591,73 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
-					"Remove [Organized Religion] <hidden from users>",
-					"Remove [Theocracy] <hidden from users>",
-					"Remove [Pacifism] <hidden from users>",
-					"Remove [Free Religion] <hidden from users>"
+					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
+					"Unavailable <after adopting [Theocracy]> <hidden from users>",
+					"Unavailable <after adopting [Pacifism]> <hidden from users>",
+					"Unavailable <after adopting [Free Religion]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 1
             },
             {
                 "name": "Organized Religion",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-3 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [1] population [in your cities]",
+
+					"[+20]% weight to this choice for AI decisions",
 
 					"[+25]% [Production] <in cities following our religion>",
 					// TODO: Organized Religion allows building Missionary without Monastery
+
                     "Only available <after discovering [Monotheism]>",
 
-					"Remove [Paganism] <hidden from users>",
-					"Remove [Theocracy] <hidden from users>",
-					"Remove [Pacifism] <hidden from users>",
-					"Remove [Free Religion] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Paganism]> <hidden from users>",
+					"Unavailable <after adopting [Theocracy]> <hidden from users>",
+					"Unavailable <after adopting [Pacifism]> <hidden from users>",
+					"Unavailable <after adopting [Free Religion]> <hidden from users>"
                 ],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 3
             },
             {
                 "name": "Theocracy",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-2 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
+
+					"[+10]% weight to this choice for AI decisions",
+					"[+50]% weight to this choice for AI decisions <when at war>",
 
 					"New [Military] units start with [2] Experience [in cities following our religion]",
 					// No non-state religion spreads
+
                     "Only available <after discovering [Theology]>",
 
-					"Remove [Paganism] <hidden from users>",
-					"Remove [Organized Religion] <hidden from users>",
-					"Remove [Pacifism] <hidden from users>",
-					"Remove [Free Religion] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Paganism]> <hidden from users>",
+					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
+					"Unavailable <after adopting [Pacifism]> <hidden from users>",
+					"Unavailable <after adopting [Free Religion]> <hidden from users>"
 				],
-                "row": 1,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
                 "column": 5
             },
             {
@@ -535,19 +665,26 @@
                 "uniques": [
 					"Comment [No Upkeep]",
 
+					"[+20]% weight to this choice for AI decisions",
+					"[+50]% weight to this choice for AI decisions <when not at war>",
+
 					"[+100]% Great Person generation [in cities following our religion]",
-					// TODO: +1 Coins support cost per military unit
+					"[-1] Unit Supply per [3] population [in your cities]", // +1 Coins support cost per military unit
+
                     "Only available <after discovering [Philosophy]>",
 
-					"Remove [Paganism] <hidden from users>",
-					"Remove [Organized Religion] <hidden from users>",
-					"Remove [Theocracy] <hidden from users>",
-					"Remove [Free Religion] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Paganism]> <hidden from users>",
+					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
+					"Unavailable <after adopting [Theocracy]> <hidden from users>",
+					"Unavailable <after adopting [Free Religion]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 2
             },
             {
@@ -556,19 +693,24 @@
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [3] population [in your cities]",
 
+					"[+100]% weight to this choice for AI decisions",
+
 					"[+10]% [Science] [in your cities]",
 					"Only available <after discovering [Liberalism]> <before founding a Pantheon>", // No state religion
-					"[+1 Happiness] [in your cities] <in cities with a major religion>", // TODO: +1 Happiness per every religion in city
+					"[+1 Happiness] [in your cities] <in cities with a major religion>", // TODO: Free Religion needs +1 Happiness with ANY Pantheon, not Religion.
 
-					"Remove [Paganism] <hidden from users>",
-					"Remove [Organized Religion] <hidden from users>",
-					"Remove [Theocracy] <hidden from users>",
-					"Remove [Pacifism] <hidden from users>",
-
-					"Comment [Revolution]",
-					"[+20]% Unhappiness from [Population] [in your cities] <for [2] turns>"
+					"Unavailable <after adopting [Paganism]> <hidden from users>",
+					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
+					"Unavailable <after adopting [Theocracy]> <hidden from users>",
+					"Unavailable <after adopting [Pacifism]> <hidden from users>"
                 ],
-                "row": 2,
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 2,
                 "column": 4
             },
 			{
