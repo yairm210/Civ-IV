@@ -603,8 +603,6 @@
 					"Comment [High Upkeep]",
 					"[-3 Gold] per [3] population [in your cities]",
 
-					"Unavailable <when religion is disabled>",
-
 					"[+20]% weight to this choice for AI decisions",
 
 					"[+25]% [Production] <in cities following our religion>",
@@ -634,8 +632,6 @@
 
 					"[+70]% weight to this choice for AI decisions <when at war>",
 
-					"Unavailable <when religion is disabled>",
-
 					"New [Military] units start with [2] Experience [in cities following our religion]",
 					// No non-state religion spreads
 
@@ -662,8 +658,7 @@
 
 					"[+60]% weight to this choice for AI decisions <when not at war>",
 
-					"[+100]% Great Person generation [in cities following our religion] <when religion is enabled>",
-					"[+100]% Great Person generation [in your cities] <when religion is disabled>",
+					"[+100]% Great Person generation [in cities following our religion]",
 					// TODO: +1 Coins support cost per military unit
 
                     "Only available <after discovering [Philosophy]>",
@@ -692,8 +687,7 @@
 
 					"[+10]% [Science] [in your cities]",
 					"Only available <after discovering [Liberalism]> <before founding a Pantheon>", // No state religion
-					"[+1 Happiness] [in your cities] <in cities with a major religion> <when religion is enabled>", // TODO: +1 Happiness per every religion in city
-					"[+1 Happiness] [in your cities] <when religion is disabled>",
+					"[+1 Happiness] [in your cities] <in cities with a major religion>",
 
 					"Unavailable <after adopting [Paganism]> <hidden from users>",
 					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
