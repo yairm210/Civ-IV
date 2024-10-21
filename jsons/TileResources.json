@@ -189,7 +189,7 @@
 
 	{
 		"name": "Stone",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus", // While classified as Strategic, Stone is not a resource you accumulate.
 		"terrainsCanBeFoundOn": ["Plains", "Desert"],
 		"production": 1,
 		"improvement": "Quarry",
