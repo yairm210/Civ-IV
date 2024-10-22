@@ -354,12 +354,12 @@
 		"name": "Coal Plant",
 		"cost": 150,
 		"requiredBuilding": "Factory",
-		"requiredResource": "Coal",
 		"uniques": [
             "Power Plant",
             "Provides [-4] [Health] <in this city> <with [Coal]>",
             "Provides [1] [Power] <in this city> <with [Coal]>",
-            "Only available <in cities without a [Power Plant]>"
+            "Only available <in cities without a [Power Plant]>",
+			"Only available <with [Coal]> <in this city>"
 		],
 		"requiredTech": "Assembly Line"
 	},
@@ -409,7 +409,7 @@
 		"name": "Nuclear Plant",
 		"cost": 250,
 		"requiredBuilding": "Factory",
-		"requiredResource": "Uranium",
+		"requiredResource": "Uranium", // TODO: Does Uranium get Consumed?
         "uniques": [
             "Power Plant",
             "Provides [-2] [Health] <in this city> <with [Uranium]>",
