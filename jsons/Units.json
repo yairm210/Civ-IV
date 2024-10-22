@@ -41,7 +41,7 @@
 		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Bronze Working",
-		"requiredResource": "Copper",
+		"requiredResource": "Copper", // TODO: Requires Copper OR Iron
 		"uniques": [
 			"Can upgrade to [Maceman]",
 			"Consumes [1] [Iron]",
@@ -540,7 +540,7 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can carry [4] [Land] units",
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil]", // TODO: requires Oil or Uranium
 			"Consumes [1] [Uranium]",
 			"Can upgrade to [Destroyer]",
 			"Never appears as a Barbarian unit"
@@ -559,7 +559,7 @@
 		"uniques": [
 			"Can see invisible [Submarine] units",
 			"[30]% chance to intercept air attacks",
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil]", // TODO: Require either Oil OR Uranium
 			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
 			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-16%/turn)
@@ -576,7 +576,7 @@
 		"requiredTech": "Industrialism",
 		"uniques": [
 			// Causes collateral damage
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil]", // TODO: Requires Oil OR Uranium
 			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
 			"[+40]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-20%/turn)
@@ -593,7 +593,7 @@
 		"requiredTech": "Industrialism",
 		"uniques": [
 			"Can carry [3] [Fighter] units",
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil]", // TOTO: Requires Oil OR Uranium
 			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -608,7 +608,7 @@
 		"cost": 150,
 		"requiredTech": "Radio",
 		"uniques": [
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil]", // TODO: Requires Oil OR Uranium
 			"Consumes [1] [Uranium]",
 			"Can carry [3] [Missile] units",
 			"Invisible to others",
@@ -1288,7 +1288,7 @@
 		"strength": 5,
 		"movement": 1,
 		"cost": 35,
-		"requiredResource": "Copper",
+		"requiredResource": "Copper", // TODO: Requires Copper OR Iron
 		"uniques": [
 			"Can upgrade to [Pikeman]",
 			"Consumes [1] [Iron]",
