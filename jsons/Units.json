@@ -99,12 +99,6 @@
 			"Can upgrade to [Grenadier]",
 			"[+100]% Strength <vs [Mounted] units>"
 		],
-		"civilopediaText": [
-			{
-				"text": "Requires Iron",
-				"link": "Resources/Iron"
-			}
-		],
 		"attackSound": "metalhit"
 	},
 
