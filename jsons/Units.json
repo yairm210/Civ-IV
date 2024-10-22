@@ -41,11 +41,25 @@
 		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Bronze Working",
-		"requiredResource": "Copper", // TODO: Requires Copper OR Iron
 		"uniques": [
 			"Can upgrade to [Maceman]",
-			"Consumes [1] [Iron]",
-			"[+50]% Strength <vs [Melee] units>"
+			"[+50]% Strength <vs [Melee] units>",
+
+			// Requires Copper OR Iron
+			"Unavailable <when number of [Copper] is less than [1]> <when number of [Iron] is less than [1]> <hidden from users>",
+			"Consumes [1] [Copper] <when number of [Copper] is more than [0]> <when number of [Iron] is less than [1]> <hidden from users>",
+			"Consumes [1] [Iron] <when number of [Copper] is less than [1]> <when number of [Iron] is more than [0]> <hidden from users>",
+			"Consumes [1] [Copper] <when number of [Copper] is more than [0]> <when number of [Iron] is more than [0]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires either Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"attackSound": "metalhit"
 	},
@@ -540,10 +554,24 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can carry [4] [Land] units",
-			"Consumes [1] [Oil]", // TODO: requires Oil or Uranium
-			"Consumes [1] [Uranium]",
 			"Can upgrade to [Destroyer]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			// Requires Oil or Uranium
+			"Unavailable <when number of [Oil] is less than [1]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Uranium] <when number of [Oil] is less than [1]> <when number of [Uranium] is more than [0]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is more than [0]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires either Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "shipguns"
 	},
@@ -559,10 +587,24 @@
 		"uniques": [
 			"Can see invisible [Submarine] units",
 			"[30]% chance to intercept air attacks",
-			"Consumes [1] [Oil]", // TODO: Require either Oil OR Uranium
-			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
-			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-16%/turn)
+			"[+25]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-16%/turn)
+
+			// Requires Oil or Uranium
+			"Unavailable <when number of [Oil] is less than [1]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Uranium] <when number of [Oil] is less than [1]> <when number of [Uranium] is more than [0]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is more than [0]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires either Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "shipguns"
 	},
@@ -576,10 +618,24 @@
 		"requiredTech": "Industrialism",
 		"uniques": [
 			// Causes collateral damage
-			"Consumes [1] [Oil]", // TODO: Requires Oil OR Uranium
-			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
-			"[+40]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-20%/turn)
+			"[+40]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-20%/turn)
+
+			// Requires Oil or Uranium
+			"Unavailable <when number of [Oil] is less than [1]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Uranium] <when number of [Oil] is less than [1]> <when number of [Uranium] is more than [0]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is more than [0]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires either Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "metalhit"
 	},
@@ -608,15 +664,29 @@
 		"cost": 150,
 		"requiredTech": "Radio",
 		"uniques": [
-			"Consumes [1] [Oil]", // TODO: Requires Oil OR Uranium
-			"Consumes [1] [Uranium]",
 			"Can carry [3] [Missile] units",
 			"Invisible to others",
 			"Can see invisible [Submarine] units",
 			"May enter foreign tiles without open borders",
 			"Can pass through impassable tiles",
 			"Withdraws before melee combat <with [50]% chance>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			// Requires Oil or Uranium
+			"Unavailable <when number of [Oil] is less than [1]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is less than [1]> <hidden from users>",
+			"Consumes [1] [Uranium] <when number of [Oil] is less than [1]> <when number of [Uranium] is more than [0]> <hidden from users>",
+			"Consumes [1] [Oil] <when number of [Oil] is more than [0]> <when number of [Uranium] is more than [0]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires either Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "torpedo"
 	},
@@ -787,7 +857,7 @@
 		"cost": 150,
 		"requiredTech": "Artillery",
 		"uniques": [
-			// TODO: "Can upgrade to [Mobile Artillery] <if [Civ IV Beyond the Sword] is enabled>",
+			"Can upgrade to [Mobile Artillery] <if [Civ IV Beyond the Sword] is enabled>",
 			"No defensive terrain bonus",
 			// Causes collateral damage
 			// Causes a maximum of 85% damage to enemy
@@ -1288,7 +1358,6 @@
 		"strength": 5,
 		"movement": 1,
 		"cost": 35,
-		"requiredResource": "Copper", // TODO: Requires Copper OR Iron
 		"uniques": [
 			"Can upgrade to [Pikeman]",
 			"Consumes [1] [Iron]",
@@ -1297,7 +1366,23 @@
 			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+100]% Strength <vs [War Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending> <if [Civ IV Beyond the Sword] is not enabled>",
-			"[+100]% Strength <vs [Mounted] units> <if [Civ IV Beyond the Sword] is not enabled>"
+			"[+100]% Strength <vs [Mounted] units> <if [Civ IV Beyond the Sword] is not enabled>",
+
+			// Requires Copper or Iron
+			"Unavailable <when number of [Copper] is less than [1]> <when number of [Iron] is less than [1]> <hidden from users>",
+			"Consumes [1] [Copper] <when number of [Copper] is more than [0]> <when number of [Iron] is less than [1]> <hidden from users>",
+			"Consumes [1] [Iron] <when number of [Copper] is less than [1]> <when number of [Iron] is more than [0]> <hidden from users>",
+			"Consumes [1] [Copper] <when number of [Copper] is more than [0]> <when number of [Iron] is more than [0]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires either Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"requiredTech": "Bronze Working",
 		"attackSound": "metalhit"
@@ -1543,6 +1628,18 @@
 		],
 		"obsoleteTech": "Horseback Riding",
 		"attackSound": "nonmetalhit"
-	}
+	},
 	*/
+
+	// Placeholder Units for Integrations
+
+	{
+		"name": "Mobile Artillery",  // BTS
+		"uniques": [
+			"Unavailable",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		]
+	}
 ]
