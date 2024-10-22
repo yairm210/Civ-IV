@@ -83,12 +83,6 @@
 			"Can upgrade to [Maceman]",
 			"[+10]% Strength <vs cities> <when attacking>"
 		],
-		"civilopediaText": [
-			{
-				"text": "Requires Iron",
-				"link": "Resources/Iron"
-			}
-		],
 		"attackSound": "metalhit"
 	},
 
