@@ -1055,7 +1055,7 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
-			"Founds a new city <by consuming this unit> <for [2] movement>",
+			"Founds a new city <by consuming this unit> <for [1] movement>",
 			"Cannot attack",
 			"Excess Food converted to Production when under construction"
 		],
