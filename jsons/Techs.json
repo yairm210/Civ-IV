@@ -66,8 +66,17 @@
 				"row": 16,
 				"prerequisites": ["The Wheel"],
 				"uniques": [
-					"Comment [Requires Agriculture or Fishing]",
 					"Unavailable <before discovering [Agriculture]> <before discovering [Fishing]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Agriculture...",
+						"link": "Technologies/Agriculture"
+					},
+					{
+						"text": "...or Fishing",
+						"link": "Technologies/Fishing"
+					}
 				],
 				"quote": "\"Hath not the potter power over the clay, to make one vessel unto honor and another unto dishonor?' - The Bible, Romans"
 			},
@@ -76,8 +85,17 @@
 				"cost": 100,
 				"row": 3,
 				"uniques": [
-					"Comment [Requires Agriculture or Hunting]",
 					"Unavailable <before discovering [Agriculture]> <before discovering [Hunting]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Agriculture...",
+						"link": "Technologies/Agriculture"
+					},
+					{
+						"text": "...or Hunting",
+						"link": "Technologies/Hunting"
+					}
 				],
 				"quote": "\"Blessed shall be the fruit of thy cattle, the increase of thy kine, and the flocks of thy sheep.\" - The Bible, Deuteronomy 28:4"
 			},
@@ -113,8 +131,17 @@
 				"row": 10,
 				"cost": 80,
 				"uniques": [
-					"Comment [Requires Mining or Mysticism]",
 					"Unavailable <before discovering [Mining]> <before discovering [Mysticism]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Mining...",
+						"link": "Technologies/Mining"
+					},
+					{
+						"text": "...or Mysticism",
+						"link": "Technologies/Mysticism"
+					}
 				],
 				"quote": "\"It is from their foes, not their friends, that cities learn the lesson of building high walls.\" - Aristophanes"
 			}
@@ -137,8 +164,17 @@
 				"row": 5,
 				"cost": 60,
 				"uniques": [
-					"Comment [Requires Polytheism or Meditation]",
 					"Unavailable <before discovering [Polytheism]> <before discovering [Meditation]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Polytheism...",
+						"link": "Technologies/Polytheism"
+					},
+					{
+						"text": "...or Meditation",
+						"link": "Technologies/Meditation"
+					}
 				],
 				"quote": "\"The lord bless you and keep you. The Lord make his face to shine upon you and be gracious to you. The Lord lift up his countenance upon you and give you peace.\" - The Bible, Numbers"
 			},
@@ -188,9 +224,22 @@
 				"cost": 120,
 				"row": 3,
 				"uniques": [
-					"Comment [Requires Animal Husbandry or Priesthood or Pottery]",
 					"Unavailable <before discovering [Animal Husbandry]> <before discovering [Priesthood]> <before discovering [Pottery]> <hidden from users>",
 					"Enables Open Borders agreements"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Animal Husbandry...",
+						"link": "Technologies/Animal Husbandry"
+					},
+					{
+						"text": "...or Priesthood",
+						"link": "Technologies/Priesthood"
+					},
+					{
+						"text": "...or Pottery",
+						"link": "Technologies/Pottery"
+					}
 				],
 				"quote": "\"True glory consists in doing what deserves to be written, in writing what deserves to be read.\" - Pliny the Elder"
 			},
@@ -232,8 +281,8 @@
 				"row": 10,
 				"prerequisites": ["Writing"],
 				"uniques": [
-					"Enables conversion of city production to [Science]"
-					// TODO: Alphabet enables technology trading
+					"Enables conversion of city production to [Science]", // lets the player build Research in their cities, which converts 50% of production to research.
+					"Enables Research agreements" // Allows technology trading through diplomacy
 				],
 				"quote": "\"Words have the power to both destroy and heal. When words are both true and kind, they can change our world.\" - Buddha"
 			},
@@ -242,7 +291,6 @@
 				"cost": 300,
 				"row": 9,
 				"uniques": [
-					"Comment [Requires Priesthood or Monotheism]",
 					"Unavailable <before discovering [Monotheism]> <before discovering [Priesthood]> <hidden from users>",
 
 					"Comment [Enables Hereditary Rule]",
@@ -252,6 +300,16 @@
 					"Remove [Representation] <hidden from users>",
 					"Remove [Police State] <hidden from users>",
 					"Remove [Universal Suffrage] <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Monotheism...",
+						"link": "Technologies/Monotheism"
+					},
+					{
+						"text": "...or Priesthood",
+						"link": "Technologies/Priesthood"
+					}
 				],
 				"quote": "\"A multitude of rulers is not a good thing, let there be one ruler, one king.\" - Herodotus"
 			},
@@ -348,7 +406,6 @@
 				"row": 5,
 				"prerequisites": ["Writing"],
 				"uniques": [
-					"Comment [Requires Priesthood or Currency]",
 					"Unavailable <before discovering [Currency]> <before discovering [Priesthood]> <hidden from users>",
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>",
 
@@ -359,6 +416,16 @@
 					"Remove [Serfdom] <hidden from users>",
 					"Remove [Caste System] <hidden from users>",
 					"Remove [Emancipation] <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Currency...",
+						"link": "Technologies/Currency"
+					},
+					{
+						"text": "...or Priesthood",
+						"link": "Technologies/Priesthood"
+					}
 				],
 				"quote": "\"To bring about the rule of righteousness in the land so that the strong shall not harm the weak.\" - Hammurabi's Code, Prologue"
 			},
@@ -409,10 +476,19 @@
 				"row": 2,
 				"prerequisites": ["Mathematics"],
 				"uniques": [
-					"Comment [Requires Literature or Drama]",
 					"Unavailable <before discovering [Literature]> <before discovering [Drama]> <hidden from users>",
 					// TODO: Only reward a Great Artist if starting on previous eras.
 					"Free [Great Artist] appears <if no other Civilization has researched this>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Literature...",
+						"link": "Technologies/Literature"
+					},
+					{
+						"text": "...or Drama",
+						"link": "Technologies/Drama"
+					}
 				],
 				"quote": "\"If music be the food of love, play on.\" - William Shakespeare"
 			},
@@ -422,7 +498,6 @@
 				"row": 3,
 				"prerequisites": ["Meditation"],
 				"uniques": [
-					"Comment [Requires Code of Laws or Drama]",
 					"Unavailable <before discovering [Code of Laws]> <before discovering [Drama]> <hidden from users>",
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>",
 
@@ -434,6 +509,16 @@
 					"Remove [Pacifism] <hidden from users>",
 					"Remove [Free Religion] <hidden from users>"
 				],
+				"civilopediaText": [
+					{
+						"text": "Requires Code of Laws...",
+						"link": "Technologies/Code of Laws"
+					},
+					{
+						"text": "...or Drama",
+						"link": "Technologies/Drama"
+					}
+				],
 				"quote": "\"I have gained this by philosophy: that I do without being commanded what others do only from fear of the law.\" - Aristotle"
 			},
 			{
@@ -441,7 +526,6 @@
 				"cost": 800,
 				"row": 4,
 				"uniques": [
-					"Comment [Requires Code of Laws or Feudalism]",
 					"Unavailable <before discovering [Code of Laws]> <before discovering [Feudalism]> <hidden from users>",
 					"Gain enough Faith for a Pantheon <if no other Civilization has researched this>",
 					"Comment [Enables Bureaucracy]",
@@ -451,6 +535,16 @@
 					"Remove [Bureaucracy] <hidden from users>",
 					"Remove [Nationhood] <hidden from users>",
 					"Remove [Free Speech] <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Code of Laws...",
+						"link": "Technologies/Code of Laws"
+					},
+					{
+						"text": "...or Feudalism",
+						"link": "Technologies/Feudalism"
+					}
 				],
 				"quote": "\"The bureaucracy is expanding to meet the needs of the expanding breaucracy.\" - Oscar Wilde"
 			},
@@ -501,8 +595,17 @@
 				"row": 6,
 				"uniques": [
 					// TODO: Enables Map Trading
-					"Comment [Requires Theology or Civil Service]",
 					"Unavailable <before discovering [Theology]> <before discovering [Civil Service]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Theology...",
+						"link": "Technologies/Theology"
+					},
+					{
+						"text": "...or Civil Service",
+						"link": "Technologies/Civil Service"
+					}
 				],
 				"quote": "\"I cannot live without books.\" - Thomas Jefferson"
 			},
@@ -535,7 +638,6 @@
 				"row": 2,
 				"prerequisites": ["Civil Service"],
 				"uniques": [
-					"Comment [Requires Divine Right or Philosophy]",
 					"Unavailable <before discovering [Divine Right]> <before discovering [Philosophy]> <hidden from users>",
 					"Comment [Enables Nationhood]",
 					"Free Social Policy <hidden from users>",
@@ -544,6 +646,16 @@
 					"Remove [Bureaucracy] <hidden from users>",
 					"Remove [Nationhood] <hidden from users>",
 					"Remove [Free Speech] <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Divine Right...",
+						"link": "Technologies/Divine Right"
+					},
+					{
+						"text": "...or Philosophy",
+						"link": "Technologies/Philosophy"
+					}
 				],
 				"quote": "\"A man does not have himself killed for a half pence a day or for a petty distinction. You must speak to the soul in order to electrify him..\" - Napoleon Bonaparte"
 			},
@@ -660,8 +772,17 @@
 				"cost": 1200,
 				"row": 2,
 				"uniques": [
-					"Comment [Requires Guilds or Education]",
 					"Unavailable <before discovering [Guilds]> <before discovering [Education]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Guilds...",
+						"link": "Technologies/Guilds"
+					},
+					{
+						"text": "...or Education",
+						"link": "Technologies/Education"
+					}
 				],
 				"quote": "\"You can get more of what you want with a kind word and a gun than you can with just a kind word.\" - Al Capone"
 			}
@@ -773,8 +894,17 @@
 				"row": 17,
 				"prerequisites": ["Printing Press"],
 				"uniques": [
-					"Comment [Requires Chemistry or Astronomy]",
 					"Unavailable <before discovering [Chemistry]> <before discovering [Astronomy]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Chemistry...",
+						"link": "Technologies/Chemistry"
+					},
+					{
+						"text": "...or Astronomy",
+						"link": "Technologies/Astronomy"
+					}
 				],
 				"quote": "\"I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.\" - Galileo Galilei"
 			},
@@ -933,8 +1063,17 @@
 				"row": 3,
 				"prerequisites": ["Rifling"],
 				"uniques": [
-					"Comment [Requires Flight or Artillery]",
 					"Unavailable <before discovering [Flight]> <before discovering [Artillery]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Flight...",
+						"link": "Technologies/Flight"
+					},
+					{
+						"text": "...or Artillery",
+						"link": "Technologies/Artillery"
+					}
 				],
 				"quote": "\"The Earth is the cradle of the mind, but one cannot eternally live in a cradle.\" - Konstantin E. Tsiolkovsky"
 			},
@@ -1027,8 +1166,17 @@
 				"row": 5,
 				"prerequisites": ["Computers"],
 				"uniques": [
-					"Comment [Requires Plastics or Satellites]",
 					"Unavailable <before discovering [Plastics]> <before discovering [Satellites]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Plastics...",
+						"link": "Technologies/Plastics"
+					},
+					{
+						"text": "...or Satellites",
+						"link": "Technologies/Satellites"
+					}
 				],
 				"quote": "\"There is a single light of science and to brighten it anywhere is to brighten it everywhere.\" - Isaac Asimov"
 			},
@@ -1038,8 +1186,17 @@
 				"row": 15,
 				"prerequisites": ["Biology"],
 				"uniques": [
-					"Comment [Requires Plastics or Fission]",
 					"Unavailable <before discovering [Plastics]> <before discovering [Fission]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Requires Plastics...",
+						"link": "Technologies/Plastics"
+					},
+					{
+						"text": "...or Fission",
+						"link": "Technologies/Fission"
+					}
 				],
 				"quote": "\"We do not inherit the earth from our ancestors, we borrow it from our children' - Native American proverb"
 			},
