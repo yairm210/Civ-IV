@@ -222,7 +222,7 @@
 		"unitType": "Gunpowder",
 		"strength": 14,
 		"movement": 1,
-		"cost": 73,
+		"cost": 110,
 		"requiredTech": "Rifling",
 		"uniques": [
 			"Can upgrade to [Infantry]",
