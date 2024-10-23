@@ -1,5 +1,6 @@
 // https://civilization.fandom.com/wiki/List_of_units_in_Civ4
 
+// Review Unit Resources: Should all resources be Stockpiled and Consumed instead?
 // TODO: Implement first strike cases
 // TODO: Implement Flank Cases
 
@@ -26,11 +27,20 @@
 		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Hunting",
-		"requiredResource": "Copper",
 		"uniques": [
+			"Unavailable <without [Copper]> <without [Iron]> <hidden from users>",
 			"Can upgrade to [Pikeman]",
-			"Consumes [1] [Iron]",
 			"[+100]% Strength <vs [Mounted] units>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -41,11 +51,22 @@
 		"movement": 1,
 		"cost": 35,
 		"requiredTech": "Bronze Working",
-		"requiredResource": "Copper",
 		"uniques": [
 			"Can upgrade to [Maceman]",
-			"Consumes [1] [Iron]",
-			"[+50]% Strength <vs [Melee] units>"
+			"[+50]% Strength <vs [Melee] units>",
+
+			// Requires Copper OR Iron
+			"Unavailable <without [Copper]> <without [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"attackSound": "metalhit"
 	},
@@ -57,8 +78,8 @@
 		"movement": 1,
 		"cost": 40,
 		"requiredTech": "Iron Working",
-		"requiredResource": "Iron",
 		"uniques": [
+			"Only available <with [Iron]>",
 			"Can upgrade to [Maceman]",
 			"[+10]% Strength <vs cities> <when attacking>"
 		],
@@ -72,8 +93,8 @@
 		"movement": 1,
 		"cost": 60,
 		"requiredTech": "Engineering",
-		"requiredResource": "Iron",
 		"uniques": [
+			"Only available <with [Iron]>",
 			"Can upgrade to [Rifleman]",
 			"Can upgrade to [Grenadier]",
 			"[+100]% Strength <vs [Mounted] units>"
@@ -88,13 +109,23 @@
 		"movement": 1,
 		"cost": 70,
 		"requiredTech": "Civil Service",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Only available <after discovering [Machinery]>",
-			"Consumes [1] [Copper]",
 			"[+50]% Strength <vs [Melee] units>",
 			"Can upgrade to [Grenadier]",
-			"Can upgrade to [Rifleman]"
+			"Can upgrade to [Rifleman]",
+
+			"Unavailable <without [Copper]> <without [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"attackSound": "metalhit"
 	},
@@ -118,6 +149,7 @@
 		],
 		"attackSound": "arrow"
 	},
+
 	{
 		"name": "Longbowman",
 		"unitType": "Archery",
@@ -135,6 +167,7 @@
 		],
 		"attackSound": "arrow"
 	},
+
 	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
@@ -143,8 +176,8 @@
 		"cost": 60,
 		"rangedStrength": 6,
 		"requiredTech": "Machinery",
-		"requiredResource": "Iron",
 		"uniques": [
+			"Only available <with [Iron]>",
 			"Only available <after discovering [Archery]>",
 			"Can upgrade to [Rifleman]",
 			"Can upgrade to [Grenadier]",
@@ -167,6 +200,7 @@
 		],
 		"attackSound": "shot"
 	},
+
 	{
 		"name": "Grenadier",
 		"unitType": "Gunpowder",
@@ -294,13 +328,14 @@
 		"movement": 2,
 		"cost": 30,
 		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
 		"uniques": [
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs [Axeman] units> <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 			"Can upgrade to [Horse Archer]",
-			"Can upgrade to [Knight]"
+			"Can upgrade to [Knight]",
+
+			"Only available <with [Horses]>"
 		],
 		"attackSound": "horse"
 	},
@@ -311,7 +346,6 @@
 		"strength": 6,
 		"movement": 2,
 		"cost": 50,
-		"requiredResource": "Horses",
 		"requiredTech": "Horseback Riding",
 		"uniques": [
 			"Only available <after discovering [Archery]>",
@@ -320,7 +354,9 @@
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [20]% chance>",
 			"[+50]% Strength <vs [Siege] units> <when attacking>",
-			"[+20]% to Flank Attack bonuses <vs [Siege] units>" // Flank attack vs Catapults/Trebuchets
+			"[+20]% to Flank Attack bonuses <vs [Siege] units>", // Flank attack vs Catapults/Trebuchets
+
+			"Only available <with [Horses]>"
 		],
 		"attackSound": "horse"
 	},
@@ -332,12 +368,13 @@
 		"movement": 1,
 		"cost": 60,
 		"requiredTech": "Construction",
-		"requiredResource": "Ivory",
 		"uniques": [
 			"Only available <after discovering [Horseback Riding]>",
 			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
 			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Mounted] units>"
+			"[+50]% Strength <vs [Mounted] units>",
+
+			"Only available <with [Ivory]>"
 		],
 		"attackSound": "elephant"
 	},
@@ -349,15 +386,25 @@
 		"movement": 2,
 		"cost": 90,
 		"requiredTech": "Guilds",
-		"requiredResource": "Horses",
 		"uniques": [
 			"Can upgrade to [Cavalry]",
 			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
-			"Consumes [1] [Iron]",
 			// Immune to first strikes
 			"No defensive terrain bonus",
 			"[+50]% to Flank Attack bonuses <vs [Siege] units>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Horses]> <with [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Horses...",
+				"link": "Resources/Horses"
+			},
+			{
+				"text": "...and Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"attackSound": "horse"
 	},
@@ -369,7 +416,6 @@
 		"movement": 2,
 		"cost": 100,
 		"requiredTech": "Gunpowder",
-		"requiredResource": "Horses",
 		"uniques": [
 			"Only available <if [Civ IV Beyond the Sword] is enabled>",
 			"Can upgrade to [Cavalry]",
@@ -380,7 +426,19 @@
 			"Withdraws before melee combat <with [15]% chance>",
 			"No defensive terrain bonus",
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Horses]> <with [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Horses...",
+				"link": "Resources/Horses"
+			},
+			{
+				"text": "...and Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"attackSound": "horse"
 	},
@@ -392,7 +450,6 @@
 		"movement": 2,
 		"cost": 120,
 		"requiredTech": "Military Tradition",
-		"requiredResource": "Horses",
 		"uniques": [
 			"Can upgrade to [Helicopter Gunship]",
 			"Only available <after discovering [Rifling]>",
@@ -401,7 +458,9 @@
 			"Withdraws before melee combat <with [30]% chance>",
 			"[+50]% Strength <vs [Cannon] units> <when attacking>",
 			"[+20]% to Flank Attack bonuses <vs [Siege] units>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Horses]>"
 		],
 		"attackSound": "horse"
 	},
@@ -417,7 +476,6 @@
 		"movement": 4,
 		"cost": 160,
 		"requiredTech": "Rocketry",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Only available <after discovering [Flight]>",
 			// TODO: "Only available <after discovering [Advanced Flight]> <if [Civ IV Beyond the Sword] is enabled>",
@@ -428,7 +486,9 @@
 			"No defensive terrain bonus",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Oil]>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -503,12 +563,13 @@
 		"strength": 8,
 		"movement": 4,
 		"cost": 90,
-		"requiredResource": "Iron",
 		"requiredTech": "Chemistry",
 		"uniques": [
 			"Can upgrade to [Destroyer]",
 			"Only available <after discovering [Astronomy]>",
-			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-8%/turn), ignores Walls and Castles
+			"[+25]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-8%/turn), ignores Walls and Castles
+
+			"Only available <with [Iron]>"
 		],
 		"attackSound": "shipguns"
 	},
@@ -522,11 +583,21 @@
 		"uniques": [
 			"Can upgrade to [Destroyer]",
 			"Only available <after discovering [Steam Power]>",
-			"Consumes [1] [Coal]",
-			"Consumes [1] [Iron]",
 			"Cannot enter ocean tiles",
 			"[+33]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-12%/turn)
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Iron]> <with [Coal]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Iron...",
+				"link": "Resources/Iron"
+			},
+			{
+				"text": "...and Coal",
+				"link": "Resources/Coal"
+			}
 		],
 		"attackSound": "shipguns"
 	},
@@ -540,10 +611,21 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can carry [4] [Land] units",
-			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
 			"Can upgrade to [Destroyer]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			// Requires Oil or Uranium
+			"Unavailable <without [Oil]> <without [Uranium]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "shipguns"
 	},
@@ -559,10 +641,21 @@
 		"uniques": [
 			"Can see invisible [Submarine] units",
 			"[30]% chance to intercept air attacks",
-			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
-			"[+25]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-16%/turn)
+			"[+25]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-16%/turn)
+
+			// Requires Oil or Uranium
+			"Unavailable <without [Oil]> <without [Uranium]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "shipguns"
 	},
@@ -576,10 +669,21 @@
 		"requiredTech": "Industrialism",
 		"uniques": [
 			// Causes collateral damage
-			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit",
-			"[+40]% Strength <vs cities> <when attacking>" // Can bombard city defenses (-20%/turn)
+			"[+40]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-20%/turn)
+
+			// Requires Oil or Uranium
+			"Unavailable <without [Oil]> <without [Uranium]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "metalhit"
 	},
@@ -593,9 +697,20 @@
 		"requiredTech": "Industrialism",
 		"uniques": [
 			"Can carry [3] [Fighter] units",
-			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			// Requires Oil or Uranium
+			"Unavailable <without [Oil]> <without [Uranium]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "metalhit"
 	},
@@ -608,15 +723,26 @@
 		"cost": 150,
 		"requiredTech": "Radio",
 		"uniques": [
-			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
 			"Can carry [3] [Missile] units",
 			"Invisible to others",
 			"Can see invisible [Submarine] units",
 			"May enter foreign tiles without open borders",
 			"Can pass through impassable tiles",
 			"Withdraws before melee combat <with [50]% chance>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			// Requires Oil or Uranium
+			"Unavailable <without [Oil]> <without [Uranium]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...or Uranium",
+				"link": "Resources/Uranium"
+			}
 		],
 		"attackSound": "torpedo"
 	},
@@ -633,13 +759,14 @@
 		"interceptRange": 5,
 		"cost": 100,
 		"requiredTech": "Flight",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Can upgrade to [Jet Fighter]",
 			"[100]% chance to intercept air attacks",
 			"Can see over obstacles",
 			"Destroys tile improvements when attacking",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Oil]>"
 		],
 		"attackSound": "jetgun"
 	},
@@ -653,7 +780,6 @@
 		"range": 8,
 		"cost": 140,
 		"requiredTech": "Flight",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Can upgrade to [Stealth Bomber]",
 			"Only available <after discovering [Radio]>",
@@ -661,7 +787,9 @@
 			// Causes collateral damage
 			"[-50]% Strength <vs [Water] units>", // -50% vs. Naval Units
 			"Destroys tile improvements when attacking",  // Can destroy tile improvements
-			"[+32]% Strength <vs cities> <when attacking>" // bomb city defenses (-16%/turn)
+			"[+32]% Strength <vs cities> <when attacking>", // bomb city defenses (-16%/turn)
+
+			"Only available <with [Oil]>"
 		],
 		"attackSound": "bombing"
 	},
@@ -678,13 +806,23 @@
 		"requiredTech": "Composites",
 		"uniques": [
 			"Only available <after discovering [Flight]>",
-			"Consumes [1] [Aluminum]",
-			"Consumes [1] [Oil]",
 			"[+25]% Strength when performing Air Sweep",
 			"Never appears as a Barbarian unit",
 			"[100]% chance to intercept air attacks",
 			"Destroys tile improvements when attacking",
-			"[+32]% Strength <vs cities> <when attacking>" // bomb city defenses (-16%/turn)
+			"[+32]% Strength <vs cities> <when attacking>", // bomb city defenses (-16%/turn)
+
+			"Only available <with [Oil]> <with [Aluminum]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...and Aluminum",
+				"link": "Resources/Aluminum"
+			}
 		],
 		"attackSound": "jetgun"
 	},
@@ -698,17 +836,27 @@
 		"range": 12,
 		"cost": 200,
 		"requiredTech": "Composites",
-		"requiredResource": "Aluminum",
 		"uniques": [
 			"Only available <after discovering [Flight]>",
 			"Only available <after discovering [Robotics]>",
 			// Causes collateral damage
-			"Consumes [1] [Oil]",
 			"Damage taken from interception reduced by [50]%", // Can evade interception (50% chance)
 			"[-50]% Strength <vs [Water] units>",
 			"Destroys tile improvements when attacking",
 			"Never appears as a Barbarian unit",
-			"[40]% Strength <vs cities> <when attacking>" // bombard city defenses (-20% turn)
+			"[40]% Strength <vs cities> <when attacking>", // bombard city defenses (-20% turn)
+
+			"Only available <with [Oil]> <with [Aluminum]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Oil...",
+				"link": "Resources/Oil"
+			},
+			{
+				"text": "...and Aluminum",
+				"link": "Resources/Aluminum"
+			}
 		],
 		"attackSound": "bombing"
 	},
@@ -723,7 +871,7 @@
 		"range": 300,
 		"cost": 500,
 		"requiredTech": "Fission",
-		"requiredResource": "Uranium",
+		"requiredResource": "Uranium", // TODO: Is Uranium Consumed?
 		"uniques": [
 			"Only available <after discovering [Robotics]>",
 			"Nuclear weapon of Strength [2]",
@@ -763,7 +911,6 @@
 		"rangedStrength": 12,
 		"cost": 100,
 		"requiredTech": "Steel",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Can upgrade to [Artillery]",
 			"No defensive terrain bonus",
@@ -773,7 +920,9 @@
 			"Must set up to ranged attack",
 			"[+24]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-12%/turn)
 			"Cannot attack <in [Water] tiles>", // Cannot attack amphibiously
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Iron]>"
 		],
 		"attackSound": "cannon"
 	},
@@ -787,7 +936,7 @@
 		"cost": 150,
 		"requiredTech": "Artillery",
 		"uniques": [
-			// TODO: "Can upgrade to [Mobile Artillery] <if [Civ IV Beyond the Sword] is enabled>",
+			"Can upgrade to [Mobile Artillery] <if [Civ IV Beyond the Sword] is enabled>",
 			"No defensive terrain bonus",
 			// Causes collateral damage
 			// Causes a maximum of 85% damage to enemy
@@ -810,13 +959,14 @@
 		"movement": 2,
 		"cost": 180,
 		"requiredTech": "Industrialism",
-		"requiredResource": "Oil",
 		"promotions": ["Blitz"],
 		"uniques": [
 			"Only available <after discovering [Rifling]>",
 			"Can upgrade to [Modern Armor]",
 			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Oil]>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -832,10 +982,20 @@
 		"uniques": [
 			// 1 first strike
 			"Only available <after discovering [Composites]>",
-			"Consumes [1] [Aluminum]",
-			"Consumes [1] [Oil]",
 			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+
+			"Only available <with [Aluminum]> <with [Oil]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Aluminum...",
+				"link": "Resources/Aluminum"
+			},
+			{
+				"text": "...and Oil",
+				"link": "Resources/Oil"
+			}
 		],
 		"attackSound": "tankshot"
 	},
@@ -875,31 +1035,6 @@
 		"attackSound": "nonmetalhit"
 	},
 
-	// {
-	// 	"name": "Paratrooper",
-	// 	"unitType": "Gunpowder",
-	// 	"movement": 2,
-	// 	"strength": 65,
-	// 	"cost": 160,
-	// 	"requiredTech": "Fascism",
-	// 	"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
-	// 	"attackSound": "shot"
-	// },
-
-	// {
-	// 	"name": "Mobile SAM",
-	// 	"unitType": "Gunpowder",
-	// 	"movement": 3,
-	// 	"interceptRange": 2,
-	// 	"strength": 65,
-	// 	"cost": 220,
-	// 	"requiredTech": "Lasers",
-	// 	"requiredResource": "Oil",
-	// 	"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-	// 		"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
-	// 	"attackSound": "missile"
-	// },
-
 	// Non-military
 
 	{
@@ -908,7 +1043,7 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
-			"Founds a new city <by consuming this unit>",
+			"Founds a new city <by consuming this unit> <for [1] movement>",
 			"Cannot attack",
 			"Excess Food converted to Production when under construction"
 		],
@@ -1196,9 +1331,10 @@
 			// 2 first strikes
 			// Causes collateral damage
 			"[+50]% Strength <vs [Sword] units>",
-			"Only available <after discovering [Archery]>"
+			"Only available <after discovering [Archery]>",
+
+			"Only available <with [Iron]>"
 		],
-		"requiredResource": "Iron",
 		"requiredTech": "Machinery",
 		"attackSound": "arrow"
 	},
@@ -1218,9 +1354,10 @@
 			"Never appears as a Barbarian unit",
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [10]% chance>",
-			"[+100]% Strength <vs [Axeman] units>"
+			"[+100]% Strength <vs [Axeman] units>",
+
+			"Only available <with [Horses]>"
 		],
-		"requiredResource": "Horses",
 		"requiredTech": "The Wheel",
 		"attackSound": "horse"
 	},
@@ -1254,7 +1391,7 @@
 		"cost": 80,
 		"uniques": [
 			"Can upgrade to [Rifleman]",
-			"Never appears as a Barbarian unit",
+			"Never appears as a Barbarian unit"
 		],
 		"requiredTech": "Gunpowder",
 		"attackSound": "shot"
@@ -1288,16 +1425,27 @@
 		"strength": 5,
 		"movement": 1,
 		"cost": 35,
-		"requiredResource": "Copper",
 		"uniques": [
 			"Can upgrade to [Pikeman]",
-			"Consumes [1] [Iron]",
 			"Never appears as a Barbarian unit",
 			"[+50]% Strength <vs [Sword] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+100]% Strength <vs [Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+100]% Strength <vs [War Chariot] units> <when defending> <if [Civ IV Beyond the Sword] is enabled>",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending> <if [Civ IV Beyond the Sword] is not enabled>",
-			"[+100]% Strength <vs [Mounted] units> <if [Civ IV Beyond the Sword] is not enabled>"
+			"[+100]% Strength <vs [Mounted] units> <if [Civ IV Beyond the Sword] is not enabled>",
+
+			// Requires Copper or Iron
+			"Unavailable <without [Copper]> <without [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"requiredTech": "Bronze Working",
 		"attackSound": "metalhit"
@@ -1346,14 +1494,15 @@
 		"movement": 1,
 		"cost": 70,
 		"requiredTech": "Civil Service",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Can upgrade to [Rifleman]",
 			"Never appears as a Barbarian unit",
 			// TODO: 2 first strikes
 			"[+50]% Strength <vs [Melee] units>",
 			"Can upgrade to [Grenadier]",
-			"Only available <after discovering [Machinery]>"
+			"Only available <after discovering [Machinery]>",
+
+			"Only available <with [Iron]>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -1367,14 +1516,15 @@
 		"movement": 1,
 		"cost": 25,
 		"requiredTech": "Archery",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Can upgrade to [Longbowman]",
 			"Never appears as a Barbarian unit",
 			// TODO: 1-2 first strikes
 			"[+50]% Strength <when fighting in [City center] tiles> <when defending>",
 			"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
-			"Can upgrade to [Crossbowman]"
+			"Can upgrade to [Crossbowman]",
+
+			"Only available <with [Iron]>"
 		],
 		"attackSound": "arrow"
 	},
@@ -1397,7 +1547,9 @@
 			"Ignores terrain cost",
 			"[+50]% Strength <vs [Siege] units> <when attacking>",
 			// Flank attack vs. Catapult and Trebuchet (BTS)
-			"Only available <after discovering [Archery]>"
+			"Only available <after discovering [Archery]>",
+
+			"Only available <with [Horses]>"
 		],
 		"attackSound": "horse"
 	},
@@ -1411,14 +1563,15 @@
 		"movement": 2,
 		"cost": 30,
 		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
 		"uniques": [
 			"Can upgrade to [Knight]",
 			"Can upgrade to [Horse Archer]",
 			"Never appears as a Barbarian unit",
 			"[+100]% Strength <vs [Axeman] units>",
 			"Withdraws before melee combat <with [10]% chance>",
-			"[+100]% Strength <vs [Archery] units>"
+			"[+100]% Strength <vs [Archery] units>",
+
+			"Only available <with [Horses]>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -1434,9 +1587,10 @@
 		"uniques": [
 			"Can upgrade to [Maceman]",
 			"Never appears as a Barbarian unit",
+
+			"Only available <with [Iron]>"
 		],
 		"requiredTech": "Iron Working",
-		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
 
@@ -1449,7 +1603,6 @@
 		"movement": 2,
 		"cost": 120,
 		"requiredTech": "Military Tradition",
-		"requiredResource": "Horses",
 		"uniques": [
 			"Can upgrade to [Helicopter Gunship]",
 			"Never appears as a Barbarian unit",
@@ -1459,7 +1612,9 @@
 			"Withdraws before melee combat <with [30]% chance>",
 			"[+50]% Strength <vs [Cannon] units>",
 			"[+50]% Strength <vs [Mounted] units>",
-			"[+100]% to Flank Attack bonuses <vs [Cannon] units>" // Can flank attack against cannons
+			"[+100]% to Flank Attack bonuses <vs [Cannon] units>", // Can flank attack against cannons
+
+			"Only available <with [Horses]>"
 		],
 		"attackSound": "horse"
 	},
@@ -1473,7 +1628,6 @@
 		"movement": 2,
 		"cost": 100,
 		"requiredTech": "Gunpowder",
-		"requiredResource": "Horses",
 		"uniques": [
 			"Can upgrade to [Cavalry]",
 			"Can upgrade to [Cuirassier] <if [Civ IV Beyond the Sword] is enabled>",
@@ -1481,11 +1635,22 @@
 			"Only available <after discovering [Military Tradition]>",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
-			"Consumes [1] [Iron]",
 			// Immune to first strike
 			"Withdraws before melee combat <with [15]% chance>",
 			"[+50]% to Flank Attack bonuses <vs [Siege] units>", // Can flank attack Cannons, Trebuchets, and Catapults
-			"[+50]% Strength <vs [Sword] units>"
+			"[+50]% Strength <vs [Sword] units>",
+
+			"Only available <with [Horses]> <with [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Horses...",
+				"link": "Resources/Horses"
+			},
+			{
+				"text": "...and Iron",
+				"link": "Resources/Horses"
+			}
 		],
 		"attackSound": "horse"
 	},
@@ -1543,6 +1708,19 @@
 		],
 		"obsoleteTech": "Horseback Riding",
 		"attackSound": "nonmetalhit"
-	}
+	},
 	*/
+
+	// Placeholder Units for Integrations
+
+	{
+		"name": "Mobile Artillery",  // BTS
+		"unitType": "Gunpowder",
+		"uniques": [
+			"Unavailable",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		]
+	}
 ]

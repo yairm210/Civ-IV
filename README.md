@@ -71,6 +71,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Lighthouse](https://thenounproject.com/icon/lighthouse-4982237/) by Kermal Moe for Trading Post
 - [Spears](https://thenounproject.com/icon/spears-7032289/) by Amir Ali for Ikhanda
 - [Revolution](https://thenounproject.com/icon/revolution-3918127/) by Adrien Coquet for Revolution
+- [Magnifying Glass](https://thenounproject.com/icon/magnifying-glass-7328793/) by Arif Arisandi for Intelligence Agency
 
 #### Improvements
 
@@ -157,6 +158,12 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Axe](https://thenounproject.com/icon/axe-7192952/) by Suwarjo for Gallic Warrior
 - [rocket launcher](https://thenounproject.com/icon/rocket-launcher-6222958/) by awimovic for Hwacha
 - [shield zulu](https://thenounproject.com/icon/shield-zulu-3825770/) by Smashing Stocks for Impi
+- [Elephant](https://thenounproject.com/icon/elephant-5800651/) by Brad for Ballista Elephant
+- [Ship](https://thenounproject.com/icon/ship-215494/) by Robert Bjurshagen for Carrack
+- [Head Dress](https://thenounproject.com/icon/head-dress-159934/) by stolkramaker for Dog Soldier
+- [Mayan](https://thenounproject.com/icon/mayan-5111769/) by Maxicons for Holkan
+- [Arquebus](https://thenounproject.com/icon/arquebus-2349021/) by Cedric Villain for Oromo Warrior
+- [Spear](https://thenounproject.com/icon/spear-6802217/) by Chaiconator for Vulture
 
 #### Technologies
 

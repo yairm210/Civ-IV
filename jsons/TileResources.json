@@ -3,6 +3,8 @@
 // CIV4BonusInfos.xml
 // https://forums.civfanatics.com/threads/the-complete-guide-to-terrain-improvements-resources-and-city-placement-v-2.144029/#post-3376021
 
+// TODO: Make Strategic resources city-level, and needing trade route to allow production
+
 [
 	{
 		"name": "Pearls", // Named "Clam" in Civ 4. We keep it as Pearls for better mod integration.
@@ -76,7 +78,8 @@
 		"improvement": "Pasture",
 		"improvementStats": {"production": 2, "gold": 1},
 		"uniques": [
-			"Guaranteed with Strategic Balance resource option"
+			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 
@@ -89,7 +92,8 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Guaranteed with Strategic Balance resource option"
+			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 
@@ -102,7 +106,8 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Guaranteed with Strategic Balance resource option"
+			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 
@@ -115,7 +120,8 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Guaranteed with Strategic Balance resource option"
+			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 
@@ -128,7 +134,8 @@
 		"improvement": "Oil well",
 		"improvementStats": {"production": 2, "gold": 1},
 		"uniques": [
-			"Guaranteed with Strategic Balance resource option"
+			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 
@@ -137,6 +144,9 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Physics",
 		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Hill"],
+		"uniques": [
+			"Deposits in [All] tiles always provide [1] resources"
+		],
 		"improvement": "Mine",
 		"improvementStats": { "gold": 3 }
 	},
@@ -146,6 +156,9 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialism",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra", "Hill"],
+		"uniques": [
+			"Deposits in [All] tiles always provide [1] resources"
+		],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1, "gold": 1}
