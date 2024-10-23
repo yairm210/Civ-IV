@@ -1,58 +1,58 @@
 // https://civilization.fandom.com/wiki/Tribal_Village_(Civ4)
 [
     {
-        "name": "high_gold",
+        "name": "High amount of Gold", // high_gold
         "notification": "",  // trigger notification only
         "uniques": ["Gain [25]-[50] [Gold]"],
         "color": "#ffeb7f",
         "excludedDifficulties": ["Immortal", "Deity"]
     },
     {
-        "name": "low_gold",
+        "name": "Some Gold", // low_gold
         "notification": "",  // trigger notification only
         "uniques": ["Gain [10]-[25] [Gold]"],
         "color": "#ffeb7f"
     },
     {
-        "name": "map",
+        "name": "Reveal part of the map", // map
         "notification": "We have found a crudely-drawn map in the tribal village.",
         "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"]
     },
     {
-        "name": "settler",
+        "name": "Free Settler", // settler
         "notification": "A [Settler] has joined us!",
         "uniques": ["Free [Settler] found in the ruins"],
         "excludedDifficulties": ["Noble", "Prince", "Monarch", "Emperor", "Immortal", "Deity"]
     },
     {
-        "name": "warrior",
+        "name": "Free Warrior", // warrior
         "notification": "A [Warrior] has joined us!",
         "uniques": ["Free [Warrior] found in the ruins"]
     },
     {
-        "name": "scout",
+        "name": "Free Scout", // scout
         "notification": "A [Scout] has joined us!",
         "uniques": ["Free [Scout] found in the ruins"]
     },
     {
-        "name": "worker",
+        "name": "Free Worker", // worker
         "notification": "A [Worker] has joined us!",
         "uniques": ["Free [Worker] found in the ruins"],
         "excludedDifficulties": ["Noble", "Prince", "Monarch", "Emperor", "Immortal", "Deity"]
     },
     {
-        "name": "experience",
+        "name": "Bonus Experience", // experience
         "notification": "An ancient tribe trained us in their ways of combat.",
         "uniques": ["[This Unit] gains [10] XP", "Only available <after turn number [10]>"]
     },
     {
-        "name": "healing",
+        "name": "Healing", // healing
         "notification": "An ancient tribe mends our wounds.",
         "uniques": ["[This Unit] heals [10] HP", "Only available <after turn number [5]>"]
     },
 
     {
-        "name": "tech",
+        "name": "Free Technology", // tech
         "notification": "We have discovered the lost technology of [techName] in the ruins!",
         "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"],
 		"color": "#7f7fff"
