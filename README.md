@@ -33,9 +33,9 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Hollywood](https://thenounproject.com/icon/hollywood-4281633/) by Lars Meiertoberens
 - [Electric Guitar](https://thenounproject.com/icon/electric-guitar-1029522/) by Pedro Santos for Rock 'n' Roll
 - [Red Cross](https://thenounproject.com/icon/red-cross-2392034/) by Jordan Alfarishy
-- [Theater](https://thenounproject.com/icon/theater-3402158/) by Melvin Salas for Broadway
+- [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu for Broadway
 - [power plant with coal](https://thenounproject.com/icon/power-plant-with-coal-2403687/) by Verry for Coal Plant
-- [Supermarket](https://thenounproject.com/icon/supermarket-6441161/) by parnowowo for Supermarket
+- [Mall](https://thenounproject.com/icon/mall-7174835/) by yupikarlw for Supermarket
 - [Police](https://thenounproject.com/icon/police-7253740/) by Edy Subiyanto for Jail
 - [Building Security](https://thenounproject.com/icon/building-security-1265138/) by Optimus Prime for Security Bureau
 - [Bunker](https://thenounproject.com/icon/bunker-4991310/) by Muhammad Atiq
@@ -71,6 +71,30 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Lighthouse](https://thenounproject.com/icon/lighthouse-4982237/) by Kermal Moe for Trading Post
 - [Spears](https://thenounproject.com/icon/spears-7032289/) by Amir Ali for Ikhanda
 - [Revolution](https://thenounproject.com/icon/revolution-3918127/) by Adrien Coquet for Revolution
+- [Pharmacy](https://thenounproject.com/icon/pharmacy-1493097/) by Artdabana@Design for Apothecary
+- [Assembly](https://thenounproject.com/icon/assembly-6561118/) by M. Oki Orlando for Assembly Plant
+- [Basketball](https://thenounproject.com/icon/basketball-6054273/) by iconbysonny for Ball Court
+- [Reservoir](https://thenounproject.com/icon/reservoir-3918339/) by Adrien Coquet for Baray
+- [Citadel](https://thenounproject.com/icon/cairo-citadel-3316993/) by Atif Arshad for Citadel
+- [Dam](https://thenounproject.com/icon/dam-4333623/) by Ian Rahmadi Kurniawan for Dike
+- [Castle](https://thenounproject.com/icon/castle-7264302/) by ahmadwil for Feitoria
+- [Roman Temple](https://thenounproject.com/icon/roman-temple-5459151/) by Brickclay for Forum
+- [Horse Stable](https://thenounproject.com/icon/horse-stable-2719780/) by Laymik for Ger
+- [Theatre](https://thenounproject.com/icon/theatre-1559765/) by Mahmure Alp for Hippodrome
+- [Library](https://thenounproject.com/icon/library-7176295/) by yus for Madrassa
+- [Mall](https://thenounproject.com/icon/mall-7331005/) by Sentya Irma for Mall
+- [Mausoleum](https://thenounproject.com/icon/mausoleum-1204573/) by Vectors Market
+- [Obelisk](https://thenounproject.com/icon/obelisk-6789781/) by Muhammad Nur Auliady Pamungkas
+- [Colosseum](https://thenounproject.com/icon/colosseum-6990383/) by Isaac haq for Odeon
+- [Pavilion](https://thenounproject.com/icon/pavilion-6030051/) by Hyungsuk,Hwang for Pavilion
+- [Rotes Rathaus](https://thenounproject.com/icon/rotes-rathaus-199000/) by Anna Weiss for Rathaus
+- [Laboratory](https://thenounproject.com/icon/laboratory-4624054/) by ddoni4303 for Research Institute
+- [Sacrifice](https://thenounproject.com/icon/sacrifice-6902605/) by gravisio for Sacrificial Altar
+- [Thinking](https://thenounproject.com/icon/thinking-5468892/) by andika for Salon
+- [Oil derrick](https://thenounproject.com/icon/oil-derrick-4710041/) by iconcheese for Shale Plant
+- [Rice Field](https://thenounproject.com/icon/rice-field-7105256/) by Muh zakaria for Terrace
+- [Totem](https://thenounproject.com/icon/totem-6074140/) by Andhika Pramanto for Totem Pole
+- [Pyramid](https://thenounproject.com/icon/pyramid-11905/) by cesare cardano for Ziggurat
 
 #### Improvements
 
