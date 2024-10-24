@@ -150,8 +150,9 @@
 		"name": "Stable",
 		"cost": 60,
 		"uniques": [
+			"Only available <if [Civ IV Warlords] is enabled>",
 			"New [Mounted] units start with [2] Experience [in this city]",
-			"Obsolete with [Rifling]"
+			"Obsolete with [Rocketry]"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -176,15 +177,21 @@
 		"specialistSlots": {"Spy": 1},
 		"requiredTech": "Code of Laws"
 	},
+
 	{
 		"name": "Forge",
-		"cost":120,
+		"cost": 120,
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 25},
 		"requiredTech": "Metal Casting",
-		"uniques": ["Provides [-1] [Health] <in this city>",
-            "[+1 Happiness] <with [Gold Ore]>", "[+1 Happiness] <with [Silver]>", "[+1 Happiness] <with [Gems]>"]
+		"uniques": [
+			"Provides [-1] [Health] <in this city>",
+            "[+1 Happiness] <with [Gold Ore]>",
+			"[+1 Happiness] <with [Silver]>",
+			"[+1 Happiness] <with [Gems]>"
+		]
 	},
+
 	{
 		"name": "University of Sankore",
 		"cost": 550,
@@ -255,7 +262,7 @@
 			"[+50]% Strength for cities <in this city> <vs [Armored] units>",
 			"[+50]% Strength for cities <in this city> <vs [Air] units>",
 			"[+50]% Strength for cities <in this city> <vs [Water] units>",
-			"[+50]% Strength for cities <in this city> <vs [Siege] units>",
+			"[+50]% Strength for cities <in this city> <vs [Siege] units>"
 		]
 	},
 	{
@@ -282,6 +289,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"percentStatBonus": {"gold": 25},
 		"uniques": [
+			"Only available <after discovering [Currency]>",
             "Provides [1] [Health] <in this city> <with [Sugar]>",
             "Provides [1] [Health] <in this city> <with [Bananas]>",
             "Provides [1] [Health] <in this city> <with [Spices]>",
@@ -302,7 +310,7 @@
 			// +4 Espionage (BtS)
 			// +50% Espionage (BtS)
 		],
-		"requiredTech": "Economics"
+		"requiredTech": "Constitution"
 	},
 
 	{
