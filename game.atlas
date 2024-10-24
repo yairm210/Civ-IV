@@ -633,13 +633,6 @@ BuildingIcons/Industrial Park
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Intelligence Agency
-  rotate: false
-  xy: 212, 1668
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Jail
   rotate: false
   xy: 4, 1252
