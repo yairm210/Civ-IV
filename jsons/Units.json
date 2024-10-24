@@ -1064,7 +1064,7 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Work Boat",
+		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 2,
 		"cost": 30,
