@@ -1419,6 +1419,24 @@
 			"Cannot be purchased",
 			"Will not be displayed in Civilopedia"
 		]
-	}
+	},
 
+	// Unique Buildings
+
+	{
+		"name": "Research Institute",
+		"uniqueTo": "Russia",
+		"replaces": "Laboratory",
+		"cost": 250,
+		"science": 6,  // +2 Free Scientists
+		"greatPersonPoints": {"Great Scientist": 6}, // +2 Free Scientists
+		"specialistSlots": {"Scientist": 1},
+		"percentStatBonus": {"science": 25},
+        "uniques": [
+            "Provides [-1] [Health] <in this city>",
+			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
+        ],
+		"requiredTech": "Computers",
+		"requiredBuilding": "Observatory"
+	}
 ]
