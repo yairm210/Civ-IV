@@ -61,7 +61,7 @@
 		"uniques": [
 			"[+20]% Natural religion spread [in this city]",
 			"Only available <after founding a Pantheon> <in cities following our religion>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Priesthood"
@@ -275,7 +275,7 @@
 		"uniques": [
 			"[+20]% Natural religion spread [in this city]",
 			"Only available <after founding a Pantheon> <in cities following our religion>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+1 Happiness] <with [Incense]>",
 			"[+2 Happiness] [in this city] <in cities following our religion>",
 			"Destroyed when the city is captured"
@@ -305,7 +305,7 @@
 		"cost": 120,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
-			"Hidden when espionage is disabled",
+			"Only available <when espionage is enabled>",
 			"[+7]% [Happiness] [in this city] <when at war>" // -25% war weariness
 			// +4 Espionage (BtS)
 			// +50% Espionage (BtS)
@@ -328,7 +328,7 @@
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
 			"[-50]% enemy spy effectiveness [in this city]",
-			"Hidden when espionage is disabled"
+			"Only available <when espionage is enabled>"
 		],
 		"requiredTech": "Democracy"
 	},
@@ -528,7 +528,7 @@
 			"[+20]% Natural religion spread [in this city]",
 			"Only available <after founding a Pantheon> <in cities following our religion>",
 			"Obsolete with [Scientific Method]",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -545,7 +545,7 @@
 			"Only available <after founding a Pantheon>",
 			"Cannot be purchased",
 			"[+1 Gold] [in your cities] <in cities following our religion>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
 			"Unsellable"
 		]
@@ -732,7 +732,7 @@
 		"uniques":[
 			"[+1 Production] from every [Priest]",
 			"Obsolete with [Computers]",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[-50]% production cost <with [Marble]>"
 		],
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
@@ -793,7 +793,7 @@
 			"[+2 Gold] from all [Cathedral] buildings",
 			"[+2 Gold] from all [Monastery] buildings",
 			"[+2 Gold] from all [Religious Shrine] buildings",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[-50]% production cost <with [Stone]>",
 			"Obsolete with [Computers]"
 		],
@@ -884,7 +884,7 @@
 		"greatPersonPoints": {"Great Spy": 2},
 		"uniques": [
 			"[-50]% production cost <with [Stone]>",
-			"Hidden when espionage is disabled",
+			"Only available <when espionage is enabled>",
 			"Obsolete with [Fiber Optics]"
 			// -33% hurry production cost when using Universal Suffrage or Slavery
 		],
@@ -966,7 +966,7 @@
 			"Only available <when number of [Remaining [All] Civilizations] is more than [3]>",
 			"Triggers voting for the Diplomatic Victory",
 			"Triggers a global alert upon completion",
-			"Hidden when [Diplomatic] Victory is disabled"
+			"Only available <when [Diplomatic] Victory is enabled>"
 		],
 		"requiredTech": "Mass Media"
 	},
@@ -978,7 +978,7 @@
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"[+50]% Production when constructing [Spaceship part] buildings [in all cities]"
 			// latitude of <= 30º in the city constructing it
 		],
@@ -1201,7 +1201,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"Triggers a global alert upon completion",
 			"Enables construction of Spaceship parts",
 			"Cannot be hurried",
@@ -1217,7 +1217,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
 			"Comment [Enables Spies]",
-			"Hidden when espionage is disabled"
+			"Only available <when espionage is enabled>"
 		],
 		"requiredTech": "Communism"
 	},
@@ -1260,7 +1260,7 @@
 		"cost": 1200,
 		"uniques": [
 			// TODO: Make 5 required
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Aluminum]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1275,7 +1275,7 @@
 		"isNationalWonder": true,
 		"cost": 1000,
 		"uniques": [
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Copper]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1290,7 +1290,7 @@
 		"isNationalWonder": true,
 		"cost": 2000,
 		"uniques": [
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Aluminum]>",
 			"Only available <after discovering [Robotics]>",
 			"Spaceship part",
@@ -1307,7 +1307,7 @@
 		"cost": 1600,
 		"uniques": [
 			// TODO: Make 1-2 required for victory
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"Spaceship part",
 			"Cannot be purchased",
 			"Only available <if [Apollo Program] is constructed>",
@@ -1321,7 +1321,7 @@
 		"isNationalWonder": true,
 		"cost": 1000,
 		"uniques": [
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Copper]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1336,7 +1336,7 @@
 		"isNationalWonder": true,
 		"cost": 1200,
 		"uniques": [
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"Spaceship part",
 			"Cannot be purchased",
 			"Only available <if [Apollo Program] is constructed>",
@@ -1351,7 +1351,7 @@
 		"cost": 1200,
 		"uniques": [
 			// TODO: Require 1-5 required for space race
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Aluminum]>",
 			"Spaceship part",
 			"Cannot be purchased",
@@ -1366,7 +1366,7 @@
 		"isNationalWonder": true,
 		"cost": 500,
 		"uniques": [
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"Spaceship part",
 			"Cannot be purchased",
 			"Cannot be hurried",
