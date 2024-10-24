@@ -90,16 +90,17 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,0,255],
 		"innerColor": [255,255,255],
+		"uniqueName": "Expansive and Charismatic",
 		"uniques": [
 			"Starts with [Agriculture]", "Starts with [Fishing]",
 
-			"Comment [Expansive]",
+			// "Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Comment [Charismatic]",
+			// "Comment [Charismatic]",
 			"[+1 Happiness]",
 			"[+25]% XP gained from combat",
 			"[+1 Happiness] from every [Monument]",
@@ -145,15 +146,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [139,214,59],
 		"innerColor": [33,48,176],
+		"uniqueName": "Spiritual and Philosophical",
 		"uniques": [
 			"Starts with [Mysticism]",
 			"Starts with [The Wheel]",
 
-			"Comment [Spiritual]",
+			// "Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]",
 
-			"Comment [Philosophical]",
+			// "Comment [Philosophical]",
 			"[+100]% Great Person generation [in your cities]",
 			"[+100]% Production when constructing [University] buildings [in your cities]"
 		],
@@ -194,15 +196,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,102,0],
 		"innerColor": [255,255,0],
+		"uniqueName": "Spiritual and Aggressive",
 		"uniques": [
 			"Starts with [Hunting]",
 			"Starts with [Mysticism]",
 
-			"Comment [Spiritual]",
+			//"Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]",
 
-			"Comment [Aggressive]",
+			//"Comment [Aggressive]",
 			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
 			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
@@ -247,17 +250,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
+		"uniqueName": "Expansive and Protective",
 		"uniques": [
 			"Starts with [Agriculture]",
 			"Starts with [Mining]",
 
-			"Comment [Expansive]",
+			//"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Comment [Protective]",
+			//"Comment [Protective]",
 			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
@@ -304,15 +308,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,0],
 		"innerColor": [0,0,204],
+		"uniqueName": "Creative and Spiritual",
 		"uniques": [
 			"Starts with [Agriculture]",
 			"Starts with [The Wheel]",
 
-			"Comment [Creative]",
+			//"Comment [Creative]",
 			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
 			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
 
-			"Comment [Spiritual]",
+			//"Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]"
 		],
@@ -355,15 +360,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
+		"uniqueName": "Financial and Philosophical",
 		"uniques": [
 			"Starts with [Fishing]",
 			"Starts with [Mining]",
 
-			"Comment [Financial]",
+			//"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]",
 
-			"Comment [Philosophical]",
+			//"Comment [Philosophical]",
 			"[+100]% Great Person generation [in your cities]",
 			"[+100]% Production when constructing [University] buildings [in your cities]"
 		],
@@ -405,17 +411,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,0,204],
 		"innerColor": [255,255,0],
+		"uniqueName": "Organized and Charismatic",
 		"uniques": [
 			"Starts with [Agriculture]",
 			"Starts with [The Wheel]",
 
-			"Comment [Organized]",
+			//"Comment [Organized]",
 			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
 			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
 			"[+100]% Production when constructing [Factory] buildings [in your cities]",
 			"[+100]% Production when constructing [Courthouse] buildings [in your cities]",
 
-			"Comment [Charismatic]",
+			//"Comment [Charismatic]",
 			"[+1 Happiness]",
 			"[+25]% XP gained from combat",
 			"[+1 Happiness] from every [Monument]",
@@ -459,17 +466,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [201, 197, 189],
 		"innerColor": [0,0,0],
+		"uniqueName": "Expansive and Industrious",
 		"uniques": [
 			"Starts with [Hunting]",
 			"Starts with [Mining]",
 
-			"Comment [Expansive]",
+			//"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Comment [Industrious]",
+			//"Comment [Industrious]",
 			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
 			"[+100]% Production when constructing [Forge] buildings [in your cities]"
 		],
@@ -511,17 +519,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,128,255],
 		"innerColor": [255,255,255],
+		"uniqueName": "Aggressive and Philosophical",
 		"uniques": [
 			"Starts with [Fishing]",
 			"Starts with [Hunting]",
 
-			"Comment [Aggressive]",
+			//"Comment [Aggressive]",
 			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
 			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
 			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
 
-			"Comment [Philosophical]",
+			//"Comment [Philosophical]",
 			"[+100]% Great Person generation [in your cities]",
 			"[+100]% Production when constructing [University] buildings [in your cities]"
 		],
@@ -562,15 +571,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,0],
 		"innerColor": [255,0,0],
+		"uniqueName": "Financial and Industrious",
 		"uniques": [
 			"Starts with [Agriculture]",
 			"Starts with [Mysticism]",
 
-			"Comment [Financial]",
+			//"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]",
 
-			"Comment [Industrious]",
+			//"Comment [Industrious]",
 			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
 			"[+100]% Production when constructing [Forge] buildings [in your cities]"
 		],
@@ -611,15 +621,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [201,110,232],
 		"innerColor": [255,255,255],
+		"uniqueName": "Spiritual and Philosophical",
 		"uniques": [
 			"Starts with [Mysticism]",
 			"Starts with [Mining]",
 
-			"Comment [Spiritual]",
+			//"Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]",
 
-			"Comment [Philosophical]",
+			//"Comment [Philosophical]",
 			"[+100]% Great Person generation [in your cities]",
 			"[+100]% Production when constructing [University] buildings [in your cities]"
 		],
@@ -663,17 +674,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
+		"uniqueName": "Aggressive and Protective",
 		"uniques": [
 			"Starts with [Fishing]",
 			"Starts with [The Wheel]",
 
-			"Comment [Aggressive]",
+			//"Comment [Aggressive]",
 			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
 			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
 			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
 
-			"Comment [Protective]",
+			//"Comment [Protective]",
 			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
@@ -719,15 +731,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [196,164,28],
 		"innerColor": [27,20,9],
+		"uniqueName": "Financial and Spiritual",
 		"uniques": [
 			"Starts with [Mining]",
 			"Starts with [The Wheel]",
 
-			"Comment [Financial]",
+			//"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]",
 
-			"Comment [Spiritual]",
+			//"Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]"
 		],
@@ -768,17 +781,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [121,82,3],
 		"innerColor": [228,188,8],
+		"uniqueName": "Aggressive and Imperialistic",
 		"uniques": [
 			"Starts with [Hunting]",
 			"Starts with [The Wheel]",
 
-			"Comment [Aggressive]",
+			//"Comment [Aggressive]",
 			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
 			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
 			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
 
-			"Comment [Imperialistic]",
+			//"Comment [Imperialistic]",
 			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
 			"[+100]% Production when constructing [Settler] units [in your cities]"
 		],
@@ -820,15 +834,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,204,204],
 		"innerColor": [0,0,0],
+		"uniqueName": "Imperialistic and Charismatic",
 		"uniques": [
 			"Starts with [Agriculture]",
 			"Starts with [Hunting]",
 
-			"Comment [Imperialistic]",
+			//"Comment [Imperialistic]",
 			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
 			"[+100]% Production when constructing [Settler] units [in your cities]",
 
-			"Comment [Charismatic]",
+			//"Comment [Charismatic]",
 			"[+1 Happiness]",
 			"[+25]% XP gained from combat",
 			"[+1 Happiness] from every [Monument]",
@@ -873,15 +888,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [102,0,51],
 		"innerColor": [255,255,0],
+		"uniqueName": "Industrious and Imperialistic",
 		"uniques": [
 			"Starts with [Fishing]",
 			"Starts with [Mining]",
 
-			"Comment [Industrious]",
+			//"Comment [Industrious]",
 			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
 			"[+100]% Production when constructing [Forge] buildings [in your cities]",
 
-			"Comment [Imperialistic]",
+			//"Comment [Imperialistic]",
 			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
 			"[+100]% Production when constructing [Settler] units [in your cities]"
 		],
@@ -925,17 +941,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,0],
+		"uniqueName": "Expansive and Philosophical",
 		"uniques": [
 			"Starts with [Hunting]",
 			"Starts with [Mining]",
 
-			"Comment [Expansive]",
+			//"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Comment [Philosophical]",
+			//"Comment [Philosophical]",
 			"[+100]% Great Person generation [in your cities]",
 			"[+100]% Production when constructing [University] buildings [in your cities]"
 		],
@@ -977,17 +994,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [236,174,143],
 		"innerColor": [123,22,19],
+		"uniqueName": "Expansive and Spiritual",
 		"uniques": [
 			"Starts with [Fishing]",
 			"Starts with [Mysticism]",
 
-			"Comment [Expansive]",
+			//"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Comment [Spiritual]",
+			//"Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]"
 		],

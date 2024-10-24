@@ -1086,7 +1086,6 @@
 		"cost": 80, // BTS: 40
 		"requiredTech": "Communism",
 		"promotions": [
-			// TODO: Have Spies start with "Commando" in (BTS)
 			"Sentry"
 		],
 		"uniques": [

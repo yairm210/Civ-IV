@@ -74,6 +74,9 @@
 		"Adopt [Religion] <hidden from users>",
 
 		// Religion (Holy City)
-		"[+5 Culture] [in capital] <after founding a Pantheon>"
+		"[+5 Culture] [in capital] <after founding a Pantheon>",
+
+		// Spy Modifications
+		"All newly-trained [Spy] units [in all cities] receive the [Commando] promotion <if [Civ IV Beyond the Sword] is enabled>"
     ]
 }
