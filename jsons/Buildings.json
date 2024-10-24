@@ -93,10 +93,12 @@
 
 	{
 		"name": "Aqueduct",
-		"food":1,
 		"requiredTech": "Mathematics",
-        "cost": 100,
-        "uniques": ["Provides [+2] [Health] <in this city>", "Only available <after discovering [Masonry]>"]
+		"cost": 100,
+		"uniques": [
+			"Provides [+2] [Health] <in this city>",
+			"Only available <after discovering [Masonry]>"
+		]
 	},
 	{
 		"name": "Harbor",
