@@ -1175,6 +1175,24 @@
 		"requiredTech": "Fission"
 	},
 
+	{
+		"name": "The Internet",
+		"cost": 2000,
+		"isNationalWonder": true,
+		"uniques": [
+			"[-50]% production cost <with [Copper]>",
+			"Cannot be hurried",
+			"Cannot be purchased",
+			// TODO: Grants all technologies held by at least 2 known civilizations
+			"[2] free random researchable Tech(s) from the [Ancient era]",
+			"[2] free random researchable Tech(s) from the [Classical era]",
+			"[2] free random researchable Tech(s) from the [Medieval era]",
+			"[2] free random researchable Tech(s) from the [Renaissance era]",
+			"[2] free random researchable Tech(s) from the [Industrial era]"
+		],
+		"requiredTech": "Computers"
+	},
+
 	// National Projects
 
 	{
