@@ -126,8 +126,11 @@
 	{
 		"name": "Colosseum",
 		"cost": 80,
-		"happiness": 1, // Missing: +1 happiness per 20% culture rate, wontfix
-		"requiredTech": "Construction"
+		"happiness": 1,
+		"requiredTech": "Construction",
+		"uniques": [
+			// TODO: +1 Happiness per 20% Culture rate
+		]
 	},
 	{
 		"name": "Market",
@@ -168,6 +171,7 @@
 		"cost": 120,
 		"uniques": [
 			"[-50]% maintenance cost for buildings [in this city]"
+			// TODO: +2 Espionage in BTS
 		],
 		"specialistSlots": {"Spy": 1},
 		"requiredTech": "Code of Laws"
