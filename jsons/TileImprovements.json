@@ -430,6 +430,24 @@
 	},
 
 	{
+		"name": "Great Spy Specialist",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 1,
+		"greatPersonPoints": {"Great Spy": 3},
+		// TODO: Espianage: 3
+		"uniques": [
+			"Only available <if [Civ IV Beyond the Sword] is enabled>",
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+
+	{
 		"name": "Religious Shrine",
 		// See Religious Shrine building
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -445,6 +463,27 @@
 			"Will not be displayed in Civilopedia",
 			"Gain a free [Religious Shrine] [in capital]",
 			"Only available <if [Religious Shrine] is not constructed>"
+		]
+	},
+
+	{
+		"name": "Scotland Yard",
+		// See Religious Shrine building
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 1, // Hack to allow automation
+		"uniques": [
+			"[-1 Science]",
+			"Great Improvement",
+			"Does not need removal of [All]",
+            "Will not be replaced by automated units",
+			"Unpillagable",
+			"Irremovable",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Gain a free [Scotland Yard] [in this city]",
+			"Only available <when espionage is enabled>",
+			"Only available <if [Civ IV Beyond the Sword] is enabled>",
+			"Only available <if [Scotland Yard] is not constructed> <in this city>"
 		]
 	},
 

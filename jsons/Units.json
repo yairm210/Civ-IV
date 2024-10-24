@@ -1082,8 +1082,8 @@
 	{
 		"name": "Spy",
 		"unitType": "Scout",
-		"movement": 2, // BTS: 1
-		"cost": 80, // BTS: 40
+		"movement": 2,
+		"cost": 80,
 		"requiredTech": "Communism",
 		"promotions": [
 			"Sentry"
@@ -1093,9 +1093,9 @@
 			"Can see invisible [Spy] units",
 			"May enter foreign tiles without open borders",
 			"Only available <if [Scotland Yard] is constructed> <in this city>",
-			"Only available <after discovering [Alphabet]>",
 			"Never appears as a Barbarian unit",
-			"Cannot attack"
+			"Cannot attack",
+			"Limited to [4] per Civilization" // National Unit
 			// TODO: Have Spies conduct Espionage missions
 		]
 	},
@@ -1117,7 +1117,7 @@
 			"Can remove other religions from cities",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Cannot attack",
 			"Limited to [3] per Civilization" // Limited to 3 per religion
 		],
@@ -1187,7 +1187,7 @@
 			"Great Person - [Faith]",
 			// TODO: In Civ 4 can you purchase Great Prophets?
 			//"Can be purchased for [200] [Faith] [in your cities] <after founding a Pantheon> <in cities following our religion>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Never appears as a Barbarian unit"
 		]
     },
@@ -1236,6 +1236,7 @@
         "movement": 2,
         "uniques": [
 			"Can instantly construct a [Great Spy Specialist] improvement <by consuming this unit> <if [Civ IV Beyond the Sword] is enabled>",
+			"Can instantly construct a [Scotland Yard] improvement <by consuming this unit> <if [Scotland Yard] is not constructed> <in this city> <if [Civ IV Beyond the Sword] is enabled>",
 			"Unbuildable",
 			"Uncapturable",
 			"Only available <if [Civ IV Beyond the Sword] is enabled>",

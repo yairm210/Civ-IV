@@ -1195,11 +1195,11 @@
 	{
 		"name": "Scotland Yard",
 		"cost": 500,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
-			"Hidden when espionage is disabled",
-			"[+100]% spy effectiveness [in all cities] <if [Civ IV Beyond the Sword] is enabled>"
+			"Comment [Enables Spies]",
+			"Hidden when espionage is disabled"
 		],
 		"requiredTech": "Communism"
 	},
