@@ -83,6 +83,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 [
 	{
 		"name": "America",
+		"adjective": ["American"],
 		"leaderName": "George Washington",
 		"personality": "George Washington",
 
@@ -139,6 +140,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 	{
 		"name": "Arabia",
+		"adjective": ["Arabian"],
 		"leaderName": "Saladin",
 		"personality": "Saladin",
 
@@ -188,7 +190,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	},
 
 	{
-		"name": "Aztec",
+		"name": "Aztecs",
+		"adjective": ["Aztec"],
 		"leaderName": "Montezuma II",
 		"personality": "Montezuma II",
 
@@ -243,6 +246,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 	{
 		"name": "China",
+		"adjective": ["Chinese"],
 		"leaderName": "Mao Zedong",
 		"personality": "Mao Zedong",
 
@@ -301,6 +305,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 	{
 		"name": "Egypt",
+		"adjective": ["Egyptian"],
 		"leaderName": "Hatshepsut",
 		"personality": "Hatshepsut",
 
@@ -353,6 +358,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 	{
 		"name": "England",
+		"adjective": ["English"],
 		"leaderName": "Elizabeth",
 		"personality": "Elizabeth",
 
@@ -934,6 +940,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 	{
 		"name": "Russia",
+		"adjective": ["Russian"],
 		"leaderName": "Peter",
 		"personality": "Peter",
 
@@ -987,6 +994,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 	{
 		"name": "Spain",
+		"adjective": ["Spanish"],
 		"leaderName": "Isabella",
 		"personality": "Isabella",
 

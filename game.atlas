@@ -242,7 +242,7 @@ NationIcons/America
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Aztec
+NationIcons/Aztecs
   rotate: false
   xy: 212, 836
   size: 200, 200
@@ -270,7 +270,7 @@ NationIcons/Carthage
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Celtic
+NationIcons/Celts
   rotate: false
   xy: 1568, 1568
   size: 200, 200
@@ -808,7 +808,7 @@ NationIcons/Mali
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Maya
+NationIcons/The Maya
   rotate: false
   xy: 212, 420
   size: 200, 200
@@ -822,14 +822,14 @@ NationIcons/Native America
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Netherlands
+NationIcons/The Netherlands
   rotate: false
   xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Ottoman
+NationIcons/The Ottomans
   rotate: false
   xy: 1668, 1460
   size: 200, 200
