@@ -112,7 +112,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Lamassu](https://thenounproject.com/icon/lamassu-118987/) by Jason Dilworth for Babylon
 - [Ankor Wat](https://thenounproject.com/icon/angkor-wat-5194416/) by Nikita Ivanov for Khmer
 - [labarum](https://thenounproject.com/icon/labarum-2069827/) by Avana Vana for Byzantine
-- [Lion](https://thenounproject.com/icon/lion-4074126/) by IonrSV for Netherlands
+- [Lion](https://thenounproject.com/icon/lion-4074126/) by IonrSV for The Netherlands
 - [Double Ouroboros](https://thenounproject.com/icon/double-ouroboros-31693/) by Abby Milberg for Maya
 - [Buffalo](https://thenounproject.com/icon/buffalo-27077/) by Christy Presler for Native America
 - [Ethiopia](https://thenounproject.com/icon/ethiopia-4621751/) by Firza Alamsyah
@@ -120,7 +120,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Knot](https://thenounproject.com/icon/knot-676657/) by Federico Panzano for Celic
 - [Viking Symbol](https://thenounproject.com/icon/viking-symbol-248008/) by Alexander Skowalsky for Viking
 - [Shield](https://thenounproject.com/icon/shield-163736/) by Ivan Colic for Zulu
-- [Crescent](https://thenounproject.com/icon/crescent-2296077/) by Darrick Doeschot for Ottoman
+- [Crescent](https://thenounproject.com/icon/crescent-2296077/) by Darrick Doeschot for The Ottomans
 
 
 #### Policies
