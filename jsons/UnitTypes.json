@@ -4,6 +4,7 @@
     "name": "Civilian",
     "movementType": "Land",
 	"uniques": [
+		"Unable to capture cities",
 		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
 	]
   },
