@@ -5,6 +5,7 @@
 	{
 		"name": "Barracks",
 		"cost": 50,
+		"maintenance": 1,
 		"uniques": [
 			"New [Land] units start with [3] Experience [in this city]"
 		]
@@ -13,6 +14,7 @@
 	{
 		"name": "Granary",
 		"cost": 60,
+		"maintenance": 1,
 		"uniques": [
 			"[50]% Food is carried over after population increases [in this city]",
             "Provides [1] [Health] <in this city> <with [Corn]>",
@@ -24,8 +26,9 @@
 
 	{
 		"name": "Library",
-		"culture":2,
-		"cost":90,
+		"culture": 2,
+		"cost": 90,
+		"maintenance": 1,
 		"specialistSlots": {"Scientist": 2},
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Writing"
@@ -34,6 +37,7 @@
 	{
 		"name": "Lighthouse",
 		"cost": 60,
+		"maintenance": 1,
 		"uniques": [
 			"Connects trade routes over water",
 			"[+1 Food] from [Water] tiles [in this city]",
@@ -44,8 +48,9 @@
 
 	{
 		"name": "Monument",
-		"culture": 1,
 		"cost": 30,
+		"maintenance": 1,
+		"culture": 1,
 		"requiredTech": "Mysticism",
 		"uniques": [
 			"Obsolete with [Astronomy]"
@@ -55,6 +60,7 @@
 	{
 		"name": "Temple",
 		"culture": 1,
+		"maintenance": 1,
 		"happiness": 1,
 		"specialistSlots": {"Priest": 1},
 		"cost": 80,
@@ -70,6 +76,7 @@
 	{
 		"name": "Walls",
 		"cost": 50,
+		"maintenance": 1,
 		"requiredTech": "Masonry",
 		// TODO: Figure out the base cityStrength modConstant
 		"cityStrength": 1,
@@ -93,8 +100,9 @@
 
 	{
 		"name": "Aqueduct",
-		"requiredTech": "Mathematics",
 		"cost": 100,
+		"maintenance": 1,
+		"requiredTech": "Mathematics",
 		"uniques": [
 			"Provides [+2] [Health] <in this city>",
 			"Only available <after discovering [Masonry]>"
@@ -103,6 +111,7 @@
 	{
 		"name": "Harbor",
 		"cost": 80,
+		"maintenance": 1,
 		"uniques": ["Only available <in [Coastal] cities>",
             "[+25]% [Gold] from Trade Routes <in this city>",
             "Provides [1] [Health] <in this city> <with [Pearls]>",
@@ -113,6 +122,7 @@
 	{
 		"name": "National Epic",
 		"cost": 250,
+		"maintenance": 2,
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
@@ -126,6 +136,7 @@
 	{
 		"name": "Colosseum",
 		"cost": 80,
+		"maintenance": 1,
 		"happiness": 1,
 		"requiredTech": "Construction",
 		"uniques": [
@@ -135,6 +146,7 @@
 	{
 		"name": "Market",
 		"cost": 150,
+		"maintenance": 1,
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"happiness":1,
@@ -149,6 +161,7 @@
 	{
 		"name": "Stable",
 		"cost": 60,
+		"maintenance": 1,
 		"uniques": [
 			"Only available <if [Civ IV Warlords] is enabled>",
 			"New [Mounted] units start with [2] Experience [in this city]",
@@ -159,6 +172,7 @@
 	{
 		"name": "Theatre",
 		"cost": 50,
+		"maintenance": 1,
 		"specialistSlots": {"Artist": 2},
 		"culture": 3,
 		"uniques": [
@@ -170,6 +184,7 @@
 	{
 		"name": "Courthouse",
 		"cost": 120,
+		"maintenance": 0,
 		"uniques": [
 			"[-50]% maintenance cost for buildings [in this city]"
 			// TODO: +2 Espionage in BTS
@@ -181,6 +196,7 @@
 	{
 		"name": "Forge",
 		"cost": 120,
+		"maintenance": 1,
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 25},
 		"requiredTech": "Metal Casting",
@@ -195,6 +211,7 @@
 	{
 		"name": "University of Sankore",
 		"cost": 550,
+		"maintenance": 3,
 		"culture": 8,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
@@ -205,6 +222,7 @@
 	{
 		"name": "Pentagon",
 		"cost": 1250,
+		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["New [Military] units start with [15] Experience [in all cities]"],
@@ -214,6 +232,7 @@
 	{
 		"name": "Red Cross",
 		"cost": 600,
+		"maintenance": 2,
 		"requiredBuilding": "Hospital",
 		"greatPersonPoints": {"Great Scientist": 1},
 		"culture": 2,
@@ -224,8 +243,9 @@
 	},
 	{
 		"name": "Eiffel Tower",
-		"culture": 6,
         "cost": 1250,
+		"maintenance": 3,
+		"culture": 6,
 		"requiredBuilding": "Forge",
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
@@ -239,12 +259,14 @@
 	{
 		"name": "Bank",
 		"cost": 200,
+		"maintenance": 0,
 		"percentStatBonus": {"gold": 50},
 		"requiredTech": "Banking"
 	},
 	{
 		"name": "Castle",
 		"cost": 100,
+		"maintenance": 1,
 		"culture": 1,
 		"cityStrength": 1,
 		"requiredTech": "Engineering",
@@ -268,6 +290,7 @@
 	{
 		"name": "Cathedral",
 		"cost": 300,
+		"maintenance": 1,
 		"percentStatBonus": {"culture": 50},
 		"specialistSlots": {"Priest": 2},
 		// TODO: Cathedrals are limited to 1 cathedral per 3 Temples
@@ -286,6 +309,7 @@
 	{
 		"name": "Grocer",
 		"cost": 150,
+		"maintenance": 1,
 		"specialistSlots": {"Merchant": 2},
 		"percentStatBonus": {"gold": 25},
 		"uniques": [
@@ -303,6 +327,7 @@
 	{
 		"name": "Jail",
 		"cost": 120,
+		"maintenance": 1,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
 			"Only available <when espionage is enabled>",
@@ -316,6 +341,7 @@
 	{
 		"name": "Observatory",
 		"cost": 150,
+		"maintenance": 1,
 		"percentStatBonus": {"science": 25},
 		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Astronomy"
@@ -324,6 +350,7 @@
 	{
 		"name": "Security Bureau",
 		"cost": 220,
+		"maintenance": 1,
 		"espionage": 8,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
@@ -336,6 +363,7 @@
 	{
 		"name": "University",
 		"cost": 200,
+		"maintenance": 1,
 		"culture": 3,
 		"percentStatBonus": {"science": 25},
 		"requiredTech": "Education",
@@ -347,6 +375,7 @@
 	{
 		"name": "Bomb Shelter",
 		"cost": 100,
+		"maintenance": 1,
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Population loss from nuclear attacks [-50]% [in this city]",
@@ -358,6 +387,7 @@
 	{
 		"name": "Bunker",
 		"cost": 100,
+		"maintenance": 1,
 		"requiredTech": "Electricity",
 		"uniques": [
 			"[+50]% City Strength from defensive buildings <vs [Air] units> <when defending>" // -50% damage from air units
@@ -367,6 +397,7 @@
 	{
 		"name": "Coal Plant",
 		"cost": 150,
+		"maintenance": 1,
 		"requiredBuilding": "Factory",
 		"uniques": [
             "Power Plant",
@@ -381,6 +412,7 @@
 	{
 		"name": "Drydock",
 		"cost": 120,
+		"maintenance": 1,
 		"uniques": [
             "Provides [-1] [Health] <in this city>",
             "[+50]% Production when constructing [Melee Water] units [in this city]",
@@ -397,6 +429,7 @@
 	{
 		"name": "Factory",
 		"cost": 250,
+		"maintenance": 1,
 		"percentStatBonus": {"production": 25},
 		"specialistSlots": {"Engineer": 2},
         "uniques": [
@@ -412,6 +445,7 @@
 	{
 		"name": "Hospital",
 		"cost": 200,
+		"maintenance": 1,
         "uniques": [
 			"Provides [3] [Health] <in this city>",
 			"[Wounded] Units adjacent to this city heal [2] HP per turn when healing" // Units in city heal extra 10 hp/turn
@@ -422,6 +456,7 @@
 	{
 		"name": "Nuclear Plant",
 		"cost": 250,
+		"maintenance": 1,
 		"requiredBuilding": "Factory",
 		"requiredResource": "Uranium", // TODO: Does Uranium get Consumed?
         "uniques": [
@@ -439,6 +474,7 @@
 	{
 		"name": "Airport",
 		"cost": 250,
+		"maintenance": 1,
         "uniques": [
 			// +1 trade route
 			// +4 air unit capacity
@@ -454,6 +490,7 @@
 	{
 		"name": "Broadcast Tower",
 		"cost": 175,
+		"maintenance": 1,
 		"percentStatBonus": {"culture": 50},
 		"specialistSlots": {"Artist": 2},
 		"happiness": 1, // +1 Happiness per 10% Culture rate
@@ -468,6 +505,7 @@
 	{
 		"name": "Hydro Plant",
 		"cost": 200,
+		"maintenance": 1,
 		"requiredBuilding": "Factory",
         "uniques": [
             "Must be on [River]",
@@ -482,6 +520,7 @@
 	{
 		"name": "Laboratory",
 		"cost": 250,
+		"maintenance": 1,
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
         "uniques": [
@@ -495,6 +534,7 @@
 	{
 		"name": "Recycling Center",
 		"cost": 300,
+		"maintenance": 1,
         "uniques": [
             "Provides [2] [Health] <in this city>" // TODO: No Health damage from buildings
         ],
@@ -504,6 +544,7 @@
 	{
 		"name": "Supermarket",
 		"cost": 150,
+		"maintenance": 1,
 		"food": 1,
 		"uniques": [
             "Provides [1] [Health] <in this city> <with [Cattle]>",
@@ -520,6 +561,7 @@
 	{
 		"name": "Monastery",
         "cost": 60,
+		"maintenance": 1,
 		"culture": 2,
 		"percentStatBonus": {"science": 10},
 		"requiredTech": "Meditation",
@@ -535,6 +577,7 @@
 
 	{
 		"name": "Religious Shrine",
+		"maintenance": 0,
 		"culture": 4,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Prophet": 1},
@@ -556,8 +599,9 @@
 
 	{
 		"name": "Stonehenge",
-		"culture": 8,
         "cost": 120,
+		"maintenance": 1,
+		"culture": 8,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Mysticism",
@@ -569,22 +613,25 @@
 	},
 
 	{
-		"name": "The Oracle",
+		"name": "The Oracle", // Oracle in Civ 4
+		"cost": 150,
+		"maintenance": 1,
 		"culture": 8,
 		"isWonder": true,
-		"cost": 150,
 		"uniques": [
 			"Free Technology",
 			"[-50]% production cost <with [Marble]>"
 		],
+		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Priesthood",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
 	},
 
 	{
 		"name": "The Pyramids", // "Pyramids" in Civ 4
-		"culture": 6,
         "cost": 500,
+		"maintenance": 1,
+		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
@@ -596,9 +643,10 @@
 
 	{
 		"name": "Temple of Artemis",
+		"cost": 350,
+		"maintenance": 1,
 		"isWonder": true,
 		"culture": 8,
-		"cost": 350,
 		"production": 1, // Free Priest
 		"gold": 1, // Free Priest
 		"greatPersonPoints": {
@@ -616,9 +664,10 @@
 
 	{
 		"name": "Great Wall",
+		"cost": 150,
+		"maintenance": 1,
 		"isWonder": true,
 		"culture": 2,
-		"cost": 150,
 		"greatPersonPoints": {"Great Spy": 2},
 		"uniques": [
 			"Only available <if [Civ IV Warlords] is enabled>",
@@ -630,9 +679,10 @@
 	},
 
 	{
-		"name": "The Great Lighthouse",
-		"culture": 6,
+		"name": "The Great Lighthouse", // Great Lighthouse in Civ 4
         "cost": 200,
+		"maintenance": 1,
+		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": [
@@ -648,6 +698,7 @@
 	{
 		"name": "Chichen Itza",
 		"cost": 500,
+		"maintenance": 2,
 		"culture": 6,
 		"isWonder": true,
 		"uniques": [
@@ -663,6 +714,7 @@
 	{
 		"name": "Colossus",
 		"cost": 250,
+		"maintenance": 2,
 		"culture": 6,
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
@@ -681,6 +733,7 @@
 	{
 		"name": "The Great Library", // Known as "Great Library" in Civ IV
 		"cost": 350,
+		"maintenance": 2,
 		"culture": 8,
 		"greatPersonPoints": {"Great Scientist": 8}, // 2 Great Scientist Points + 2 Free Scientists
 		"isWonder": true,
@@ -695,8 +748,9 @@
 
 	{
 		"name": "Hanging Gardens",
-		"culture": 6,
         "cost": 300,
+		"maintenance": 2,
+		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"requiredTech": "Mathematics",
@@ -711,9 +765,10 @@
 
 	{
 		"name": "Parthenon",
+		"cost": 400,
+		"maintenance": 2,
 		"culture": 10,
 		"isWonder": true,
-		"cost": 400,
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"[+50]% Great Person generation [in your cities]",
@@ -726,6 +781,7 @@
 	{
 		"name": "Angkor Wat",
 		"cost": 500,
+		"maintenance": 3,
 		"culture": 8,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Prophet": 2},
@@ -743,6 +799,7 @@
 	{
 		"name": "Hagia Sophia",
 		"cost": 550,
+		"maintenance": 3,
 		"culture": 8,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
@@ -758,6 +815,7 @@
 	{
 		"name": "Notre Dame",
 		"cost": 550,
+		"maintenance": 3,
 		"culture": 10,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
@@ -772,6 +830,7 @@
 	{
 		"name": "Sistine Chapel",
 		"cost": 600,
+		"maintenance": 3,
 		"culture": 10,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
@@ -787,6 +846,7 @@
 	{
 		"name": "Spiral Minaret",
 		"cost": 550,
+		"maintenance": 3,
 		"culture": 8,
 		"greatPersonPoints": {"Great Prophet": 2},
 		"isWonder": true,
@@ -806,11 +866,12 @@
 	{
 		"name": "Versailles",
 		"cost": 800,
+		"maintenance": 3,
 		"culture": 10,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniques": [
-			"[-25]% maintenance cost for buildings [in all cities]",
+			"[-25]% maintenance cost for buildings [in your cities]",
 			"[-50]% production cost <with [Marble]>"
 		],
 		"requiredTech": "Divine Right"
@@ -819,9 +880,10 @@
 
 	{
 		"name": "University of Sankore",
+		"cost": 550,
+		"maintenance": 3,
 		"isWonder": true,
 		"culture": 8,
-		"cost": 550,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
 			"Only available <if [Civ IV Warlords] is enabled>",
@@ -838,8 +900,9 @@
 
 	{
 		"name": "Statue of Liberty",
-		"culture": 6,
         "cost": 1500,
+		"maintenance": 3,
+		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": [
@@ -855,6 +918,7 @@
 	{
 		"name": "Taj Mahal",
 		"cost": 700,
+		"maintenance": 3,
 		"culture": 10,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
@@ -869,6 +933,7 @@
 	{
 		"name": "Broadway",
 		"cost": 800,
+		"maintenance": 3,
 		"happiness": 1,
 		"isWonder": true,
 		"percentStatBonus": {"culture": 50},
@@ -882,6 +947,7 @@
 	{
 		"name": "Kremlin",
 		"cost": 800,
+		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Spy": 2},
 		"uniques": [
@@ -897,6 +963,7 @@
 	{
 		"name": "Pentagon",
 		"cost": 1250,
+		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Spy": 2},
 		"uniques": [
@@ -907,8 +974,9 @@
 
 	{
 		"name": "Eiffel Tower",
-		"culture": 6,
         "cost": 1250,
+		"maintenance": 3,
+		"culture": 6,
 		"requiredBuilding": "Forge",
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
@@ -923,6 +991,7 @@
 	{
 		"name": "Hollywood",
 		"cost": 1000,
+		"maintenance": 3,
 		"happiness": 1,
 		"isWonder": true,
 		"percentStatBonus": {"culture": 50},
@@ -936,6 +1005,7 @@
 	{
 		"name": "Rock 'n' Roll",
 		"cost": 800,
+		"maintenance": 3,
 		"happiness": 1,
 		"isWonder": true,
 		"percentStatBonus": {"culture": 50},
@@ -949,6 +1019,7 @@
 	{
 		"name": "Three Gorges Dam",
 		"cost": 1750,
+		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
@@ -962,6 +1033,7 @@
 	{
 		"name": "United Nations",
 		"cost": 1000,
+		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": [
@@ -976,6 +1048,7 @@
 	{
 		"name": "The Space Elevator",
 		"cost": 1000,
+		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
@@ -989,39 +1062,49 @@
 
 	{
 		"name": "Palace",
+		"cost": 1,
+		"maintenance": 0,
 		"isNationalWonder": true,
 		"culture": 2,
 		"gold": 8,
 		"happiness": 1,
-		"cost": 1,
 		"cityStrength": 2,
 		"uniques": [
-			// Reduces maintenance CommerceRed4 in nearby cities
+			// TODO: Reduces maintenance in nearby cities
+			"[-10]% maintenance cost for buildings [in your cities]",
+
 			// BTS: +4 Espionage
 			"Indicates the capital city",
-			"Moves to new capital when capital changes"
+			"Moves to new capital when capital changes",
+			"Unsellable"
 		]
 	},
 
 	{
 		"name": "Forbidden Palace",
+		"cost": 200,
+		"maintenance": 0,
 		"isNationalWonder": true,
 		"culture": 4,
-		"cost": 200,
 		"requiredBuilding": "Courthouse",
 		"greatPersonPoints": {"Great Spy": 1},
 		"uniques": [
-			"[-20]% maintenance cost for buildings [in all cities]", // in nearby cities
-			"Only available <if [Courthouse] is constructed in at least [6] of [Your] cities>"
+			"Destroyed when the city is captured",
+			"[-25]% maintenance cost for buildings [in all cities]", // in nearby cities
+			"Unavailable <in [Capital] cities>",
+			"Unsellable",
+			"Only available <if [Courthouse] is constructed in at least [6] of [Your] cities>", // Requires at least 6 Courthouses in total on Normal speed
+			// TODO: Requires at least 8 cities on Normal speed
 		],
 		"requiredTech": "Code of Laws"
 	},
 
 	{
 		"name": "Globe Theatre",
+		"cost": 300,
+		"maintenance": 2,
 		"isNationalWonder": true,
 		"culture": 6,
-		"cost": 300,
 		"requiredBuilding": "Theatre",
 		"greatPersonPoints": {"Great Artist": 1},
 		"specialistSlots": {"Artist": 3},
@@ -1034,8 +1117,9 @@
 
 	{
 		"name": "Heroic Epic",
-		"isNationalWonder": true,
 		"cost": 200,
+		"maintenance": 2,
+		"isNationalWonder": true,
 		"requiredBuilding": "Barracks",
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
@@ -1048,8 +1132,9 @@
 
 	{
 		"name": "National Epic",
-		"isNationalWonder": true,
 		"cost": 250,
+		"maintenance": 2,
+		"isNationalWonder": true,
 		"culture": 4,
 		"requiredBuilding": "Library",
 		"greatPersonPoints": {"Great Artist": 1},
@@ -1063,6 +1148,7 @@
 	{
 		"name": "Hermitage",
 		"cost": 300,
+		"maintenance": 2,
 		"percentStatBonus": {"culture": 100},
 		"greatPersonPoints": {"Great Artist": 1},
 		"isNationalWonder": true,
@@ -1075,6 +1161,7 @@
 	{
 		"name": "Oxford University",
 		"cost": 400,
+		"maintenance": 3,
 		"requiredBuilding": "University",
 		"percentStatBonus": {"science": 100},
 		"culture": 4,
@@ -1091,6 +1178,7 @@
 	{
 		"name": "Wall Street",
 		"cost": 600,
+		"maintenance": 3,
 		"requiredBuilding": "Bank",
 		"percentStatBonus": {"gold": 100},
         "specialistSlots": {"Merchant": 3},
@@ -1105,6 +1193,7 @@
 	{
 		"name": "West Point",
 		"cost": 800,
+		"maintenance": 2,
 		"greatPersonPoints": {"Great Spy": 1},
 		"isNationalWonder": true,
 		"uniques": [
@@ -1117,6 +1206,7 @@
 	{
 		"name": "Ironworks",
 		"cost": 700,
+		"maintenance": 2,
 		"food": -2,
 		"requiredBuilding": "Forge",
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -1134,6 +1224,7 @@
 	{
 		"name": "Mt. Rushmore",
 		"cost": 500,
+		"maintenance": 2,
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isNationalWonder": true,
@@ -1147,6 +1238,7 @@
 	{
 		"name": "Red Cross",
 		"cost": 600,
+		"maintenance": 2,
 		"culture": 2,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isNationalWonder": true,
@@ -1163,6 +1255,7 @@
 	{
 		"name": "Manhattan Project", // "The Manhattan Project" in Civ 4
 		"cost": 1500,
+		"maintenance": 3,
 		"isWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Uranium]>",
@@ -1178,6 +1271,7 @@
 	{
 		"name": "The Internet",
 		"cost": 2000,
+		"maintenance": 3,
 		"isWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Copper]>",
@@ -1198,6 +1292,7 @@
 	{
 		"name": "Apollo Program",
 		"cost": 1600,
+		"maintenance": 2,
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Aluminum]>",
@@ -1213,6 +1308,7 @@
 	{
 		"name": "Scotland Yard",
 		"cost": 500,
+		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
@@ -1226,6 +1322,7 @@
 		"name": "Academy",
 		// See Academy Building tile improvement, and Great Scientist
 		"cost": 50,
+		"maintenance": 0,
 		"percentStatBonus": {"science": 50},
 		"culture": 3,
 		"uniques": [
@@ -1240,8 +1337,9 @@
 
 	{
 		"name": "Military Academy",
-		"culture": 3,
 		"cost": 150,
+		"maintenance": 0,
+		"culture": 3,
 		// TODO: Have Great Generals sacrifice themselves to build a Military Academy
 		"uniques": [
 			"Unbuildable",
@@ -1258,6 +1356,7 @@
 		"name": "SS Casing",
 		"isNationalWonder": true,
 		"cost": 1200,
+		"maintenance": 0,
 		"uniques": [
 			// TODO: Make 5 required
 			"Only available <when [Scientific] Victory is enabled>",
@@ -1274,6 +1373,7 @@
 		"name": "SS Cockpit",
 		"isNationalWonder": true,
 		"cost": 1000,
+		"maintenance": 0,
 		"uniques": [
 			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Copper]>",
@@ -1289,6 +1389,7 @@
 		"name": "SS Docking Bay",
 		"isNationalWonder": true,
 		"cost": 2000,
+		"maintenance": 0,
 		"uniques": [
 			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Aluminum]>",
@@ -1305,6 +1406,7 @@
 		"name": "SS Engine",
 		"isNationalWonder": true,
 		"cost": 1600,
+		"maintenance": 0,
 		"uniques": [
 			// TODO: Make 1-2 required for victory
 			"Only available <when [Scientific] Victory is enabled>",
@@ -1320,6 +1422,7 @@
 		"name": "SS Life Support",
 		"isNationalWonder": true,
 		"cost": 1000,
+		"maintenance": 0,
 		"uniques": [
 			"Only available <when [Scientific] Victory is enabled>",
 			"[-50]% production cost <with [Copper]>",
@@ -1335,6 +1438,7 @@
 		"name": "SS Stasis Chamber",
 		"isNationalWonder": true,
 		"cost": 1200,
+		"maintenance": 0,
 		"uniques": [
 			"Only available <when [Scientific] Victory is enabled>",
 			"Spaceship part",
@@ -1349,6 +1453,7 @@
 		"name": "SS Thrusters",
 		"isNationalWonder": true,
 		"cost": 1200,
+		"maintenance": 0,
 		"uniques": [
 			// TODO: Require 1-5 required for space race
 			"Only available <when [Scientific] Victory is enabled>",
@@ -1365,6 +1470,7 @@
 		"name": "Spaceship",
 		"isNationalWonder": true,
 		"cost": 500,
+		"maintenance": 0,
 		"uniques": [
 			"Only available <when [Scientific] Victory is enabled>",
 			"Spaceship part",
@@ -1388,6 +1494,7 @@
 	{
 		"name": "Revolution",
 		"cost": 1,
+		"maintenance": 0,
 		"isNationalWonder": true,
 		"happiness": -5,
 		"uniques": [

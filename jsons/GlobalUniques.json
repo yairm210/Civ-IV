@@ -76,7 +76,7 @@
 		// Religion (Holy City)
 		"[+5 Culture] [in capital] <after founding a Pantheon>",
 
-		// Spy Modifications
-		"All newly-trained [Spy] units [in all cities] receive the [Commando] promotion <if [Civ IV Beyond the Sword] is enabled>"
+		// Maintanance
+		"[-100]% maintenance cost for buildings [in your cities] <during We Love The King Day>"
     ]
 }

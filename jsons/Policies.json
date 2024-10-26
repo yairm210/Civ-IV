@@ -1,5 +1,4 @@
 // https://civilization.fandom.com/wiki/List_of_civics_in_Civ4
-// TODO: Add Upkeep/Maintenance: https://www.civfanatics.com/civ4/strategy/game-mechanics/civic-upkeep-explained/
 
 [
     {
@@ -493,6 +492,7 @@
 					"[+1 Gold] from each Trade Route", // 1 trade route in every city
 					"[+10]% [Gold] from Trade Routes",
 					// -25% maintenance costs from corporations (BTS)
+					"[-10]% maintenance cost for buildings [in your cities]",
                     "Only available <after discovering [Economics]>",
 
 					"Unavailable <after adopting [Decentralization]> <hidden from users>",
@@ -517,7 +517,8 @@
 
 					"[+60]% weight to this choice for AI decisions",
 
-					"[-5]% maintenance costs", // No maintenance costs from distance to palace
+					// No maintenance costs from distance to palace
+					"[-10]% maintenance cost for buildings [in your cities]",
 					"[+1 Food] from [Workshop] tiles [in your cities]",
 					"[+1 Food] from [Watermill] tiles [in your cities]",
 					"[+10]% [Production] [in your cities]",
