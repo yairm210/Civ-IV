@@ -5,7 +5,7 @@
 	{
 		"name": "Barracks",
 		"cost": 50,
-		"maintenance": 1,
+		"maintenance": 0,
 		"uniques": [
 			"New [Land] units start with [3] Experience [in this city]"
 		]
@@ -14,7 +14,7 @@
 	{
 		"name": "Granary",
 		"cost": 60,
-		"maintenance": 1,
+		"maintenance": 0,
 		"uniques": [
 			"[50]% Food is carried over after population increases [in this city]",
             "Provides [1] [Health] <in this city> <with [Corn]>",
@@ -41,7 +41,7 @@
 		"uniques": [
 			"Connects trade routes over water",
 			"[+1 Food] from [Water] tiles [in this city]",
-			"Only available <in [Coastal] cities>",
+			"Only available <in [Coastal] cities>"
 		],
 		"requiredTech": "Sailing"
 	},
@@ -49,7 +49,7 @@
 	{
 		"name": "Monument",
 		"cost": 30,
-		"maintenance": 1,
+		"maintenance": 0,
 		"culture": 1,
 		"requiredTech": "Mysticism",
 		"uniques": [
@@ -66,7 +66,7 @@
 		"cost": 80,
 		"uniques": [
 			"[+20]% Natural religion spread [in this city]",
-			"Only available <after founding a Pantheon> <in cities following our religion>",
+			"Only available <after founding a Pantheon> <in cities following our religion>", // TODO: in cities following our Pantheon
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		],
