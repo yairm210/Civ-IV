@@ -15,9 +15,9 @@
 		"cost": 60,
 		"uniques": [
 			"[50]% Food is carried over after population increases [in this city]",
-            "Provides [1] [Health] <in this city> <with [Corn]>",
-            "Provides [1] [Health] <in this city> <with [Rice]>",
-            "Provides [1] [Health] <in this city> <with [Wheat]>"
+            "Provides [1] [Health] <with [Corn]>",
+            "Provides [1] [Health] <with [Rice]>",
+            "Provides [1] [Health] <with [Wheat]>"
         ],
 		"requiredTech": "Pottery"
 	},
@@ -75,13 +75,13 @@
 		"cityStrength": 1,
 		"uniques": [
 			// +50% defense Defense (except vs. Gunpowder Units)
-			"[+50]% Strength for cities <in this city> <vs [Sword] units>",
-			"[+50]% Strength for cities <in this city> <vs [Archery] units>",
-			"[+50]% Strength for cities <in this city> <vs [Mounted] units>",
-			"[+50]% Strength for cities <in this city> <vs [Armored] units>",
-			"[+50]% Strength for cities <in this city> <vs [Air] units>",
-			"[+50]% Strength for cities <in this city> <vs [Water] units>",
-			"[+50]% Strength for cities <in this city> <vs [Siege] units>",
+			"[+50]% Strength for cities <vs [Sword] units>",
+			"[+50]% Strength for cities <vs [Archery] units>",
+			"[+50]% Strength for cities <vs [Mounted] units>",
+			"[+50]% Strength for cities <vs [Armored] units>",
+			"[+50]% Strength for cities <vs [Air] units>",
+			"[+50]% Strength for cities <vs [Water] units>",
+			"[+50]% Strength for cities <vs [Siege] units>",
 
 			// TODO: -50% damage from bombard (except from Gunpowder units)
 			"[-50]% production cost <with [Stone]>",
@@ -96,7 +96,7 @@
 		"requiredTech": "Mathematics",
 		"cost": 100,
 		"uniques": [
-			"Provides [+2] [Health] <in this city>",
+			"Provides [+2] [Health]",
 			"Only available <after discovering [Masonry]>"
 		]
 	},
@@ -104,10 +104,10 @@
 		"name": "Harbor",
 		"cost": 80,
 		"uniques": ["Only available <in [Coastal] cities>",
-            "[+25]% [Gold] from Trade Routes <in this city>",
-            "Provides [1] [Health] <in this city> <with [Pearls]>",
-            "Provides [1] [Health] <in this city> <with [Crab]>",
-            "Provides [1] [Health] <in this city> <with [Fish]>"],
+            "[+25]% [Gold] from Trade Routes",
+            "Provides [1] [Health] <with [Pearls]>",
+            "Provides [1] [Health] <with [Crab]>",
+            "Provides [1] [Health] <with [Fish]>"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -185,7 +185,7 @@
 		"percentStatBonus": {"production": 25},
 		"requiredTech": "Metal Casting",
 		"uniques": [
-			"Provides [-1] [Health] <in this city>",
+			"Provides [-1] [Health]",
             "[+1 Happiness] <with [Gold Ore]>",
 			"[+1 Happiness] <with [Silver]>",
 			"[+1 Happiness] <with [Gems]>"
@@ -256,13 +256,13 @@
 			// +25% Espionage (BTS)
 			"[-50]% production cost <with [Stone]>",
 			//"Obsolete with [Economics]", (Except defensive bonus)
-			"[+50]% Strength for cities <in this city> <vs [Sword] units>",
-			"[+50]% Strength for cities <in this city> <vs [Archery] units>",
-			"[+50]% Strength for cities <in this city> <vs [Mounted] units>",
-			"[+50]% Strength for cities <in this city> <vs [Armored] units>",
-			"[+50]% Strength for cities <in this city> <vs [Air] units>",
-			"[+50]% Strength for cities <in this city> <vs [Water] units>",
-			"[+50]% Strength for cities <in this city> <vs [Siege] units>"
+			"[+50]% Strength for cities <vs [Sword] units>",
+			"[+50]% Strength for cities <vs [Archery] units>",
+			"[+50]% Strength for cities <vs [Mounted] units>",
+			"[+50]% Strength for cities <vs [Armored] units>",
+			"[+50]% Strength for cities <vs [Air] units>",
+			"[+50]% Strength for cities <vs [Water] units>",
+			"[+50]% Strength for cities <vs [Siege] units>"
 		]
 	},
 	{
@@ -290,10 +290,10 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": [
 			"Only available <after discovering [Currency]>",
-            "Provides [1] [Health] <in this city> <with [Sugar]>",
-            "Provides [1] [Health] <in this city> <with [Bananas]>",
-            "Provides [1] [Health] <in this city> <with [Spices]>",
-            "Provides [1] [Health] <in this city> <with [Wine]>",
+            "Provides [1] [Health] <with [Sugar]>",
+            "Provides [1] [Health] <with [Bananas]>",
+            "Provides [1] [Health] <with [Spices]>",
+            "Provides [1] [Health] <with [Wine]>",
 		],
 		"requiredTech": "Guilds"
 	},
@@ -370,10 +370,10 @@
 		"requiredBuilding": "Factory",
 		"uniques": [
             "Power Plant",
-            "Provides [-4] [Health] <in this city> <with [Coal]>",
-            "Provides [1] [Power] <in this city> <with [Coal]>",
+            "Provides [-4] [Health] <with [Coal]>",
+            "Provides [1] [Power] <with [Coal]>",
             "Only available <in cities without a [Power Plant]>",
-			"Only available <with [Coal]> <in this city>"
+			"Only available <with [Coal]>"
 		],
 		"requiredTech": "Assembly Line"
 	},
@@ -382,7 +382,7 @@
 		"name": "Drydock",
 		"cost": 120,
 		"uniques": [
-            "Provides [-1] [Health] <in this city>",
+            "Provides [-1] [Health]",
             "[+50]% Production when constructing [Melee Water] units [in this city]",
             "[+50]% Production when constructing [Ranged Water] units [in this city]",
             "[+50]% Production when constructing [Submarine] units [in this city]",
@@ -400,9 +400,9 @@
 		"percentStatBonus": {"production": 25},
 		"specialistSlots": {"Engineer": 2},
         "uniques": [
-			"Provides [-1] [Health] <in this city>",
-			"Provides [-2] [Health] <in this city> <with [Oil]>",
-			"Provides [-2] [Health] <in this city> <with [Coal]>",
+			"Provides [-1] [Health]",
+			"Provides [-2] [Health] <with [Oil]>",
+			"Provides [-2] [Health] <with [Coal]>",
 			"[+25]% [Production] [in this city]",
 			"[+25]% [Production] [in this city] <with [Power]>"
 		],
@@ -413,7 +413,7 @@
 		"name": "Hospital",
 		"cost": 200,
         "uniques": [
-			"Provides [3] [Health] <in this city>",
+			"Provides [3] [Health]",
 			"[Wounded] Units adjacent to this city heal [2] HP per turn when healing" // Units in city heal extra 10 hp/turn
 		],
 		"requiredTech": "Medicine"
@@ -426,8 +426,8 @@
 		"requiredResource": "Uranium", // TODO: Does Uranium get Consumed?
         "uniques": [
             "Power Plant",
-            "Provides [-2] [Health] <in this city> <with [Uranium]>",
-            "Provides [1] [Power] <in this city> <with [Uranium]>",
+            "Provides [-2] [Health] <with [Uranium]>",
+            "Provides [1] [Power] <with [Uranium]>",
             "Only available <in cities without a [Power Plant]>",
 			"Population loss from nuclear attacks [+20]% [in this city]" // Small chance of nuclear meltdown
 		],
@@ -443,7 +443,7 @@
 			// +1 trade route
 			// +4 air unit capacity
 			// Can airlift 1 land unit per turn
-            "Provides [-1] [Health] <in this city>",
+            "Provides [-1] [Health]",
 			"New [Fighter] units start with [3] Experience [in this city]",
 			"New [Bomber] units start with [3] Experience [in this city]",
 			"New [Helicopter] units start with [3] Experience [in this city]"
@@ -472,8 +472,8 @@
         "uniques": [
             "Must be on [River]",
             "Power Plant",
-            "Provides [-2] [Health] <in this city>",
-            "Provides [1] [Power] <in this city>",
+            "Provides [-2] [Health]",
+            "Provides [1] [Power]",
             "Only available <in cities without a [Power Plant]>"
 		],
 		"requiredTech": "Plastics"
@@ -485,7 +485,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
         "uniques": [
-            "Provides [-1] [Health] <in this city>",
+            "Provides [-1] [Health]",
 			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
         ],
 		"requiredTech": "Computers", // Superconductors (BTS)
@@ -496,7 +496,7 @@
 		"name": "Recycling Center",
 		"cost": 300,
         "uniques": [
-            "Provides [2] [Health] <in this city>" // TODO: No Health damage from buildings
+            "Provides [2] [Health]" // TODO: No Health damage from buildings
         ],
 		"requiredTech": "Ecology"
 	},
@@ -506,10 +506,10 @@
 		"cost": 150,
 		"food": 1,
 		"uniques": [
-            "Provides [1] [Health] <in this city> <with [Cattle]>",
-            "Provides [1] [Health] <in this city> <with [Deer]>",
-            "Provides [1] [Health] <in this city> <with [Sheep]>",
-            "Provides [1] [Health] <in this city> <with [Pig]>"
+            "Provides [1] [Health] <with [Cattle]>",
+            "Provides [1] [Health] <with [Deer]>",
+            "Provides [1] [Health] <with [Sheep]>",
+            "Provides [1] [Health] <with [Pig]>"
 		],
         "requiredBuilding": "Grocer",
 		"requiredTech": "Refrigeration"
@@ -951,7 +951,7 @@
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
 			"Must be on [River]",
-            "Provides [-2] [Health] <in this city>",
+            "Provides [-2] [Health]",
             "Provides [3] [Power]" // TODO: Provides power to all cities on the same continent
 		],
 		"requiredTech": "Plastics"
@@ -1123,7 +1123,7 @@
 		"isNationalWonder": true,
 		"specialistSlots": {"Engineer": 3},
 		"uniques": [
-			"Provides [-2] [Health] <in this city>",
+			"Provides [-2] [Health]",
 			"Only available <if [Forge] is constructed in at least [6] of [All] cities>",
 			"[+50]% [Production] [in this city] <with [Iron]>",
 			"[+50]% [Production] [in this city] <with [Coal]>"
@@ -1383,6 +1383,66 @@
 		"requiredTech": "Fusion"
 	},
 
+	{
+		"name": "Utopia Project 1",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"Only available <when [Cultural] Victory is enabled>",
+			"Triggers a global alert upon completion",
+			"Destroyed when the city is captured",
+			"Unavailable <in cities with a [Utopia Project 2]>",
+			"Unavailable <in cities with a [Utopia Project 3]>",
+			"Only available <when above [100] [Culture]> <(modified by game speed)> <in this city>", // TODO: 100 Culture generated by the individual city
+			// "Only available <when above [25000] [Culture]> <on [Quick] game speed>",
+			// "Only available <when above [50000] [Culture]> <on [Standard] game speed>",
+			// "Only available <when above [75000] [Culture]> <on [Epic] game speed>",
+			// "Only available <when above [150000] [Culture]> <on [Marathon] game speed>"
+		]
+	},
+
+	{
+		"name": "Utopia Project 2",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"Only available <when [Cultural] Victory is enabled>",
+			"Triggers a global alert upon completion",
+			"Destroyed when the city is captured",
+			"Unavailable <in cities with a [Utopia Project 1]>",
+			"Unavailable <in cities with a [Utopia Project 3]>",
+			"Only available <when above [100] [Culture]> <(modified by game speed)> <in this city>", // TODO: 100 Culture generated by the individual city
+			// "Only available <when above [25000] [Culture]> <on [Quick] game speed>",
+			// "Only available <when above [50000] [Culture]> <on [Standard] game speed>",
+			// "Only available <when above [75000] [Culture]> <on [Epic] game speed>",
+			// "Only available <when above [150000] [Culture]> <on [Marathon] game speed>"
+		]
+	},
+
+	{
+		"name": "Utopia Project 3",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"Only available <when [Cultural] Victory is enabled>",
+			"Triggers a global alert upon completion",
+			"Destroyed when the city is captured",
+			"Unavailable <in cities with a [Utopia Project 1]>",
+			"Unavailable <in cities with a [Utopia Project 2]>",
+			"Only available <when above [100] [Culture]> <(modified by game speed)> <in this city>", // TODO: 100 Culture generated by the individual city
+			// "Only available <when above [25000] [Culture]> <on [Quick] game speed>",
+			// "Only available <when above [50000] [Culture]> <on [Standard] game speed>",
+			// "Only available <when above [75000] [Culture]> <on [Epic] game speed>",
+			// "Only available <when above [150000] [Culture]> <on [Marathon] game speed>"
+		]
+	},
+
 	// Special Buildings
 
 	{
@@ -1459,7 +1519,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 25},
         "uniques": [
-            "Provides [-1] [Health] <in this city>",
+            "Provides [-1] [Health]",
 			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
         ],
 		"requiredTech": "Computers",
