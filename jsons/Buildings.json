@@ -324,7 +324,7 @@
 	{
 		"name": "Security Bureau",
 		"cost": 220,
-		"espianage": 8,
+		"espionage": 8,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
 			"[-50]% enemy spy effectiveness [in this city]",
@@ -1011,9 +1011,7 @@
 		"greatPersonPoints": {"Great Spy": 1},
 		"uniques": [
 			"[-20]% maintenance cost for buildings [in all cities]", // in nearby cities
-			// Requires at least 8 cities
-			"Only available <if [Courthouse] is constructed in at least [6] of [in your cities] cities>",
-			"Only available <when number of [[in your cities] Cities] is more than [7]>"
+			"Only available <if [Courthouse] is constructed in at least [6] of [Your] cities>"
 		],
 		"requiredTech": "Code of Laws"
 	},
@@ -1028,7 +1026,7 @@
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
 			"[+2 Happiness] [in this city]", // No Anger in this city.
-			"Only available <if [Theatre] is constructed in at least [6] of [All] cities>"
+			"Only available <if [Theatre] is constructed in at least [6] of [Your] cities>"
 		],
 		"requiredTech": "Drama"
 	},

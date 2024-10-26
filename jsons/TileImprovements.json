@@ -436,6 +436,7 @@
 		"greatPersonPoints": {"Great Spy": 3},
 		// TODO: Espianage: 3
 		"uniques": [
+			"Only available <when espionage is enabled>",
 			"Only available <if [Civ IV Beyond the Sword] is enabled>",
 			"Great Improvement",
 			"Does not need removal of [All]",
@@ -462,6 +463,7 @@
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia",
 			"Gain a free [Religious Shrine] [in capital]",
+			"Only available <when religion is enabled>",
 			"Only available <if [Religious Shrine] is not constructed>"
 		]
 	},

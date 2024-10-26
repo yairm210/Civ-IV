@@ -350,7 +350,7 @@
 				"row": 15,
 				"prerequisites": ["Masonry", "Mathematics"],
 				"uniques": [
-					// TODO: Construction enables Bridge Building
+					"Roads connect tiles across rivers" // Construction enables Bridge Building
 				],
 				"quote": "\"And on the pedestal these words appear 'My name is Ozymandias, king of kings: Look on my works, ye Mighty and despair!' ' - Percy Bysshe Shelley"
 			},
@@ -396,7 +396,7 @@
 				"row": 12,
 				"prerequisites": ["Machinery", "Construction"],
 				"uniques": [
-					// TODO: +1 Road Movement
+					"Improves movement speed on roads" // +1 Road Movement
 				],
 				"quote": "\"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.\" - Antoine de Saint-Exupery"
 			},

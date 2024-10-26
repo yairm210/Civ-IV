@@ -1090,6 +1090,7 @@
 		],
 		"uniques": [
 			"Invisible to others",
+			"Only available <when espionage is enabled>",
 			"Can see invisible [Spy] units",
 			"May enter foreign tiles without open borders",
 			"Only available <if [Scotland Yard] is constructed> <in this city>",
@@ -1239,6 +1240,7 @@
 			"Can instantly construct a [Scotland Yard] improvement <by consuming this unit> <if [Scotland Yard] is not constructed> <in this city> <if [Civ IV Beyond the Sword] is enabled>",
 			"Unbuildable",
 			"Uncapturable",
+			"Only available <when espionage is enabled>",
 			"Only available <if [Civ IV Beyond the Sword] is enabled>",
 			"Cannot be purchased",
 			"May enter foreign tiles without open borders",

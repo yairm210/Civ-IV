@@ -31,7 +31,7 @@
 		"gold": 1,
 		"greatPersonPoints": {"Great Prophet": 3},
 		"color": [255,255,255],
-		"unique": [
+		"uniques": [
 			"Only available <when religion is enabled>"
 		]
 	},
@@ -41,7 +41,7 @@
 		"science": 1,
 		"greatPersonPoints": {"Great Spy": 3}, // (BTS)
 		"color": [255,255,255],
-		"unique": [
+		"uniques": [
 			"Only available <when espionage is enabled>"
 		]
 	}
