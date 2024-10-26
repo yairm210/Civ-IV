@@ -637,9 +637,10 @@
 		"uniques": [
 			// TODO: +2 trade routes in all coastal cities
 			"Only available <in [Coastal] cities>",
+			"Only available <after discovering [Masonry]>",
 			"Obsolete with [Corporation]"
 		],
-		"requiredTech": "Masonry",
+		"requiredTech": "Sailing",
 		"requiredBuilding": "Lighthouse"
 	},
 
