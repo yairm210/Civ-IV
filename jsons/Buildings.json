@@ -1102,7 +1102,7 @@
 		"greatPersonPoints": {"Great Spy": 1},
 		"uniques": [
 			"Destroyed when the city is captured",
-			"[-25]% maintenance cost for buildings [in all cities]", // in nearby cities
+			"[-25]% maintenance cost for buildings [in your cities]", // in nearby cities
 			"Unavailable <in [Capital] cities>",
 			"Unsellable",
 			"Only available <if [Courthouse] is constructed in at least [6] of [Your] cities>", // Requires at least 6 Courthouses in total on Normal speed
