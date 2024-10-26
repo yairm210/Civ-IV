@@ -1566,6 +1566,16 @@
 		]
 	},
 
+	{
+		"name": "Shwedagon Paya", // BTS
+		"uniques": [
+			"Unavailable",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+
 	// Unique Buildings
 
 	{

@@ -624,7 +624,7 @@
 					"[+25]% [Production] <in cities following our religion>",
 					// TODO: Organized Religion allows building Missionary without Monastery
 
-                    "Only available <after discovering [Monotheism]>",
+					"Unavailable <before discovering [Monotheism]> <if [Shwedagon Paya] is not constructed>",
 
 					"Unavailable <after adopting [Paganism]> <hidden from users>",
 					"Unavailable <after adopting [Theocracy]> <hidden from users>",
@@ -652,7 +652,7 @@
 					"New [Military] units start with [2] Experience [in cities following our religion]",
 					// No non-state religion spreads
 
-                    "Only available <after discovering [Theology]>",
+					"Unavailable <before discovering [Theology]> <if [Shwedagon Paya] is not constructed>",
 
 					"Unavailable <after adopting [Paganism]> <hidden from users>",
 					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
@@ -679,7 +679,7 @@
 					"[+100]% Great Person generation [in cities following our religion]",
 					"[-1] Unit Supply per [3] population [in your cities]", // +1 Coins support cost per military unit
 
-                    "Only available <after discovering [Philosophy]>",
+					"Unavailable <before discovering [Philosophy]> <if [Shwedagon Paya] is not constructed>",
 
 					"Unavailable <after adopting [Paganism]> <hidden from users>",
 					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
@@ -704,8 +704,9 @@
 					"[+100]% weight to this choice for AI decisions",
 
 					"[+10]% [Science] [in your cities]",
-					"Only available <after discovering [Liberalism]> <before founding a Pantheon>", // No state religion
-					"[+1 Happiness] [in your cities] <in cities with a major religion>", // TODO: Free Religion needs +1 Happiness with ANY Pantheon, not Religion.
+					"Unavailable <before discovering [Liberalism]> <if [Shwedagon Paya] is not constructed>",
+					// "Only available <before founding a Pantheon>", // TODO: No state religion
+					"[+1 Happiness] [in your cities]", // TODO:+1 Happiness per religion in a city
 
 					"Unavailable <after adopting [Paganism]> <hidden from users>",
 					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
