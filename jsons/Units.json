@@ -876,7 +876,7 @@
 			"Only available <after discovering [Robotics]>",
 			"Nuclear weapon of Strength [2]",
 			"Never appears as a Barbarian unit",
-			"Only available <if [The Manhattan Project] is constructed by anybody>",
+			"Only available <if [Manhattan Project] is constructed by anybody>",
 			"Blast radius [12]"
 		],
 		"attackSound": "nuke"

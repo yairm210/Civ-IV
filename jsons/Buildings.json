@@ -538,6 +538,7 @@
 		"culture": 4,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Prophet": 1},
+		"specialistSlots": {"Priest": 3},
 		"uniques": [
 			"Comment [Constructed by a Great Prophet]",
 			"[+40]% Natural religion spread [in this city]",
@@ -1163,7 +1164,7 @@
 	{
 		"name": "Manhattan Project", // "The Manhattan Project" in Civ 4
 		"cost": 1500,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Uranium]>",
 			"Triggers a global alert upon completion",
@@ -1178,17 +1179,17 @@
 	{
 		"name": "The Internet",
 		"cost": 2000,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Copper]>",
 			"Cannot be hurried",
 			"Cannot be purchased",
-			// TODO: Grants all technologies held by at least 2 known civilizations
-			"[2] free random researchable Tech(s) from the [Ancient era]",
+			// Grants all technologies held by at least 2 known civilizations
+			"[3] free random researchable Tech(s) from the [Ancient era]",
 			"[2] free random researchable Tech(s) from the [Classical era]",
-			"[2] free random researchable Tech(s) from the [Medieval era]",
-			"[2] free random researchable Tech(s) from the [Renaissance era]",
-			"[2] free random researchable Tech(s) from the [Industrial era]"
+			"[1] free random researchable Tech(s) from the [Medieval era]",
+			"[1] free random researchable Tech(s) from the [Renaissance era]",
+			"[1] free random researchable Tech(s) from the [Industrial era]"
 		],
 		"requiredTech": "Computers"
 	},
