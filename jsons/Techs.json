@@ -360,6 +360,7 @@
 				"row": 14,
 				"prerequisites": ["Mathematics"],
 				"uniques": [
+					"Enables conversion of city production to [Gold]" // It also enables you to build Wealth in cities
 					// TODO: +1 Trade Routes per city
 					// TODO: Enables Gold Trading via Diplomacy
 				],
@@ -386,7 +387,7 @@
 				"row": 4,
 				"prerequisites": ["Alphabet"],
 				"uniques": [
-					// TODO: Can Adjust Culture Rate in Cities
+					// TODO: Enables the culture slider
 				],
 				"quote": "\"All the world's a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts.\" - William Shakespeare"
 			},
@@ -478,7 +479,8 @@
 				"uniques": [
 					"Unavailable <before discovering [Literature]> <before discovering [Drama]> <hidden from users>",
 					// TODO: Only reward a Great Artist if starting on previous eras.
-					"Free [Great Artist] appears <if no other Civilization has researched this>"
+					"Free [Great Artist] appears <if no other Civilization has researched this>",
+					"Enables conversion of city production to [Culture] <if [Civ IV Beyond the Sword] is enabled>"
 				],
 				"civilopediaText": [
 					{
@@ -690,7 +692,7 @@
 				"row": 3,
 				"prerequisites": ["Music", "Nationalism"],
 				"uniques": [
-					// TODO: Military Tradition enables Defensive Pacts
+					"Enables Defensive Pacts"
 				],
 				"quote": "\"Victorious warriors win first and then go to war while defeated warriors go to war first and then seek to win.\" - Sun-Tzu"
 			},
