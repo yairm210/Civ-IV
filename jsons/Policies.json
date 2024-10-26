@@ -1,4 +1,5 @@
 // https://civilization.fandom.com/wiki/List_of_civics_in_Civ4
+// TODO: Fix Upkeep https://www.civfanatics.com/civ4/strategy/game-mechanics/civic-upkeep-explained/
 
 [
     {
@@ -7,12 +8,18 @@
 		"uniques": [
 			"Adopt [Despotism] <hidden from users>"
 		],
+		"civilopediaText": [
+			{
+				"text": "All Government civics enabled by The Pyramids",
+				"link": "Wonders/The Pyramids"
+			}
+		],
         "policies": [
             {
                 "name": "Despotism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
 					"Unavailable <after adopting [Police State]> <hidden from users>",
@@ -32,12 +39,12 @@
                 "name": "Hereditary Rule",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 
 					"[+1 Happiness] [in your cities] <with a garrison>", // +1 Happiness in city per military unit stationed in the city
-                    "Only available <after discovering [Monarchy]>",
+					"Unavailable <before discovering [Monarchy]> <if [The Pyramids] is not constructed>",
 
 					"Unavailable <after adopting [Despotism]> <hidden from users>",
 					"Unavailable <after adopting [Police State]> <hidden from users>",
@@ -57,13 +64,13 @@
                 "name": "Representation",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+40]% weight to this choice for AI decisions",
 
 					"[+3 Science] from every [Scientist]",
 					"[+3 Happiness] <in cities with at least [6] [Population]>", // +3 Happiness (Civ4) in the 4-6 biggest cities
-                    "Only available <after discovering [Constitution]>",
+                    "Unavailable <before discovering [Constitution]> <if [The Pyramids] is not constructed>",
 
 					"Unavailable <after adopting [Despotism]> <hidden from users>",
 					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
@@ -83,13 +90,13 @@
                 "name": "Police State",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-1 Gold] per [1] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+80]% weight to this choice for AI decisions <when at war>",
 
 					"[+25]% Production when constructing [Military] units [in your cities]", // +25% military unit production
 					"[+12]% [Happiness] [in your cities] <when at war>", // -50% war weariness
-                    "Only available <after discovering [Fascism]>",
+                    "Unavailable <before discovering [Fascism]> <if [The Pyramids] is not constructed>",
 
 					"Unavailable <after adopting [Despotism]> <hidden from users>",
 					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
@@ -109,13 +116,13 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+40]% weight to this choice for AI decisions",
 
 					"[+1 Production] from [Town] tiles [in your cities]",
 					// Can spend Coins to hurry Hammer
-                    "Only available <after discovering [Democracy]>",
+                    "Unavailable <before discovering [Democracy]> <if [The Pyramids] is not constructed>",
 
 					"Unavailable <after adopting [Despotism]> <hidden from users>",
 					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
@@ -151,7 +158,7 @@
                 "name": "Barbarism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"Unavailable <after adopting [Vassalage]> <hidden from users>",
 					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
@@ -171,7 +178,7 @@
                 "name": "Vassalage",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-1 Gold] per [1] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+10]% weight to this choice for AI decisions",
 					"[+30]% weight to this choice for AI decisions <when at war>",
@@ -198,7 +205,7 @@
                 "name": "Bureaucracy",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-1 Gold] per [1] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 					"[+40]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
@@ -251,7 +258,7 @@
                 "name": "Free Speech",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"[+90]% weight to this choice for AI decisions",
 
@@ -296,7 +303,7 @@
                 "name": "Tribalism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"Unavailable <after adopting [Slavery]> <hidden from users>",
 					"Unavailable <after adopting [Serfdom]> <hidden from users>",
@@ -316,7 +323,7 @@
                 "name": "Slavery",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -342,7 +349,7 @@
                 "name": "Serfdom",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"[+40]% weight to this choice for AI decisions",
 					"[+20]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
@@ -368,7 +375,7 @@
                 "name": "Caste System",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+50]% weight to this choice for AI decisions",
 
@@ -388,7 +395,7 @@
                 "name": "Emancipation",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"[+80]% weight to this choice for AI decisions",
 
@@ -438,7 +445,7 @@
                 "name": "Decentralization",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"Unavailable <after adopting [Mercantilism]> <hidden from users>",
 					"Unavailable <after adopting [Free Market]> <hidden from users>",
@@ -458,7 +465,7 @@
                 "name": "Mercantilism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -485,7 +492,7 @@
                 "name": "Free Market",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+30]% weight to this choice for AI decisions",
 
@@ -513,7 +520,7 @@
                 "name": "State Property",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"[+60]% weight to this choice for AI decisions",
 
@@ -543,7 +550,7 @@
                 "name": "Environmentalism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+80]% weight to this choice for AI decisions",
 
@@ -590,7 +597,7 @@
                 "name": "Paganism",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
 					"Unavailable <after adopting [Theocracy]> <hidden from users>",
@@ -610,7 +617,7 @@
                 "name": "Organized Religion",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-1 Gold] per [1] population [in your cities]",
+					"[-1 Gold] per [2] population [in your cities]",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -637,7 +644,7 @@
                 "name": "Theocracy",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
+					"[-1 Gold] per [4] population [in your cities]",
 
 					"[+10]% weight to this choice for AI decisions",
 					"[+50]% weight to this choice for AI decisions <when at war>",
@@ -692,7 +699,7 @@
                 "name": "Free Religion",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [3] population [in your cities]",
+					"[-1 Gold] per [6] population [in your cities]",
 
 					"[+100]% weight to this choice for AI decisions",
 

@@ -613,7 +613,7 @@
 	},
 
 	{
-		"name": "The Oracle", // Oracle in Civ 4
+		"name": "The Oracle", // "Oracle" in Civ 4
 		"cost": 150,
 		"maintenance": 1,
 		"culture": 8,
@@ -635,10 +635,22 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
-			// TODO: Have The Pyramids enable all government civics
+			"Comment [Enables all Government civics]",
+			"Free Social Policy <hidden from users>",
+			"Remove [Despotism] <hidden from users>",
+			"Remove [Hereditary Rule] <hidden from users>",
+			"Remove [Representation] <hidden from users>",
+			"Remove [Police State] <hidden from users>",
+			"Remove [Universal Suffrage] <hidden from users>"
 		],
 		"requiredTech": "Masonry",
-		"quote": "'From the heights of these pyramids, forty centries look down on us.' - Napoleon Bonaparte"
+		"quote": "'From the heights of these pyramids, forty centries look down on us.' - Napoleon Bonaparte",
+		"civilopediaText": [
+			{
+				"text": "Enables all Government civics",
+				"link": "Policies/Government"
+			}
+		]
 	},
 
 	{
