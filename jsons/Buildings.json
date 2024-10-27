@@ -39,7 +39,7 @@
 		"cost": 60,
 		"maintenance": 1,
 		"uniques": [
-			"Connects trade routes over water",
+			"Connects trade routes over water <after discovering [Astronomy]>",
 			"[+1 Food] from [Water] tiles [in this city]",
 			"Only available <in [Coastal] cities>"
 		],
@@ -66,7 +66,7 @@
 		"cost": 80,
 		"uniques": [
 			"[+20]% Natural religion spread [in this city]",
-			"Only available <after founding a Pantheon> <in cities following our religion>", // TODO: in cities following our Pantheon
+			"Only available <after founding a Pantheon>", // TODO: in cities following our Pantheon
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		],
@@ -112,11 +112,14 @@
 		"name": "Harbor",
 		"cost": 80,
 		"maintenance": 1,
-		"uniques": ["Only available <in [Coastal] cities>",
+		"uniques": [
+			"Connects trade routes over water <after discovering [Astronomy]>",
+			"Only available <in [Coastal] cities>",
             "[+25]% [Gold] from Trade Routes <in this city>",
             "Provides [1] [Health] <in this city> <with [Pearls]>",
             "Provides [1] [Health] <in this city> <with [Crab]>",
-            "Provides [1] [Health] <in this city> <with [Fish]>"],
+            "Provides [1] [Health] <in this city> <with [Fish]>"
+		],
 		"requiredTech": "Compass"
 	},
 	{
@@ -225,7 +228,7 @@
 		"maintenance": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["New [Military] units start with [15] Experience [in all cities]"],
+		"uniques": ["New [Military] units start with [15] Experience [in your cities]"],
 		"requiredTech": "Assembly Line",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
@@ -237,19 +240,24 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"culture": 2,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Hospital] is constructed in at least [6] of [All] cities>",
-			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"],
+		"uniques": [
+			"Only available <if [Hospital] is constructed in at least [6] of [All] cities>",
+			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"
+		],
 		"requiredTech": "Medicine"
 	},
 	{
-		"name": "Eiffel Tower",
+		"name": "Eiffel Tower", // The Eiffel Tower in Civ 4
         "cost": 1250,
 		"maintenance": 3,
 		"culture": 6,
 		"requiredBuilding": "Forge",
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["Gain a free [Broadcast Tower] [in all cities]", "[-50]% production cost <with [Iron]>"],
+		"uniques": [
+			"Gain a free [Broadcast Tower] [in your cities]",
+			"[-50]% production cost <with [Iron]>"
+		],
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
@@ -606,8 +614,10 @@
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Mysticism",
 		"uniques": [
-			"Gain a free [Monument] [in all cities]",
+			"Gain a free [Monument] [in your cities]",
+			"[-50]% production cost <with [Stone]>"
 			"Obsolete with [Astronomy]"
+			// Centers world map
 		],
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
@@ -832,7 +842,7 @@
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"uniques": [
-			"[+2 Happiness] [in all cities]", // TODO: same-continental cities
+			"[+2 Happiness] [in your cities]", // TODO: same-continental cities
 			"[-50]% production cost <with [Stone]>"
 		],
 		"requiredTech": "Engineering"
@@ -848,7 +858,7 @@
 		"isWonder": true,
 		"uniques": [
 			// TODO: Sinstine Chapel gives +5 Culture from all state Religion buildings (BTS)
-			"[+2 Culture] from every specialist [in all cities]",
+			"[+2 Culture] from every specialist [in your cities]",
 			"[-50]% production cost <with [Marble]>"
 		],
 		"requiredTech": "Theology", // BTS: Music
@@ -1137,7 +1147,7 @@
 		"uniques": [
 			"[-50]% production cost <with [Marble]>",
 			"[+100]% Production when constructing [Military] units [in this city]"
-			// requires control of a unit of Level 4 Experience at some point
+			// TODO: Requires control of a unit of Level 4 Experience at some point
 		],
 		"requiredTech": "Literature"
 	},
@@ -1579,7 +1589,7 @@
 	// Unique Buildings
 
 	{
-		"name": "Research Institute",
+		"name": "Research Institute", // Warlords, but represented here because technology requirement changes in BTS
 		"uniqueTo": "Russia",
 		"replaces": "Laboratory",
 		"cost": 250,
@@ -1589,7 +1599,8 @@
 		"percentStatBonus": {"science": 25},
         "uniques": [
             "Provides [-1] [Health] <in this city>",
-			"[+50]% Production when constructing [Spaceship part] buildings [in this city]"
+			"[+50]% Production when constructing [Spaceship part] buildings [in this city]",
+			"Only available <if [Civ IV Warlords] is enabled>"
         ],
 		"requiredTech": "Computers",
 		"requiredBuilding": "Observatory"
