@@ -4,20 +4,6 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Academy
-  rotate: false
-  xy: 4, 1252
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Academy
-  rotate: false
-  xy: 4, 1252
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Airport
   rotate: false
   xy: 212, 1252
@@ -149,6 +135,20 @@ BuildingIcons/Rathaus
   xy: 4, 1460
   size: 516, 516
   orig: 516, 516
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Academy
+  rotate: false
+  xy: 4, 1252
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Academy
+  rotate: false
+  xy: 4, 1252
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Cottage
@@ -1185,20 +1185,6 @@ BuildingIcons/Laboratory
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Religious Shrine
-  rotate: false
-  xy: 4, 1602
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Religious Shrine
-  rotate: false
-  xy: 4, 1602
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Research Institute
   rotate: false
   xy: 4, 1394
@@ -1426,6 +1412,20 @@ BuildingIcons/West Point
 BuildingIcons/Ziggurat
   rotate: false
   xy: 1668, 1394
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Religious Shrine
+  rotate: false
+  xy: 4, 1602
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Religious Shrine
+  rotate: false
+  xy: 4, 1602
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
