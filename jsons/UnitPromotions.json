@@ -197,16 +197,7 @@
 		"outerColor": [12, 74, 146],
 		"innerColor": [219, 152, 13]
 	},
-	{
-		"name": "Combat VI",
-		"prerequisites": ["Combat V"],
-		"uniques": [
-			"[+25]% Strength"
-		],
-		"unitTypes": ["Sword", "Gunpowder", "Archery", "Ranged Gunpowder", "Gunpowder", "Scout", "Mounted", "Armored", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Helicopter", "Bomber"],
-		"outerColor": [12, 74, 146],
-		"innerColor": [219, 152, 13]
-	},
+
 	{
 		"name": "Commando",
 		"prerequisites": ["Combat V"],
@@ -438,5 +429,4 @@
 			"Only available <for [Barbarian] Civilizations>"
 		]
 	}
-
 ]

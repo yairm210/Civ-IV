@@ -215,11 +215,18 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 
 ## Promotions
 
-- [Combat swords](https://thenounproject.com/icon/combat-swords-3310797/) by Azam Ishaq for Combat
+- [Stars](https://thenounproject.com/browse/creator/eduardpiel/search/?name=Ed Piel&q=stars) by Ed Piel for Combat
 - [Navigation](https://thenounproject.com/icon/navigation-1198606/) by Vectors Market
 - [Hills](https://thenounproject.com/icon/hills-1229071/) by Andrew Doane for Guerrilla
 - [U turn](https://thenounproject.com/icon/u-turn-472952/) by Yu luck for Flanking
 - [Pinch](https://thenounproject.com/icon/pinch-2583431/) by Bombasticon Studio
+- [Eagle](https://thenounproject.com/icon/eagle-7027834/) by NHA for Leadership
+- [Garrison](https://thenounproject.com/icon/garrison-cap-4456762/) by M Oki Orlando for City Garrison
+- [Knives](https://thenounproject.com/icon/knives-1539773/) by Laymik for City Raider
+- [Jet](https://thenounproject.com/icon/jet-7064985/) by xoaokotoe for Ace
+- [Star Rank](https://thenounproject.com/icon/rank-star-4461068/) by Soremba for Commando
+- [Dish](https://thenounproject.com/icon/dish-6896629/) by team iconify for Range
+- [Tactics](https://thenounproject.com/icon/tactics-7176559/) by YANDI RS
 
 ## Resources
 

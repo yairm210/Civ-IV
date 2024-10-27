@@ -89,6 +89,7 @@
     "name": "Submarine",
     "movementType": "Water",
     "uniques": [
+		"Never appears as a Barbarian unit",
 		"Invisible to non-adjacent units",
 		"Can see invisible [Submarine] units",
 		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"]
@@ -117,6 +118,7 @@
     "movementType": "Land",
     "uniques": [
 		"Can pass through impassable tiles",
+		"Never appears as a Barbarian unit",
 		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
 	]
   },
@@ -124,6 +126,7 @@
 	"name": "Missle",
 	"movementType": "Air",
 	"uniques": [
+		"Never appears as a Barbarian unit",
 		"Self-destructs when attacking",
 		"Cannot be intercepted",
 		"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"

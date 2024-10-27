@@ -1392,8 +1392,7 @@
 		"movement": 2,
 		"cost": 80,
 		"uniques": [
-			"Can upgrade to [Rifleman]",
-			"Never appears as a Barbarian unit"
+			"Can upgrade to [Rifleman]"
 		],
 		"requiredTech": "Gunpowder",
 		"attackSound": "shot"
@@ -1589,7 +1588,6 @@
 		"uniques": [
 			"Can upgrade to [Maceman]",
 			"Never appears as a Barbarian unit",
-
 			"Only available <with [Iron]>"
 		],
 		"requiredTech": "Iron Working",
