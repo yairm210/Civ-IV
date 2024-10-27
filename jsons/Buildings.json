@@ -1565,6 +1565,80 @@
       	]
 	},
 
+	{
+		"name": "Utopia Project 1",
+		"cost": 200,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <when above [50000] [Culture]>",
+			"Requires at least [8] population",
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"Only available <when [Cultural] Victory is enabled>",
+			"Triggers a global alert upon completion",
+			"Destroyed when the city is captured",
+			"Unavailable <in cities with a [Utopia Project 2]>",
+			"Unavailable <in cities with a [Utopia Project 3]>"
+			// TODO: Modify the culture requirement by game speed
+			// "Only available <when above [25000] [Culture]> <on [Quick] game speed> <(modified by game speed)>",
+			// "Only available <when above [50000] [Culture]> <on [Standard] game speed> <(modified by game speed)>",
+			// "Only available <when above [75000] [Culture]> <on [Epic] game speed> <(modified by game speed)>",
+			// "Only available <when above [150000] [Culture]> <on [Marathon] game speed> <(modified by game speed)>"
+		],
+		"civilopediaText": [
+          	{
+				"text": "Required for Cultural Victory"
+			}
+      	]
+	},
+
+	{
+		"name": "Utopia Project 2",
+		"cost": 250,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <when above [100000] [Culture]>",
+			"Requires at least [9] population",
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"Only available <when [Cultural] Victory is enabled>",
+			"Triggers a global alert upon completion",
+			"Destroyed when the city is captured",
+			"Unavailable <in cities with a [Utopia Project 1]>",
+			"Unavailable <in cities with a [Utopia Project 3]>",
+			"Only available <if [Utopia Project 1] is constructed in at least [1] of [Your] cities>"
+		],
+		"civilopediaText": [
+          	{
+				"text": "Required for Cultural Victory"
+			}
+      	]
+	},
+
+	{
+		"name": "Utopia Project 3",
+		"cost": 300,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <when above [150000] [Culture]>",
+			"Requires at least [10] population",
+			"Cannot be purchased",
+			"Cannot be hurried",
+			"Only available <when [Cultural] Victory is enabled>",
+			"Triggers a global alert upon completion",
+			"Destroyed when the city is captured",
+			"Only available <if [Utopia Project 1] is constructed in at least [1] of [Your] cities>",
+			"Only available <if [Utopia Project 2] is constructed in at least [1] of [Your] cities>",
+			"Unavailable <in cities with a [Utopia Project 1]>",
+			"Unavailable <in cities with a [Utopia Project 2]>"
+		],
+		"civilopediaText": [
+          	{
+				"text": "Required for Cultural Victory"
+			}
+      	]
+	},
+
 	// Placeholder Buildings for integration points
 	{
 		"name": "Mausoleum of Maussollos", // BTS

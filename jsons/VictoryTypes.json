@@ -1,11 +1,4 @@
 [
-    {
-        "name": "Domination", // Named "Conquest" in Civ IV. We keep this as Domination to align with the Unciv defaults.
-        "victoryScreenHeader": "Eliminate all other\ncivilizations.",
-        "milestones": ["Destroy all players"],
-        "victoryString": "You have won a Domination Victory!!!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
 
     {
         "name": "Scientific", // Named "Space Race" in Civ IV. We keep this as Scientific to align with the Unciv defaults.
@@ -22,6 +15,26 @@
 			"Build [Spaceship]"
 		],
         "victoryString": "You have won a Scientific Victory!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+
+	{
+		"name": "Cultural",
+		"victoryScreenHeader": "Build all three\nUtopia Projects.",
+		"milestones": [
+			"Build [Utopia Project 1]",
+			"Build [Utopia Project 2]",
+			"Build [Utopia Project 3]"
+		],
+		"victoryString": "You have won a Cultural Victory!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+
+    {
+        "name": "Domination", // Named "Conquest" in Civ IV. We keep this as Domination to align with the Unciv defaults.
+        "victoryScreenHeader": "Eliminate all other\ncivilizations.",
+        "milestones": ["Destroy all players"],
+        "victoryString": "You have won a Domination Victory!!!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
 
@@ -45,6 +58,5 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
 
-	// TODO: Add Cultural Victory: Be in possession of 3 cities with legendary culture.
 	// TODO: Add Domination Victory: Lead in world population by 30%
 ]

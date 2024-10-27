@@ -95,6 +95,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Rice Field](https://thenounproject.com/icon/rice-field-7105256/) by Muh zakaria for Terrace
 - [Totem](https://thenounproject.com/icon/totem-6074140/) by Andhika Pramanto for Totem Pole
 - [Pyramid](https://thenounproject.com/icon/pyramid-11905/) by cesare cardano for Ziggurat
+- [Skyscraper](https://thenounproject.com/icon/skycraper-7157085/) by Ali Nur Rohman for Utopia Project
 
 #### Improvements
 
@@ -121,7 +122,6 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Viking Symbol](https://thenounproject.com/icon/viking-symbol-248008/) by Alexander Skowalsky for Viking
 - [Shield](https://thenounproject.com/icon/shield-163736/) by Ivan Colic for Zulu
 - [Crescent](https://thenounproject.com/icon/crescent-2296077/) by Darrick Doeschot for Ottoman
-
 
 #### Policies
 
