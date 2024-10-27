@@ -123,7 +123,7 @@
 	]
   },
   {
-	"name": "Missle",
+	"name": "Missile",
 	"movementType": "Air",
 	"uniques": [
 		"Never appears as a Barbarian unit",
