@@ -864,7 +864,7 @@
 	// Missiles
 	{
 		"name": "Nuclear Missile", // "ICBM" in Civ 4
-		"unitType": "Missile",
+		"unitType": "Missle",
 		"strength": 300,
 		"movement": 1,
 		"rangedStrength": 300,
