@@ -1600,49 +1600,49 @@ TileSets/FantasyHex/Units/Axeman
   index: -1
 TileSets/FantasyHex/Units/Ballista Elephant
   rotate: false
-  xy: 1152, 670
+  xy: 1044, 562
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Carrrack
   rotate: false
-  xy: 1252, 770
+  xy: 1016, 526
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot
   rotate: false
-  xy: 1224, 734
+  xy: 1252, 770
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cho-Ko-Nu
   rotate: false
-  xy: 1460, 978
+  xy: 1224, 734
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cuirassier
   rotate: false
-  xy: 1432, 942
+  xy: 1460, 978
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dog Soldier
   rotate: false
-  xy: 1568, 1086
+  xy: 1432, 942
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Quechua
   rotate: false
-  xy: 1568, 1086
+  xy: 1432, 942
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1677,35 +1677,35 @@ TileSets/FantasyHex/Units/Fast Worker-Modern era
   index: -1
 TileSets/FantasyHex/Units/Galleon
   rotate: false
-  xy: 1876, 1638
+  xy: 1984, 1946
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gallic Warrior
   rotate: false
-  xy: 836, 182
+  xy: 1016, 490
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Grenadier
   rotate: false
-  xy: 470, 110
+  xy: 1224, 698
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Holkan
   rotate: false
-  xy: 1984, 1946
+  xy: 1432, 906
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Maceman
   rotate: false
-  xy: 1432, 906
+  xy: 1640, 1114
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1719,182 +1719,259 @@ TileSets/FantasyHex/Units/Mobile Artillery
   index: -1
 TileSets/FantasyHex/Units/Numidian Cavalry
   rotate: false
-  xy: 1876, 1601
+  xy: 1984, 1909
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Phalanx
   rotate: false
-  xy: 836, 146
+  xy: 1016, 454
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Praetorian
   rotate: false
-  xy: 510, 110
+  xy: 1432, 870
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Redcoat
   rotate: false
-  xy: 1984, 1910
+  xy: 334, 46
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/SAM Infantry
   rotate: false
-  xy: 334, 46
+  xy: 1984, 1873
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Transport
   rotate: false
-  xy: 1876, 1565
+  xy: 1016, 418
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Vulture
   rotate: false
-  xy: 550, 110
+  xy: 374, 46
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior
   rotate: false
-  xy: 1984, 1874
+  xy: 1984, 1837
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Axeman
+TileSets/HexaRealm/Units/Anti-Tank
   rotate: false
   xy: 944, 498
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Ballista Elephant
+TileSets/HexaRealm/Units/Axeman
   rotate: false
-  xy: 1044, 589
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Chariot
-  rotate: false
-  xy: 1152, 706
+  xy: 1044, 598
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Cho-Ko-Nu
+TileSets/HexaRealm/Units/Ballista Elephant
+  rotate: false
+  xy: 1152, 697
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Carrack
   rotate: false
   xy: 1252, 806
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Cuirassier
+TileSets/HexaRealm/Units/Chariot
   rotate: false
-  xy: 1360, 903
-  size: 64, 67
-  orig: 64, 67
+  xy: 1360, 914
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Explorer
+TileSets/HexaRealm/Units/Cho-Ko-Nu
   rotate: false
   xy: 1460, 1014
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Fast Worker
+TileSets/HexaRealm/Units/Cuirassier
   rotate: false
-  xy: 1568, 1122
-  size: 64, 56
-  orig: 64, 56
+  xy: 1568, 1111
+  size: 64, 67
+  orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Fast Worker-Modern era
+TileSets/HexaRealm/Units/Dog Soldier
   rotate: false
   xy: 1668, 1222
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Galleon
+TileSets/HexaRealm/Units/East Indiaman
   rotate: false
   xy: 1776, 1330
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Grenadier
+TileSets/HexaRealm/Units/Explorer
   rotate: false
   xy: 254, 82
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Immortal
+TileSets/HexaRealm/Units/Fast Worker
   rotate: false
   xy: 1876, 1738
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Maceman
+TileSets/HexaRealm/Units/Fast Worker-Modern era
   rotate: false
   xy: 836, 282
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Phalanx
+TileSets/HexaRealm/Units/Galleon
   rotate: false
   xy: 944, 434
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Privateer
+TileSets/HexaRealm/Units/Gallic Warrior
   rotate: false
   xy: 326, 82
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Quechua
+TileSets/HexaRealm/Units/Grenadier
   rotate: false
   xy: 1876, 1674
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Redcoat
+TileSets/HexaRealm/Units/Holkan
   rotate: false
   xy: 836, 218
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/SAM Infantry
+TileSets/HexaRealm/Units/Hwacha
   rotate: false
   xy: 944, 370
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Transport
+TileSets/HexaRealm/Units/Immortal
   rotate: false
   xy: 398, 82
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Maceman
+  rotate: false
+  xy: 1876, 1610
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mobile Artillery
+  rotate: false
+  xy: 836, 154
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Navy SEAL
+  rotate: false
+  xy: 470, 82
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Numidian Cavalry
+  rotate: false
+  xy: 1876, 1539
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Phalanx
+  rotate: false
+  xy: 542, 82
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Praetorian
+  rotate: false
+  xy: 1876, 1475
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Privateer
+  rotate: false
+  xy: 614, 82
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Quechua
+  rotate: false
+  xy: 1876, 1411
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Redcoat
+  rotate: false
+  xy: 686, 82
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/SAM Infantry
+  rotate: false
+  xy: 758, 82
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Transport
+  rotate: false
+  xy: 1360, 850
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
