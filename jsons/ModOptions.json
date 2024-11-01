@@ -1,1 +1,17 @@
-{"isBaseRuleset":true,"constants":{"cityStrengthBase":1,"cityStrengthPerPop":0.05,"cityStrengthFromTechsMultiplier":1,"cityStrengthFromTechsExponent":1,"cityStrengthFromGarrison":0.05},"modUrl":"https://github.com/yairm210/Civ-IV","author":"yairm210","lastUpdated":"2024-10-31T20:50:23Z","modSize":17247,"topics":["unciv-mod","unciv-mod-rulesets"],"uniques":["Can convert gold to science with sliders","Cannot be used as permanent audiovisual mod"]}
+
+{
+	"isBaseRuleset":true,
+	"uniques":[
+		"Can convert gold to science with sliders",
+		"Cannot be used as permanent audiovisual mod"
+	],
+	"constants": {
+		// Scale the city strength values to Civ 4 values by dividing the defaults by 4
+		"cityStrengthBase": 1.0,
+		"cityStrengthPerPop": 0.05,
+		"cityStrengthFromTechsMultiplier": 1.0,
+		"cityStrengthFromTechsExponent": 1.0,
+		"cityStrengthFromTechsFullMultiplier": 1.0,
+		"cityStrengthFromGarrison": 0.05
+	}
+}
