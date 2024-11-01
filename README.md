@@ -168,7 +168,6 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [brick hammer](https://thenounproject.com/icon/brick-hammer-3147245/) by Vector Points for Fast Worker
 - [spartan helmet](https://thenounproject.com/icon/spartan-helmet-4588854/) for Phalanx
 - [Staff](https://thenounproject.com/icon/staff-3653184/) by Benjamin Jackson for Quechua
-- [Crossbow](https://thenounproject.com/icon/crossbow-965392/) by Smashicons for Cho-Ko-Nu
 - [Rifle](https://thenounproject.com/icon/rifle-6343044/) by Sentya Irma for Readcoat
 - [Spear](https://thenounproject.com/icon/spear-3719099/) by Eucalyp for Immortal
 - [Centurion Helmet](https://thenounproject.com/icon/centurion-helmet-210704/) by my name is mud for Praetorian

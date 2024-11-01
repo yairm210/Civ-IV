@@ -1319,7 +1319,7 @@
 	},
 
 	{
-		"name": "Cho-Ko-Nu",
+		"name": "Chu-Ko-Nu", // "Cho-Ko-Nu" in Civ 4
 		"replaces": "Crossbowman",
 		"uniqueTo": "China",
 		"unitType": "Archery",
