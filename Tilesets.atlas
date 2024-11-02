@@ -284,13 +284,6 @@ TileSets/HexaRealm/Units/Holkan
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Hwacha
-  rotate: false
-  xy: 364, 196
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Units/Immortal
   rotate: false
   xy: 292, 68

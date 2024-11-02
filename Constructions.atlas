@@ -522,13 +522,6 @@ UnitIcons/Horse Archer
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Hwacha
-  rotate: false
-  xy: 212, 320
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Immortal
   rotate: false
   xy: 628, 736
