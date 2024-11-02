@@ -178,7 +178,6 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Missile](https://thenounproject.com/icon/missile-6022456/) by metami septiana for Tactical Nuke
 - [Jumper](https://thenounproject.com/icon/jumper-453590/) by Dwanlaposh for Numidian Cavalry
 - [Axe](https://thenounproject.com/icon/axe-7192952/) by Suwarjo for Gallic Warrior
-- [rocket launcher](https://thenounproject.com/icon/rocket-launcher-6222958/) by awimovic for Hwacha
 - [shield zulu](https://thenounproject.com/icon/shield-zulu-3825770/) by Smashing Stocks for Impi
 - [Elephant](https://thenounproject.com/icon/elephant-5800651/) by Brad for Ballista Elephant
 - [Ship](https://thenounproject.com/icon/ship-215494/) by Robert Bjurshagen for Carrack
