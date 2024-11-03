@@ -96,6 +96,7 @@ All images are from The Noun Project, Creative Commons, unless otherwise specifi
 - [Totem](https://thenounproject.com/icon/totem-6074140/) by Andhika Pramanto for Totem Pole
 - [Pyramid](https://thenounproject.com/icon/pyramid-11905/) by cesare cardano for Ziggurat
 - [Skyscraper](https://thenounproject.com/icon/skycraper-7157085/) by Ali Nur Rohman for Utopia Project
+- [National Park](https://thenounproject.com/icon/national-park-5472835/) by Design Circle
 
 #### Improvements
 
