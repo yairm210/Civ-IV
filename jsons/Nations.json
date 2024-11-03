@@ -81,6 +81,14 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 */
 
 [
+	//Spectator
+	//Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	    //"innerColor": [255,255,255]
+	},
+
 	{
 		"name": "America",
 		"leaderName": "George Washington",
