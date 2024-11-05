@@ -209,7 +209,6 @@
 		"cost": 100,
 		"requiredTech": "Chemistry",
 		"uniques": [
-			// TODO: Have Grenadier require Military Sciecnce in BTS "Only available <after discovering [Military Science]>"
 			"[+50]% Strength <vs [Rifleman] units> <when attacking>",
 			"Can upgrade to [Machine Gun]",
 			"Can upgrade to [Infantry]"
@@ -261,7 +260,7 @@
 		"cost": 150,
 		"requiredTech": "Rocketry",
 		"uniques": [
-			// TODO: SAM Infantry "Can upgrade to [Mobile SAM]", (BTS)
+			"Can upgrade to [Mobile SAM]",
 			"[40]% chance to intercept air attacks",
 			"Must set up to ranged attack",
 			"[+75]% Strength <vs [Helicopter] units>",
@@ -1547,7 +1546,7 @@
 			"Withdraws before melee combat <with [20]% chance>",
 			"Ignores terrain cost",
 			"[+50]% Strength <vs [Siege] units> <when attacking>",
-			// Flank attack vs. Catapult and Trebuchet (BTS)
+			"[+20]% to Flank Attack bonuses <vs [Siege] units> <if [Civ IV Beyond the Sword] is enabled>",
 			"Only available <after discovering [Archery]>",
 
 			"Only available <with [Horses]>"
@@ -1715,6 +1714,17 @@
 
 	{
 		"name": "Mobile Artillery",  // BTS
+		"unitType": "Gunpowder",
+		"uniques": [
+			"Unavailable",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+
+	{
+		"name": "Mobile SAM",  // BTS
 		"unitType": "Gunpowder",
 		"uniques": [
 			"Unavailable",
