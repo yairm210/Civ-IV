@@ -1524,18 +1524,19 @@
 
 	{
 		"name": "Revolution",
-		"cost": 1,
+		"cost": 100,
 		"maintenance": 0,
 		"isNationalWonder": true,
 		"happiness": -5,
 		"uniques": [
 			"Comment [Allows selecting new Policies/Civics]",
-			"[-2 Happiness] [in your cities] <for [2] turns>",
+			"[-5 Happiness] [in your cities] <for [2] turns>",
+			"Unavailable <when below [0] Happiness>",
 			"Remove [Revolution] [in this city] <hidden from users>",
 			"Only available <in [in capital] cities>",
 			"Only available <for [Human player] Civilizations> <hidden from users>", // Disable for AI players for now
-			"Cannot be hurried",
-			"Cannot be purchased",
+			"Cannot be hurried <hidden from users>",
+			"Cannot be purchased <hidden from users>",
 			"Free Social Policy <hidden from users>",
 			"Free Social Policy <hidden from users>",
 			"Free Social Policy <hidden from users>",

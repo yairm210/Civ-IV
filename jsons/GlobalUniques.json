@@ -2,17 +2,19 @@
     "name": "Global uniques",
     "uniques": [
 		// Happiness
-		"[+7 Happiness] [in your cities]", // Baseline
-        "[-1 Happiness] per [1] population [in all cities]",
-		"[+1 Happiness] [in all cities] <with a garrison>",
+		// https://civilization.fandom.com/wiki/Happiness_(Civ4)
+		"[+6 Happiness] [in your cities]", // Baseline
+		"[-1 Happiness] per [1] population [in all cities]", // Overpopulation
+		"[+1 Happiness] [in all cities] <with a garrison>", // Undefended
 		// TODO: Unhappiness makes civilians not work
+		// TODO: Cultural Inferiority: A city will become unhappy if it is being "culturally dominated" by a nearby foreign city (see Borders).
+		// TODO: Add War Weariness
+		// TODO: Slavery and the Draft: Citizens are unhappy if you work them to death (see the Nationhood civic).
+		// TODO: Block We Love The King Day when Unhealthy
 
 		// TODO: Healthy: Each point of pop eats 2 Food Food per turn, or 3 Food Food each for unhealthy pop.
         "[-1 Food] per [2] population [in all cities] <when above [0] [Health]>",
         "[-1 Food] per [1] population [in all cities] <when below [1] [Health]>",
-
-		// Unhealthiness
-		"[-1 Happiness] per [1] population [in all cities] <when below [1] [Health]>",
 
 		// Population: Each point of pop adds to a city's Unhealthiness (Civ4) Unhealthiness.
         "Provides [6] [Health]", // Baseline
@@ -62,9 +64,6 @@
 
         // Speed Adjustments
         "[+25]% Production when constructing [All] units [in all cities] <on [Marathon] game speed>",
-
-		// TODO: Add War Weariness
-		"[-25]% [Happiness] [in your cities] <when at war>",
 
 		// Adopt all Civic Branches/Policies
 		"Adopt [Government] <hidden from users>",
