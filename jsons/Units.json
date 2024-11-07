@@ -920,7 +920,6 @@
 			"[+24]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-12%/turn)
 			"Cannot attack <in [Water] tiles>", // Cannot attack amphibiously
 			"Never appears as a Barbarian unit",
-
 			"Only available <with [Iron]>"
 		],
 		"attackSound": "cannon"
@@ -964,7 +963,6 @@
 			"Can upgrade to [Modern Armor]",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
-
 			"Only available <with [Oil]>"
 		],
 		"attackSound": "tankshot"
@@ -983,7 +981,6 @@
 			"Only available <after discovering [Composites]>",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
-
 			"Only available <with [Aluminum]> <with [Oil]> <hidden from users>"
 		],
 		"civilopediaText": [

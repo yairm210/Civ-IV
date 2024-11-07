@@ -1049,6 +1049,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	//Barbarian
 	{
 		"name": "Barbarians",
+		"personality": "Barbarian",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
 		"uniques": [

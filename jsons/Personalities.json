@@ -406,5 +406,22 @@
 		"diplomacy": 3,
 		"loyal": 7,
 		"expansion": 6
+	},
+	{
+		"name": "Barbarian",
+		"production": 2,
+		"food": 0,
+		"gold": 0,
+		"science": 0,
+		"culture": 0,
+		"happiness": 5,
+		"faith": 0,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 0,
+		"diplomacy": 0,
+		"loyal": 0,
+		"expansion": 0
 	}
 ]

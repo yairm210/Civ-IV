@@ -212,24 +212,6 @@
 	},
 
 	{
-		"name": "University of Sankore",
-		"cost": 550,
-		"maintenance": 3,
-		"culture": 8,
-		"greatPersonPoints": {"Great Scientist": 2},
-		"isWonder": true,
-		"uniques": [
-			"[+2 Science] from all [Temple] buildings",
-			"[+2 Science] from all [Monastery] buildings",
-			"[+2 Science] from all [Cathedral] buildings",
-			"[+2 Science] from all [Religious Shrine] buildings",
-			"Obsolete with [Computers]",
-			"[-50]% production cost <with [Stone]>"
-		],
-		"requiredTech": "Paper"
-//		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
-	},
-	{
 		"name": "Pentagon",
 		"cost": 1250,
 		"maintenance": 3,
@@ -239,22 +221,9 @@
 			"New [Military] units start with [2] Experience [in your cities]"
 		],
 		"requiredTech": "Assembly Line",
-		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+		"quote": "\"In preparing for battle I have always found that plans are useless, but planning is indispensable.\" - Dwight D. Eisenhower"
 	},
-	{
-		"name": "Red Cross",
-		"cost": 600,
-		"maintenance": 2,
-		"requiredBuilding": "Hospital",
-		"greatPersonPoints": {"Great Scientist": 1},
-		"culture": 2,
-		"isNationalWonder": true,
-		"uniques": [
-			"Only available <if [Hospital] is constructed in at least [6] of [All] cities>",
-			"All newly-trained [non-air] units [in this city] receive the [Medic I] promotion"
-		],
-		"requiredTech": "Medicine"
-	},
+
 	{
 		"name": "Eiffel Tower", // The Eiffel Tower in Civ 4
         "cost": 1250,
@@ -268,7 +237,7 @@
 			"[-50]% production cost <with [Iron]>"
 		],
 		"requiredTech": "Radio",
-		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+		"quote": "\"We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
 
 	// Medieval era
@@ -422,7 +391,8 @@
             "Provides [-4] [Health] <in this city> <with [Coal]>",
             "Provides [1] [Power] <in this city> <with [Coal]>",
             "Only available <in cities without a [Power Plant]>",
-			"Only available <with [Coal]> <in this city>"
+			"Only available <with [Coal]> <in this city>",
+			"Must have an owned [Coal] within [4] tiles"
 		],
 		"requiredTech": "Assembly Line"
 	},
@@ -482,6 +452,7 @@
             "Provides [-2] [Health] <in this city> <with [Uranium]>",
             "Provides [1] [Power] <in this city> <with [Uranium]>",
             "Only available <in cities without a [Power Plant]>",
+			"Must have an owned [Uranium] within [4] tiles",
 			"Population loss from nuclear attacks [+20]% [in this city]" // Small chance of nuclear meltdown
 		],
 		"requiredTech": "Fission"
@@ -629,7 +600,7 @@
 			"Obsolete with [Astronomy]"
 			// Centers world map
 		],
-		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+		"quote": "\"Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 
 	{
@@ -644,7 +615,7 @@
 		],
 		"greatPersonPoints": {"Great Prophet": 2},
 		"requiredTech": "Priesthood",
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
+		"quote": "\"The ancient Oracle said that I was the wisest of all the Greeks. Itstardew is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
 	},
 
 	{
@@ -664,13 +635,13 @@
 			"Remove [Universal Suffrage] <hidden from users>"
 		],
 		"requiredTech": "Masonry",
-		"quote": "'From the heights of these pyramids, forty centries look down on us.' - Napoleon Bonaparte",
 		"civilopediaText": [
 			{
 				"text": "Enables all Government civics",
 				"link": "Policies/Government"
 			}
-		]
+		],
+		"quote": "\"From the heights of these pyramids, forty centries look down on us.\" - Napoleon Bonaparte"
 	},
 
 	{
@@ -691,6 +662,7 @@
 			"Obsolete with [Scientific Method]",
 			"[+1 Gold] from each Trade Route" // TODO: +100% Trade route yield in this city
 		],
+		"quote": "\"It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of the air, that emanation from the old trees, that so wonderfully changes and renews a weary spirit.\" - Robert Louis Stevenson",
 		"requiredTech": "Polytheism"
 	},
 
@@ -707,6 +679,7 @@
 			"[Great General] is earned [+100]% faster",
 			"Notified of new Barbarian encampments" // Prevents barbarians from entering your borders
 		],
+		"quote": "\"The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.\" - Sun Tzu",
 		"requiredTech": "Masonry"
 	},
 
@@ -723,6 +696,7 @@
 			"Only available <after discovering [Masonry]>",
 			"Obsolete with [Corporation]"
 		],
+		"quote": "\"They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.\" - The Bible, Psalms 107:23-24",
 		"requiredTech": "Sailing",
 		"requiredBuilding": "Lighthouse"
 	},
@@ -740,7 +714,7 @@
 		],
 		"requiredTech": "Code of Laws",
 		"greatPersonPoints": {"Great Prophet": 2},
-        "quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+        "quote": "\"The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.\" - The Books of Chilam Balam"
 	},
 
 	{
@@ -759,11 +733,11 @@
 		],
 		"requiredBuilding": "Forge",
 		"requiredTech": "Metal Casting",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+		"quote": "\"Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.\" - William Shakespeare, Julius Caesar"
 	},
 
 	{
-		"name": "The Great Library", // Known as "Great Library" in Civ IV
+		"name": "The Great Library", // "Great Library" in Civ IV
 		"cost": 350,
 		"maintenance": 2,
 		"culture": 8,
@@ -775,7 +749,7 @@
 			"[-50]% production cost <with [Marble]>",
 			"Obsolete with [Scientific Method]"
 		],
-        "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+        "quote": "\"Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.\" - Sir Francis Bacon"
 	},
 
 	{
@@ -785,14 +759,14 @@
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"requiredTech": "Mathematics",
         "requiredBuilding": "Aqueduct",
 		"uniques":[
 			"Provides [1] [Health]", // in all cities
             "[+1] population [in all cities]",
 			"[-50]% production cost <with [Stone]>"
 		],
-		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
+		"requiredTech": "Mathematics",
+		"quote": "\"I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.\"  - F. Frankfort Moore"
 	},
 
 	{
@@ -807,7 +781,8 @@
 			"[-50]% production cost <with [Marble]>",
 			"Obsolete with [Scientific Method]"
 		],
-		"requiredTech": "Polytheism"
+		"requiredTech": "Polytheism",
+		"quote": "\"Earth proudly wears the Parthenon as the best gem upon her zone.\"  - Ralph Waldo Emerson"
 	},
 
 	{
@@ -825,7 +800,7 @@
 			"Only available <when religion is enabled>",
 			"[-50]% production cost <with [Marble]>"
 		],
-		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
+		"quote": "\"The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.\"  - Antonio da Magdalena"
 	},
 
 	{
@@ -841,7 +816,7 @@
 			"[-50]% production cost <with [Marble]>"
 		],
 		"requiredTech": "Theology",
-		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+		"quote": "\"For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 
 	{
@@ -855,8 +830,8 @@
 			"[+2 Happiness] [in your cities]", // TODO: same-continental cities
 			"[-50]% production cost <with [Stone]>"
 		],
-		"requiredTech": "Engineering"
-		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+		"requiredTech": "Engineering",
+		"quote": "\"Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.\" - Victor Hugo"
 	},
 
 	{
@@ -872,7 +847,7 @@
 			"[-50]% production cost <with [Marble]>"
 		],
 		"requiredTech": "Theology", // BTS: Music
-		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+		"quote": "\"I live and love in God's peculiar light.\" - Michelangelo Buonarroti"
 	},
 
 	{
@@ -892,7 +867,6 @@
 			"Obsolete with [Computers]"
 		],
 		"requiredTech": "Divine Right"
-		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 
 	{
@@ -907,7 +881,6 @@
 			"[-50]% production cost <with [Marble]>"
 		],
 		"requiredTech": "Divine Right"
-		//"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 
 	{
@@ -927,7 +900,8 @@
 			"[+2 Science] from all [Monastery] buildings",
 			"[+2 Science] from all [Cathedral] buildings"
 		],
-		"requiredTech": "Paper"
+		"requiredTech": "Paper",
+		"quote": "\"Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.\" - Musnad al-Bazzar 10/68"
 	},
 
 	{
@@ -944,7 +918,7 @@
 		],
 		"requiredTech": "Democracy",
 		"requiredBuilding": "Forge",
-		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+		"quote": "\"Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!\" - Emma Lazarus"
 	},
 
 	{
@@ -959,7 +933,7 @@
 			"[-50]% production cost <with [Marble]>"
 		],
 		"requiredTech": "Nationalism",
-		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+		"quote": "\"The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.\" - Rabindranath Tagore"
 	},
 
 	{
@@ -973,7 +947,8 @@
 		"uniques": [
 			"Provides [5] [Hit Musicals]"
 		],
-		"requiredTech": "Electricity"
+		"requiredTech": "Electricity",
+		"quote": "\"Broadway is a main artery of New York cultural life - the hardened artery.\" - Walter Winchell"
 	},
 
 	{
@@ -989,35 +964,8 @@
 			// -33% hurry production cost when using Universal Suffrage or Slavery
 		],
 		"specialistSlots": {"Spy": 2},
-		"requiredTech": "Communism"
-	},
-
-	{
-		"name": "Pentagon",
-		"cost": 1250,
-		"maintenance": 3,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Spy": 2},
-		"uniques": [
-			"New [Military] units start with [2] Experience [in all cities]"
-		],
-		"requiredTech": "Assembly Line"
-	},
-
-	{
-		"name": "Eiffel Tower",
-        "cost": 1250,
-		"maintenance": 3,
-		"culture": 6,
-		"requiredBuilding": "Forge",
-		"greatPersonPoints": {"Great Merchant": 2},
-		"isWonder": true,
-		"uniques": [
-			"Gain a free [Broadcast Tower] [in all cities]",
-			"[-50]% production cost <with [Iron]>"
-		],
-		"requiredTech": "Radio",
-		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+		"requiredTech": "Communism",
+		"quote": "\"The Law is a fortress on a hill that armies cannot take or floods wash away.\" - The Prophet Muhammed"
 	},
 
 	{
@@ -1074,7 +1022,8 @@
 			"Triggers a global alert upon completion",
 			"Only available <when [Diplomatic] Victory is enabled>"
 		],
-		"requiredTech": "Mass Media"
+		"requiredTech": "Mass Media",
+		"quote": "\"More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.\" - Kofi Annan"
 	},
 
 	{
@@ -1128,7 +1077,8 @@
 			"Only available <if [Courthouse] is constructed in at least [6] of [Your] cities>" // Requires at least 6 Courthouses in total on Normal speed
 			// TODO: Requires at least 8 cities on Normal speed
 		],
-		"requiredTech": "Code of Laws"
+		"requiredTech": "Code of Laws",
+		"quote": "\"Most of us can, as we choose, make of this world either a palace or a prison.\" - John Lubbock"
 	},
 
 	{
@@ -1144,7 +1094,8 @@
 			"[+2 Happiness] [in this city]", // No Anger in this city.
 			"Only available <if [Theatre] is constructed in at least [6] of [Your] cities>"
 		],
-		"requiredTech": "Drama"
+		"requiredTech": "Drama",
+		"quote": "\"Totus mundus agit histrionem.\" - Inscription above main entrance to the Globe Theatre"
 	},
 
 	{
@@ -1187,7 +1138,8 @@
         "uniques": [
 			"[-50]% production cost <with [Marble]>"
 		],
-		"requiredTech": "Nationalism"
+		"requiredTech": "Nationalism",
+		"quote": "\"Museums are on the front lines of the fight for culture, of good with evil - in any case, of the fight against platitudes and primitiveness.\" - Mikhail Piotrovsky"
 	},
 
 	{
@@ -1204,7 +1156,8 @@
 			"Only available <if [University] is constructed in at least [6] of [All] cities>",
 			"[-50]% production cost <with [Stone]>"
 		],
-		"requiredTech": "Education"
+		"requiredTech": "Education",
+		"quote": "\"The clever men at Oxford... Know all that there is to be knowed. But they none of them know one half as much... As intelligent Mr. Toad!\" - Kenneth Grahame"
 	},
 
 	{
@@ -1296,6 +1249,7 @@
 			"Enables nuclear weapon"
 			// It can be countered by passing the "No Nukes" resolution at the United Nations.
 		],
+		"quote": "\"Now, I am become death...\" - J. Robert Oppenheimer",
 		"requiredTech": "Fission"
 	},
 
@@ -1315,7 +1269,8 @@
 			"[1] free random researchable Tech(s) from the [Renaissance era]",
 			"[1] free random researchable Tech(s) from the [Industrial era]"
 		],
-		"requiredTech": "Computers"
+		"requiredTech": "Computers",
+		"quote": "\"The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.\" - Eric Schmidt"
 	},
 
 	// National Projects
@@ -1333,7 +1288,8 @@
 			"Cannot be hurried",
 			"Cannot be purchased"
 		],
-		"requiredTech": "Rocketry"
+		"requiredTech": "Rocketry",
+		"quote": "\"Ex luna, scientia.\" - Apollo 13 Motto"
 	},
 
 	{
@@ -1524,17 +1480,17 @@
 
 	{
 		"name": "Revolution",
-		"cost": 100,
+		"cost": 90,
 		"maintenance": 0,
 		"isNationalWonder": true,
 		"happiness": -5,
+		"requiredTech": "Code of Laws", // While not part of the Civ 4 ruleset, this seems appropriate.
 		"uniques": [
 			"Comment [Allows selecting new Policies/Civics]",
 			"[-5 Happiness] [in your cities] <for [2] turns>",
-			"Unavailable <when below [0] Happiness>",
 			"Remove [Revolution] [in this city] <hidden from users>",
 			"Only available <in [in capital] cities>",
-			"Only available <for [Human player] Civilizations> <hidden from users>", // Disable for AI players for now
+			"Unavailable <for [AI player] Civilizations> <hidden from users>", // Only available to humans for now
 			"Cannot be hurried <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Free Social Policy <hidden from users>",
