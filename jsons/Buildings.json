@@ -1483,11 +1483,12 @@
 		"cost": 90,
 		"maintenance": 0,
 		"isNationalWonder": true,
-		"happiness": -5,
+		"happiness": -20,
 		"requiredTech": "Code of Laws", // While not part of the Civ 4 ruleset, this seems appropriate.
 		"uniques": [
 			"Comment [Allows selecting new Policies/Civics]",
-			"[-5 Happiness] [in your cities] <for [2] turns>",
+			"[-20 Happiness] [in your cities] <for [2] turns>",
+			"[+20 Happiness] [in your cities] <for [2] turns> <for [Spiritual] Civilizations>", // No Anarchy for Spiritual Civs
 			"Remove [Revolution] [in this city] <hidden from users>",
 			"Only available <in [in capital] cities>",
 			"Unavailable <for [AI player] Civilizations> <hidden from users>", // Only available to humans for now
