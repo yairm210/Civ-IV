@@ -1,38 +1,67 @@
 [
 	{
-		"name": "Leader Traits",
+		"name": "Leader Trait - Aggressive",
 		"civilopediaText": [
-            {"text": "Aggressive", "header": 4, "color": "#fa0"},
             {"text": "Civilizations led by an Aggressive leader get a free Combat I promotion for all melee and gunpowder units. In addition, they get a production bonus of +100% for Barracks and Drydocks."},
-			{},
-			{"text": "Creative", "header": 4, "color": "#fa0"},
-			{"text": "Creative leaders get +2 culture per city as well as double production speed for the Theatre, Library, and Colosseum."},
-			{},
-			{"text": "Expansive", "header": 4, "color": "#fa0"},
-			{"text": "Expansive leaders get +2 Health per city and double production speed for the Granary and Harbor. As of Beyond the Sword, they also get 25% faster production of Workers."},
-			{},
-			{"text": "Financial", "header": 4, "color": "#fa0"},
-			{"text": "Financial leaders get +1 Coin on tiles with at least 2 Coin and double production speed of Banks."},
-			{},
-			{"text": "Industrious", "header": 4, "color": "#fa0"},
-			{"text": "Industrious leaders receive a 50% bonus to Wonder production and double production speed for Forges."},
-			{},
-			{"text": "Organized", "header": 4, "color": "#fa0"},
-			{"text": "Organized leaders' civic upkeep is reduced by 50 percent. They also get double production speed for the Lighthouse, Courthouse, and the Factory."},
-			{},
-			{"text": "Philosophical", "header": 4, "color": "#fa0"},
-			{"text": "Philosophical leader Great People emergence rate is increased by 100 percent. They also get double production speed for the University."},
-			{},
-			{"text": "Spiritual", "header": 4, "color": "#fa0"},
-			{"text": "Spiritual leaders have no Anarchy when changing a civic. They also get double production speed for the Temple and the Cristo Redentor wonder."},
-			{},
-			{"text": "Charismatic", "header": 4, "color": "#fa0"},
-			{"text": "Charismatic leaders get +1 happiness per city, +1 happiness from Monuments and Broadcast Towers and -25% experience points needed for unit promotions."},
-			{},
-			{"text": "Imperialistic", "header": 4, "color": "#fa0"},
-			{"text": "The Imperialistic leaders get a +100% Great General emergence and a 50% faster production of Settlers."},
-			{},
-			{"text": "Protective", "header": 4, "color": "#fa0"},
+		]
+	},
+	{
+		"name": "Leader Trait - Creative",
+		"civilopediaText": [
+			{"text": "Creative leaders get +2 culture per city as well as double production speed for the Theatre, Library, and Colosseum."}
+		]
+	},
+	{
+		"name": "Leader Trait - Expansive",
+		"civilopediaText": [
+			{"text": "Expansive leaders get +2 Health per city and double production speed for the Granary and Harbor. As of Beyond the Sword, they also get 25% faster production of Workers."}
+		]
+	},
+	{
+		"name": "Leader Trait - Financial",
+		"civilopediaText": [
+			{"text": "Financial leaders get +1 Coin on tiles with at least 2 Coin and double production speed of Banks."}
+		]
+	},
+	{
+		"name": "Leader Trait - Industrious",
+		"civilopediaText": [
+			{"text": "Industrious leaders receive a 50% bonus to Wonder production and double production speed for Forges."}
+		]
+	},
+	{
+		"name": "Leader Trait - Organized",
+		"civilopediaText": [
+			{"text": "Organized leaders' civic upkeep is reduced by 50 percent. They also get double production speed for the Lighthouse, Courthouse, and the Factory."}
+		]
+	},
+	{
+		"name": "Leader Trait - Philosophical",
+		"civilopediaText": [
+			{"text": "Philosophical leader Great People emergence rate is increased by 100 percent. They also get double production speed for the University."}
+		]
+	},
+	{
+		"name": "Leader Trait - Spiritual",
+		"civilopediaText": [
+			{"text": "Spiritual leaders have no Anarchy when changing a civic. They also get double production speed for the Temple and the Cristo Redentor wonder."}
+		]
+	},
+	{
+		"name": "Leader Trait - Charismatic",
+		"civilopediaText": [
+			{"text": "Charismatic leaders get +1 happiness per city, +1 happiness from Monuments and Broadcast Towers and -25% experience points needed for unit promotions."}
+		]
+	},
+	{
+		"name": "Leader Trait - Imperialistic",
+		"civilopediaText": [
+			{"text": "The Imperialistic leaders get a +100% Great General emergence and a 50% faster production of Settlers."}
+		]
+	},
+	{
+		"name": "Leader Trait - Protective",
+		"civilopediaText": [
 			{"text": "With Protective leaders the Archery and Gunpowder Units receive Drill I and City Garrison I automatically. Protective leaders also get double production speeds for the Walls and Castle."}
 		]
 	}

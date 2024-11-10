@@ -101,7 +101,18 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 		"uniques": [
 			"Expansive",
 			"Charismatic",
-			"Starts with [Agriculture]", "Starts with [Fishing]"
+			"Starts with [Agriculture]",
+			"Starts with [Fishing]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Charismatic",
+				"link": "Tutorials/Leader Trait - Charismatic"
+			}
 		],
 		"cities": [
 			"Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
@@ -149,6 +160,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Mysticism]",
 			"Starts with [The Wheel]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
+		],
 		"cities": [
 			"Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
 			"Yamama", "Muscat", "Mansura", "Bukhara", "Fez", "Shiraz", "Merw", "Balkh", "Mosul", "Aydab", "Bayr Ras", "Suhar", "Taif",
@@ -191,6 +212,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Aggressive",
 			"Starts with [Hunting]",
 			"Starts with [Mysticism]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			},
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			}
 		],
 		"cities": [
 			"Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
@@ -237,6 +268,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Agriculture]",
 			"Starts with [Mining]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Protective",
+				"link": "Tutorials/Leader Trait - Protective"
+			}
+		],
 		"cities": [
 			"Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
 			"Kaifeng", "Ningbo", "Baoding", "Yangzhou", "Haerbin", "Chongqing", "Loyang", "Kunming", "Taipei", "Shenyang",
@@ -281,6 +322,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Spiritual",
 			"Starts with [Agriculture]",
 			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Creative",
+				"link": "Tutorials/Leader Trait - Creative"
+			},
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			}
 		],
 		"cities": [
 			"Thebes", "Memphis", "Heliopolis", "Elephantine", "Alexandria", "Piramesses", "Giza", "Byblos", "Akhetaten",
@@ -327,6 +378,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Fishing]",
 			"Starts with [Mining]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Financial",
+				"link": "Tutorials/Leader Trait - Financial"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
+		],
 		"cities": [
 			"London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
 			"Liverpool", "Dover", "Brighton", "Norwich", "Leeds", "Reading", "Birmingham", "Richmond", "Exeter", "Cambridge",
@@ -370,6 +431,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Charismatic",
 			"Starts with [Agriculture]",
 			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Organized",
+				"link": "Tutorials/Leader Trait - Organized"
+			},
+			{
+				"text": "Charismatic",
+				"link": "Tutorials/Leader Trait - Charismatic"
+			}
 		],
 		"cities": [
 			"Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
@@ -415,6 +486,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Hunting]",
 			"Starts with [Mining]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Industrious",
+				"link": "Tutorials/Leader Trait - Industrious"
+			}
+		],
 		"cities": [
 			"Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
 			"Hannover", "Duisburg", "Leipzig", "Nuremberg", "Dresden", "Bonn", "Bochum", "Magdeburg", "Bielefeld", "Mannheim", "Karlsruhe",
@@ -459,6 +540,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Fishing]",
 			"Starts with [Hunting]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
+		],
 		"cities": ["Athens", "Sparta", "Corinth", "Thebes", "Argos", "Knossos", "Mycenae", "Pharsalos", "Ephesus", "Halicarnassus",
 			"Rhodes", "Eretria", "Pergamon", "Milteos", "Megara", "Phocaea", "Sicyon", "Tiryns", "Samos", "Mytilene", "Chios", "Paros",
 			"Tegea", "Elis", "Syracuse", "Herakleia", "Gortyn", "Chalkis", "Pylos", "Pella", "Naxos", "Smyrna", "Larissa", "Apollonia",
@@ -502,6 +593,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Agriculture]",
 			"Starts with [Mysticism]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Financial",
+				"link": "Tutorials/Leader Trait - Financial"
+			},
+			{
+				"text": "Industrious",
+				"link": "Tutorials/Leader Trait - Industrious"
+			}
+		],
 		"cities": ["Cuzco", "Tiwanaku", "Machu Pichu", "Ollantaytambo", "Corihuayrachina", "Huamanga", "Vilcas", "Vilcabamba", "Vitcos",
 		"Andahuaylas", "Ica", "Arequipa", "Nasca", "Atico", "Juli", "Chuito", "Chuqulapo", "Huanucopampa", "Tamboccocha", "Huaras",
 		"Riobamba", "Caxamalca", "Sausa", "Tambocolorado", "Huaca", "Tumbes", "Chan Chan", "Sipan", "Pachacamap", "Llactapata", "Pisac",
@@ -543,15 +644,17 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Spiritual",
 			"Philosophical",
 			"Starts with [Mysticism]",
-			"Starts with [Mining]",
-
-			//"Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]",
-
-			//"Comment [Philosophical]",
-			"[+100]% Great Person generation [in your cities]",
-			"[+100]% Production when constructing [University] buildings [in your cities]"
+			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
 		],
 		"cities": [
 			"Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
@@ -599,6 +702,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Fishing]",
 			"Starts with [The Wheel]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			},
+			{
+				"text": "Protective",
+				"link": "Tutorials/Leader Trait - Protective"
+			}
+		],
 		"cities": [
 			"Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
 			"Shimonoseki", "Matsuyama", "Sapporo", "Hakodate", "Ise", "Toyama", "Fukushima", "Suo", "Bizen", "Echizen", "Izumi",
@@ -643,6 +756,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Mining]",
 			"Starts with [The Wheel]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Financial",
+				"link": "Tutorials/Leader Trait - Financial"
+			},
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			}
+		],
 		"cities": [
 			"Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
 			"Wadan", "Agades", "Teodeni", "Taghaza", "Katsina", "Kano", "Zaria", "Bilma", "Ngazargamu", "Kangaba", "Dia", "Tiraqqa",
@@ -685,6 +808,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Imperialistic",
 			"Starts with [Hunting]",
 			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			},
+			{
+				"text": "Imperialistic",
+				"link": "Tutorials/Leader Trait - Imperialistic"
+			}
 		],
 		"cities": [
 			"Karakorum", "Beshbalik", "Turfan", "Ning-hsia", "Old Sarai", "New Sarai", "Samarqand", "Tabriz", "Tiflis",
@@ -730,6 +863,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Agriculture]",
 			"Starts with [Hunting]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Imperialistic",
+				"link": "Tutorials/Leader Trait - Imperialistic"
+			},
+			{
+				"text": "Charismatic",
+				"link": "Tutorials/Leader Trait - Charismatic"
+			}
+		],
 		"cities": [
 			"Persepolis", "Pasargadae", "Susa", "Ecbatana", "Arbela", "Tarsus", "Gordium", "Bactra", "Sardis", "Ergili",
 			"Dariushkabir", "Ghulaman", "Zohak", "Istakhr", "Jinjan", "Borazjan", "Herat", "Dakyanus", "Bampur", "Turengtepe", "Rey",
@@ -774,6 +917,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Imperialistic",
 			"Starts with [Fishing]",
 			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Industrious",
+				"link": "Tutorials/Leader Trait - Industrious"
+			},
+			{
+				"text": "Imperialistic",
+				"link": "Tutorials/Leader Trait - Imperialistic"
+			}
 		],
 		"cities": [
 			"Rome", "Antium", "Cumae", "Neapolis", "Pisae", "Ravenna", "Arretium", "Mediolanum", "Arpinum", "Circei",
@@ -821,6 +974,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Hunting]",
 			"Starts with [Mining]"
 		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
+		],
 		"cities": [
 			"Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
 			"Smolensk", "Orenburg", "Krasnoyarsk", "Khabarovsk", "Bryansk", "Tver", "Novosibirsk", "Magadan", "Murmansk", "Irkutsk",
@@ -864,6 +1027,16 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Spiritual",
 			"Starts with [Fishing]",
 			"Starts with [Mysticism]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			}
 		],
 		"cities": [
 			"Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
