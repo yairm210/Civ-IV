@@ -1108,8 +1108,7 @@
             "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
 			"Only available <after founding a Pantheon>",
 			"Never appears as a Barbarian unit",
-			// TODO: Organized Religion allows Missionaries without a Monastery
-			"Only available <if [Monastery] is constructed> <in this city>",
+			"Unavailable <if [Monastery] is not constructed> <before adopting [Organized Religion]>",
 			"May enter foreign tiles without open borders",
 			"Can remove other religions from cities",
 			"Uncapturable",

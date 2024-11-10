@@ -469,7 +469,10 @@
 
 					"[+20]% weight to this choice for AI decisions",
 
-					"[+1 Gold] [in your cities]", // TODO: Add Mercantilism +1 free Specialist in every city
+					// TODO: +1 Free Specialist in every city.
+					"[+1 Gold] [in your cities]",
+					"[+1 Science] [in your cities]",
+
 					// No foreign trade routes except to vassals
 					// Foreign corporations have no effect
                     "Only available <after discovering [Banking]>",
@@ -555,7 +558,7 @@
 					"[+80]% weight to this choice for AI decisions",
 
 					"Provides [6] [Health]",// in your cities
-					// TODO: "[+2 Health] [in your cities] <after discovering [Public Transportation]>", // BTS
+					// Public Transportation gives +2 Health
 					"[+1 Happiness] from [Forest] tiles [in your cities]",
 					"[+1 Happiness] from [Jungle] tiles [in your cities]",
 					"[+2 Gold] from [Windmill] tiles [in your cities]",
@@ -622,7 +625,7 @@
 					"[+20]% weight to this choice for AI decisions",
 
 					"[+25]% [Production] <in cities following our religion>",
-					// TODO: Organized Religion allows building Missionary without Monastery
+					// Organized Religion allows building Missionary without Monastery
 
 					"Unavailable <before discovering [Monotheism]> <if [Shwedagon Paya] is not constructed>",
 
