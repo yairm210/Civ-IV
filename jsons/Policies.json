@@ -20,6 +20,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"Unavailable <after adopting [Hereditary Rule]> <hidden from users>",
 					"Unavailable <after adopting [Police State]> <hidden from users>",
@@ -40,6 +41,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -65,6 +67,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+40]% weight to this choice for AI decisions",
 
@@ -91,6 +94,7 @@
                 "uniques": [
 					"Comment [High Upkeep]",
 					"[-1 Gold] per [2] population [in your cities]",
+					"[+1 Gold] per [4] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+80]% weight to this choice for AI decisions <when at war>",
 
@@ -117,6 +121,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+40]% weight to this choice for AI decisions",
 
@@ -159,6 +164,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"Unavailable <after adopting [Vassalage]> <hidden from users>",
 					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
@@ -179,6 +185,7 @@
                 "uniques": [
 					"Comment [High Upkeep]",
 					"[-1 Gold] per [2] population [in your cities]",
+					"[+1 Gold] per [4] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+10]% weight to this choice for AI decisions",
 					"[+30]% weight to this choice for AI decisions <when at war>",
@@ -206,6 +213,7 @@
                 "uniques": [
 					"Comment [High Upkeep]",
 					"[-1 Gold] per [2] population [in your cities]",
+					"[+1 Gold] per [4] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+20]% weight to this choice for AI decisions",
 					"[+40]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
@@ -259,6 +267,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+90]% weight to this choice for AI decisions",
 
@@ -304,6 +313,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"Unavailable <after adopting [Slavery]> <hidden from users>",
 					"Unavailable <after adopting [Serfdom]> <hidden from users>",
@@ -324,6 +334,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -350,6 +361,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+40]% weight to this choice for AI decisions",
 					"[+20]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>",
@@ -376,6 +388,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+50]% weight to this choice for AI decisions",
 
@@ -396,6 +409,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+80]% weight to this choice for AI decisions",
 
@@ -446,6 +460,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"Unavailable <after adopting [Mercantilism]> <hidden from users>",
 					"Unavailable <after adopting [Free Market]> <hidden from users>",
@@ -466,6 +481,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -496,6 +512,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+30]% weight to this choice for AI decisions",
 
@@ -524,6 +541,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+60]% weight to this choice for AI decisions",
 
@@ -554,6 +572,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+80]% weight to this choice for AI decisions",
 
@@ -601,6 +620,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
 					"Unavailable <after adopting [Theocracy]> <hidden from users>",
@@ -621,6 +641,7 @@
                 "uniques": [
 					"Comment [High Upkeep]",
 					"[-1 Gold] per [2] population [in your cities]",
+					"[+1 Gold] per [4] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+20]% weight to this choice for AI decisions",
 
@@ -648,6 +669,7 @@
                 "uniques": [
 					"Comment [Medium Upkeep]",
 					"[-1 Gold] per [4] population [in your cities]",
+					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+10]% weight to this choice for AI decisions",
 					"[+50]% weight to this choice for AI decisions <when at war>",
@@ -703,6 +725,7 @@
                 "uniques": [
 					"Comment [Low Upkeep]",
 					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+100]% weight to this choice for AI decisions",
 

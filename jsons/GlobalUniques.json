@@ -76,6 +76,66 @@
 		"[+5 Culture] [in capital] <after founding a Pantheon>",
 
 		// Maintanance
-		"[-100]% maintenance cost for buildings [in your cities] <during We Love The King Day>"
-    ]
+		"[-100]% maintenance cost for buildings [in your cities] <during We Love The King Day>",
+
+		/**
+		 * Leader Traits
+		 */
+
+		// Aggressive
+		"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion <for [Aggressive] Civilizations>",
+		"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion <for [Aggressive] Civilizations>",
+		"[+100]% Production when constructing [Barracks] buildings [in your cities] <for [Aggressive] Civilizations>",
+		"[+100]% Production when constructing [Drydock] buildings [in your cities] <for [Aggressive] Civilizations>",
+
+		// Creative
+		"[+100]% Production when constructing [Theatre] buildings [in your cities] <for [Creative] Civilizations>",
+		"[+100]% Production when constructing [Colosseum] buildings [in your cities] <for [Creative] Civilizations>",
+
+		// Expansive
+		"Provides [+2] [Health] <in [City center] tiles> <for [Expansive] Civilizations>",
+		"[+25]% Production when constructing [Worker] units [in your cities] <for [Expansive] Civilizations>",
+		"[+100]% Production when constructing [Granary] buildings [in your cities] <for [Expansive] Civilizations>",
+		"[+100]% Production when constructing [Harbor] buildings [in your cities] <for [Expansive] Civilizations>",
+
+		// Financial
+		"[+1 Gold] [in your cities] <for [Financial] Civilizations>", // TODO: +1 Coin on squares with 2 or more Coin
+		"[+100]% Production when constructing [Bank] buildings [in your cities] <for [Financial] Civilizations>",
+
+		// Industrious
+		"[+50]% Production when constructing [Wonder] buildings [in your cities] <for [Industrious] Civilizations>",
+		"[+100]% Production when constructing [Forge] buildings [in your cities] <for [Industrious] Civilizations>",
+
+		// Organized
+		// Civic upkeep reduced by 50% (See Policies)
+		"[+100]% Production when constructing [Lighthouse] buildings [in your cities] <for [Organized] Civilizations>",
+		"[+100]% Production when constructing [Factory] buildings [in your cities] <for [Organized] Civilizations>",
+		"[+100]% Production when constructing [Courthouse] buildings [in your cities] <for [Organized] Civilizations>",
+
+		// Philosophical
+		"[+100]% Great Person generation [in your cities] <for [Philosophical] Civilizations>",
+		"[+100]% Production when constructing [University] buildings [in your cities] <for [Philosophical] Civilizations>",
+
+		// Spiritual
+		// No anarchy when changing a civic (See Buildings/Revolution)
+		"[+100]% Production when constructing [Temple] buildings [in your cities] <for [Spiritual] Civilizations>",
+
+		// Charismatic
+		"[+1 Happiness] <for [Charismatic] Civilizations>",
+		"[+25]% XP gained from combat <for [Charismatic] Civilizations>",
+		"[+1 Happiness] from every [Monument] <for [Charismatic] Civilizations>",
+		"[+1 Happiness] from every [Broadcast Tower] <for [Charismatic] Civilizations>",
+
+		// Imperialistic
+		"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled> <for [Imperialistic] Civilizations>",
+		"[+100]% Production when constructing [Settler] units [in your cities] <for [Imperialistic] Civilizations>",
+
+		// Protective
+		"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion <for [Protective] Civilizations>",
+		"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion <for [Protective] Civilizations>",
+		"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion <for [Protective] Civilizations>",
+		"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion <for [Protective] Civilizations>",
+		"[+100]% Production when constructing [Walls] buildings [in your cities] <for [Protective] Civilizations>",
+		"[+100]% Production when constructing [Castle] buildings [in your cities] <for [Protective] Civilizations>"
+	]
 }

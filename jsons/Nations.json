@@ -98,21 +98,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,0,255],
 		"innerColor": [255,255,255],
-		"uniqueName": "Expansive and Charismatic",
 		"uniques": [
-			"Starts with [Agriculture]", "Starts with [Fishing]",
-
-			// "Comment [Expansive]",
-			"Provides [+2] [Health] <in [City center] tiles>",
-			"[+25]% Production when constructing [Worker] units [in your cities]",
-			"[+100]% Production when constructing [Granary] buildings [in your cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
-
-			// "Comment [Charismatic]",
-			"[+1 Happiness]",
-			"[+25]% XP gained from combat",
-			"[+1 Happiness] from every [Monument]",
-			"[+1 Happiness] from every [Broadcast Tower]"
+			"Expansive",
+			"Charismatic",
+			"Starts with [Agriculture]",
+			"Starts with [Fishing]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Charismatic",
+				"link": "Tutorials/Leader Trait - Charismatic"
+			}
 		],
 		"cities": [
 			"Washington", "New York", "Boston", "Philadelphia", "Atlanta", "Chicago", "Seattle", "San Francisco", "Los Angeles",
@@ -154,18 +154,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [139,214,59],
 		"innerColor": [33,48,176],
-		"uniqueName": "Spiritual and Philosophical",
 		"uniques": [
+			"Spiritual",
+			"Philosophical",
 			"Starts with [Mysticism]",
-			"Starts with [The Wheel]",
-
-			// "Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]",
-
-			// "Comment [Philosophical]",
-			"[+100]% Great Person generation [in your cities]",
-			"[+100]% Production when constructing [University] buildings [in your cities]"
+			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
 		],
 		"cities": [
 			"Mecca", "Medina", "Damascus", "Baghdad", "Najran", "Kufah", "Basra", "Khurasan", "Anjar", "Fustat", "Aden",
@@ -204,20 +207,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,102,0],
 		"innerColor": [255,255,0],
-		"uniqueName": "Spiritual and Aggressive",
 		"uniques": [
+			"Spiritual",
+			"Aggressive",
 			"Starts with [Hunting]",
-			"Starts with [Mysticism]",
-
-			//"Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]",
-
-			//"Comment [Aggressive]",
-			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
-			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
-			"[+100]% Production when constructing [Drydock] buildings [in your cities]"
+			"Starts with [Mysticism]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			},
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			}
 		],
 		"cities": [
 			"Tenochtitlan", "Teotihuacan", "Tlatelolco", "Texcoco", "Tlaxcala", "Calixtlahuaca", "Xochicalco", "Tlacopan",
@@ -258,24 +262,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [204,0,102],
 		"innerColor": [255,255,153],
-		"uniqueName": "Expansive and Protective",
 		"uniques": [
+			"Expansive",
+			"Protective",
 			"Starts with [Agriculture]",
-			"Starts with [Mining]",
-
-			//"Comment [Expansive]",
-			"Provides [+2] [Health] <in [City center] tiles>",
-			"[+25]% Production when constructing [Worker] units [in your cities]",
-			"[+100]% Production when constructing [Granary] buildings [in your cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
-
-			//"Comment [Protective]",
-			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
-			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
-			"[+100]% Production when constructing [Walls] buildings [in your cities]",
-			"[+100]% Production when constructing [Castle] buildings [in your cities]"
+			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Protective",
+				"link": "Tutorials/Leader Trait - Protective"
+			}
 		],
 		"cities": [
 			"Beijing", "Shanghai", "Guangzhou", "Nanjing", "Xian", "Chengdu", "Hangzhou", "Tianjin", "Macau", "Shangdong",
@@ -316,18 +317,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,0],
 		"innerColor": [0,0,204],
-		"uniqueName": "Creative and Spiritual",
 		"uniques": [
+			"Creative",
+			"Spiritual",
 			"Starts with [Agriculture]",
-			"Starts with [The Wheel]",
-
-			//"Comment [Creative]",
-			"[+100]% Production when constructing [Theatre] buildings [in your cities]",
-			"[+100]% Production when constructing [Colosseum] buildings [in your cities]",
-
-			//"Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Creative",
+				"link": "Tutorials/Leader Trait - Creative"
+			},
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			}
 		],
 		"cities": [
 			"Thebes", "Memphis", "Heliopolis", "Elephantine", "Alexandria", "Piramesses", "Giza", "Byblos", "Akhetaten",
@@ -368,18 +372,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
-		"uniqueName": "Financial and Philosophical",
 		"uniques": [
+			"Financial",
+			"Philosophical",
 			"Starts with [Fishing]",
-			"Starts with [Mining]",
-
-			//"Comment [Financial]",
-			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
-			"[+100]% Production when constructing [Bank] buildings [in your cities]",
-
-			//"Comment [Philosophical]",
-			"[+100]% Great Person generation [in your cities]",
-			"[+100]% Production when constructing [University] buildings [in your cities]"
+			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Financial",
+				"link": "Tutorials/Leader Trait - Financial"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
 		],
 		"cities": [
 			"London", "York", "Nottingham", "Hastings", "Canterbury", "Coventry", "Warwick", "Newcastle", "Oxford",
@@ -419,22 +426,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,0,204],
 		"innerColor": [255,255,0],
-		"uniqueName": "Organized and Charismatic",
 		"uniques": [
+			"Organized",
+			"Charismatic",
 			"Starts with [Agriculture]",
-			"Starts with [The Wheel]",
-
-			//"Comment [Organized]",
-			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
-			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
-			"[+100]% Production when constructing [Factory] buildings [in your cities]",
-			"[+100]% Production when constructing [Courthouse] buildings [in your cities]",
-
-			//"Comment [Charismatic]",
-			"[+1 Happiness]",
-			"[+25]% XP gained from combat",
-			"[+1 Happiness] from every [Monument]",
-			"[+1 Happiness] from every [Broadcast Tower]"
+			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Organized",
+				"link": "Tutorials/Leader Trait - Organized"
+			},
+			{
+				"text": "Charismatic",
+				"link": "Tutorials/Leader Trait - Charismatic"
+			}
 		],
 		"cities": [
 			"Paris", "Orleans", "Lyons", "Rheims", "Tours", "Marseilles", "Chartres", "Avignon", "Bensacon", "Rouen",
@@ -474,20 +480,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [201, 197, 189],
 		"innerColor": [0,0,0],
-		"uniqueName": "Expansive and Industrious",
 		"uniques": [
+			"Expansive",
+			"Industrious",
 			"Starts with [Hunting]",
-			"Starts with [Mining]",
-
-			//"Comment [Expansive]",
-			"Provides [+2] [Health] <in [City center] tiles>",
-			"[+25]% Production when constructing [Worker] units [in your cities]",
-			"[+100]% Production when constructing [Granary] buildings [in your cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
-
-			//"Comment [Industrious]",
-			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
-			"[+100]% Production when constructing [Forge] buildings [in your cities]"
+			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Industrious",
+				"link": "Tutorials/Leader Trait - Industrious"
+			}
 		],
 		"cities": [
 			"Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Essen", "Dortmund", "Stuttgart", "Dusseldorf", "Bremen",
@@ -527,20 +534,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,128,255],
 		"innerColor": [255,255,255],
-		"uniqueName": "Aggressive and Philosophical",
 		"uniques": [
+			"Aggressive",
+			"Philosophical",
 			"Starts with [Fishing]",
-			"Starts with [Hunting]",
-
-			//"Comment [Aggressive]",
-			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
-			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
-			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
-
-			//"Comment [Philosophical]",
-			"[+100]% Great Person generation [in your cities]",
-			"[+100]% Production when constructing [University] buildings [in your cities]"
+			"Starts with [Hunting]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
 		],
 		"cities": ["Athens", "Sparta", "Corinth", "Thebes", "Argos", "Knossos", "Mycenae", "Pharsalos", "Ephesus", "Halicarnassus",
 			"Rhodes", "Eretria", "Pergamon", "Milteos", "Megara", "Phocaea", "Sicyon", "Tiryns", "Samos", "Mytilene", "Chios", "Paros",
@@ -579,18 +587,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,0],
 		"innerColor": [255,0,0],
-		"uniqueName": "Financial and Industrious",
 		"uniques": [
+			"Financial",
+			"Industrious",
 			"Starts with [Agriculture]",
-			"Starts with [Mysticism]",
-
-			//"Comment [Financial]",
-			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
-			"[+100]% Production when constructing [Bank] buildings [in your cities]",
-
-			//"Comment [Industrious]",
-			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
-			"[+100]% Production when constructing [Forge] buildings [in your cities]"
+			"Starts with [Mysticism]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Financial",
+				"link": "Tutorials/Leader Trait - Financial"
+			},
+			{
+				"text": "Industrious",
+				"link": "Tutorials/Leader Trait - Industrious"
+			}
 		],
 		"cities": ["Cuzco", "Tiwanaku", "Machu Pichu", "Ollantaytambo", "Corihuayrachina", "Huamanga", "Vilcas", "Vilcabamba", "Vitcos",
 		"Andahuaylas", "Ica", "Arequipa", "Nasca", "Atico", "Juli", "Chuito", "Chuqulapo", "Huanucopampa", "Tamboccocha", "Huaras",
@@ -629,18 +640,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [201,110,232],
 		"innerColor": [255,255,255],
-		"uniqueName": "Spiritual and Philosophical",
 		"uniques": [
+			"Spiritual",
+			"Philosophical",
 			"Starts with [Mysticism]",
-			"Starts with [Mining]",
-
-			//"Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]",
-
-			//"Comment [Philosophical]",
-			"[+100]% Great Person generation [in your cities]",
-			"[+100]% Production when constructing [University] buildings [in your cities]"
+			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
 		],
 		"cities": [
 			"Delhi", "Bombay", "Madras", "Bangalore", "Calcutta", "Lahore", "Karachi", "Kolhapur", "Jaipur", "Hyderabad",
@@ -682,24 +696,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
-		"uniqueName": "Aggressive and Protective",
 		"uniques": [
+			"Aggressive",
+			"Protective",
 			"Starts with [Fishing]",
-			"Starts with [The Wheel]",
-
-			//"Comment [Aggressive]",
-			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
-			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
-			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
-
-			//"Comment [Protective]",
-			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
-			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
-			"[+100]% Production when constructing [Walls] buildings [in your cities]",
-			"[+100]% Production when constructing [Castle] buildings [in your cities]"
+			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			},
+			{
+				"text": "Protective",
+				"link": "Tutorials/Leader Trait - Protective"
+			}
 		],
 		"cities": [
 			"Kyoto", "Osaka", "Tokyo", "Satsuma", "Kagoshima", "Nara", "Nagoya", "Izumo", "Nagasaki", "Yokohama",
@@ -739,18 +750,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [196,164,28],
 		"innerColor": [27,20,9],
-		"uniqueName": "Financial and Spiritual",
 		"uniques": [
+			"Financial",
+			"Spiritual",
 			"Starts with [Mining]",
-			"Starts with [The Wheel]",
-
-			//"Comment [Financial]",
-			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
-			"[+100]% Production when constructing [Bank] buildings [in your cities]",
-
-			//"Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Financial",
+				"link": "Tutorials/Leader Trait - Financial"
+			},
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			}
 		],
 		"cities": [
 			"Timbuktu", "Djenne", "Kumbi Saleh", "Gao", "Walata", "Niani", "Awdaghost", "Tadmekka", "Tekedda", "Awlil",
@@ -789,20 +803,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [121,82,3],
 		"innerColor": [228,188,8],
-		"uniqueName": "Aggressive and Imperialistic",
 		"uniques": [
+			"Aggressive",
+			"Imperialistic",
 			"Starts with [Hunting]",
-			"Starts with [The Wheel]",
-
-			//"Comment [Aggressive]",
-			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
-			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
-			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
-
-			//"Comment [Imperialistic]",
-			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
-			"[+100]% Production when constructing [Settler] units [in your cities]"
+			"Starts with [The Wheel]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Aggressive",
+				"link": "Tutorials/Leader Trait - Aggressive"
+			},
+			{
+				"text": "Imperialistic",
+				"link": "Tutorials/Leader Trait - Imperialistic"
+			}
 		],
 		"cities": [
 			"Karakorum", "Beshbalik", "Turfan", "Ning-hsia", "Old Sarai", "New Sarai", "Samarqand", "Tabriz", "Tiflis",
@@ -842,20 +857,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [0,204,204],
 		"innerColor": [0,0,0],
-		"uniqueName": "Imperialistic and Charismatic",
 		"uniques": [
+			"Imperialistic",
+			"Charismatic",
 			"Starts with [Agriculture]",
-			"Starts with [Hunting]",
-
-			//"Comment [Imperialistic]",
-			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
-			"[+100]% Production when constructing [Settler] units [in your cities]",
-
-			//"Comment [Charismatic]",
-			"[+1 Happiness]",
-			"[+25]% XP gained from combat",
-			"[+1 Happiness] from every [Monument]",
-			"[+1 Happiness] from every [Broadcast Tower]"
+			"Starts with [Hunting]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Imperialistic",
+				"link": "Tutorials/Leader Trait - Imperialistic"
+			},
+			{
+				"text": "Charismatic",
+				"link": "Tutorials/Leader Trait - Charismatic"
+			}
 		],
 		"cities": [
 			"Persepolis", "Pasargadae", "Susa", "Ecbatana", "Arbela", "Tarsus", "Gordium", "Bactra", "Sardis", "Ergili",
@@ -896,18 +912,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [102,0,51],
 		"innerColor": [255,255,0],
-		"uniqueName": "Industrious and Imperialistic",
 		"uniques": [
+			"Industrious",
+			"Imperialistic",
 			"Starts with [Fishing]",
-			"Starts with [Mining]",
-
-			//"Comment [Industrious]",
-			"[+50]% Production when constructing [Wonder] buildings [in your cities]",
-			"[+100]% Production when constructing [Forge] buildings [in your cities]",
-
-			//"Comment [Imperialistic]",
-			"[Great General] is earned [+100]% faster <if [Civ IV Warlords] is enabled>",
-			"[+100]% Production when constructing [Settler] units [in your cities]"
+			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Industrious",
+				"link": "Tutorials/Leader Trait - Industrious"
+			},
+			{
+				"text": "Imperialistic",
+				"link": "Tutorials/Leader Trait - Imperialistic"
+			}
 		],
 		"cities": [
 			"Rome", "Antium", "Cumae", "Neapolis", "Pisae", "Ravenna", "Arretium", "Mediolanum", "Arpinum", "Circei",
@@ -949,20 +968,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,0],
-		"uniqueName": "Expansive and Philosophical",
 		"uniques": [
+			"Expansive",
+			"Philosophical",
 			"Starts with [Hunting]",
-			"Starts with [Mining]",
-
-			//"Comment [Expansive]",
-			"Provides [+2] [Health] <in [City center] tiles>",
-			"[+25]% Production when constructing [Worker] units [in your cities]",
-			"[+100]% Production when constructing [Granary] buildings [in your cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
-
-			//"Comment [Philosophical]",
-			"[+100]% Great Person generation [in your cities]",
-			"[+100]% Production when constructing [University] buildings [in your cities]"
+			"Starts with [Mining]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Philosophical",
+				"link": "Tutorials/Leader Trait - Philosophical"
+			}
 		],
 		"cities": [
 			"Moskow", "St. Petersburg", "Novgorod", "Rostov", "Yaroslavi", "Yekaterinburg", "Yakutsk", "Vladivostok",
@@ -1002,20 +1022,21 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [236,174,143],
 		"innerColor": [123,22,19],
-		"uniqueName": "Expansive and Spiritual",
 		"uniques": [
+			"Expansive",
+			"Spiritual",
 			"Starts with [Fishing]",
-			"Starts with [Mysticism]",
-
-			//"Comment [Expansive]",
-			"Provides [+2] [Health] <in [City center] tiles>",
-			"[+25]% Production when constructing [Worker] units [in your cities]",
-			"[+100]% Production when constructing [Granary] buildings [in your cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
-
-			//"Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]"
+			"Starts with [Mysticism]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Expansive",
+				"link": "Tutorials/Leader Trait - Expansive"
+			},
+			{
+				"text": "Spiritual",
+				"link": "Tutorials/Leader Trait - Spiritual"
+			}
 		],
 		"cities": [
 			"Madrid", "Barcelona", "Seville", "Cordoba", "Toledo", "Santiago", "Salamanca", "Murcia", "Valencia", "Zaragoza",
