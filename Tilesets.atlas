@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/AbsoluteUnits/Units/Anti-Tank
   rotate: false
-  xy: 851, 821
+  xy: 851, 885
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -174,7 +174,7 @@ TileSets/AbsoluteUnits/Units/Dog Soldier-2
   index: -1
 TileSets/AbsoluteUnits/Units/East Indiaman
   rotate: false
-  xy: 779, 597
+  xy: 923, 629
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -454,7 +454,7 @@ TileSets/AbsoluteUnits/Units/Redcoat-2
   index: -1
 TileSets/AbsoluteUnits/Units/SAM Infantry
   rotate: false
-  xy: 573, 486
+  xy: 398, 518
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -650,7 +650,7 @@ TileSets/FantasyHex/Units/Warrior
   index: -1
 TileSets/HexaRealm/Units/Anti-Tank
   rotate: false
-  xy: 851, 885
+  xy: 851, 821
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -699,7 +699,7 @@ TileSets/HexaRealm/Units/Dog Soldier
   index: -1
 TileSets/HexaRealm/Units/East Indiaman
   rotate: false
-  xy: 923, 629
+  xy: 779, 597
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -832,7 +832,7 @@ TileSets/HexaRealm/Units/Redcoat
   index: -1
 TileSets/HexaRealm/Units/SAM Infantry
   rotate: false
-  xy: 398, 518
+  xy: 573, 486
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
