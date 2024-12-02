@@ -1056,7 +1056,8 @@
 			"Can build [Land] improvements on tiles",
 			"Cannot attack",
 			"Automation is a primary action",
-			"Excess Food converted to Production when under construction"
+			"Excess Food converted to Production when under construction",
+			"Cannot enter ocean tiles"
 		],
 		"hurryCostModifier": 20
 	},
@@ -1072,7 +1073,7 @@
 			"Can instantly construct a [Whaling Boats] improvement <by consuming this unit> <after discovering [Optics]>",
 			"Never appears as a Barbarian unit",
 			"Cannot attack",
-			"Cannot enter ocean tiles <before discovering [Astronomy]>"
+			"Cannot enter ocean tiles <before discovering [Optics]>"
 		]
 	},
 
