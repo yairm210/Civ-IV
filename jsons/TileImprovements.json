@@ -232,14 +232,13 @@
 		"techRequired": "Combustion",
 		"uniques": [
 			"Can only be built to improve a resource",
-			"Cannot be built on [Coast] tiles <before discovering [Plastics]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "W"
 	},
 	{
 		"name": "Whaling Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Ocean"],
 		"techRequired": "Optics",
 		"food": 5,
 		"uniques": [

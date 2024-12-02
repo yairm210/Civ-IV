@@ -463,7 +463,8 @@
 				"row": 11,
 				"prerequisites": ["Compass", "Machinery"],
 				"uniques": [
-					"[+1] Sight <for [Water] units>"
+					"[+1] Sight <for [Water] units>",
+					"Enables [Embarked] units to enter ocean tiles" // TODO: Civ IV doesn't have Embark. Optimally, we would use Carry [Land] units instead.
 				],
 				"quote": "\"One doesn't discover new lands without losing sight of the shore.\" - Andre Gide"
 			}
