@@ -1073,7 +1073,7 @@
 			"Can instantly construct a [Whaling Boats] improvement <by consuming this unit> <after discovering [Optics]>",
 			"Never appears as a Barbarian unit",
 			"Cannot attack",
-			"Cannot enter ocean tiles <before discovering [Optics]>"
+			"Cannot enter ocean tiles <before discovering [Astronomy]>"
 		]
 	},
 
