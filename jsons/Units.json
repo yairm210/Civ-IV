@@ -722,6 +722,7 @@
 		"cost": 150,
 		"requiredTech": "Radio",
 		"uniques": [
+			"Can only attack [Water] tiles",
 			"Can carry [3] [Missile] units",
 			"Invisible to others",
 			"Can see invisible [Submarine] units",
