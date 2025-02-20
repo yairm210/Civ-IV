@@ -190,7 +190,7 @@
 					"[+10]% weight to this choice for AI decisions",
 					"[+30]% weight to this choice for AI decisions <when at war>",
 
-					"New [Military] units start with [2] Experience [in your cities]",
+					"New [Military] units start with [2] XP [in your cities]",
 					// Some additional free units
                     "Only available <after discovering [Feudalism]>",
 
@@ -674,7 +674,7 @@
 					"[+10]% weight to this choice for AI decisions",
 					"[+50]% weight to this choice for AI decisions <when at war>",
 
-					"New [Military] units start with [2] Experience [in cities following our religion]",
+					"New [Military] units start with [2] XP [in cities following our religion]",
 					// No non-state religion spreads
 
 					"Unavailable <before discovering [Theology]> <if [Shwedagon Paya] is not constructed>",

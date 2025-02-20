@@ -7,7 +7,7 @@
 		"cost": 50,
 		"maintenance": 0,
 		"uniques": [
-			"New [Land] units start with [3] Experience [in this city]"
+			"New [Land] units start with [3] XP [in this city]"
 		]
 	},
 
@@ -167,7 +167,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Only available <if [Civ IV Warlords] is enabled>",
-			"New [Mounted] units start with [2] Experience [in this city]",
+			"New [Mounted] units start with [2] XP [in this city]",
 			"Obsolete with [Rocketry]"
 		],
 		"requiredTech": "Horseback Riding"
@@ -218,7 +218,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Spy": 2},
 		"uniques": [
-			"New [Military] units start with [2] Experience [in your cities]"
+			"New [Military] units start with [2] XP [in your cities]"
 		],
 		"requiredTech": "Assembly Line",
 		"quote": "\"In preparing for battle I have always found that plans are useless, but planning is indispensable.\" - Dwight D. Eisenhower"
@@ -406,9 +406,9 @@
             "[+50]% Production when constructing [Melee Water] units [in this city]",
             "[+50]% Production when constructing [Ranged Water] units [in this city]",
             "[+50]% Production when constructing [Submarine] units [in this city]",
-			"New [Melee Water] units start with [4] Experience [in this city]",
-			"New [Ranged Water] units start with [4] Experience [in this city]",
-			"New [Submarine] units start with [4] Experience [in this city]",
+			"New [Melee Water] units start with [4] XP [in this city]",
+			"New [Ranged Water] units start with [4] XP [in this city]",
+			"New [Submarine] units start with [4] XP [in this city]",
             "Only available <in [Coastal] cities>"
 		],
 		"requiredTech": "Steel"
@@ -469,9 +469,9 @@
 			// +4 air unit capacity
 			// Can airlift 1 land unit per turn
             "Provides [-1] [Health] <in this city>",
-			"New [Fighter] units start with [3] Experience [in this city]",
-			"New [Bomber] units start with [3] Experience [in this city]",
-			"New [Helicopter] units start with [3] Experience [in this city]"
+			"New [Fighter] units start with [3] XP [in this city]",
+			"New [Bomber] units start with [3] XP [in this city]",
+			"New [Helicopter] units start with [3] XP [in this city]"
 		],
 		"requiredTech": "Flight"
 	},
