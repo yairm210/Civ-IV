@@ -74,7 +74,7 @@
 			// TODO: Required to be built beside Fresh Water...
 			// Or beside a Farm after Civil Service
 			// Or after discovering Biology
-			"[+1 Food] <with [1] to [9] neighboring [Fresh water] tiles>", // +1 with irrigation
+			"[+1 Food] <with [1] to [9] neighboring [Fresh Water] tiles>", // +1 with irrigation
 			"[+1 Food] <after discovering [Biology]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		],
