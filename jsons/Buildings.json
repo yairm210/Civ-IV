@@ -189,7 +189,7 @@
 		"cost": 120,
 		"maintenance": 0,
 		"uniques": [
-			"[-50]% maintenance cost for buildings [in this city]"
+			"[-50]% maintenance cost for [all] buildings [in this city]"
 			// TODO: +2 Espionage in BTS
 		],
 		"specialistSlots": {"Spy": 1},
@@ -877,7 +877,7 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
 		"uniques": [
-			"[-25]% maintenance cost for buildings [in your cities]",
+			"[-25]% maintenance cost for [all] buildings [in your cities]",
 			"[-50]% production cost <with [Marble]>"
 		],
 		"requiredTech": "Divine Right"
@@ -1052,7 +1052,7 @@
 		"cityStrength": 2,
 		"uniques": [
 			// TODO: Reduces maintenance in nearby cities
-			"[-10]% maintenance cost for buildings [in your cities]",
+			"[-10]% maintenance cost for [all] buildings [in your cities]",
 
 			// BTS: +4 Espionage
 			"Indicates the capital city",
@@ -1071,7 +1071,7 @@
 		"greatPersonPoints": {"Great Spy": 1},
 		"uniques": [
 			"Destroyed when the city is captured",
-			"[-25]% maintenance cost for buildings [in your cities]", // in nearby cities
+			"[-25]% maintenance cost for [all] buildings [in your cities]", // in nearby cities
 			"Unavailable <in [Capital] cities>",
 			"Unsellable",
 			"Only available <if [Courthouse] is constructed in at least [6] of [Your] cities>" // Requires at least 6 Courthouses in total on Normal speed
