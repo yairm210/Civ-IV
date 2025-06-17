@@ -519,7 +519,7 @@
 					"[+1 Gold] from each Trade Route", // 1 trade route in every city
 					"[+10]% [Gold] from Trade Routes",
 					// -25% maintenance costs from corporations (BTS)
-					"[-10]% maintenance cost for buildings [in your cities]",
+					"[-10]% maintenance cost for [all] buildings [in your cities]",
                     "Only available <after discovering [Economics]>",
 
 					"Unavailable <after adopting [Decentralization]> <hidden from users>",
@@ -546,7 +546,7 @@
 					"[+60]% weight to this choice for AI decisions",
 
 					// No maintenance costs from distance to palace
-					"[-10]% maintenance cost for buildings [in your cities]",
+					"[-10]% maintenance cost for [all] buildings [in your cities]",
 					"[+1 Food] from [Workshop] tiles [in your cities]",
 					"[+1 Food] from [Watermill] tiles [in your cities]",
 					"[+10]% [Production] [in your cities]",
