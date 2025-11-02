@@ -1,453 +1,432 @@
 
-game.png
+TechPolicyIcons.png
 size: 2048, 2048
 format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
+filter: MipMapLinearLinear, Linear
 repeat: none
-ImprovementIcons/Academy
+PolicyIcons/Barbarism
   rotate: false
-  xy: 4, 1810
+  xy: 4, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Cottage
+PolicyIcons/Bureaucracy
   rotate: false
-  xy: 420, 1186
+  xy: 212, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Forest Preserve
+PolicyIcons/Caste System
   rotate: false
-  xy: 4, 562
+  xy: 420, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Great Artist Specialist
+PolicyIcons/Decentralization
   rotate: false
-  xy: 212, 770
+  xy: 420, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Great Engineer Specialist
+PolicyIcons/Despotism
   rotate: false
-  xy: 212, 770
+  xy: 4, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Great General Specialist
+PolicyIcons/Economy
   rotate: false
-  xy: 212, 770
+  xy: 628, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Great Merchant Specialist
+PolicyIcons/Emancipation
   rotate: false
-  xy: 212, 770
+  xy: 836, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Great Prophet Specialist
+PolicyIcons/Environmentalism
   rotate: false
-  xy: 212, 770
+  xy: 4, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Great Scientist Specialist
+PolicyIcons/Free Market
   rotate: false
-  xy: 212, 770
+  xy: 1044, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Great Spy Specialist
+PolicyIcons/Free Religion
   rotate: false
-  xy: 212, 770
+  xy: 4, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Hamlet
+PolicyIcons/Free Speech
   rotate: false
-  xy: 628, 1186
+  xy: 212, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Oil well
+PolicyIcons/Government
   rotate: false
-  xy: 212, 354
+  xy: 836, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Religious Shrine
+PolicyIcons/Hereditary Rule
   rotate: false
-  xy: 1668, 1810
+  xy: 1044, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Town
+PolicyIcons/Labor
   rotate: false
-  xy: 836, 770
+  xy: 212, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Village
+PolicyIcons/Legal
   rotate: false
-  xy: 1252, 1186
+  xy: 420, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Watermill
+PolicyIcons/Mercantilism
   rotate: false
-  xy: 1460, 1394
+  xy: 1460, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Whaling Boats
+PolicyIcons/Nationhood
   rotate: false
-  xy: 1668, 1602
+  xy: 1044, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Windmill
+PolicyIcons/Organized Religion
   rotate: false
-  xy: 420, 146
+  xy: 1252, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Winery
+PolicyIcons/Pacifism
   rotate: false
-  xy: 628, 354
+  xy: 1460, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Workshop
+PolicyIcons/Paganism
   rotate: false
-  xy: 1876, 1910
+  xy: 1668, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Police State
+  rotate: false
+  xy: 420, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Religion
+  rotate: false
+  xy: 1044, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Representation
+  rotate: false
+  xy: 1252, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Serfdom
+  rotate: false
+  xy: 1668, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Slavery
+  rotate: false
+  xy: 420, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/State Property
+  rotate: false
+  xy: 628, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Theocracy
+  rotate: false
+  xy: 1044, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Tribalism
+  rotate: false
+  xy: 1252, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Universal Suffrage
+  rotate: false
+  xy: 1460, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Vassalage
+  rotate: false
+  xy: 1668, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Advanced Flight
+  rotate: false
+  xy: 4, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Alphabet
+  rotate: false
+  xy: 4, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Artillery
+  rotate: false
+  xy: 212, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Code of Laws
+  rotate: false
+  xy: 4, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Composites
+  rotate: false
+  xy: 212, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Democracy
+  rotate: false
+  xy: 628, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Divine Right
+  rotate: false
+  xy: 212, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Drama
+  rotate: false
+  xy: 420, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Fascism
+  rotate: false
+  xy: 212, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Feudalism
+  rotate: false
+  xy: 420, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Fiber Optics
+  rotate: false
+  xy: 628, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Fishing
+  rotate: false
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/America
+TechIcons/Fission
   rotate: false
-  xy: 212, 1810
+  xy: 836, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Aztec
+TechIcons/Fusion
   rotate: false
-  xy: 4, 1394
+  xy: 420, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Babylon
+TechIcons/Genetics
   rotate: false
-  xy: 212, 1602
+  xy: 628, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Byzantium
+TechIcons/Hunting
   rotate: false
-  xy: 420, 1810
+  xy: 1252, 1776
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Carthage
+TechIcons/Industrialism
   rotate: false
-  xy: 4, 1186
+  xy: 4, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Celtic
+TechIcons/Liberalism
   rotate: false
-  xy: 212, 1394
+  xy: 628, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/England
+TechIcons/Literature
   rotate: false
-  xy: 628, 1394
+  xy: 836, 1152
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Ethiopia
+TechIcons/Medicine
   rotate: false
-  xy: 836, 1602
+  xy: 1044, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Holy Rome
+TechIcons/Meditation
   rotate: false
-  xy: 212, 562
+  xy: 1252, 1568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Khmer
+TechIcons/Military Tradition
   rotate: false
-  xy: 420, 770
+  xy: 4, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Mali
+TechIcons/Monarchy
   rotate: false
-  xy: 836, 1186
+  xy: 212, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Maya
+TechIcons/Music
   rotate: false
-  xy: 1044, 1394
+  xy: 420, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Native America
+TechIcons/Mysticism
   rotate: false
-  xy: 1252, 1602
+  xy: 628, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Netherlands
+TechIcons/Nationalism
   rotate: false
-  xy: 4, 146
+  xy: 836, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Ottoman
+TechIcons/Paper
   rotate: false
-  xy: 420, 562
+  xy: 212, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Portugal
+TechIcons/Polytheism
   rotate: false
-  xy: 1044, 1186
+  xy: 628, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Sumeria
+TechIcons/Priesthood
   rotate: false
-  xy: 420, 354
+  xy: 836, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Viking
+TechIcons/Scientific Method
   rotate: false
-  xy: 1044, 978
+  xy: 1460, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Zulu
+TechIcons/Superconductors
   rotate: false
-  xy: 836, 562
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Corn
-  rotate: false
-  xy: 212, 978
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Health
-  rotate: false
-  xy: 836, 1394
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Hit Movies
-  rotate: false
-  xy: 1044, 1602
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Hit Musicals
-  rotate: false
-  xy: 1252, 1810
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Hit Singles
-  rotate: false
-  xy: 4, 354
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Pig
-  rotate: false
-  xy: 628, 770
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Power
-  rotate: false
-  xy: 1252, 1394
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Rice
-  rotate: false
-  xy: 212, 146
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ace
-  rotate: false
-  xy: 4, 1602
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/City Garrison
-  rotate: false
-  xy: 420, 1602
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/City Raider
-  rotate: false
-  xy: 628, 1810
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Combat I
-  rotate: false
-  xy: 4, 4
-  size: 134, 134
-  orig: 134, 134
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Combat II
-  rotate: false
-  xy: 4, 978
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Combat III
-  rotate: false
-  xy: 212, 1186
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Combat IV
-  rotate: false
-  xy: 420, 1394
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Combat V
-  rotate: false
-  xy: 628, 1602
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Combat VI
-  rotate: false
-  xy: 836, 1810
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Commando
-  rotate: false
-  xy: 4, 770
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Flanking
-  rotate: false
-  xy: 1044, 1810
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Guerrilla
-  rotate: false
-  xy: 420, 978
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Leadership
-  rotate: false
-  xy: 628, 978
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Navigation
-  rotate: false
-  xy: 1460, 1810
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pinch
-  rotate: false
-  xy: 836, 978
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Range
-  rotate: false
-  xy: 1460, 1602
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Tactics
-  rotate: false
-  xy: 628, 562
+  xy: 836, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

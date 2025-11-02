@@ -1183,7 +1183,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% production cost <with [Stone]>",
-			"New [Military] units start with [4] Experience [in this cities]"
+			"New [Military] units start with [4] XP [in this city]"
 		],
 		"requiredTech": "Military Tradition"
 	},
