@@ -341,7 +341,7 @@
 
 	{
 		"name": "Horse Archer",
-		"unitType": "Archery",
+		"unitType": "Mounted",
 		"strength": 6,
 		"movement": 2,
 		"cost": 50,
@@ -1488,7 +1488,7 @@
 		"replaces": "Maceman",
 		"uniqueTo": "Japan",
 		"unitType": "Sword",
-		"strength": 18,
+		"strength": 8,
 		"movement": 1,
 		"cost": 70,
 		"requiredTech": "Civil Service",
