@@ -87,7 +87,7 @@
 		"techRequired": "Fishing",
 		"food": 1, // Hack to allow automation
 		"uniques": [
-			"[-1 Culture]",
+			"[-1 Food]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		],
