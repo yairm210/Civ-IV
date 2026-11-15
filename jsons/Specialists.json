@@ -37,7 +37,7 @@
 	},
 	{
 		"name":"Spy",
-		"espianage": 4,
+		// TODO: Provides 4 Espionage (BTS), which Unciv does not support
 		"science": 1,
 		"greatPersonPoints": {"Great Spy": 3}, // (BTS)
 		"color": [255,255,255],
